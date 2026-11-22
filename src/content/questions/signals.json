@@ -343,5 +343,174 @@
       "explanation": "Для тих, хто під'їжджає перпендикулярно до витягнутих рук, сигнал поліцейського означає заборону руху: треба зупинитися. Інші сигнали (світлофор і знаки) застосовуються лише тією мірою, якою не суперечать сигналу поліцейського."
     },
     "correct": 0
+  },
+  {
+    "id": "signals-015",
+    "topic": "signals",
+    "kreszRef": "KRESZ 7. § (1)",
+    "hu": {
+      "question": "Mit kell tennie, ha a jelzőőr (vagy polgárőr) jelzőtárcsával vagy piros fényű lámpával jelzést ad?",
+      "answers": [
+        "Meg kell állnia.",
+        "Lassítania kell, de továbbhaladhat.",
+        "Csak akkor kell megállnia, ha a jelzőőr rendőr-egyenruhát visel."
+      ],
+      "explanation": "A jelzőőr vagy a polgárőr jelzőtárcsával vagy – feltartott, illetve vasúti átjárónál az úttesten állványra helyezett – piros fényű lámpával adott jelzésére meg kell állni."
+    },
+    "ua": {
+      "question": "Що треба зробити, якщо черговий-сигналіст (jelzőőr) або член громадського формування (polgárőr) подає сигнал диском чи ліхтарем із червоним світлом?",
+      "answers": [
+        "Зупинитися.",
+        "Зменшити швидкість, але їхати далі.",
+        "Зупинитися лише тоді, коли сигналіст у поліцейській формі."
+      ],
+      "explanation": "На сигнал, поданий сигналістом (jelzőőr) або polgárőr диском чи ліхтарем із червоним світлом (піднятим у руці або встановленим на підставці на проїзній частині біля залізничного переїзду), треба зупинитися."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signals-016",
+    "topic": "signals",
+    "kreszRef": "KRESZ 9. § (8) c)",
+    "hu": {
+      "question": "A forgalmi sáv felett „X” alakú piros fény világít. Mit jelent ez?",
+      "answers": [
+        "Az alatta levő forgalmi sávban ebből az irányból tilos haladni; a sávra átmenetileg sem szabad ráhajtani.",
+        "A sávban csak előzés céljából szabad haladni.",
+        "A sáv 100 méter múlva megszűnik."
+      ],
+      "explanation": "Az „X” alakú piros fény az alatta levő forgalmi sávban a fényjelzéssel szemben közlekedő járművek számára a haladás tilalmát jelzi; a forgalmi sávra ebből az irányból még átmenetileg sem szabad ráhajtani. A zöld lefelé mutató nyíl szabad utat, a ferdén lefelé mutató villogó sárga nyíl a sáv haladéktalan elhagyásának kötelezettségét jelzi."
+    },
+    "ua": {
+      "question": "Над смугою руху горить червоний сигнал у формі «X». Що це означає?",
+      "answers": [
+        "Цією смугою з цього напрямку рухатися заборонено; виїжджати на неї не можна навіть тимчасово.",
+        "Цією смугою можна їхати лише для обгону.",
+        "Смуга закінчується через 100 метрів."
+      ],
+      "explanation": "Червоний сигнал у формі «X» забороняє рух смугою під ним тим, хто їде назустріч сигналу; на цю смугу з цього напрямку не можна виїжджати навіть тимчасово. Зелена стрілка вниз дозволяє рух, а жовта миготлива стрілка навскіс униз вимагає негайно залишити смугу."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signals-017",
+    "topic": "signals",
+    "kreszRef": "KRESZ 18. § (1) k)",
+    "hu": {
+      "question": "Mit jelent az útburkolati jellel jelölt „járműforgalom elől elzárt terület”?",
+      "answers": [
+        "Az így jelzett területre járművel ráhajtani tilos.",
+        "A területen megállni szabad, várakozni tilos.",
+        "A területen csak 20 km/óra sebességgel szabad áthaladni."
+      ],
+      "explanation": "A járműforgalom elől elzárt terület útburkolati jellel jelzett részére járművel ráhajtani tilos."
+    },
+    "ua": {
+      "question": "Що означає позначена розміткою «острівцем» територія, закрита для руху транспорту (járműforgalom elől elzárt terület)?",
+      "answers": [
+        "Заїжджати на позначену так територію заборонено.",
+        "На ній можна зупинятися, але не стояти.",
+        "Через неї можна проїжджати лише зі швидкістю 20 км/год."
+      ],
+      "explanation": "На ділянку, позначену розміткою як закриту для руху транспортних засобів, заїжджати заборонено."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signals-018",
+    "topic": "signals",
+    "kreszRef": "KRESZ 18. § (1) e)–f)",
+    "hu": {
+      "question": "Mit jelez a forgalmi sávban felfestett terelőnyíl?",
+      "answers": [
+        "A forgalmi sávot – a sávváltoztatás szabályainak megtartásával – a jelzett irányban el kell hagyni.",
+        "A sávból a következő útkereszteződésben csak a jelzett irányba szabad továbbhaladni.",
+        "A sávban a jelzett irányban szabad előzni."
+      ],
+      "explanation": "A terelőnyíl azt jelzi, hogy a forgalmi sávot – a sávváltoztatásra vonatkozó szabályok megtartásával – a jelzett irányban el kell hagyni (például mert a sáv megszűnik). Az előjelző nyíl mást jelent: azt mutatja, hogy a sávból a következő útkereszteződésnél melyik irányba szabad továbbhaladni."
+    },
+    "ua": {
+      "question": "Що означає нанесена в смузі руху стрілка-відхилювач (terelőnyíl)?",
+      "answers": [
+        "Смугу треба залишити в указаному напрямку, дотримуючись правил перестроювання.",
+        "З цієї смуги на наступному перехресті можна їхати лише в указаному напрямку.",
+        "У цій смузі можна обганяти в указаному напрямку."
+      ],
+      "explanation": "Terelőnyíl означає, що смугу треба залишити в указаному напрямку, дотримуючись правил зміни смуги (наприклад, бо смуга закінчується). Előjelző nyíl означає інше: показує, у якому напрямку з цієї смуги можна їхати на наступному перехресті."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signals-019",
+    "topic": "signals",
+    "kreszRef": "KRESZ 18. § (1) m)–n)",
+    "hu": {
+      "question": "Mit jelez az úttest szélén vagy a járdaszegélyen levő szaggatott sárga vonal?",
+      "answers": [
+        "Várakozási tilalomra hívja fel a figyelmet.",
+        "Megállási tilalomra hívja fel a figyelmet.",
+        "Azt, hogy az úttest szélén kerékpársáv kezdődik."
+      ],
+      "explanation": "Az úttest szélén vagy a járda szegélyén levő szaggatott vonal várakozási tilalomra, a folytonos vonal megállási tilalomra hívja fel a figyelmet."
+    },
+    "ua": {
+      "question": "Що означає переривчаста жовта лінія біля краю проїзної частини або на бордюрі?",
+      "answers": [
+        "Привертає увагу до заборони стоянки.",
+        "Привертає увагу до заборони зупинки.",
+        "Те, що біля краю проїзної частини починається велосипедна смуга."
+      ],
+      "explanation": "Переривчаста лінія біля краю проїзної частини чи на бордюрі привертає увагу до заборони стоянки, суцільна — до заборони зупинки."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signals-020",
+    "topic": "signals",
+    "kreszRef": "KRESZ 19. § (2), (6) a)",
+    "image": "railwayNoBarrier",
+    "hu": {
+      "question": "Mit jelez a fénysorompó két, felváltva villogó piros fénye?",
+      "answers": [
+        "Vasúti jármű közeledik vagy halad át: a továbbhaladás tilos.",
+        "A fénysorompó üzemzavarát.",
+        "Azt, hogy az átjárón fokozott óvatossággal át lehet haladni."
+      ],
+      "explanation": "A fénysorompó a vasúti jármű közeledését és áthaladását két egymás mellett levő, felváltva villogó piros fénnyel jelzi – ez a továbbhaladás tilalma. Egyébként a készülék villogó fehér fényt ad, amely a továbbhaladást engedélyezi."
+    },
+    "ua": {
+      "question": "Що означають два червоні сигнали, які поперемінно миготять на світловій сигналізації переїзду (fénysorompó)?",
+      "answers": [
+        "Наближається або проїжджає поїзд: рух заборонено.",
+        "Несправність сигналізації.",
+        "Те, що переїзд можна проїхати з особливою обережністю."
+      ],
+      "explanation": "Світлова сигналізація переїзду позначає наближення та проїзд поїзда двома розташованими поруч червоними сигналами, що миготять поперемінно, — це заборона руху. В інший час вона подає миготливий білий сигнал, який дозволяє рух."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signals-021",
+    "topic": "signals",
+    "kreszRef": "KRESZ 10. § (4)",
+    "hu": {
+      "question": "Ahol a menetirány szerinti jobb oldalon több forgalmi sáv van, mely járművekre vonatkozik a forgalmi sáv felett elhelyezett jelzőtábla?",
+      "answers": [
+        "Az alatta levő forgalmi sávban közlekedő járművekre.",
+        "Az úttest valamennyi sávjában közlekedő járművekre.",
+        "Csak a tehergépkocsikra."
+      ],
+      "explanation": "Ahol a menetirány szerinti jobb oldalon útburkolati jellel jelölt két vagy több forgalmi sáv van, a forgalmi sáv felett elhelyezett jelzőtábla jelzése az alatta levő forgalmi sávban közlekedő járművekre vonatkozik."
+    },
+    "ua": {
+      "question": "Якщо праворуч за напрямком руху є кілька смуг, кого стосується знак, установлений над смугою руху?",
+      "answers": [
+        "Транспортних засобів, що їдуть смугою під знаком.",
+        "Транспортних засобів у всіх смугах проїзної частини.",
+        "Лише вантажних автомобілів."
+      ],
+      "explanation": "Там, де праворуч за напрямком руху розміткою позначено дві чи більше смуг, знак, установлений над смугою, стосується транспортних засобів, що рухаються смугою під ним."
+    },
+    "correct": 0
   }
 ]

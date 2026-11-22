@@ -406,5 +406,149 @@
       "explanation": "Транспортний засіб, що бере участь у русі, треба освітлювати вночі та в умовах обмеженої видимості; механічний транспортний засіб — габаритними вогнями (helyzetjelző lámpák) і ближнім світлом фар (tompított fényszóró). (Поза населеним пунктом автомобіль освітлюють і вдень.)"
     },
     "correct": 0
+  },
+  {
+    "id": "safety-018",
+    "topic": "safety",
+    "kreszRef": "KRESZ 5. § (2)",
+    "hu": {
+      "question": "Mit köteles ellenőrizni a vezető, mielőtt a járművel a telephelyről (például a garázsból) elindul?",
+      "answers": [
+        "A kormányberendezés, a fékberendezés, a gumiabroncsok, valamint a világító- és fényjelző berendezések állapotát.",
+        "Csak az üzemanyag mennyiségét.",
+        "Semmit, ha a jármű műszaki vizsgája érvényes."
+      ],
+      "explanation": "A jármű vezetője, mielőtt a járművel a telephelyről (így különösen a garázsból) elindul, köteles ellenőrizni a kormányberendezés, a fékberendezés, a gumiabroncsok, valamint a kötelezően előírt világító- és fényjelző berendezések állapotát (működését)."
+    },
+    "ua": {
+      "question": "Що водій зобов'язаний перевірити перед виїздом із місця стоянки (наприклад, із гаража)?",
+      "answers": [
+        "Стан рульового керування, гальм, шин, а також приладів освітлення й світлової сигналізації.",
+        "Лише кількість пального.",
+        "Нічого, якщо техогляд чинний."
+      ],
+      "explanation": "Перш ніж виїхати з місця постійної стоянки (зокрема з гаража), водій зобов'язаний перевірити стан (роботу) рульового керування, гальмівної системи, шин і обов'язкових приладів освітлення та світлової сигналізації."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-019",
+    "topic": "safety",
+    "kreszRef": "KRESZ 4. § (2)",
+    "hu": {
+      "question": "Átengedheti-e a vezetést olyan személynek, aki szeszes italt fogyasztott?",
+      "answers": [
+        "Nem: a vezetést nem szabad átengedni annak, aki a járművezetés személyi feltételeinek nem felel meg.",
+        "Igen, ha az illetőnek van vezetői engedélye.",
+        "Igen, rövid távolságra."
+      ],
+      "explanation": "A jármű vezetését az üzembentartó nem engedheti meg, illetőleg a vezető nem engedheti át olyan személynek, aki a személyi feltételeknek (érvényes vezetői engedély, biztonságos vezetésre képes állapot, alkoholmentesség) nem felel meg."
+    },
+    "ua": {
+      "question": "Чи можна передати керування особі, яка вживала спиртне?",
+      "answers": [
+        "Ні: керування не можна передавати тому, хто не відповідає вимогам до водія.",
+        "Так, якщо ця особа має посвідчення водія.",
+        "Так, на коротку відстань."
+      ],
+      "explanation": "Власник не може дозволити, а водій — передати керування особі, яка не відповідає вимогам до водія (чинне посвідчення, стан, придатний для безпечного керування, відсутність алкоголю в організмі)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-020",
+    "topic": "safety",
+    "kreszRef": "KRESZ 45. § (1)",
+    "hu": {
+      "question": "Éjszaka, közvilágítás nélküli helyen az úttesten hagyja a gépkocsiját. Ki kell-e világítania?",
+      "answers": [
+        "Igen, a helyzetjelző lámpákkal.",
+        "Nem, álló járművet soha nem kell kivilágítani.",
+        "Igen, tompított fényszóróval."
+      ],
+      "explanation": "Az úttesten álló járművet éjszaka és korlátozott látási viszonyok között ki kell világítani, kivéve, ha közvilágítás van, vagy a járművet egyéb külső fényforrás kellően megvilágítja. A gépjárművet a helyzetjelző lámpákkal kell kivilágítani."
+    },
+    "ua": {
+      "question": "Уночі Ви лишаєте автомобіль на проїзній частині там, де немає вуличного освітлення. Чи треба його освітлювати?",
+      "answers": [
+        "Так, габаритними вогнями.",
+        "Ні, нерухомий транспортний засіб освітлювати не треба ніколи.",
+        "Так, ближнім світлом фар."
+      ],
+      "explanation": "Транспортний засіб, що стоїть на проїзній частині, уночі й за обмеженої видимості треба освітлювати — крім випадків, коли є вуличне освітлення або його достатньо освітлює інше зовнішнє джерело. Механічний транспортний засіб освітлюють габаритними вогнями (helyzetjelző lámpák)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-021",
+    "topic": "safety",
+    "kreszRef": "KRESZ 45. § (2)",
+    "hu": {
+      "question": "Szabad-e álló (nem forgalmi okból megálló) járművön távolsági fényszórót vagy ködfényszórót használni?",
+      "answers": [
+        "Nem, álló járművön ezeket használni tilos.",
+        "Igen, ha lakott területen kívül áll.",
+        "Igen, hogy a jármű jobban látható legyen."
+      ],
+      "explanation": "Álló járművön – a forgalmi okból megálló járművet kivéve – tompított fényszórót csak erős ködben vagy sűrű hóesésben szabad használni; távolsági fényszórót, ködfényszórót használni tilos."
+    },
+    "ua": {
+      "question": "Чи можна на транспортному засобі, що стоїть (не через дорожню обстановку), вмикати дальнє світло або протитуманні фари?",
+      "answers": [
+        "Ні, на нерухомому транспортному засобі це заборонено.",
+        "Так, якщо він стоїть поза населеним пунктом.",
+        "Так, щоб транспортний засіб було краще видно."
+      ],
+      "explanation": "На транспортному засобі, що стоїть (крім зупинки через дорожню обстановку), ближнє світло можна вмикати лише в густому тумані чи сильному снігопаді; дальнє світло й протитуманні фари вмикати заборонено."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-022",
+    "topic": "safety",
+    "kreszRef": "KRESZ 48. § (2)",
+    "hu": {
+      "question": "Mikor szabad hóláncot használni?",
+      "answers": [
+        "Csak havas, jeges úton.",
+        "Télen bármilyen úton.",
+        "Bármikor, ha a vezető biztonságosabbnak érzi."
+      ],
+      "explanation": "Hóláncot csak havas, jeges úton szabad használni. Hólánccal felszerelt gépjárművel legfeljebb 50 km/óra sebességgel szabad közlekedni."
+    },
+    "ua": {
+      "question": "Коли дозволено користуватися ланцюгами протиковзання (hólánc)?",
+      "answers": [
+        "Лише на засніженій чи зледенілій дорозі.",
+        "Узимку на будь-якій дорозі.",
+        "Будь-коли, якщо водієві так спокійніше."
+      ],
+      "explanation": "Ланцюги протиковзання дозволено використовувати лише на засніженій, зледенілій дорозі. З ланцюгами можна їхати не швидше 50 км/год."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-023",
+    "topic": "safety",
+    "kreszRef": "KRESZ 42. § (4)",
+    "hu": {
+      "question": "Hogyan szabad megközelíteni és megelőzni a figyelmeztető jelzést (sárga villogó fényt) használó járművet?",
+      "answers": [
+        "Fokozott óvatossággal.",
+        "Sehogy: az ilyen járművet előzni tilos.",
+        "Ugyanúgy, mint bármely más járművet."
+      ],
+      "explanation": "A figyelmeztető jelzést (sárga villogó fényt) használó járművet fokozott óvatossággal szabad megközelíteni, mellette elhaladni vagy megelőzni. (Előzni a megkülönböztető jelzéseket – kék villogó fényt és szirénát – használó gépjárművet tilos.)"
+    },
+    "ua": {
+      "question": "Як дозволено наближатися до транспортного засобу з попереджувальним сигналом (жовтим проблисковим маячком) і обганяти його?",
+      "answers": [
+        "З особливою обережністю.",
+        "Ніяк: такий транспортний засіб обганяти заборонено.",
+        "Так само, як будь-який інший транспортний засіб."
+      ],
+      "explanation": "До транспортного засобу з попереджувальним сигналом (жовтим проблисковим маячком) можна наближатися, проїжджати повз нього й обганяти його з особливою обережністю. (Обганяти заборонено транспорт зі спеціальними сигналами — синім маячком і сиреною.)"
+    },
+    "correct": 0
   }
 ]

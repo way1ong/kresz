@@ -385,5 +385,174 @@
       "explanation": "На дорозі, не придатній для руху в кілька рядів (párhuzamos közlekedésre nem alkalmas út), водій може повернути ліворуч лише тоді, коли переконався й у тому, що зліва інший транспортний засіб не почав його обганяти чи об'їжджати."
     },
     "correct": 0
+  },
+  {
+    "id": "maneuvers-017",
+    "topic": "maneuvers",
+    "kreszRef": "KRESZ 25. § (2)",
+    "hu": {
+      "question": "Az úttest melyik részén kell járművel közlekedni (az előzés és a kikerülés esetét kivéve)?",
+      "answers": [
+        "A menetirány szerinti jobb oldalon, az út- és forgalmi viszonyok szerint lehetséges mértékben jobbra tartva.",
+        "Az úttest közepén, hogy mindkét oldalon maradjon hely.",
+        "Bárhol a menetirány szerinti jobb oldalon, a felezővonal mellett is."
+      ],
+      "explanation": "Járművel az úttesten – az előzés és kikerülés esetét kivéve – annak menetirány szerinti jobb oldalán, az út- és forgalmi viszonyok szerint lehetséges mértékben jobbra tartva kell közlekedni."
+    },
+    "ua": {
+      "question": "Якою частиною проїзної частини треба їхати (крім обгону й об'їзду)?",
+      "answers": [
+        "Правим за напрямком руху боком, тримаючись правіше, наскільки дозволяють дорога й обстановка.",
+        "Посередині проїзної частини, щоб з обох боків лишалося місце.",
+        "Будь-де на правому боці, зокрема й біля осьової лінії."
+      ],
+      "explanation": "Проїзною частиною — крім випадків обгону й об'їзду — треба їхати її правим за напрямком руху боком, тримаючись правіше настільки, наскільки дозволяють дорожні умови та обстановка."
+    },
+    "correct": 0
+  },
+  {
+    "id": "maneuvers-018",
+    "topic": "maneuvers",
+    "kreszRef": "KRESZ 25. § (5)",
+    "hu": {
+      "question": "Melyik oldalról kell elhaladni az úttest menetirány szerinti jobb és bal oldalát elválasztó járdasziget mellett, ha jelzőtábla mást nem jelez?",
+      "answers": [
+        "Jobbról.",
+        "Balról.",
+        "Bármelyik oldalról."
+      ],
+      "explanation": "Ha jelzőtábla jelzéséből más nem következik, az úttest menetirány szerinti jobb és bal oldalát elválasztó járdasziget mellett jobbról kell, egyéb helyen levő járdasziget mellett jobbról és balról is szabad elhaladni."
+    },
+    "ua": {
+      "question": "З якого боку треба об'їжджати острівець безпеки (járdasziget), що розділяє правий і лівий за напрямком руху боки проїзної частини, якщо знак не вказує іншого?",
+      "answers": [
+        "Справа.",
+        "Зліва.",
+        "З будь-якого боку."
+      ],
+      "explanation": "Якщо зі знака не випливає інше, острівець, що розділяє правий і лівий за напрямком руху боки проїзної частини, об'їжджають справа; острівець в іншому місці можна об'їжджати і справа, і зліва."
+    },
+    "correct": 0
+  },
+  {
+    "id": "maneuvers-019",
+    "topic": "maneuvers",
+    "kreszRef": "KRESZ 35. § (1); 34. § (1)",
+    "hu": {
+      "question": "Az úttest jobb oldalán álló járművet szeretné kikerülni, de szemből jármű közeledik. Mi a szabály?",
+      "answers": [
+        "A kikerülésre az előzés szabályai érvényesek: csak akkor kezdheti meg, ha ezzel a szembejövő forgalmat nem zavarja.",
+        "A kikerülő járműnek elsőbbsége van, mert az akadály nem az ő hibája.",
+        "A szembejövőnek kell megállnia, ha Ön irányjelzést ad."
+      ],
+      "explanation": "Az úttest menetirány szerinti jobb oldalán álló jármű vagy egyéb akadály melletti elhaladásra (kikerülés) az előzés szabályait kell értelemszerűen alkalmazni: csak akkor szabad megkezdeni, ha az igénybe venni kívánt sáv szabad, és a művelet a szembejövő forgalmat nem zavarja."
+    },
+    "ua": {
+      "question": "Ви хочете об'їхати транспортний засіб, що стоїть на правому боці проїзної частини, але назустріч хтось їде. Яке правило?",
+      "answers": [
+        "На об'їзд поширюються правила обгону: почати його можна, лише якщо це не завадить зустрічному руху.",
+        "Той, хто об'їжджає, має перевагу, бо перешкода — не його провина.",
+        "Зустрічний має зупинитися, якщо Ви ввімкнули покажчик повороту."
+      ],
+      "explanation": "До проїзду повз транспортний засіб чи іншу перешкоду на правому боці проїзної частини (kikerülés, об'їзд) застосовують правила обгону: починати можна лише тоді, коли потрібна смуга вільна й маневр не завадить зустрічному руху."
+    },
+    "correct": 0
+  },
+  {
+    "id": "maneuvers-020",
+    "topic": "maneuvers",
+    "kreszRef": "KRESZ 24. § (3)",
+    "hu": {
+      "question": "Lakott területen a megállóhelyről irányjelzéssel elindulni szándékozó, menetrend szerinti autóbusz mellett halad. Mi a kötelessége?",
+      "answers": [
+        "Lassítással, szükség esetén megállással lehetővé kell tennie az autóbusz elindulását, ha ez hirtelen fékezés nélkül megtehető.",
+        "Semmi: az autóbusznak kell megvárnia, amíg Ön elhalad.",
+        "Hangjelzéssel kell figyelmeztetnie az autóbusz vezetőjét."
+      ],
+      "explanation": "Lakott területen belül a járművek vezetői kötelesek az elindulási szándékot jelző, menetrend szerint közlekedő autóbusznak, trolibusznak (valamint az iskolabusznak és a gyermekeket szállító autóbusznak) a megállóhelyről való elindulását – ha ez hirtelen fékezés nélkül megtehető – lassítással, szükség esetén megállással is lehetővé tenni."
+    },
+    "ua": {
+      "question": "У населеному пункті Ви під'їжджаєте до рейсового автобуса, який увімкнув покажчик повороту й хоче від'їхати від зупинки. Який Ваш обов'язок?",
+      "answers": [
+        "Сповільнитися, а за потреби зупинитися, щоб автобус міг від'їхати, — якщо це можна зробити без різкого гальмування.",
+        "Ніякого: автобус має зачекати, доки Ви проїдете.",
+        "Попередити водія автобуса звуковим сигналом."
+      ],
+      "explanation": "У населеному пункті водії зобов'язані дати змогу рейсовому автобусу чи тролейбусу (а також шкільному автобусу й автобусу, що перевозить дітей), який сигналізує про намір рушити, від'їхати від зупинки — сповільнившись, а за потреби зупинившись, якщо це можливо без різкого гальмування."
+    },
+    "correct": 0
+  },
+  {
+    "id": "maneuvers-021",
+    "topic": "maneuvers",
+    "kreszRef": "KRESZ 36. § (5)",
+    "hu": {
+      "question": "A forgalmi sávokban összefüggő járműoszlopok alakultak ki. Mikor szabad forgalmi sávot változtatni?",
+      "answers": [
+        "Csak akkor, ha a vezető bekanyarodásra vagy megállásra kíván felkészülni.",
+        "Bármikor, ha a szomszédos sáv gyorsabban halad.",
+        "Soha, amíg az oszlop fel nem oszlik."
+      ],
+      "explanation": "Ha a forgalom sűrűsége folytán a forgalmi sávokban összefüggő járműoszlopok alakultak ki, forgalmi sávot változtatni csak abban az esetben szabad, ha a vezető a bekanyarodásra vagy megállásra kíván felkészülni."
+    },
+    "ua": {
+      "question": "У смугах руху утворилися суцільні колони транспорту. Коли дозволено змінювати смугу?",
+      "answers": [
+        "Лише якщо водій готується до повороту або зупинки.",
+        "Будь-коли, якщо сусідня смуга рухається швидше.",
+        "Ніколи, доки колона не розсмокчеться."
+      ],
+      "explanation": "Якщо через щільність руху у смугах утворилися суцільні колони, змінювати смугу дозволено лише тоді, коли водій готується до повороту чи зупинки."
+    },
+    "correct": 0
+  },
+  {
+    "id": "maneuvers-022",
+    "topic": "maneuvers",
+    "kreszRef": "KRESZ 36. § (6) c)",
+    "image": "pedestrianCrossing",
+    "hu": {
+      "question": "Párhuzamos közlekedésre alkalmas úttesten a kijelölt gyalogosátkelőhelynél és közvetlenül előtte szabad-e a másik sávban haladó jármű mellett elhaladni?",
+      "answers": [
+        "Nem, ott másik jármű mellett elhaladni tilos.",
+        "Igen, mert a sávok egymástól függetlenek.",
+        "Igen, ha az átkelőhelyen nincs gyalogos."
+      ],
+      "explanation": "Párhuzamos közlekedésre alkalmas úttesten tilos kijelölt gyalogosátkelőhelyen és közvetlenül a kijelölt gyalogosátkelőhely előtt másik jármű mellett elhaladni – a mellette haladó jármű ugyanis eltakarhatja az átkelő gyalogost."
+    },
+    "ua": {
+      "question": "На проїзній частині з кількома смугами в одному напрямку: чи можна на позначеному пішохідному переході та безпосередньо перед ним випереджати транспортний засіб у сусідній смузі?",
+      "answers": [
+        "Ні, там заборонено проїжджати повз інший транспортний засіб.",
+        "Так, бо смуги незалежні одна від одної.",
+        "Так, якщо на переході немає пішоходів."
+      ],
+      "explanation": "На проїзній частині, придатній для руху в кілька рядів, заборонено на позначеному пішохідному переході та безпосередньо перед ним проїжджати повз інший транспортний засіб — він може затуляти пішохода."
+    },
+    "correct": 0
+  },
+  {
+    "id": "maneuvers-023",
+    "topic": "maneuvers",
+    "kreszRef": "KRESZ 33. § (1)",
+    "hu": {
+      "question": "Hogyan szabad járművel megfordulni vagy hátramenetet végezni?",
+      "answers": [
+        "Csak úgy, hogy az a többi jármű és az úttesten haladó gyalogosok közlekedését ne akadályozza.",
+        "Bárhogyan, ha a vezető irányjelzést ad.",
+        "Csak irányító személy segítségével."
+      ],
+      "explanation": "Megfordulni, illetőleg hátramenetet végezni csak úgy szabad, hogy az a többi jármű és az úttesten haladó gyalogosok közlekedését ne akadályozza. Kivétel: az úttest széléhez vagy a várakozóhelyre történő beálláshoz szükséges hátramenet rövid ideig akadályozhatja a forgalmat, ha a járműveket nem veszélyezteti."
+    },
+    "ua": {
+      "question": "Як дозволено розвертатися або їхати заднім ходом?",
+      "answers": [
+        "Лише так, щоб не перешкоджати іншим транспортним засобам і пішоходам на проїзній частині.",
+        "Як завгодно, якщо водій увімкнув покажчик повороту.",
+        "Лише з помічником, який керує маневром."
+      ],
+      "explanation": "Розвертатися й рухатися заднім ходом можна лише так, щоб не перешкоджати іншим транспортним засобам і пішоходам, що рухаються проїзною частиною. Виняток: задній хід, потрібний, щоб стати біля краю проїзної частини чи на місце стоянки, може ненадовго затримати рух, якщо не створює небезпеки."
+    },
+    "correct": 0
   }
 ]

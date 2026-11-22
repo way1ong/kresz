@@ -294,5 +294,103 @@
       "explanation": "На перехресті транспортний засіб, що їде прямо, має перевагу й перед трамваєм, який під'їжджає з того самого напрямку й повертає. У зворотній ситуації транспортний засіб, що повертає, повинен дати дорогу трамваю, який їде в тому самому напрямку."
     },
     "correct": 0
+  },
+  {
+    "id": "special-013",
+    "topic": "special",
+    "kreszRef": "KRESZ 39/A. § (3)",
+    "hu": {
+      "question": "Hol szabad járművel várakozni a lakó-pihenő övezetben, ha az úton nincs járda?",
+      "answers": [
+        "Csak az erre kijelölt területen.",
+        "Bárhol, ahol a jármű a forgalmat nem akadályozza.",
+        "Sehol, lakó-pihenő övezetben várakozni tilos."
+      ],
+      "explanation": "A lakó-pihenő övezetben, ha az úton járda nincs, a gyalogosok az utat teljes szélességében használhatják, járművel várakozni pedig csak az erre kijelölt területen szabad. A megengedett legnagyobb sebesség 20 km/óra."
+    },
+    "ua": {
+      "question": "Де в житловій зоні (lakó-pihenő övezet) дозволена стоянка, якщо на дорозі немає тротуару?",
+      "answers": [
+        "Лише на спеціально позначеній для цього території.",
+        "Будь-де, де транспортний засіб не заважає руху.",
+        "Ніде: у житловій зоні стоянку заборонено."
+      ],
+      "explanation": "У житловій зоні, якщо на дорозі немає тротуару, пішоходи можуть користуватися дорогою на всю ширину, а стоянка транспортних засобів дозволена лише на спеціально позначеній території. Дозволена швидкість — не більше 20 км/год."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-014",
+    "topic": "special",
+    "kreszRef": "KRESZ 37. § (5)",
+    "image": "motorway",
+    "hu": {
+      "question": "Szabad-e torlódáskor az autópálya leállósávján előrehaladni?",
+      "answers": [
+        "Nem: a leállósávon csak az arra jogosult járművek és a forgalmi sávokba besorolni kívánó járművek haladhatnak.",
+        "Igen, ha a sebesség nem haladja meg a 30 km/órát.",
+        "Igen, a következő lehajtóig."
+      ],
+      "explanation": "A leállósávon – ha a közúti jelzésekből más nem következik – csak a jogszabályban felsorolt járművek (például a forgalmat ellenőrző, útfenntartó vagy megkülönböztető jelzést használó járművek) és a forgalmi sávokban haladó járművek közé besorolni kívánó járművek haladhatnak."
+    },
+    "ua": {
+      "question": "Чи можна під час затору їхати вперед смугою для аварійної зупинки автомагістралі?",
+      "answers": [
+        "Ні: цією смугою можуть рухатися лише уповноважені транспортні засоби та ті, хто вбудовується в потік.",
+        "Так, якщо швидкість не перевищує 30 км/год.",
+        "Так, до наступного з'їзду."
+      ],
+      "explanation": "Смугою для аварійної зупинки — якщо знаки чи розмітка не вказують іншого — можуть рухатися лише перелічені в правилах транспортні засоби (наприклад, ті, що контролюють рух, утримують дорогу чи використовують спеціальні сигнали) і транспортні засоби, які хочуть вбудуватися в потік на смугах руху."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-015",
+    "topic": "special",
+    "kreszRef": "KRESZ 37. § (3) a)",
+    "image": "motorway",
+    "hu": {
+      "question": "Szabad-e autópályára út menti ingatlanról vagy más, útnak nem minősülő területről ráhajtani?",
+      "answers": [
+        "Nem, ez tilos; autópályára csak a ráhajtásra szolgáló úton szabad felhajtani.",
+        "Igen, ha a forgalom gyér.",
+        "Igen, de csak a leállósávra."
+      ],
+      "explanation": "Tilos autópályára és autóútra út menti ingatlanról, valamint útnak nem minősülő más területről ráhajtani, illetőleg oda behajtani."
+    },
+    "ua": {
+      "question": "Чи можна виїжджати на автомагістраль із прилеглої ділянки або іншої території, що не є дорогою?",
+      "answers": [
+        "Ні, це заборонено; на автомагістраль в'їжджають лише призначеним для цього в'їздом.",
+        "Так, якщо рух слабкий.",
+        "Так, але лише на смугу для аварійної зупинки."
+      ],
+      "explanation": "Заборонено виїжджати на автомагістраль і дорогу для автомобілів із прилеглої до дороги ділянки чи іншої території, що не є дорогою, а також з'їжджати з них туди."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-016",
+    "topic": "special",
+    "kreszRef": "KRESZ 38. § (1)",
+    "hu": {
+      "question": "Mikor szabad más járművel a villamospályára ráhajtani, azon haladni?",
+      "answers": [
+        "Ha a látási viszonyok nem akadályozzák a közeledő villamos észlelését, és a jármű a villamosforgalmat nem zavarja.",
+        "Soha, a villamospálya kizárólag a villamosé.",
+        "Bármikor, a villamos úgyis megáll."
+      ],
+      "explanation": "Villamospályára más járművel ráhajtani, azon folyamatosan haladni vagy előzni – a jogszabályban említett kivételekkel – csak abban az esetben szabad, ha a vezetőt a látási viszonyok nem akadályozzák a közeledő villamos kellő távolságból való észlelésében, és a jármű a villamosforgalmat nem zavarja."
+    },
+    "ua": {
+      "question": "Коли іншим транспортним засобам дозволено виїжджати на трамвайну колію та їхати нею?",
+      "answers": [
+        "Якщо видимість дає змогу вчасно помітити трамвай, що наближається, і транспортний засіб не заважає трамвайному руху.",
+        "Ніколи: трамвайна колія лише для трамвая.",
+        "Будь-коли, трамвай однаково зупиниться."
+      ],
+      "explanation": "Виїжджати на трамвайну колію, безперервно їхати нею чи обганяти там — за винятками, зазначеними в правилах, — можна лише тоді, коли умови видимості не заважають водієві з достатньої відстані помітити трамвай, що наближається, і транспортний засіб не перешкоджає трамвайному руху."
+    },
+    "correct": 0
   }
 ]
