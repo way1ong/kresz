@@ -1,8 +1,10 @@
 import { describe, expect, it } from 'vitest'
 import type { Question } from '../../content/types'
 import { seededRng } from '../../lib/random'
-import { planExam, scoreExam, startExam, type ExamRules } from './engine'
+import { advanceProgram, planExam, questionMsLeft, scoreExam, startExam, type ExamOptions, type ExamRules } from './engine'
 
+const FREE: ExamOptions = { huOnly: false, mode: 'free', perQuestionSec: 60 }
+const PROGRAM: ExamOptions = { huOnly: false, mode: 'program', perQuestionSec: 60 }
 const RULES: ExamRules = { questionCount: 55, durationMinutes: 55, maxPoints: 75, passPoints: 65, threePointQuestions: 10 }
 
 function makePool(threeCount: number, oneCount: number): Question[] {
@@ -47,7 +49,7 @@ describe('scoreExam', () => {
   const start = 1_000_000
 
   it('рахує бали з вагою питань і визначає «склав / не склав»', () => {
-    const session = startExam(plan, false, start, seededRng(6))
+    const session = startExam(plan, FREE, start, seededRng(6))
     // правильна відповідь усюди 0; помиляємося в усіх трибальних (−30 балів)
     for (const item of session.items) item.answer = item.points === 3 ? 1 : 0
     const failed = scoreExam(session, () => 0, start + 600_000, false)
@@ -61,7 +63,7 @@ describe('scoreExam', () => {
   })
 
   it('питання без відповіді не дає балів; час не перевищує ліміт', () => {
-    const session = startExam(plan, true, start, seededRng(7))
+    const session = startExam(plan, { ...FREE, huOnly: true }, start, seededRng(7))
     const record = scoreExam(session, () => 0, start + 99 * 60_000, true)
     expect(record.score).toBe(0)
     expect(record.timedOut).toBe(true)
@@ -70,7 +72,62 @@ describe('scoreExam', () => {
   })
 
   it('порядок відповідей — перестановка всіх індексів', () => {
-    const session = startExam(plan, false, start, seededRng(8))
+    const session = startExam(plan, FREE, start, seededRng(8))
     for (const item of session.items) expect([...item.order].sort()).toEqual([0, 1, 2])
+  })
+})
+
+describe('режим «як у програмі»', () => {
+  const plan = planExam(makePool(1, 2), { ...RULES, questionCount: 3, maxPoints: 5, passPoints: 4, threePointQuestions: 1 }, seededRng(9))
+  const t0 = 5_000_000
+  const answer = (session: ReturnType<typeof startExam>, value: number) => ({
+    ...session,
+    items: session.items.map((item, i) => (i === session.current ? { ...item, answer: value } : item)),
+  })
+
+  it('відповідь закриває питання; на питання є 60 секунд', () => {
+    let session = startExam(plan, PROGRAM, t0, seededRng(10))
+    expect(questionMsLeft(session, t0 + 15_000)).toBe(45_000)
+    const step = advanceProgram(answer(session, 0), t0 + 15_000, false)
+    session = step.session
+    expect(step.done).toBe(false)
+    expect(session.current).toBe(1)
+    expect(session.items[0]).toMatchObject({ closed: true, spentMs: 15_000, answer: 0 })
+    expect(questionMsLeft(session, t0 + 15_000)).toBe(60_000)
+  })
+
+  it('пропущене питання повертається в кінці із залишком часу', () => {
+    let session = startExam(plan, PROGRAM, t0, seededRng(11))
+    session = advanceProgram(session, t0 + 20_000, false).session // пропустили питання 1 (20 с)
+    expect(session.items[0]).toMatchObject({ closed: false, spentMs: 20_000 })
+    session = advanceProgram(answer(session, 1), t0 + 30_000, false).session // питання 2
+    session = advanceProgram(answer(session, 2), t0 + 40_000, false).session // питання 3
+    expect(session.current).toBe(0) // повернулися до пропущеного
+    expect(questionMsLeft(session, t0 + 40_000)).toBe(40_000)
+    const last = advanceProgram(answer(session, 0), t0 + 50_000, false)
+    expect(last.done).toBe(true)
+    expect(last.session.items.every((item) => item.closed)).toBe(true)
+  })
+
+  it('коли час на питання вичерпано, воно закривається без відповіді й більше не повертається', () => {
+    let session = startExam(plan, PROGRAM, t0, seededRng(12))
+    session = advanceProgram(session, t0 + 61_000, true).session
+    expect(session.items[0]).toMatchObject({ closed: true, answer: null, spentMs: 60_000 })
+    session = advanceProgram(answer(session, 0), t0 + 70_000, false).session
+    const end = advanceProgram(answer(session, 0), t0 + 80_000, false)
+    expect(end.done).toBe(true)
+    const record = scoreExam(end.session, () => 0, t0 + 80_000, false)
+    expect(record.mode).toBe('program')
+    expect(record.items.filter((item) => item.correct)).toHaveLength(2)
+  })
+
+  it('єдине відкрите питання можна пропускати, доки на нього є час', () => {
+    let session = startExam(plan, PROGRAM, t0, seededRng(13))
+    session = advanceProgram(answer(session, 0), t0 + 1_000, false).session
+    session = advanceProgram(answer(session, 0), t0 + 2_000, false).session
+    const skipped = advanceProgram(session, t0 + 12_000, false)
+    expect(skipped.done).toBe(false)
+    expect(skipped.session.current).toBe(2)
+    expect(questionMsLeft(skipped.session, t0 + 12_000)).toBe(50_000)
   })
 })

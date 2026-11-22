@@ -801,6 +801,28 @@ button {
   color: var(--accent);
 }
 
+.qgrid button:disabled {
+  cursor: default;
+  color: inherit;
+}
+
+.qgrid button.answered:disabled {
+  color: var(--accent);
+}
+
+/* Режим «як у програмі»: пропущене питання (ще повернеться) і питання, на яке час вичерпано. */
+.qgrid button.skipped {
+  border-style: dashed;
+  border-color: var(--warn);
+  color: var(--warn);
+}
+
+.qgrid button.missed {
+  background: var(--surface-2);
+  color: var(--muted);
+  text-decoration: line-through;
+}
+
 .qgrid button.current {
   outline: 3px solid var(--accent);
   outline-offset: 1px;

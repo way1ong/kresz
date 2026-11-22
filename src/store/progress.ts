@@ -28,6 +28,8 @@ export interface ExamRecord {
   passScore: number
   passed: boolean
   timedOut: boolean
+  /** Режим іспиту (у старих записах поля немає — це «вільний» режим). */
+  mode?: 'program' | 'free'
   items: ExamRecordItem[]
 }
 

@@ -3,15 +3,18 @@ import { createStore, useStore } from './createStore'
 /** hu — лише угорська, ua — лише українська, both — угорська основна + українська під нею. */
 export type LangMode = 'hu' | 'ua' | 'both'
 export type ThemeMode = 'system' | 'light' | 'dark'
+export type ExamMode = 'program' | 'free'
 
 export interface Settings {
   lang: LangMode
   theme: ThemeMode
   /** Іспит показувати лише угорською (як на справжньому іспиті). */
   examHuOnly: boolean
+  /** program — як у програмі іспиту (хвилина на питання, без повернення); free — лише загальний час. */
+  examMode: ExamMode
 }
 
-const DEFAULTS: Settings = { lang: 'both', theme: 'system', examHuOnly: false }
+const DEFAULTS: Settings = { lang: 'both', theme: 'system', examHuOnly: false, examMode: 'program' }
 
 export const settingsStore = createStore<Settings>(
   'kresz.settings.v1',

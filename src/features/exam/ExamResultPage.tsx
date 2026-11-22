@@ -40,6 +40,11 @@ export function ExamResultPage({ examId }: { examId: string }) {
         <p className="muted small" style={{ marginTop: 8 }}>
           <Tx k="exam.result.needed" vars={{ pass: record.passScore }} />
         </p>
+        <p style={{ marginTop: 8 }}>
+          <span className="badge badge-muted">
+            <Tx k={record.mode === 'program' ? 'exam.mode.program' : 'exam.mode.free'} primaryOnly />
+          </span>
+        </p>
         <p className="muted small" style={{ marginTop: 8 }}>
           {record.timedOut && (
             <>

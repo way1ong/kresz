@@ -14,7 +14,17 @@ export function ExamStartPage() {
   const preview = useMemo(() => planExam(QUESTIONS), [])
 
   const begin = () => {
-    examStore.set(startExam(planExam(QUESTIONS), settings.examHuOnly, Date.now()))
+    examStore.set(
+      startExam(
+        planExam(QUESTIONS),
+        {
+          huOnly: settings.examHuOnly,
+          mode: settings.examMode,
+          perQuestionSec: EXAM_CONFIG.programMode.perQuestionSeconds,
+        },
+        Date.now(),
+      ),
+    )
     navigate('/exam', { replace: true })
   }
 
@@ -66,6 +76,35 @@ export function ExamStartPage() {
           </span>
         )}
       </div>
+
+      <section className="card stack">
+        <h2>
+          <Tx k="exam.mode.label" />
+        </h2>
+        <div className="segmented" role="group">
+          <button
+            type="button"
+            aria-pressed={settings.examMode === 'program'}
+            onClick={() => updateSettings({ examMode: 'program' })}
+          >
+            <Tx k="exam.mode.program" primaryOnly />
+          </button>
+          <button
+            type="button"
+            aria-pressed={settings.examMode === 'free'}
+            onClick={() => updateSettings({ examMode: 'free' })}
+          >
+            <Tx k="exam.mode.free" primaryOnly />
+          </button>
+        </div>
+        <p className="muted small">
+          {settings.examMode === 'program' ? (
+            <Tx k="exam.mode.program.desc" vars={{ sec: EXAM_CONFIG.programMode.perQuestionSeconds }} />
+          ) : (
+            <Tx k="exam.mode.free.desc" vars={{ minutes: EXAM_CONFIG.durationMinutes }} />
+          )}
+        </p>
+      </section>
 
       <label className="card check">
         <input

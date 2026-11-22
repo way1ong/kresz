@@ -18,6 +18,19 @@ export interface ExamItem {
   /** Обрана відповідь (вихідний індекс) або null. */
   answer: number | null
   points: number
+  /** Режим «як у програмі»: скільки часу вже витрачено на це питання, мс. */
+  spentMs: number
+  /** Режим «як у програмі»: питання закрито (відповідь зафіксовано або час вичерпано). */
+  closed: boolean
+}
+
+export type ExamMode = 'program' | 'free'
+
+export interface ExamOptions {
+  huOnly: boolean
+  mode: ExamMode
+  /** Ліміт часу на питання в режимі «як у програмі», секунди. */
+  perQuestionSec: number
 }
 
 export interface ExamSession {
@@ -31,6 +44,10 @@ export interface ExamSession {
   /** База питань менша за справжній іспит — параметри зменшено пропорційно. */
   reduced: boolean
   huOnly: boolean
+  mode: ExamMode
+  perQuestionSec: number
+  /** Коли показано поточне питання (для відліку часу на питання). */
+  shownAt: number
   current: number
   items: ExamItem[]
 }
@@ -71,7 +88,7 @@ export function planExam(pool: Question[], rules: ExamRules = EXAM_CONFIG, rng: 
   }
 }
 
-export function startExam(plan: ExamPlan, huOnly: boolean, now: number, rng: Rng = Math.random): ExamSession {
+export function startExam(plan: ExamPlan, options: ExamOptions, now: number, rng: Rng = Math.random): ExamSession {
   return {
     id: `exam-${now}`,
     startedAt: now,
@@ -80,15 +97,48 @@ export function startExam(plan: ExamPlan, huOnly: boolean, now: number, rng: Rng
     maxScore: plan.maxScore,
     passScore: plan.passScore,
     reduced: plan.reduced,
-    huOnly,
+    huOnly: options.huOnly,
+    mode: options.mode,
+    perQuestionSec: options.perQuestionSec,
+    shownAt: now,
     current: 0,
     items: plan.questions.map((q) => ({
       qid: q.id,
       order: shuffledIndices(q.hu.answers.length, rng),
       answer: null,
       points: pointsOf(q),
+      spentMs: 0,
+      closed: false,
     })),
   }
+}
+
+/** Режим «як у програмі»: скільки часу лишилося на поточне питання, мс. */
+export function questionMsLeft(session: ExamSession, now: number): number {
+  const item = session.items[session.current]
+  return session.perQuestionSec * 1000 - item.spentMs - Math.max(0, now - session.shownAt)
+}
+
+/**
+ * Режим «як у програмі»: перехід до наступного питання.
+ * - Питання з відповіддю закривається — повернутися до нього вже не можна.
+ * - Питання без відповіді пропускається: воно повернеться після решти питань
+ *   із тим часом, що на ньому лишився.
+ * - Якщо час на питання вичерпано (timedOut), воно закривається з тією відповіддю, що є.
+ * Повертає done = true, коли відкритих питань не лишилося.
+ */
+export function advanceProgram(session: ExamSession, now: number, timedOut: boolean): { session: ExamSession; done: boolean } {
+  const limitMs = session.perQuestionSec * 1000
+  const current = session.items[session.current]
+  const spentMs = Math.min(limitMs, current.spentMs + Math.max(0, now - session.shownAt))
+  const closed = timedOut || current.answer !== null || spentMs >= limitMs
+  const items = session.items.map((item, index) => (index === session.current ? { ...item, spentMs, closed } : item))
+
+  for (let step = 1; step <= items.length; step++) {
+    const index = (session.current + step) % items.length
+    if (!items[index].closed) return { session: { ...session, items, current: index, shownAt: now }, done: false }
+  }
+  return { session: { ...session, items }, done: true }
 }
 
 /** Підсумок іспиту. correctOf повертає індекс правильної відповіді для питання. */
@@ -117,6 +167,7 @@ export function scoreExam(
     passScore: session.passScore,
     passed: score >= session.passScore,
     timedOut,
+    mode: session.mode,
     items,
   }
 }
