@@ -1,8 +1,8 @@
-import { SIGNS } from './registry'
+import { IMAGES } from './images'
 
-/** Малюнок із реєстру знаків за id. Невідомий id нічого не показує. */
+/** Малюнок (знак, схема перехрестя чи світлофор) за id. Невідомий id нічого не показує. */
 export function SignImage({ id, label, size }: { id: string; label?: string; size?: number }) {
-  const render = SIGNS[id]
+  const render = IMAGES[id]
   if (!render) return null
   return (
     <svg

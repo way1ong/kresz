@@ -96,6 +96,39 @@ function Car({ x = 0, y = 0, scale = 1, color = BLACK }: { x?: number; y?: numbe
   )
 }
 
+function Bicycle({ x = 0, y = 0, scale = 1, color = BLACK }: { x?: number; y?: number; scale?: number; color?: string }) {
+  return (
+    <g transform={`translate(${x} ${y}) scale(${scale})`} stroke={color} strokeWidth="2.6" fill="none" strokeLinejoin="round" strokeLinecap="round">
+      <circle cx="9" cy="20" r="8" />
+      <circle cx="37" cy="20" r="8" />
+      <path d="M9 20 17 7H31L37 20M17 7 23 20H9M23 20 31 7M14 5h6M31 7 29 3h5" />
+    </g>
+  )
+}
+
+/** Вантажівка, вид збоку. */
+function Truck({ x = 0, y = 0, scale = 1, color = BLACK }: { x?: number; y?: number; scale?: number; color?: string }) {
+  return (
+    <g transform={`translate(${x} ${y}) scale(${scale})`} fill={color}>
+      <rect x="0" y="0" width="30" height="20" rx="1.5" />
+      <path d="M32 6h9l6 7v7H32Z" />
+      <circle cx="9" cy="23" r="4.5" />
+      <circle cx="39" cy="23" r="4.5" />
+    </g>
+  )
+}
+
+/** Знак скасування: біле коло з чорними діагональними смугами. */
+function EndCircle({ children }: { children?: ReactNode }) {
+  return (
+    <>
+      <circle cx="50" cy="50" r="45" fill={WHITE} stroke={BLACK} strokeWidth="2.5" />
+      {children}
+      <path d="M22 72 72 22M25 75 75 25M28 78 78 28" stroke={BLACK} strokeWidth="1.6" />
+    </>
+  )
+}
+
 function RoundaboutArrows() {
   // Три дугові стрілки проти годинникової стрілки (напрямок руху по колу).
   const r = 23
@@ -194,6 +227,16 @@ export const SIGNS: Record<string, () => ReactNode> = {
       </g>
     </BlueDisc>
   ),
+  bikePath: () => (
+    <BlueDisc>
+      <Bicycle x={22} y={34} scale={1.22} color={WHITE} />
+    </BlueDisc>
+  ),
+  footPath: () => (
+    <BlueDisc>
+      <Pedestrian x={24} y={20} scale={1.5} color={WHITE} />
+    </BlueDisc>
+  ),
   roundabout: () => (
     <BlueDisc>
       <RoundaboutArrows />
@@ -206,6 +249,13 @@ export const SIGNS: Record<string, () => ReactNode> = {
   ),
 
   // 14. § — заборонні
+  noRightTurn: () => (
+    <Prohibition>
+      <path d="M38 76V46H60" stroke={BLACK} strokeWidth="9" fill="none" />
+      <path d="M76 46 58 34V58Z" fill={BLACK} />
+      <Slash />
+    </Prohibition>
+  ),
   noLeftTurn: () => (
     <Prohibition>
       <path d="M62 76V46H40" stroke={BLACK} strokeWidth="9" fill="none" />
@@ -229,6 +279,28 @@ export const SIGNS: Record<string, () => ReactNode> = {
     <Prohibition>
       <Car x={18} y={37} scale={1.05} color={RED} />
       <Car x={51} y={37} scale={1.05} color={BLACK} />
+    </Prohibition>
+  ),
+  speedLimitEnd: () => (
+    <EndCircle>
+      <Label text="50" y={65} size={42} fill="#8a8f98" />
+    </EndCircle>
+  ),
+  noOvertakingEnd: () => (
+    <EndCircle>
+      <Car x={18} y={37} scale={1.05} color="#8a8f98" />
+      <Car x={51} y={37} scale={1.05} color="#8a8f98" />
+    </EndCircle>
+  ),
+  restrictionsEnd: () => <EndCircle />,
+  noTrucks: () => (
+    <Prohibition>
+      <Truck x={26} y={36} scale={1} />
+    </Prohibition>
+  ),
+  noBicycles: () => (
+    <Prohibition>
+      <Bicycle x={27} y={36} scale={1} />
     </Prohibition>
   ),
   noEntryBoth: () => <Prohibition />,
@@ -293,6 +365,12 @@ export const SIGNS: Record<string, () => ReactNode> = {
       <path d="M26 79H36M42 79H52M58 79H68" stroke={BLACK} strokeWidth="4" />
     </Warning>
   ),
+  children: () => (
+    <Warning>
+      <Pedestrian x={30} y={38} scale={0.95} />
+      <Pedestrian x={50} y={47} scale={0.72} />
+    </Warning>
+  ),
   trafficLights: () => (
     <Warning>
       <circle cx="50" cy="42" r="6.5" fill={RED} />
@@ -329,6 +407,13 @@ export const SIGNS: Record<string, () => ReactNode> = {
       <path d="M28 56H72M28 68H72" stroke={BLACK} strokeWidth="4.5" />
       <path d="M34 48V79M46 48V79M58 48V79M70 48V79" stroke={BLACK} strokeWidth="4" />
     </Warning>
+  ),
+  railwayCross: () => (
+    // «Vasúti átjáró kezdete» — Андріївський хрест
+    <g stroke={RED} strokeWidth="3" fill={WHITE} strokeLinejoin="round">
+      <path d="M8 26 14 14 92 62 86 74Z" />
+      <path d="M92 26 86 14 8 62 14 74Z" />
+    </g>
   ),
   otherDanger: () => (
     <Warning>

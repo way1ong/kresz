@@ -2,7 +2,7 @@ import { readdirSync, readFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { describe, expect, it } from 'vitest'
-import { SIGN_IDS } from '../signs/registry'
+import { IMAGE_IDS } from '../signs/images'
 import decks from './decks.json'
 import topics from './topics.json'
 import type { Card, Question } from './types'
@@ -58,7 +58,7 @@ describe('питання', () => {
           expect(q.hu.answers.length, 'кількість відповідей').toBeGreaterThanOrEqual(2)
           expect(q.ua.answers.length, 'однакова кількість відповідей hu/ua').toBe(q.hu.answers.length)
           expect(Number.isInteger(q.correct) && q.correct >= 0 && q.correct < q.hu.answers.length, 'correct').toBe(true)
-          if (q.image !== undefined) expect(SIGN_IDS, `невідомий малюнок "${q.image}"`).toContain(q.image)
+          if (q.image !== undefined) expect(IMAGE_IDS, `невідомий малюнок "${q.image}"`).toContain(q.image)
           if (q.points !== undefined) expect([1, 3]).toContain(q.points)
         })
       }
@@ -86,7 +86,7 @@ describe('картки', () => {
             expect(nonEmpty(card[lang]?.back), `${lang}.back`).toBe(true)
             expect(nonEmpty(card[lang]?.front) || card.image !== undefined, `${lang}.front або image`).toBe(true)
           }
-          if (card.image !== undefined) expect(SIGN_IDS, `невідомий малюнок "${card.image}"`).toContain(card.image)
+          if (card.image !== undefined) expect(IMAGE_IDS, `невідомий малюнок "${card.image}"`).toContain(card.image)
         })
       }
     })
