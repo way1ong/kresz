@@ -12,9 +12,11 @@ export interface Settings {
   examHuOnly: boolean
   /** program — як у програмі іспиту (хвилина на питання, без повернення); free — лише загальний час. */
   examMode: ExamMode
+  /** У режимі HU+UA ховати український переклад питання, доки користувач сам його не відкриє. */
+  peekTranslation: boolean
 }
 
-const DEFAULTS: Settings = { lang: 'both', theme: 'system', examHuOnly: false, examMode: 'program' }
+const DEFAULTS: Settings = { lang: 'both', theme: 'system', examHuOnly: false, examMode: 'program', peekTranslation: false }
 
 export const settingsStore = createStore<Settings>(
   'kresz.settings.v1',

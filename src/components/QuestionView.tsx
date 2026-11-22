@@ -1,8 +1,9 @@
+import { useState } from 'react'
 import type { Question } from '../content/types'
 import { Bi, Tx } from '../i18n'
 import { isScene } from '../signs/scenes'
 import { SignImage } from '../signs/SignImage'
-import type { LangMode } from '../store/settings'
+import { useSettings, type LangMode } from '../store/settings'
 
 const LETTERS = 'ABCDEFGH'
 
@@ -18,12 +19,30 @@ interface QuestionViewProps {
   mode?: LangMode
 }
 
-export function QuestionView({ question, order, selected, revealed, onSelect, mode }: QuestionViewProps) {
+export function QuestionView({ question, order, selected, revealed, onSelect, mode: forcedMode }: QuestionViewProps) {
+  const settings = useSettings()
+  // «Переклад за дотиком»: у режимі HU+UA питання показується лише угорською,
+  // доки користувач не відкриє переклад або не відповість.
+  const [peekedId, setPeekedId] = useState<string | null>(null)
+  const canPeek = forcedMode === undefined && settings.lang === 'both' && settings.peekTranslation && !revealed
+  const peeked = peekedId === question.id
+  const mode: LangMode | undefined = canPeek && !peeked ? 'hu' : forcedMode
+
   return (
     <div className="stack">
       <div className="q-text">
         <Bi hu={question.hu.question} ua={question.ua.question} mode={mode} />
       </div>
+      {canPeek && (
+        <button
+          type="button"
+          className="peek-btn"
+          aria-pressed={peeked}
+          onClick={() => setPeekedId(peeked ? null : question.id)}
+        >
+          <Tx k={peeked ? 'question.hideTranslation' : 'question.showTranslation'} layout="inline" mode="both" />
+        </button>
+      )}
       {question.image && (
         <div className={isScene(question.image) ? 'q-image scene' : 'q-image'}>
           <SignImage id={question.image} />

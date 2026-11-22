@@ -6,6 +6,7 @@ import { shuffle } from '../../lib/random'
 import { isScene } from '../../signs/scenes'
 import { SignImage } from '../../signs/SignImage'
 import { progressStore, recordCardReview, useProgress } from '../../store/progress'
+import { useSettings } from '../../store/settings'
 import { deckItems, dueItems, MISTAKES_DECK, type ReviewItem } from './decks'
 import { LEITNER } from './leitner'
 
@@ -24,6 +25,7 @@ function startSession(deckId: string, all: boolean): Session {
 
 export function CardReviewPage({ deckId }: { deckId: string }) {
   const progress = useProgress()
+  const settings = useSettings()
   const [session, setSession] = useState<Session>(() => startSession(deckId, false))
   const deck = DECKS.find((d) => d.id === deckId)
   const isMistakes = deckId === MISTAKES_DECK
@@ -111,7 +113,16 @@ export function CardReviewPage({ deckId }: { deckId: string }) {
           </div>
         )}
         <div className="flashcard-front">
-          {current.front.hu ? <Bi hu={current.front.hu} ua={current.front.ua} /> : <Tx k="cards.signPrompt" />}
+          {current.front.hu ? (
+            // «Переклад за дотиком»: лицьовий бік лише угорською, переклад — разом із відповіддю.
+            <Bi
+              hu={current.front.hu}
+              ua={current.front.ua}
+              mode={settings.lang === 'both' && settings.peekTranslation && !session.revealed ? 'hu' : undefined}
+            />
+          ) : (
+            <Tx k="cards.signPrompt" />
+          )}
         </div>
         {session.revealed && (
           <div className="flashcard-back stack">

@@ -1,5 +1,6 @@
 [
-  { "id": "signs", "icon": "🚸", "hu": "Jelzőtáblák", "ua": "Дорожні знаки" },
-  { "id": "terms", "icon": "📖", "hu": "Fogalmak", "ua": "Терміни" },
-  { "id": "rules", "icon": "⚖️", "hu": "Szabályok", "ua": "Правила" }
+  {"id": "signs", "icon": "🚸", "hu": "Jelzőtáblák", "ua": "Дорожні знаки"},
+  {"id": "terms", "icon": "📖", "hu": "Fogalmak", "ua": "Терміни"},
+  {"id": "rules", "icon": "⚖️", "hu": "Szabályok", "ua": "Правила"},
+  {"id": "phrases", "icon": "💬", "hu": "Vizsgakifejezések", "ua": "Екзаменаційні звороти"}
 ]

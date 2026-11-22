@@ -570,6 +570,23 @@ button {
   font-size: 0.84em;
 }
 
+.peek-btn {
+  align-self: flex-start;
+  min-height: 40px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px dashed var(--border);
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.peek-btn[aria-pressed='true'] {
+  border-style: solid;
+  color: var(--accent);
+}
+
 .q-image {
   display: grid;
   place-items: center;
@@ -589,6 +606,8 @@ button {
 
 .q-head .grow {
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .q-head .badge {

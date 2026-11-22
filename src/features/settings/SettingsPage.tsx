@@ -59,6 +59,19 @@ export function SettingsPage() {
         <p className="muted small">
           <Tx k="settings.lang.hint" />
         </p>
+        <label className="check">
+          <input
+            type="checkbox"
+            checked={settings.peekTranslation}
+            onChange={(event) => updateSettings({ peekTranslation: event.target.checked })}
+          />
+          <span>
+            <Tx k="settings.peek" />
+            <span className="muted small" style={{ display: 'block', marginTop: 4 }}>
+              <Tx k="settings.peek.hint" />
+            </span>
+          </span>
+        </label>
       </section>
 
       <section className="card stack">

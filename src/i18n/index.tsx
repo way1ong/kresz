@@ -55,7 +55,8 @@ export function Bi({ hu: huText, ua: uaText, layout = 'block', mode, primaryOnly
   const requested = mode ?? settings.lang
   const lang = primaryOnly && requested === 'both' ? 'hu' : requested
   const cls = ['bi', `bi-${layout}`, className].filter(Boolean).join(' ')
-  if (lang === 'hu') {
+  // Однаковий текст обома мовами (наприклад, угорський зворот у колоді фраз) показуємо один раз.
+  if (lang === 'hu' || (lang === 'both' && huText === uaText)) {
     return (
       <span className={cls} lang="hu">
         {huText}
