@@ -1,0 +1,234 @@
+[
+  {
+    "id": "safety-001",
+    "topic": "safety",
+    "kreszRef": "KRESZ 4. § (1) c)",
+    "hu": {
+      "question": "Vezethet-e gépkocsit, ha szervezetében szeszes ital fogyasztásából származó alkohol van?",
+      "answers": [
+        "Nem; járművet csak az vezethet, akinek a szervezetében nincs szeszes ital fogyasztásából származó alkohol.",
+        "Igen, ha a véralkoholszintje nem éri el a 0,5 ezreléket.",
+        "Igen, ha a fogyasztás óta legalább egy óra eltelt."
+      ],
+      "explanation": "Járművet az vezethet, aki a vezetési képességre hátrányosan ható szer befolyása alatt nem áll, és szervezetében nincs szeszes ital fogyasztásából származó alkohol. A KRESZ gépkocsivezetőre semmilyen megengedett alkoholszintet nem állapít meg."
+    },
+    "ua": {
+      "question": "Чи можна керувати автомобілем, якщо в організмі є алкоголь від уживання спиртних напоїв?",
+      "answers": [
+        "Ні; керувати транспортним засобом може лише той, у чиєму організмі немає алкоголю від уживання спиртних напоїв.",
+        "Так, якщо вміст алкоголю в крові менший за 0,5 проміле.",
+        "Так, якщо після вживання минула щонайменше година."
+      ],
+      "explanation": "Керувати транспортним засобом може той, хто не перебуває під впливом речовин, що погіршують здатність керувати, і в чиєму організмі немає алкоголю від уживання спиртних напоїв. Жодного допустимого рівня алкоголю для водія автомобіля KRESZ не встановлює."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-002",
+    "topic": "safety",
+    "kreszRef": "KRESZ 3. § (2)",
+    "hu": {
+      "question": "Használhat-e a gépkocsi vezetője menet közben kézben tartott mobiltelefont?",
+      "answers": [
+        "Nem, a gépkocsi vezetője menet közben kézben tartott mobil rádiótelefont nem használhat.",
+        "Igen, ha lakott területen kívül halad.",
+        "Igen, ha a sebessége nem haladja meg a 30 km/órát."
+      ],
+      "explanation": "A gépkocsi vezetője menet közben kézben tartott mobil rádiótelefont nem használhat. A tilalom a kézben tartott készülékre vonatkozik."
+    },
+    "ua": {
+      "question": "Чи може водій автомобіля під час руху користуватися мобільним телефоном, тримаючи його в руці?",
+      "answers": [
+        "Ні, водій автомобіля під час руху не може користуватися мобільним телефоном, який тримає в руці.",
+        "Так, якщо їде поза населеним пунктом.",
+        "Так, якщо швидкість не перевищує 30 км/год."
+      ],
+      "explanation": "Водій автомобіля під час руху не може користуватися мобільним телефоном, який тримає в руці. Заборона стосується саме апарата в руці."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-003",
+    "topic": "safety",
+    "kreszRef": "KRESZ 48. § (4)–(5)",
+    "hu": {
+      "question": "Személygépkocsiban kinek kell becsatolnia a biztonsági övet?",
+      "answers": [
+        "Minden olyan személynek, aki biztonsági övvel felszerelt ülésen utazik – elöl és hátul egyaránt.",
+        "Csak a vezetőnek és az első ülésen utazónak.",
+        "Csak lakott területen kívül kötelező, akkor mindenkinek."
+      ],
+      "explanation": "Olyan járműben, amelynek üléseit biztonsági övvel szerelték fel, az ülésen utazó személynek a biztonsági öv becsatolásával kell magát rögzíteni. Kivétel például a hátramenetben közlekedő gépkocsi vezetője és az, aki orvosi igazolással rendelkezik."
+    },
+    "ua": {
+      "question": "Хто в легковому автомобілі повинен пристебнутися ременем безпеки?",
+      "answers": [
+        "Кожен, хто їде на сидінні, обладнаному ременем безпеки, — і спереду, і ззаду.",
+        "Лише водій і пасажир на передньому сидінні.",
+        "Це обов'язково лише поза населеним пунктом, тоді для всіх."
+      ],
+      "explanation": "У транспортному засобі, сидіння якого обладнано ременями безпеки, кожен, хто їде на такому сидінні, повинен пристебнутися. Винятки — наприклад, водій автомобіля, що рухається заднім ходом, і той, хто має відповідну медичну довідку."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-004",
+    "topic": "safety",
+    "kreszRef": "KRESZ 48. § (7)–(8)",
+    "hu": {
+      "question": "Főszabályként milyen testmagasság alatt szállítható gyermek a gépkocsiban csak gyermekbiztonsági rendszerben rögzítve?",
+      "answers": ["150 cm alatt.", "135 cm alatt.", "120 cm alatt."],
+      "explanation": "A gépkocsiban 150 cm-nél alacsonyabb gyermek csak a testméretéhez és testsúlyához igazodó gyermekbiztonsági rendszerben rögzítve szállítható. Kivétel például, ha a gyermek a hátsó ülésen utazik, a 3. életévét betöltötte, legalább 135 cm magas, és az ülés biztonsági övével testméretéhez igazodóan biztonságosan rögzíthető."
+    },
+    "ua": {
+      "question": "За загальним правилом: дитину нижчу за який зріст можна перевозити в автомобілі лише в дитячій утримувальній системі (gyermekbiztonsági rendszer)?",
+      "answers": ["Нижчу за 150 см.", "Нижчу за 135 см.", "Нижчу за 120 см."],
+      "explanation": "Дитину нижчу за 150 см можна перевозити в автомобілі лише зафіксованою в дитячій утримувальній системі, що відповідає її зросту й вазі. Виняток — наприклад, якщо дитина їде на задньому сидінні, їй уже виповнилося 3 роки, її зріст щонайменше 135 см і її можна безпечно, відповідно до зросту, пристебнути ременем безпеки сидіння."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-005",
+    "topic": "safety",
+    "kreszRef": "KRESZ 44. § (8)",
+    "hu": {
+      "question": "Lakott területen kívül nappal, jó látási viszonyok között ki kell-e világítani a forgalomban részt vevő gépkocsit?",
+      "answers": [
+        "Igen, nappali menetjelző lámpával vagy tompított fényszóróval.",
+        "Nem, nappal és jó látási viszonyok között nem kell.",
+        "Igen, távolsági fényszóróval."
+      ],
+      "explanation": "Lakott területen kívüli úton a forgalomban részt vevő gépkocsit nappali menetjelző lámpával vagy tompított fényszóróval nappal és jó látási viszonyok között is ki kell világítani."
+    },
+    "ua": {
+      "question": "Чи треба поза населеним пунктом удень за доброї видимості вмикати світло на автомобілі, що рухається?",
+      "answers": [
+        "Так: денні ходові вогні або ближнє світло фар.",
+        "Ні, удень за доброї видимості не треба.",
+        "Так: дальнє світло фар."
+      ],
+      "explanation": "На дорозі поза населеним пунктом автомобіль, що бере участь у русі, повинен навіть удень і за доброї видимості мати ввімкнені денні ходові вогні (nappali menetjelző lámpa) або ближнє світло фар (tompított fényszóró)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-006",
+    "topic": "safety",
+    "kreszRef": "KRESZ 44. § (3)",
+    "hu": {
+      "question": "Hol szabad a tompított fényszóró helyett távolsági fényszórót használni (a fényjelzést kivéve)?",
+      "answers": [
+        "Csak lakott területen kívül, és csak úgy, hogy az másokat ne vakítson el.",
+        "Bárhol, ha az út nincs kivilágítva.",
+        "Lakott területen is, ha szemből nem jön jármű."
+      ],
+      "explanation": "A tompított fényszóró helyett távolsági fényszórót – fényjelzés kivételével – csak lakott területen kívül szabad használni. Tilos a használata, ha elvakíthatja a szembejövő jármű vezetőjét vagy – a visszapillantó tükrön át – az elöl haladó jármű vezetőjét."
+    },
+    "ua": {
+      "question": "Де замість ближнього світла фар дозволено вмикати дальнє (крім подавання світлового сигналу)?",
+      "answers": [
+        "Лише поза населеним пунктом і лише так, щоб не засліплювати інших.",
+        "Будь-де, якщо дорога не освітлена.",
+        "І в населеному пункті, якщо назустріч ніхто не їде."
+      ],
+      "explanation": "Замість ближнього світла фар дальнє (távolsági fényszóró) дозволено вмикати — крім подавання світлового сигналу — лише поза населеним пунктом. Користуватися ним заборонено, якщо воно може засліпити водія зустрічного транспортного засобу або — через дзеркало заднього виду — водія транспортного засобу попереду."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-007",
+    "topic": "safety",
+    "kreszRef": "KRESZ 58. § (1)",
+    "hu": {
+      "question": "Járművével közúti baleset részese lett. Mi az első kötelessége?",
+      "answers": [
+        "Azonnal megállni, a megsérült vagy veszélybe került személynek segítséget nyújtani, és mindent megtenni a további balesetek elkerülése érdekében.",
+        "A járművel a legközelebbi parkolóig továbbhaladni, és ott megvárni a többi érintettet.",
+        "Megállni csak akkor kell, ha a másik fél ezt kéri."
+      ],
+      "explanation": "A balesettel érintett jármű vezetője köteles a járművel azonnal megállni, a baleset folytán megsérült vagy veszélybe került személy részére segítséget nyújtani, és az esetleges további balesetek elkerülése érdekében minden tőle telhetőt megtenni."
+    },
+    "ua": {
+      "question": "Ваш транспортний засіб став учасником ДТП. Який Ваш перший обов'язок?",
+      "answers": [
+        "Негайно зупинитися, допомогти постраждалим і тим, хто опинився в небезпеці, та зробити все можливе, щоб не сталося нових ДТП.",
+        "Доїхати до найближчої стоянки й там чекати на інших учасників.",
+        "Зупинятися потрібно лише тоді, коли цього просить інша сторона."
+      ],
+      "explanation": "Водій транспортного засобу, причетного до ДТП, зобов'язаний негайно зупинитися, надати допомогу особі, яка внаслідок ДТП постраждала чи опинилася в небезпеці, і зробити все, що від нього залежить, щоб уникнути подальших ДТП."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-008",
+    "topic": "safety",
+    "kreszRef": "KRESZ 58. § (2)",
+    "hu": {
+      "question": "A baleset személyi sérülést okozott. Mit kell tennie a segítségnyújtáson túl?",
+      "answers": [
+        "Haladéktalanul értesíteni kell a rendőrséget, lehetőség szerint meg kell őrizni a nyomokat, és a helyszínt csak az intézkedő rendőr engedélyével szabad elhagyni.",
+        "Elég adatokat cserélni a másik féllel, utána a helyszín elhagyható.",
+        "A rendőrséget csak akkor kell értesíteni, ha a felek nem tudnak megegyezni."
+      ],
+      "explanation": "Ha a baleset halált vagy személyi sérülést okozott, a balesetről a rendőrhatóságot (a legközelebbi rendőrt) haladéktalanul értesíteni kell, a lehetőségekhez képest gondoskodni kell a nyomok megőrzéséről, és a helyszínt csak az intézkedő rendőr engedélyével szabad elhagyni."
+    },
+    "ua": {
+      "question": "Унаслідок ДТП є постраждалі. Що треба зробити, крім надання допомоги?",
+      "answers": [
+        "Негайно повідомити поліцію, за можливості зберегти сліди й залишати місце події лише з дозволу поліцейського, який оформлює ДТП.",
+        "Досить обмінятися даними з іншою стороною, після цього можна їхати.",
+        "Поліцію треба повідомляти лише тоді, коли сторони не можуть домовитися."
+      ],
+      "explanation": "Якщо ДТП спричинило смерть або тілесні ушкодження, про нього треба негайно повідомити поліцію (найближчого поліцейського), за можливості подбати про збереження слідів, а залишати місце події дозволено лише з дозволу поліцейського, який оформлює ДТП."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-009",
+    "topic": "safety",
+    "kreszRef": "KRESZ 58. § (5)",
+    "hu": {
+      "question": "Személysérüléssel járó baleset helyszínéhez ér, de Ön a balesetben nem érintett. Van-e kötelessége?",
+      "answers": [
+        "Igen, köteles a tőle elvárható segítséget megadni, és ehhez a járművön tartott elsősegélynyújtó felszerelést használni, illetve a segítségnyújtó rendelkezésére bocsátani.",
+        "Nincs, segítséget csak a balesetben érintettek kötelesek nyújtani.",
+        "Csak akkor, ha egészségügyi végzettsége van."
+      ],
+      "explanation": "Személysérülést okozó baleset és jármű kigyulladása esetében a balesettel nem érintett járművek vezetői is kötelesek a tőlük elvárható segítséget nyújtani. A vezető a járművön készenlétben tartott elsősegélynyújtó felszerelést köteles a segítségnyújtáshoz használni, illetve a segítségnyújtó rendelkezésére bocsátani."
+    },
+    "ua": {
+      "question": "Ви під'їхали до місця ДТП з постраждалими, але самі до нього не причетні. Чи маєте Ви якісь обов'язки?",
+      "answers": [
+        "Так: Ви зобов'язані надати допомогу, якої від Вас можна очікувати, і використати для цього аптечку з транспортного засобу або передати її тому, хто надає допомогу.",
+        "Ні, допомагати зобов'язані лише учасники ДТП.",
+        "Лише якщо маєте медичну освіту."
+      ],
+      "explanation": "У разі ДТП з постраждалими та в разі займання транспортного засобу водії непричетних транспортних засобів також зобов'язані надати допомогу, якої від них можна очікувати. Водій повинен використати для допомоги аптечку (elsősegélynyújtó felszerelés), яку возить у транспортному засобі, або надати її тому, хто допомагає."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-010",
+    "topic": "safety",
+    "kreszRef": "KRESZ 56. § (6)",
+    "hu": {
+      "question": "Lakott területen kívül személygépkocsija elromlott, és az úttesten áll. Mivel kell megjelölnie?",
+      "answers": [
+        "Elakadást jelző háromszöggel, amelyet a jármű mögött úgy kell elhelyezni, hogy a többi vezető kellő távolságból észlelhesse az elromlott járművet.",
+        "Elég a helyzetjelző lámpákat bekapcsolni, háromszög nem szükséges.",
+        "Semmivel, ha nappal van és jók a látási viszonyok."
+      ],
+      "explanation": "Lakott területen kívül az úttesten vagy a leállósávon levő elromlott gépjárművet (a kétkerekű motorkerékpár kivételével) elakadást jelző háromszöggel meg kell jelölni. A háromszöget a jármű mögött úgy kell elhelyezni, hogy az elromlott járművet a többi jármű vezetője kellő távolságból észlelhesse. Emellett az elakadásjelző (mindkét oldali irányjelzők egyidejű működtetése) is használható."
+    },
+    "ua": {
+      "question": "Поза населеним пунктом Ваш легковий автомобіль зламався й стоїть на проїзній частині. Чим його треба позначити?",
+      "answers": [
+        "Знаком аварійної зупинки (elakadást jelző háromszög), встановленим позаду так, щоб інші водії помітили несправний автомобіль із достатньої відстані.",
+        "Досить увімкнути габаритні вогні, трикутник не потрібен.",
+        "Нічим, якщо зараз день і добра видимість."
+      ],
+      "explanation": "Поза населеним пунктом несправний механічний транспортний засіб (крім двоколісного мотоцикла), що стоїть на проїзній частині або на смузі для аварійної зупинки, треба позначити знаком аварійної зупинки (elakadást jelző háromszög). Його ставлять позаду так, щоб водії інших транспортних засобів помітили несправний транспортний засіб із достатньої відстані. Додатково можна ввімкнути аварійну сигналізацію (одночасну роботу покажчиків повороту з обох боків)."
+    },
+    "correct": 0
+  }
+]

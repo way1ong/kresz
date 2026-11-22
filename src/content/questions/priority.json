@@ -1,0 +1,252 @@
+[
+  {
+    "id": "priority-001",
+    "topic": "priority",
+    "kreszRef": "KRESZ 28. § (1)",
+    "points": 3,
+    "hu": {
+      "question": "Két szilárd burkolatú út kereszteződésében nincs jelzőtábla, fényjelző készülék és rendőr sem. Kinek kell elsőbbséget adnia?",
+      "answers": [
+        "A jobbról érkező minden járműnek és a balról érkező villamosnak.",
+        "A balról érkező minden járműnek.",
+        "Annak a járműnek, amelyik előbb ért az útkereszteződéshez."
+      ],
+      "explanation": "Az útkereszteződésben – ha más szabályból más nem következik – elsőbbséget kell adni a jobbról érkező minden jármű és a balról érkező villamos részére (jobbkézszabály)."
+    },
+    "ua": {
+      "question": "На перехресті двох доріг із твердим покриттям немає ні знаків, ні світлофора, ні поліцейського. Кому треба дати дорогу?",
+      "answers": [
+        "Будь-якому транспортному засобу, що наближається справа, і трамваю, що наближається зліва.",
+        "Будь-якому транспортному засобу, що наближається зліва.",
+        "Тому транспортному засобу, який першим під'їхав до перехрестя."
+      ],
+      "explanation": "На перехресті — якщо з інших правил не випливає інше — треба дати дорогу будь-якому транспортному засобу, що наближається справа, і трамваю, що наближається зліва (правило правої руки, jobbkézszabály)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "priority-002",
+    "topic": "priority",
+    "kreszRef": "KRESZ 28. § (1) b)",
+    "points": 3,
+    "hu": {
+      "question": "Egyenrangú utak kereszteződésében balról villamos érkezik. Mi a helyes?",
+      "answers": [
+        "Elsőbbséget kell adnia a villamosnak, bár az balról érkezik.",
+        "A villamosnak kell elsőbbséget adnia, mert Ön tőle jobbról érkezik.",
+        "Az haladhat át elsőként, aki előbb ért oda."
+      ],
+      "explanation": "A jobbkézszabály alól a villamos kivétel: az útkereszteződésben a balról érkező villamos részére is elsőbbséget kell adni."
+    },
+    "ua": {
+      "question": "На перехресті рівнозначних доріг зліва наближається трамвай. Що правильно?",
+      "answers": [
+        "Треба дати дорогу трамваю, хоча він наближається зліва.",
+        "Трамвай має дати дорогу, бо Ви для нього наближаєтеся справа.",
+        "Першим проїжджає той, хто першим під'їхав."
+      ],
+      "explanation": "Трамвай — виняток із правила правої руки: на перехресті треба дати дорогу й трамваю, що наближається зліва."
+    },
+    "correct": 0
+  },
+  {
+    "id": "priority-003",
+    "topic": "priority",
+    "kreszRef": "KRESZ 28. § (2) c)",
+    "points": 3,
+    "hu": {
+      "question": "Földútról érkezik szilárd burkolatú úthoz, jelzőtábla nincs. A szilárd burkolatú úton balról személygépkocsi közeledik. Kinek van elsőbbsége?",
+      "answers": [
+        "A személygépkocsinak, mert földútról érkező járművel elsőbbséget kell adni a szilárd burkolatú útról érkezőnek.",
+        "Önnek, mert a személygépkocsihoz képest jobbról érkezik.",
+        "Annak, aki előbb ér az útkereszteződésbe."
+      ],
+      "explanation": "Földútról érkező járművel – a másik jármű érkezési irányától függetlenül – elsőbbséget kell adni a szilárd burkolatú útról érkező jármű részére. Ilyenkor a jobbkézszabály nem érvényesül."
+    },
+    "ua": {
+      "question": "Ви під'їжджаєте ґрунтовою дорогою до дороги з твердим покриттям, знаків немає. Дорогою з твердим покриттям зліва наближається легковий автомобіль. Хто має перевагу?",
+      "answers": [
+        "Легковий автомобіль, бо той, хто виїжджає з ґрунтової дороги, має дати дорогу транспорту на дорозі з твердим покриттям.",
+        "Ви, бо наближаєтеся до цього автомобіля справа.",
+        "Той, хто першим в'їде на перехрестя."
+      ],
+      "explanation": "Той, хто під'їжджає ґрунтовою дорогою (földút), повинен дати дорогу транспортному засобу, що рухається дорогою з твердим покриттям (szilárd burkolatú út), незалежно від того, з якого боку той наближається. Правило правої руки тут не діє."
+    },
+    "correct": 0
+  },
+  {
+    "id": "priority-004",
+    "topic": "priority",
+    "kreszRef": "KRESZ 28. § (2) a); 42. § (1)",
+    "points": 3,
+    "hu": {
+      "question": "A fényjelző készülék Önnek szabad utat (zöld) jelez, de a keresztező úton megkülönböztető fény- és hangjelzést együttesen használó mentőautó közeledik. Mit kell tennie?",
+      "answers": [
+        "Elsőbbséget kell adnia a mentőautónak, és lehetővé kell tennie akadálytalan továbbhaladását.",
+        "Áthaladhat, mert a zöld jelzés Önnek ad szabad utat.",
+        "Csak akkor kell elsőbbséget adnia, ha a mentőautó jobbról érkezik."
+      ],
+      "explanation": "A megkülönböztető jelzéseket (villogó kék fényt és szirénát) használó gépjármű részére minden járművel, minden helyzetben elsőbbséget kell adni, és akadálytalan továbbhaladását félrehúzódással, szükség esetén megállással lehetővé kell tenni."
+    },
+    "ua": {
+      "question": "Світлофор дозволяє Вам рух (зелений), але дорогою, що перетинається, наближається швидка допомога з увімкненими одночасно спеціальними світловим і звуковим сигналами. Що треба зробити?",
+      "answers": [
+        "Дати дорогу швидкій допомозі й забезпечити їй безперешкодний проїзд.",
+        "Проїхати, бо зелений сигнал дозволяє рух саме Вам.",
+        "Дати дорогу лише тоді, коли швидка наближається справа."
+      ],
+      "explanation": "Транспортному засобу, який використовує спеціальні сигнали (megkülönböztető jelzések: проблисковий синій маячок і сирену), усі мають давати дорогу в будь-якій ситуації та забезпечити йому безперешкодний проїзд — зміщенням убік, а за потреби й зупинкою."
+    },
+    "correct": 0
+  },
+  {
+    "id": "priority-005",
+    "topic": "priority",
+    "kreszRef": "KRESZ 31. § (5) c)",
+    "points": 3,
+    "hu": {
+      "question": "Útkereszteződésben balra kanyarodik. Szemből egy jármű érkezik, amely jobbra kanyarodik – ugyanarra az útra, amelyre Ön. Kinek van elsőbbsége?",
+      "answers": [
+        "A szemből érkező, jobbra bekanyarodó járműnek.",
+        "Önnek, mert Ön kezdte meg előbb a bekanyarodást.",
+        "Annak, amelyik nagyobb sebességgel közeledik."
+      ],
+      "explanation": "Balra bekanyarodó járművel elsőbbséget kell adni az úttesten szemből érkező és egyenesen továbbhaladó vagy jobbra bekanyarodó jármű részére."
+    },
+    "ua": {
+      "question": "Ви повертаєте ліворуч на перехресті. Назустріч їде транспортний засіб, який повертає праворуч — на ту саму дорогу, що й Ви. Хто має перевагу?",
+      "answers": [
+        "Зустрічний транспортний засіб, який повертає праворуч.",
+        "Ви, бо почали поворот раніше.",
+        "Той, хто наближається з більшою швидкістю."
+      ],
+      "explanation": "Той, хто повертає ліворуч, повинен дати дорогу зустрічному транспортному засобу, який їде прямо або повертає праворуч."
+    },
+    "correct": 0
+  },
+  {
+    "id": "priority-006",
+    "topic": "priority",
+    "kreszRef": "KRESZ 31. § (5) a); 43. § (1)",
+    "points": 3,
+    "hu": {
+      "question": "Útkereszteződésben jobbra kanyarodik. Azon az úttesten, amelyre bekanyarodik, gyalogos halad át; kijelölt gyalogosátkelőhely nincs. Mi a teendő?",
+      "answers": [
+        "Elsőbbséget kell adnia a gyalogosnak.",
+        "A gyalogosnak kell megvárnia, amíg Ön elhalad, mert nincs kijelölt gyalogosátkelőhely.",
+        "Hangjelzéssel figyelmeztetheti a gyalogost, és továbbhaladhat."
+      ],
+      "explanation": "Útkereszteződésnél a bekanyarodó járművel – kijelölt gyalogosátkelőhely hiányában is – elsőbbséget kell adni a gyalogosnak, ha azon az úttesten halad át, amelyre a jármű bekanyarodik."
+    },
+    "ua": {
+      "question": "Ви повертаєте праворуч на перехресті. Проїзну частину, на яку Ви повертаєте, переходить пішохід; позначеного пішохідного переходу немає. Що робити?",
+      "answers": [
+        "Дати дорогу пішоходу.",
+        "Пішохід має зачекати, доки Ви проїдете, бо позначеного переходу немає.",
+        "Попередити пішохода звуковим сигналом і їхати далі."
+      ],
+      "explanation": "На перехресті транспортний засіб, що повертає, повинен дати дорогу пішоходу, який переходить проїзну частину, на яку цей транспортний засіб повертає, — навіть якщо позначеного пішохідного переходу там немає."
+    },
+    "correct": 0
+  },
+  {
+    "id": "priority-007",
+    "topic": "priority",
+    "kreszRef": "KRESZ 24. § (1)–(2)",
+    "points": 3,
+    "hu": {
+      "question": "Az úttest szélén álló járművével el akar indulni. Mi a kötelessége?",
+      "answers": [
+        "Elsőbbséget kell adnia az úttesten haladó járműveknek és gyalogosoknak, és az elindulást irányjelzéssel jeleznie kell.",
+        "Irányjelzés után az úttesten haladóknak kell lassítaniuk, hogy Ön besorolhasson.",
+        "Csak a mögötte, azonos irányban haladó tehergépkocsiknak kell elsőbbséget adnia."
+      ],
+      "explanation": "Az úttest széléről elinduló (várakozóhelyről, az út más részéről vagy útnak nem minősülő területről az úttestre ráhajtó) jármű vezetőjének elsőbbséget kell adnia az úttesten haladó járművek és gyalogosok részére. Az elindulást irányjelzéssel jelezni kell."
+    },
+    "ua": {
+      "question": "Ви хочете почати рух від краю проїзної частини. Який Ваш обов'язок?",
+      "answers": [
+        "Дати дорогу транспортним засобам і пішоходам, що рухаються проїзною частиною, і позначити початок руху покажчиком повороту.",
+        "Після ввімкнення покажчика повороту ті, хто їде проїзною частиною, мають пригальмувати, щоб Ви могли вбудуватися.",
+        "Дати дорогу лише вантажівкам, що їдуть позаду в тому самому напрямку."
+      ],
+      "explanation": "Водій, який починає рух від краю проїзної частини (виїжджає з місця стоянки, з іншої частини дороги чи з території, що не є дорогою), повинен дати дорогу транспортним засобам і пішоходам, що рухаються проїзною частиною. Початок руху треба позначити покажчиком повороту."
+    },
+    "correct": 0
+  },
+  {
+    "id": "priority-008",
+    "topic": "priority",
+    "kreszRef": "KRESZ 32. § (3)",
+    "points": 3,
+    "hu": {
+      "question": "Az úttest mindkét irányból belátható szakaszon egy forgalmi sávra szűkül, közúti jelzés nincs. A szembejövő járművek közül melyiknek van elsőbbsége?",
+      "answers": [
+        "Annak, amelyik útját irányváltoztatás nélkül tudja folytatni.",
+        "Annak, amelyik előbb ad fényjelzést.",
+        "Mindig a nagyobb járműnek."
+      ],
+      "explanation": "Ha az úttest mindkét irányból belátható szakaszon egy forgalmi sávra szűkül, és a közúti jelzésekből más nem következik, annak a járműnek van elsőbbsége, amelyik útját irányváltoztatás nélkül tudja folytatni; a másik vezetőnek lassítással, szükség esetén megállással kell biztosítania az áthaladást."
+    },
+    "ua": {
+      "question": "На ділянці, яку видно з обох боків, проїзна частина звужується до однієї смуги; знаків і розмітки щодо цього немає. Хто із зустрічних транспортних засобів має перевагу?",
+      "answers": [
+        "Той, хто може продовжити рух без зміни напрямку.",
+        "Той, хто першим подасть світловий сигнал.",
+        "Завжди більший транспортний засіб."
+      ],
+      "explanation": "Якщо на ділянці, яку видно з обох боків, проїзна частина звужується до однієї смуги й дорожні знаки чи розмітка не вказують іншого, перевагу має той транспортний засіб, який може продовжити рух без зміни напрямку; інший водій повинен забезпечити проїзд, зменшивши швидкість, а за потреби зупинившись."
+    },
+    "correct": 0
+  },
+  {
+    "id": "priority-009",
+    "topic": "priority",
+    "kreszRef": "KRESZ 29. § (1)",
+    "points": 3,
+    "hu": {
+      "question": "Forgalmi sávot változtat. Kinek kell elsőbbséget adnia?",
+      "answers": [
+        "Az azonos irányban vagy szemben haladó, irányt nem változtató járműveknek.",
+        "Senkinek, ha az irányjelzést időben megkezdte.",
+        "Csak a szemből érkező járműveknek."
+      ],
+      "explanation": "Aki járművel irányt változtat (terelővonalat lép át, forgalmi sávot változtat, másik útra bekanyarodik stb.), köteles az azonos irányban vagy szemben haladó, irányt nem változtató járműveknek elsőbbséget adni. Az irányjelzés önmagában nem ad elsőbbséget."
+    },
+    "ua": {
+      "question": "Ви перестроюєтеся в іншу смугу руху. Кому треба дати дорогу?",
+      "answers": [
+        "Транспортним засобам, які їдуть у тому самому або зустрічному напрямку й не змінюють напрямку руху.",
+        "Нікому, якщо Ви вчасно ввімкнули покажчик повороту.",
+        "Лише зустрічним транспортним засобам."
+      ],
+      "explanation": "Хто змінює напрямок руху (перетинає лінію розмітки, перестроюється, повертає на іншу дорогу тощо), повинен дати дорогу транспортним засобам, які рухаються в тому самому або зустрічному напрямку й напрямку не змінюють. Сам по собі покажчик повороту переваги не дає."
+    },
+    "correct": 0
+  },
+  {
+    "id": "priority-010",
+    "topic": "priority",
+    "kreszRef": "KRESZ 43. § (1), (3)",
+    "points": 3,
+    "hu": {
+      "question": "Kijelölt gyalogosátkelőhelyhez közeledik. A szomszédos forgalmi sávban egy jármű megállt az átkelőhely előtt. Mit kell tennie?",
+      "answers": [
+        "Meg kell állnia a jármű mellett, és csak akkor haladhat tovább, ha meggyőződött arról, hogy ezzel a gyalogosok elsőbbségét nem sérti.",
+        "Lassítás nélkül elhaladhat mellette, ha a saját sávjában nem lát gyalogost.",
+        "Hangjelzést kell adnia, és elhaladhat az álló jármű mellett."
+      ],
+      "explanation": "Kijelölt gyalogosátkelőhelyen a gyalogosnak elsőbbsége van. Az átkelőhely előtt megálló vagy forgalmi okból álló jármű mellett meg kell állni, és továbbhaladni akkor szabad, ha a vezető meggyőződött arról, hogy azt a gyalogosok elsőbbségének megsértése nélkül megteheti."
+    },
+    "ua": {
+      "question": "Ви наближаєтеся до позначеного пішохідного переходу. У сусідній смузі транспортний засіб зупинився перед переходом. Що треба зробити?",
+      "answers": [
+        "Зупинитися поруч із ним і їхати далі лише тоді, коли переконаєтеся, що не порушите переваги пішоходів.",
+        "Проїхати повз нього, не зменшуючи швидкості, якщо у своїй смузі пішоходів не видно.",
+        "Подати звуковий сигнал і проїхати повз транспортний засіб, що стоїть."
+      ],
+      "explanation": "На позначеному пішохідному переході пішохід має перевагу. Поруч із транспортним засобом, який зупинився (або стоїть через дорожню обстановку) перед переходом, треба зупинитися, а їхати далі можна, лише переконавшись, що це не порушить переваги пішоходів."
+    },
+    "correct": 0
+  }
+]

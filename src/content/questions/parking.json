@@ -1,0 +1,207 @@
+[
+  {
+    "id": "parking-001",
+    "topic": "parking",
+    "kreszRef": "KRESZ 1. számú függelék III. d)–e)",
+    "hu": {
+      "question": "A vezető a járműnél marad, de nem be- vagy kiszállás és nem rakodás miatt áll meg. Legfeljebb mennyi ideig számít ez megállásnak?",
+      "answers": ["Legfeljebb 5 percig.", "Legfeljebb 10 percig.", "Legfeljebb 15 percig."],
+      "explanation": "Megállás: járművel a be- és kiszálláshoz vagy a folyamatos fel- és lerakáshoz szükséges ideig, illetőleg – ha a vezető a járműnél marad – egyéb okból legfeljebb 5 percig történő egy helyben tartózkodás. Az ennél hosszabb egy helyben tartózkodás várakozás."
+    },
+    "ua": {
+      "question": "Водій лишається біля транспортного засобу, але стоїть не для посадки чи висадки й не для завантаження. Скільки щонайбільше це вважається зупинкою (megállás)?",
+      "answers": ["Не довше 5 хвилин.", "Не довше 10 хвилин.", "Не довше 15 хвилин."],
+      "explanation": "Зупинка (megállás) — перебування на місці протягом часу, потрібного для посадки й висадки або безперервного завантаження й розвантаження, а якщо водій лишається біля транспортного засобу — з іншої причини не довше 5 хвилин. Довше перебування на місці — це стоянка (várakozás)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "parking-002",
+    "topic": "parking",
+    "kreszRef": "KRESZ 40. § (5) d)",
+    "hu": {
+      "question": "Az útkereszteződésnél az úttestek széleinek metszéspontjától számítva milyen távolságon belül tilos megállni, ha közúti jelzésből más nem következik?",
+      "answers": ["5 méteren belül.", "10 méteren belül.", "15 méteren belül."],
+      "explanation": "Tilos megállni körforgalmú úton, útkereszteződésben és az úttestek széleinek metszéspontjától számított 5 méter távolságon belül, ha a közúti jelzésből más nem következik."
+    },
+    "ua": {
+      "question": "На якій відстані від точки перетину країв проїзних частин біля перехрестя заборонено зупинку, якщо дорожні знаки чи розмітка не вказують іншого?",
+      "answers": ["У межах 5 метрів.", "У межах 10 метрів.", "У межах 15 метрів."],
+      "explanation": "Зупинку заборонено на дорозі з круговим рухом, на перехресті та ближче 5 метрів від точки перетину країв проїзних частин, якщо дорожні знаки чи розмітка не вказують іншого."
+    },
+    "correct": 0
+  },
+  {
+    "id": "parking-003",
+    "topic": "parking",
+    "kreszRef": "KRESZ 40. § (5) e)",
+    "image": "pedestrianCrossing",
+    "hu": {
+      "question": "Személygépkocsival a kijelölt gyalogosátkelőhely előtt milyen távolságon belül tilos megállni?",
+      "answers": ["5 méteren belül.", "10 méteren belül.", "15 méteren belül."],
+      "explanation": "Tilos megállni kijelölt gyalogosátkelőhelyen, valamint a gyalogosátkelőhely előtt személygépkocsival, motorkerékpárral, segédmotoros kerékpárral, kerékpárral és kézikocsival 5 méter, egyéb járművel 15 méter távolságon belül."
+    },
+    "ua": {
+      "question": "На якій відстані перед позначеним пішохідним переходом заборонено зупинку легковим автомобілем?",
+      "answers": ["Ближче 5 метрів.", "Ближче 10 метрів.", "Ближче 15 метрів."],
+      "explanation": "Зупинку заборонено на позначеному пішохідному переході, а також перед ним: легковим автомобілем, мотоциклом, мопедом, велосипедом і ручним візком — ближче 5 метрів, іншими транспортними засобами — ближче 15 метрів."
+    },
+    "correct": 0
+  },
+  {
+    "id": "parking-004",
+    "topic": "parking",
+    "kreszRef": "KRESZ 40. § (5) g)",
+    "image": "railwayBarrier",
+    "hu": {
+      "question": "A vasúti átjárótól számítva milyen távolságon belül tilos megállni?",
+      "answers": ["30 méteren belül.", "15 méteren belül.", "50 méteren belül."],
+      "explanation": "Tilos megállni vasúti átjáróban és attól számított 30 méter távolságon belül, valamint vasúti, illetőleg villamospályán és ezekhez olyan közel, hogy a jármű a vasúti jármű, illetőleg a villamos közlekedését akadályozza."
+    },
+    "ua": {
+      "question": "На якій відстані від залізничного переїзду заборонено зупинку?",
+      "answers": ["Ближче 30 метрів.", "Ближче 15 метрів.", "Ближче 50 метрів."],
+      "explanation": "Зупинку заборонено на залізничному переїзді та ближче 30 метрів від нього, а також на залізничній чи трамвайній колії та так близько до них, що транспортний засіб перешкоджав би руху поїзда чи трамвая."
+    },
+    "correct": 0
+  },
+  {
+    "id": "parking-005",
+    "topic": "parking",
+    "kreszRef": "KRESZ 40. § (5) h)",
+    "hu": {
+      "question": "Az autóbusz-megállóhelyet jelző tábla előtt és után milyen távolságon belül tilos más járművel megállni, ha útburkolati jelből más nem következik?",
+      "answers": [
+        "A tábla előtt 15 méter, utána 5 méter távolságon belül.",
+        "A tábla előtt 5 méter, utána 15 méter távolságon belül.",
+        "A tábla előtt és után egyaránt 10 méter távolságon belül."
+      ],
+      "explanation": "Tilos más járművel megállni a villamos, autóbusz vagy trolibusz megállóhelyet, illetőleg taxiállomást jelző tábla előtt 15 méter, utána 5 méter távolságon belül, kivéve, ha útburkolati jelből más következik."
+    },
+    "ua": {
+      "question": "На якій відстані до і після знака, що позначає автобусну зупинку, заборонено зупинку іншим транспортним засобам, якщо розмітка не вказує іншого?",
+      "answers": [
+        "Ближче 15 метрів до знака і 5 метрів після нього.",
+        "Ближче 5 метрів до знака і 15 метрів після нього.",
+        "Ближче 10 метрів і до, і після знака."
+      ],
+      "explanation": "Іншим транспортним засобам заборонено зупинку ближче 15 метрів до знака, що позначає зупинку трамвая, автобуса чи тролейбуса або стоянку таксі, і ближче 5 метрів після нього, якщо розмітка не вказує іншого."
+    },
+    "correct": 0
+  },
+  {
+    "id": "parking-006",
+    "topic": "parking",
+    "kreszRef": "KRESZ 40. § (1)",
+    "hu": {
+      "question": "Hol és hogyan szabad járművel megállni, ha közúti jelzésből vagy más szabályból más nem következik?",
+      "answers": [
+        "Az úttest menetirány szerinti jobb szélén, azzal párhuzamosan, egy sorban.",
+        "Az úttest bármelyik szélén, a menetiránytól függetlenül.",
+        "Az úttest jobb szélén, akár két sorban is, ha a forgalom gyér."
+      ],
+      "explanation": "Járművel megállni – ha közúti jelzésből vagy más rendelkezésből más nem következik – csak az úttest menetirány szerinti jobb szélén, azzal párhuzamosan, egy sorban szabad. A megállást irányjelzéssel jelezni kell."
+    },
+    "ua": {
+      "question": "Де і як дозволено зупинку, якщо дорожні знаки, розмітка чи інші правила не вказують іншого?",
+      "answers": [
+        "Біля правого за напрямком руху краю проїзної частини, паралельно до нього, в один ряд.",
+        "Біля будь-якого краю проїзної частини, незалежно від напрямку руху.",
+        "Біля правого краю проїзної частини, навіть у два ряди, якщо рух слабкий."
+      ],
+      "explanation": "Зупинятися дозволено — якщо знаки, розмітка чи інші норми не вказують іншого — лише біля правого за напрямком руху краю проїзної частини, паралельно до нього, в один ряд. Зупинку треба позначити покажчиком повороту."
+    },
+    "correct": 0
+  },
+  {
+    "id": "parking-007",
+    "topic": "parking",
+    "kreszRef": "KRESZ 40. § (2)",
+    "image": "oneWay",
+    "hu": {
+      "question": "Egyirányú forgalmú úton mikor szabad az úttest bal szélén megállni, ha közúti jelzésből más nem következik?",
+      "answers": [
+        "Ha a jármű mellett az úttest jobb széléig mérve legalább 5,5 méter szélességű hely marad.",
+        "Ha a jármű mellett legalább 3 méter szélességű hely marad.",
+        "Egyirányú forgalmú úton a bal szélen soha nem szabad megállni."
+      ],
+      "explanation": "Egyirányú forgalmú úton az úttest bal szélén – ha közúti jelzésből más nem következik – akkor szabad megállni, ha a jármű mellett az úttest jobb széléig mérve legalább 5,5 méter szélességű hely marad."
+    },
+    "ua": {
+      "question": "Коли на дорозі з одностороннім рухом дозволено зупинку біля лівого краю проїзної частини, якщо знаки чи розмітка не вказують іншого?",
+      "answers": [
+        "Якщо поруч із транспортним засобом до правого краю проїзної частини лишається щонайменше 5,5 метра.",
+        "Якщо поруч із транспортним засобом лишається щонайменше 3 метри.",
+        "На дорозі з одностороннім рухом біля лівого краю зупинятися не можна ніколи."
+      ],
+      "explanation": "На дорозі з одностороннім рухом зупинятися біля лівого краю проїзної частини дозволено — якщо знаки чи розмітка не вказують іншого — тоді, коли поруч із транспортним засобом до правого краю проїзної частини лишається щонайменше 5,5 метра."
+    },
+    "correct": 0
+  },
+  {
+    "id": "parking-008",
+    "topic": "parking",
+    "kreszRef": "KRESZ 41. § (2) b)",
+    "image": "mainRoad",
+    "hu": {
+      "question": "Szabad-e lakott területen kívül főútvonal úttestjén várakozni?",
+      "answers": [
+        "Nem, lakott területen kívül főútvonal úttestjén várakozni tilos.",
+        "Igen, ha a jármű teljesen az úttest jobb széléhez húzódik.",
+        "Igen, de legfeljebb egy óráig."
+      ],
+      "explanation": "Tilos várakozni lakott területen kívül főútvonal úttestjén. Lakott területen kívül járművel megállni is – a lehetőséghez képest – az úttesten kívül kell."
+    },
+    "ua": {
+      "question": "Чи дозволена стоянка (várakozás) на проїзній частині головної дороги (főútvonal) поза населеним пунктом?",
+      "answers": [
+        "Ні, поза населеним пунктом стоянку на проїзній частині головної дороги заборонено.",
+        "Так, якщо транспортний засіб стоїть упритул до правого краю проїзної частини.",
+        "Так, але не довше однієї години."
+      ],
+      "explanation": "Стоянку заборонено на проїзній частині головної дороги (főútvonal) поза населеним пунктом. Поза населеним пунктом навіть зупинятися слід, за можливості, поза проїзною частиною."
+    },
+    "correct": 0
+  },
+  {
+    "id": "parking-009",
+    "topic": "parking",
+    "kreszRef": "KRESZ 40. § (8)",
+    "hu": {
+      "question": "Jelzőtábla megengedi a járdán való megállást. Legalább mekkora helynek kell a járdán a gyalogosok közlekedésére szabadon maradnia?",
+      "answers": ["Legalább 1,5 méternek.", "Legalább 1 méternek.", "Legalább 0,75 méternek."],
+      "explanation": "A járdán csak akkor szabad megállni, ha azt jelzőtábla vagy útburkolati jel megengedi, a jármű a járda szélességének legfeljebb a felét foglalja el, a járdán a gyalogosok közlekedésére legalább 1,5 méter szabadon marad, és a jármű tengelyterhelése az 1000 kg-ot nem haladja meg."
+    },
+    "ua": {
+      "question": "Знак дозволяє зупинку на тротуарі. Скільки щонайменше місця має лишитися на тротуарі для руху пішоходів?",
+      "answers": ["Щонайменше 1,5 метра.", "Щонайменше 1 метр.", "Щонайменше 0,75 метра."],
+      "explanation": "На тротуарі дозволено зупинятися лише тоді, коли це дозволяє знак або розмітка, транспортний засіб займає не більше половини ширини тротуару, для пішоходів лишається щонайменше 1,5 метра, а навантаження на вісь транспортного засобу не перевищує 1000 кг."
+    },
+    "correct": 0
+  },
+  {
+    "id": "parking-010",
+    "topic": "parking",
+    "kreszRef": "KRESZ 37. § (4)",
+    "image": "motorway",
+    "hu": {
+      "question": "Megállhat-e az autópálya leállósávján, hogy pihenjen vagy telefonáljon?",
+      "answers": [
+        "Nem; a leállósávon megállni például akkor szabad, ha a jármű műszaki meghibásodás miatt továbbhaladásra képtelen.",
+        "Igen, legfeljebb 5 percig.",
+        "Igen, ha közben bekapcsolja az elakadásjelzőt."
+      ],
+      "explanation": "Autópálya és autóút úttestjén – a forgalmi okból szükséges megállást kivéve – megállni tilos. A leállósávon megállni vagy várakozni is tilos, kivéve például, ha a jármű műszaki meghibásodás miatt továbbhaladásra képtelen."
+    },
+    "ua": {
+      "question": "Чи можна зупинитися на смузі для аварійної зупинки (leállósáv) автомагістралі, щоб відпочити чи поговорити телефоном?",
+      "answers": [
+        "Ні; зупинятися на цій смузі дозволено, наприклад, тоді, коли транспортний засіб через технічну несправність не може їхати далі.",
+        "Так, не довше 5 хвилин.",
+        "Так, якщо ввімкнути аварійну сигналізацію."
+      ],
+      "explanation": "На проїзній частині автомагістралі (autópálya) та дороги для автомобілів (autóút) зупинку заборонено, крім вимушеної дорожньою обстановкою. На смузі для аварійної зупинки (leállósáv) зупинку й стоянку також заборонено, крім, наприклад, випадку, коли транспортний засіб через технічну несправність не може їхати далі."
+    },
+    "correct": 0
+  }
+]
