@@ -34,6 +34,8 @@ export interface Topic {
 export interface CardText {
   /** Лицьовий бік. Можна лишити порожнім, якщо є image (картка-знак). */
   front: string
+  /** Коротка назва (для карток-знаків — назва знака; показується в довіднику знаків). */
+  title?: string
   back: string
 }
 

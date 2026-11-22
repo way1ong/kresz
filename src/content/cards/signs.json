@@ -6,10 +6,12 @@
     "kreszRef": "KRESZ 11. § (1) a); 26. § (1); 37. §",
     "hu": {
       "front": "",
+      "title": "Autópálya",
       "back": "„Autópálya” – Jelzőtáblával autópályaként megjelölt osztottpályás út. Személygépkocsival legfeljebb 130 km/óra; megállni, megfordulni és hátramenetet végezni tilos."
     },
     "ua": {
       "front": "",
+      "title": "Автомагістраль",
       "back": "«Автомагістраль» (Autópálya) — Позначена знаком дорога з розділеними проїзними частинами. Легковим автомобілем — не швидше 130 км/год; зупинку, розворот і рух заднім ходом заборонено."
     }
   },
@@ -20,10 +22,12 @@
     "kreszRef": "KRESZ 11. § (1) c); 26. § (1); 37. §",
     "hu": {
       "front": "",
+      "title": "Autóút",
       "back": "„Autóút” – Jelzőtáblával autóútként megjelölt út. Személygépkocsival legfeljebb 110 km/óra; megállni, megfordulni és hátramenetet végezni tilos."
     },
     "ua": {
       "front": "",
+      "title": "Дорога для автомобілів",
       "back": "«Дорога для автомобілів» (Autóút) — Дорога, позначена знаком як autóút. Легковим автомобілем — не швидше 110 км/год; зупинку, розворот і рух заднім ходом заборонено."
     }
   },
@@ -34,10 +38,12 @@
     "kreszRef": "KRESZ 11. § (1) e); 41. § (2) b)",
     "hu": {
       "front": "",
+      "title": "Főútvonal",
       "back": "„Főútvonal” – Jelzőtáblával főútvonalként megjelölt út. Lakott területen kívül az úttestjén várakozni tilos."
     },
     "ua": {
       "front": "",
+      "title": "Головна дорога",
       "back": "«Головна дорога» (Főútvonal) — Дорога, позначена знаком як головна. Поза населеним пунктом стоянку на її проїзній частині заборонено."
     }
   },
@@ -48,10 +54,12 @@
     "kreszRef": "KRESZ 11. § (1) f)",
     "hu": {
       "front": "",
+      "title": "Főútvonal vége",
       "back": "„Főútvonal vége” – A főútvonal véget ér. A következő útkereszteződésekben az elsőbbséget a közúti jelzések, ezek hiányában az általános szabályok határozzák meg."
     },
     "ua": {
       "front": "",
+      "title": "Кінець головної дороги",
       "back": "«Кінець головної дороги» (Főútvonal vége) — Головна дорога закінчується. На наступних перехрестях перевагу визначають знаки, а якщо їх немає — загальні правила."
     }
   },
@@ -62,10 +70,12 @@
     "kreszRef": "KRESZ 12. § (1) a)",
     "hu": {
       "front": "",
+      "title": "Elsőbbségadás kötelező",
       "back": "„Elsőbbségadás kötelező” – Az útkereszteződésben elsőbbséget kell adni a keresztező (betorkolló) úton érkező jármű részére."
     },
     "ua": {
       "front": "",
+      "title": "Дати дорогу",
       "back": "«Дати дорогу» (Elsőbbségadás kötelező) — На перехресті треба дати дорогу транспортному засобу, що рухається дорогою, яку перетинаєте (до якої прилягаєте)."
     }
   },
@@ -76,10 +86,12 @@
     "kreszRef": "KRESZ 12. § (1) b)",
     "hu": {
       "front": "",
+      "title": "ÁLLJ! Elsőbbségadás kötelező",
       "back": "„ÁLLJ! Elsőbbségadás kötelező” – Az útkereszteződésnél – a megállás helyét jelző útburkolati jel előtt, ennek hiányában a behaladás előtt – meg kell állni, és elsőbbséget kell adni a keresztező úton érkező jármű részére."
     },
     "ua": {
       "front": "",
+      "title": "СТІЙ! Дати дорогу",
       "back": "«СТІЙ! Дати дорогу» (ÁLLJ! Elsőbbségadás kötelező) — Біля перехрестя треба зупинитися — перед розміткою місця зупинки, а якщо її немає, перед в'їздом на перехрестя — і дати дорогу транспорту на дорозі, що перетинається."
     }
   },
@@ -90,10 +102,12 @@
     "kreszRef": "KRESZ 12. § (1) c)",
     "hu": {
       "front": "",
+      "title": "A szembejövő forgalom elsőbbsége",
       "back": "„A szembejövő forgalom elsőbbsége” – Az útszűkületben elsőbbséget kell adni a szembejövő jármű részére."
     },
     "ua": {
       "front": "",
+      "title": "Перевага зустрічного руху",
       "back": "«Перевага зустрічного руху» (A szembejövő forgalom elsőbbsége) — На звуженій ділянці треба дати дорогу зустрічному транспортному засобу."
     }
   },
@@ -104,10 +118,12 @@
     "kreszRef": "KRESZ 12. § (1) d)",
     "hu": {
       "front": "",
+      "title": "Elsőbbség a szembejövő forgalommal szemben",
       "back": "„Elsőbbség a szembejövő forgalommal szemben” – Az útszűkületben a járműnek elsőbbsége van a szembejövő járművel szemben."
     },
     "ua": {
       "front": "",
+      "title": "Перевага перед зустрічним рухом",
       "back": "«Перевага перед зустрічним рухом» (Elsőbbség a szembejövő forgalommal szemben) — На звуженій ділянці Ваш транспортний засіб має перевагу перед зустрічним."
     }
   },
@@ -118,10 +134,12 @@
     "kreszRef": "KRESZ 13. § (1) a)",
     "hu": {
       "front": "",
+      "title": "Kötelező haladási irány",
       "back": "„Kötelező haladási irány” – Az útkereszteződésben a táblán lévő nyíl által jelzett irányban (itt: egyenesen) kell továbbhaladni."
     },
     "ua": {
       "front": "",
+      "title": "Обов'язковий напрямок руху",
       "back": "«Обов'язковий напрямок руху» (Kötelező haladási irány) — На перехресті треба їхати в напрямку, який показує стрілка (тут — прямо)."
     }
   },
@@ -132,10 +150,12 @@
     "kreszRef": "KRESZ 13. § (1) a)",
     "hu": {
       "front": "",
+      "title": "Kötelező haladási irány",
       "back": "„Kötelező haladási irány” – Az útkereszteződésben a táblán lévő nyíl által jelzett irányban (itt: jobbra) kell továbbhaladni."
     },
     "ua": {
       "front": "",
+      "title": "Обов'язковий напрямок руху",
       "back": "«Обов'язковий напрямок руху» (Kötelező haladási irány) — На перехресті треба їхати в напрямку, який показує стрілка (тут — праворуч)."
     }
   },
@@ -146,10 +166,12 @@
     "kreszRef": "KRESZ 13. § (1) b)",
     "hu": {
       "front": "",
+      "title": "Kikerülési irány",
       "back": "„Kikerülési irány” – A táblát – illetőleg azt az akadályt, amelyen elhelyezték – a nyíl által jelzett irányban kell kikerülni."
     },
     "ua": {
       "front": "",
+      "title": "Напрямок об'їзду",
       "back": "«Напрямок об'їзду» (Kikerülési irány) — Знак (або перешкоду, на якій його встановлено) треба об'їжджати з боку, на який показує стрілка."
     }
   },
@@ -160,10 +182,12 @@
     "kreszRef": "KRESZ 13. § (1) c)",
     "hu": {
       "front": "",
+      "title": "Körforgalom",
       "back": "„Körforgalom” – Olyan út, amelyen úgy kell haladni, hogy az út által körbezárt terület a vezetőtől balra essék."
     },
     "ua": {
       "front": "",
+      "title": "Круговий рух",
       "back": "«Круговий рух» (Körforgalom) — Дорога, якою треба рухатися так, щоб оточена нею територія залишалася ліворуч від водія."
     }
   },
@@ -174,10 +198,12 @@
     "kreszRef": "KRESZ 13. § (1) d)",
     "hu": {
       "front": "",
+      "title": "Kötelező legkisebb sebesség",
       "back": "„Kötelező legkisebb sebesség” – Az úton legalább a táblán megjelölt sebességgel kell haladni – kivéve, ha ez az út-, a forgalmi, az időjárási vagy a látási viszonyok miatt veszélyes lenne."
     },
     "ua": {
       "front": "",
+      "title": "Обов'язкова мінімальна швидкість",
       "back": "«Обов'язкова мінімальна швидкість» (Kötelező legkisebb sebesség) — Їхати треба не повільніше, ніж зазначено на знаку, — крім випадків, коли через дорожні, погодні умови, обстановку чи видимість це було б небезпечно."
     }
   },
@@ -188,10 +214,12 @@
     "kreszRef": "KRESZ 14. § (1) b)",
     "hu": {
       "front": "",
+      "title": "Balra bekanyarodni tilos",
       "back": "„Balra bekanyarodni tilos” – Az útkereszteződésben megfordulni és balra bekanyarodni tilos."
     },
     "ua": {
       "front": "",
+      "title": "Поворот ліворуч заборонено",
       "back": "«Поворот ліворуч заборонено» (Balra bekanyarodni tilos) — На перехресті заборонено і поворот ліворуч, і розворот."
     }
   },
@@ -202,10 +230,12 @@
     "kreszRef": "KRESZ 14. § (1) c)",
     "hu": {
       "front": "",
+      "title": "Megfordulni tilos",
       "back": "„Megfordulni tilos” – Az úton megfordulni tilos."
     },
     "ua": {
       "front": "",
+      "title": "Розворот заборонено",
       "back": "«Розворот заборонено» (Megfordulni tilos) — На дорозі заборонено розворот."
     }
   },
@@ -216,10 +246,12 @@
     "kreszRef": "KRESZ 14. § (1) d); 14. § (6)",
     "hu": {
       "front": "",
+      "title": "Sebességkorlátozás",
       "back": "„Sebességkorlátozás” – A táblán megjelöltnél nagyobb sebességgel haladni tilos. Hatálya a következő útkereszteződés kezdetéig tart, ha kiegészítő vagy feloldó tábla mást nem jelez."
     },
     "ua": {
       "front": "",
+      "title": "Обмеження швидкості",
       "back": "«Обмеження швидкості» (Sebességkorlátozás) — Заборонено їхати швидше, ніж зазначено на знаку. Діє до початку наступного перехрестя, якщо додаткова табличка чи знак скасування не вказує іншого."
     }
   },
@@ -230,10 +262,12 @@
     "kreszRef": "KRESZ 14. § (1) f)",
     "hu": {
       "front": "",
+      "title": "Előzni tilos",
       "back": "„Előzni tilos” – Az úton előzni tilos. Nem vonatkozik például kétkerekű motorkerékpár, segédmotoros kerékpár és kerékpár gépjárművel való előzésére."
     },
     "ua": {
       "front": "",
+      "title": "Обгін заборонено",
       "back": "«Обгін заборонено» (Előzni tilos) — Обгін на дорозі заборонено. Не стосується, зокрема, обгону механічним транспортним засобом двоколісного мотоцикла, мопеда й велосипеда."
     }
   },
@@ -244,10 +278,12 @@
     "kreszRef": "KRESZ 14. § (1) n)",
     "hu": {
       "front": "",
+      "title": "Mindkét irányból behajtani tilos",
       "back": "„Mindkét irányból behajtani tilos” – Az útra mindkét irányból tilos behajtani."
     },
     "ua": {
       "front": "",
+      "title": "Рух заборонено (в'їзд заборонено з обох напрямків)",
       "back": "«Рух заборонено (в'їзд заборонено з обох напрямків)» (Mindkét irányból behajtani tilos) — В'їзд на дорогу заборонено з обох напрямків."
     }
   },
@@ -258,10 +294,12 @@
     "kreszRef": "KRESZ 14. § (1) z)",
     "hu": {
       "front": "",
+      "title": "Behajtani tilos",
       "back": "„Behajtani tilos” – Az egyirányú forgalmú útra ebből az irányból behajtani tilos."
     },
     "ua": {
       "front": "",
+      "title": "В'їзд заборонено",
       "back": "«В'їзд заборонено» (Behajtani tilos) — На дорогу з одностороннім рухом заборонено в'їжджати з цього напрямку."
     }
   },
@@ -272,10 +310,12 @@
     "kreszRef": "KRESZ 15. § (1) a)",
     "hu": {
       "front": "",
+      "title": "Megállni tilos",
       "back": "„Megállni tilos” – A forgalmi vagy műszaki okból szükséges megállást kivéve megállni, valamint várakozni tilos."
     },
     "ua": {
       "front": "",
+      "title": "Зупинку заборонено",
       "back": "«Зупинку заборонено» (Megállni tilos) — Заборонено і зупинку, і стоянку — крім зупинки, вимушеної дорожньою обстановкою чи технічною причиною."
     }
   },
@@ -286,10 +326,12 @@
     "kreszRef": "KRESZ 15. § (1) b)",
     "hu": {
       "front": "",
+      "title": "Várakozni tilos",
       "back": "„Várakozni tilos” – Várakozni tilos; megállni (például be- és kiszálláshoz) szabad."
     },
     "ua": {
       "front": "",
+      "title": "Стоянку заборонено",
       "back": "«Стоянку заборонено» (Várakozni tilos) — Стоянку (várakozás) заборонено; зупинка (наприклад, для посадки чи висадки) дозволена."
     }
   },
@@ -300,10 +342,12 @@
     "kreszRef": "KRESZ 16. § (1) a)",
     "hu": {
       "front": "",
+      "title": "Veszélyes útkanyarulat balra",
       "back": "„Veszélyes útkanyarulat balra” – Az úton balra vezető veszélyes útkanyarulat következik."
     },
     "ua": {
       "front": "",
+      "title": "Небезпечний поворот ліворуч",
       "back": "«Небезпечний поворот ліворуч» (Veszélyes útkanyarulat balra) — Попереду небезпечний поворот дороги ліворуч."
     }
   },
@@ -314,10 +358,12 @@
     "kreszRef": "KRESZ 16. § (1) d)",
     "hu": {
       "front": "",
+      "title": "Útszűkület",
       "back": "„Útszűkület” – Az úttest szélessége a megelőző útszakaszhoz képest számottevően csökken."
     },
     "ua": {
       "front": "",
+      "title": "Звуження дороги",
       "back": "«Звуження дороги» (Útszűkület) — Ширина проїзної частини помітно зменшується порівняно з попередньою ділянкою."
     }
   },
@@ -328,10 +374,12 @@
     "kreszRef": "KRESZ 16. § (1) e)",
     "hu": {
       "front": "",
+      "title": "Szembejövő forgalom",
       "back": "„Szembejövő forgalom” – Az úton – a korábbi forgalmi rendtől vagy a megelőző útszakasz egyirányú forgalmától eltérően – kétirányú forgalom van."
     },
     "ua": {
       "front": "",
+      "title": "Зустрічний рух",
       "back": "«Зустрічний рух» (Szembejövő forgalom) — На дорозі — на відміну від попередньої ділянки з одностороннім рухом чи попередньої організації руху — двосторонній рух."
     }
   },
@@ -342,10 +390,12 @@
     "kreszRef": "KRESZ 16. § (1) h)",
     "hu": {
       "front": "",
+      "title": "Bukkanó",
       "back": "„Bukkanó” – Az úton a domborzati viszonyok miatt a kilátás korlátozott."
     },
     "ua": {
       "front": "",
+      "title": "Перелом профілю дороги («горб»)",
       "back": "«Перелом профілю дороги («горб»)» (Bukkanó) — Через рельєф оглядовість на дорозі обмежена."
     }
   },
@@ -356,10 +406,12 @@
     "kreszRef": "KRESZ 16. § (1) i)",
     "hu": {
       "front": "",
+      "title": "Egyenetlen úttest",
       "back": "„Egyenetlen úttest” – Az úttest a megelőző útszakaszéhoz képest lényegesen rosszabb állapotban van, vagy sebességcsökkentő bordákat (küszöböket) alakítottak ki rajta."
     },
     "ua": {
       "front": "",
+      "title": "Нерівна дорога",
       "back": "«Нерівна дорога» (Egyenetlen úttest) — Проїзна частина значно гірша, ніж на попередній ділянці, або на ній влаштовано пристрої примусового зниження швидкості."
     }
   },
@@ -370,10 +422,12 @@
     "kreszRef": "KRESZ 16. § (1) j)",
     "hu": {
       "front": "",
+      "title": "Csúszós úttest",
       "back": "„Csúszós úttest” – Az úttest erősen csúszóssá válhat."
     },
     "ua": {
       "front": "",
+      "title": "Слизька дорога",
       "back": "«Слизька дорога» (Csúszós úttest) — Проїзна частина може стати дуже слизькою."
     }
   },
@@ -384,10 +438,12 @@
     "kreszRef": "KRESZ 16. § (1) p)",
     "hu": {
       "front": "",
+      "title": "Gyalogosátkelés",
       "back": "„Gyalogosátkelés” – Az úttesten útburkolati jellel kijelölt gyalogosátkelőhely van."
     },
     "ua": {
       "front": "",
+      "title": "Пішохідний перехід (попереджувальний знак)",
       "back": "«Пішохідний перехід (попереджувальний знак)» (Gyalogosátkelés) — Попереду на проїзній частині пішохідний перехід, позначений розміткою."
     }
   },
@@ -398,10 +454,12 @@
     "kreszRef": "KRESZ 16. § (1) s)",
     "hu": {
       "front": "",
+      "title": "Forgalomirányító fényjelző készülék",
       "back": "„Forgalomirányító fényjelző készülék” – Az úton járművek forgalmát irányító fényjelző készülék van."
     },
     "ua": {
       "front": "",
+      "title": "Світлофорне регулювання",
       "back": "«Світлофорне регулювання» (Forgalomirányító fényjelző készülék) — Попереду світлофор, що регулює рух транспортних засобів."
     }
   },
@@ -412,10 +470,12 @@
     "kreszRef": "KRESZ 16. § (1) t)",
     "hu": {
       "front": "",
+      "title": "Egyenrangú utak kereszteződése",
       "back": "„Egyenrangú utak kereszteződése” – Olyan útkereszteződés következik, amelyben a jobbról érkező járműnek van elsőbbsége."
     },
     "ua": {
       "front": "",
+      "title": "Перехрещення рівнозначних доріг",
       "back": "«Перехрещення рівнозначних доріг» (Egyenrangú utak kereszteződése) — Попереду перехрестя, на якому перевагу має транспортний засіб, що наближається справа."
     }
   },
@@ -426,10 +486,12 @@
     "kreszRef": "KRESZ 16. § (1) u)",
     "hu": {
       "front": "",
+      "title": "Útkereszteződés alárendelt úttal",
       "back": "„Útkereszteződés alárendelt úttal” – Olyan útkereszteződés következik, amelyben a járműnek elsőbbsége van a keresztező úton érkező járművel szemben."
     },
     "ua": {
       "front": "",
+      "title": "Перехрещення з другорядною дорогою",
       "back": "«Перехрещення з другорядною дорогою» (Útkereszteződés alárendelt úttal) — Попереду перехрестя, на якому Ви маєте перевагу перед транспортом на дорозі, що перетинається."
     }
   },
@@ -440,10 +502,12 @@
     "kreszRef": "KRESZ 16. § (1) v)",
     "hu": {
       "front": "",
+      "title": "Sorompó nélküli vasúti átjáró",
       "back": "„Sorompó nélküli vasúti átjáró” – Olyan vasúti átjáró következik, amelynél teljes vagy félsorompó nincs felszerelve."
     },
     "ua": {
       "front": "",
+      "title": "Залізничний переїзд без шлагбаума",
       "back": "«Залізничний переїзд без шлагбаума» (Sorompó nélküli vasúti átjáró) — Попереду залізничний переїзд, не обладнаний ні повним шлагбаумом, ні напівшлагбаумом."
     }
   },
@@ -454,10 +518,12 @@
     "kreszRef": "KRESZ 16. § (1) x)",
     "hu": {
       "front": "",
+      "title": "Sorompóval biztosított vasúti átjáró",
       "back": "„Sorompóval biztosított vasúti átjáró” – Teljes vagy félsorompóval biztosított vasúti átjáró következik."
     },
     "ua": {
       "front": "",
+      "title": "Залізничний переїзд зі шлагбаумом",
       "back": "«Залізничний переїзд зі шлагбаумом» (Sorompóval biztosított vasúti átjáró) — Попереду залізничний переїзд із повним шлагбаумом або напівшлагбаумом."
     }
   },
@@ -468,10 +534,12 @@
     "kreszRef": "KRESZ 16. § (1) z)",
     "hu": {
       "front": "",
+      "title": "Egyéb veszély",
       "back": "„Egyéb veszély” – Az úton más veszélyt jelző táblával nem jelezhető veszély van; fajtáját a kiegészítő tábla tünteti fel."
     },
     "ua": {
       "front": "",
+      "title": "Інша небезпека",
       "back": "«Інша небезпека» (Egyéb veszély) — На дорозі небезпека, яку не можна позначити іншим попереджувальним знаком; її вид показує додаткова табличка."
     }
   },
@@ -482,10 +550,12 @@
     "kreszRef": "KRESZ 17. § (1) a); 43. § (1)",
     "hu": {
       "front": "",
+      "title": "Kijelölt gyalogosátkelőhely",
       "back": "„Kijelölt gyalogosátkelőhely” – Az úttestet a táblánál útburkolati jellel kijelölt gyalogosátkelőhely keresztezi. Itt a gyalogosnak elsőbbséget kell adni."
     },
     "ua": {
       "front": "",
+      "title": "Пішохідний перехід",
       "back": "«Пішохідний перехід» (Kijelölt gyalogosátkelőhely) — Біля знака проїзну частину перетинає пішохідний перехід, позначений розміткою. Тут треба дати дорогу пішоходу."
     }
   },
@@ -496,10 +566,12 @@
     "kreszRef": "KRESZ 17. § (1) b); 33. § (2)",
     "hu": {
       "front": "",
+      "title": "Egyirányú forgalmú út",
       "back": "„Egyirányú forgalmú út” – Az úton a járművek csak egy irányban közlekedhetnek. Megfordulni tilos; hátramenet csak a beálláshoz szükséges mértékben végezhető."
     },
     "ua": {
       "front": "",
+      "title": "Дорога з одностороннім рухом",
       "back": "«Дорога з одностороннім рухом» (Egyirányú forgalmú út) — Транспортні засоби рухаються дорогою лише в одному напрямку. Розворот заборонено; задній хід — лише в обсязі, потрібному для паркування."
     }
   },
@@ -510,10 +582,12 @@
     "kreszRef": "KRESZ 17. § (1) c)",
     "hu": {
       "front": "",
+      "title": "Zsákutca",
       "back": "„Zsákutca” – Az út járművel nem átjárható (az útnak nincs folytatása)."
     },
     "ua": {
       "front": "",
+      "title": "Тупик",
       "back": "«Тупик» (Zsákutca) — Дорога не має наскрізного проїзду."
     }
   },
@@ -524,10 +598,12 @@
     "kreszRef": "KRESZ 17. § (1) e)",
     "hu": {
       "front": "",
+      "title": "Várakozóhely",
       "back": "„Várakozóhely” – A járművek kijelölt várakozóhelye. A kiegészítő tábla jelezheti az elhelyezkedés módját vagy azt, hogy a hely kiknek van fenntartva."
     },
     "ua": {
       "front": "",
+      "title": "Місце для стоянки",
       "back": "«Місце для стоянки» (Várakozóhely) — Позначене місце для стоянки транспортних засобів. Додаткова табличка може вказувати спосіб розташування або для кого місце зарезервовано."
     }
   },
@@ -538,10 +614,12 @@
     "kreszRef": "KRESZ 17. § (1) s); 26. § (1)",
     "hu": {
       "front": "",
+      "title": "Lakott terület kezdete",
       "back": "„Lakott terület kezdete” – Innen a lakott területre vonatkozó szabályok érvényesek, például személygépkocsival legfeljebb 50 km/óra."
     },
     "ua": {
       "front": "",
+      "title": "Початок населеного пункту",
       "back": "«Початок населеного пункту» (Lakott terület kezdete) — Звідси діють правила для населеного пункту, зокрема легковим автомобілем — не швидше 50 км/год."
     }
   },
@@ -552,10 +630,12 @@
     "kreszRef": "KRESZ 17. § (1) t); 26. § (1)",
     "hu": {
       "front": "",
+      "title": "Lakott terület vége",
       "back": "„Lakott terület vége” – A lakott terület véget ér; innen a lakott területen kívüli szabályok érvényesek."
     },
     "ua": {
       "front": "",
+      "title": "Кінець населеного пункту",
       "back": "«Кінець населеного пункту» (Lakott terület vége) — Населений пункт закінчується; далі діють правила для руху поза населеним пунктом."
     }
   },
@@ -566,10 +646,12 @@
     "kreszRef": "KRESZ 14. § (1) a)",
     "hu": {
       "front": "",
+      "title": "Jobbra bekanyarodni tilos",
       "back": "„Jobbra bekanyarodni tilos” – Az útkereszteződésben jobbra bekanyarodni tilos."
     },
     "ua": {
       "front": "",
+      "title": "Поворот праворуч заборонено",
       "back": "«Поворот праворуч заборонено» (Jobbra bekanyarodni tilos) — На перехресті заборонено повертати праворуч."
     }
   },
@@ -580,10 +662,12 @@
     "kreszRef": "KRESZ 14. § (7)",
     "hu": {
       "front": "",
+      "title": "Sebességkorlátozás vége",
       "back": "„Sebességkorlátozás vége” – Feloldja a „Sebességkorlátozás” tábla hatályát; innen az általános sebességhatárok érvényesek."
     },
     "ua": {
       "front": "",
+      "title": "Кінець обмеження швидкості",
       "back": "«Кінець обмеження швидкості» (Sebességkorlátozás vége) — Скасовує дію знака «Sebességkorlátozás»; далі діють загальні обмеження швидкості."
     }
   },
@@ -594,10 +678,12 @@
     "kreszRef": "KRESZ 14. § (7)",
     "hu": {
       "front": "",
+      "title": "Előzési tilalom vége",
       "back": "„Előzési tilalom vége” – Feloldja az „Előzni tilos” tábla hatályát."
     },
     "ua": {
       "front": "",
+      "title": "Кінець заборони обгону",
       "back": "«Кінець заборони обгону» (Előzési tilalom vége) — Скасовує дію знака «Előzni tilos»."
     }
   },
@@ -608,10 +694,12 @@
     "kreszRef": "KRESZ 14. § (7)",
     "hu": {
       "front": "",
+      "title": "Mozgó járművekre vonatkozó tilalmak vége",
       "back": "„Mozgó járművekre vonatkozó tilalmak vége” – Feloldja a megfordulási tilalom, a sebességkorlátozás, a legkisebb követési távolság és az előzési tilalmak tábláinak hatályát."
     },
     "ua": {
       "front": "",
+      "title": "Кінець заборон для транспорту, що рухається",
       "back": "«Кінець заборон для транспорту, що рухається» (Mozgó járművekre vonatkozó tilalmak vége) — Скасовує дію знаків заборони розвороту, обмеження швидкості, мінімальної дистанції та заборон обгону."
     }
   },
@@ -622,10 +710,12 @@
     "kreszRef": "KRESZ 14. § (1) r)",
     "hu": {
       "front": "",
+      "title": "Tehergépkocsival behajtani tilos",
       "back": "„Tehergépkocsival behajtani tilos” – Az útra tehergépkocsival – kivéve a legfeljebb 3500 kg megengedett legnagyobb össztömegű, zárt kocsiszekrényű tehergépkocsit –, valamint vontatóval, mezőgazdasági vontatóval és lassú járművel behajtani tilos."
     },
     "ua": {
       "front": "",
+      "title": "Рух вантажних автомобілів заборонено",
       "back": "«Рух вантажних автомобілів заборонено» (Tehergépkocsival behajtani tilos) — В'їзд заборонено вантажним автомобілям (крім вантажівок із закритим кузовом і дозволеною максимальною масою до 3500 кг), а також тягачам, сільськогосподарським тягачам і тихохідним транспортним засобам."
     }
   },
@@ -636,10 +726,12 @@
     "kreszRef": "KRESZ 14. § (1) v)",
     "hu": {
       "front": "",
+      "title": "Kerékpárral behajtani tilos",
       "back": "„Kerékpárral behajtani tilos” – Az útra kerékpárral behajtani tilos."
     },
     "ua": {
       "front": "",
+      "title": "Рух на велосипедах заборонено",
       "back": "«Рух на велосипедах заборонено» (Kerékpárral behajtani tilos) — В'їзд на дорогу на велосипеді заборонено."
     }
   },
@@ -650,10 +742,12 @@
     "kreszRef": "KRESZ 13. § (1) e)",
     "hu": {
       "front": "",
+      "title": "Kerékpárút",
       "back": "„Kerékpárút” – A kétkerekű kerékpárok közlekedésére kijelölt út; más jármű közlekedése rajta főszabályként tilos."
     },
     "ua": {
       "front": "",
+      "title": "Велосипедна доріжка",
       "back": "«Велосипедна доріжка» (Kerékpárút) — Дорога, призначена для руху двоколісних велосипедів; рух інших транспортних засобів нею за загальним правилом заборонено."
     }
   },
@@ -664,10 +758,12 @@
     "kreszRef": "KRESZ 13. § (1) g)",
     "hu": {
       "front": "",
+      "title": "Gyalogút",
       "back": "„Gyalogút” – A gyalogosok közlekedésére szolgáló önálló út; jármű közlekedése a gyalogúton tilos."
     },
     "ua": {
       "front": "",
+      "title": "Пішохідна доріжка",
       "back": "«Пішохідна доріжка» (Gyalogút) — Окрема дорога для руху пішоходів; рух транспортних засобів нею заборонено."
     }
   },
@@ -678,10 +774,12 @@
     "kreszRef": "KRESZ 16. § (1) q); 26. § (6)",
     "hu": {
       "front": "",
+      "title": "Gyermekek",
       "back": "„Gyermekek” – A gyermekeknek az úttestre lépésével fokozottan számolni kell. Ha a kiegészítő tábla távolságot jelöl meg, azon a szakaszon legfeljebb 30 km/óra sebességgel szabad haladni."
     },
     "ua": {
       "front": "",
+      "title": "Діти",
       "back": "«Діти» (Gyermekek) — Слід особливо зважати на те, що на проїзну частину можуть вийти діти. Якщо додаткова табличка вказує відстань, на цій ділянці дозволено їхати не швидше 30 км/год."
     }
   },
@@ -692,10 +790,12 @@
     "kreszRef": "KRESZ 16. § (4) a); 39. § (3)",
     "hu": {
       "front": "",
+      "title": "Vasúti átjáró kezdete",
       "back": "„Vasúti átjáró kezdete” – A vasúti átjáró kezdetét jelzi (András-kereszt). Ha meg kell állni, ennél a jelzésnél, illetve a megállás helyét jelző útburkolati jel előtt kell megállni."
     },
     "ua": {
       "front": "",
+      "title": "Початок залізничного переїзду",
       "back": "«Початок залізничного переїзду» (Vasúti átjáró kezdete) — Позначає початок залізничного переїзду (Андріївський хрест). Якщо треба зупинитися, зупиняються біля цього знака або перед лінією зупинки."
     }
   }

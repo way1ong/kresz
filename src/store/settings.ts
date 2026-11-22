@@ -14,9 +14,21 @@ export interface Settings {
   examMode: ExamMode
   /** У режимі HU+UA ховати український переклад питання, доки користувач сам його не відкриє. */
   peekTranslation: boolean
+  /** Коли востаннє збережено (або завантажено) файл із прогресом. */
+  lastBackupAt: number | null
+  /** До якого моменту відкладено нагадування про резервну копію. */
+  backupSnoozedUntil: number
 }
 
-const DEFAULTS: Settings = { lang: 'both', theme: 'system', examHuOnly: false, examMode: 'program', peekTranslation: false }
+const DEFAULTS: Settings = {
+  lang: 'both',
+  theme: 'system',
+  examHuOnly: false,
+  examMode: 'program',
+  peekTranslation: false,
+  lastBackupAt: null,
+  backupSnoozedUntil: 0,
+}
 
 export const settingsStore = createStore<Settings>(
   'kresz.settings.v1',

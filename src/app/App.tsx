@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { PwaToast } from '../components/PwaToast'
 import { CardDecksPage } from '../features/cards/CardDecksPage'
 import { CardReviewPage } from '../features/cards/CardReviewPage'
+import { SignGuidePage } from '../features/cards/SignGuidePage'
 import { ExamResultPage } from '../features/exam/ExamResultPage'
 import { ExamRunner } from '../features/exam/ExamRunner'
 import { ExamStartPage } from '../features/exam/ExamStartPage'
@@ -67,6 +68,7 @@ function renderPage(section: string, rest: string[]) {
   }
   if (section === 'cards') {
     if (rest.length === 0) return <CardDecksPage />
+    if (rest.length === 1 && rest[0] === 'guide') return <SignGuidePage />
     if (rest.length === 1) return <CardReviewPage key={rest[0]} deckId={rest[0]} />
   }
   return <NotFound />

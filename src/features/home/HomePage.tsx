@@ -1,16 +1,27 @@
 import { useState } from 'react'
 import { ProgressBar, Tile } from '../../components/ui'
+import { Link } from '../../app/router'
+import { BACKUP_CONFIG } from '../../config/backup'
 import { EXAM_CONFIG } from '../../config/exam'
 import { DECKS, QUESTIONS } from '../../content'
 import { Tx } from '../../i18n'
 import { useExamSession } from '../../store/exam'
 import { useProgress } from '../../store/progress'
+import { updateSettings, useSettings } from '../../store/settings'
 import { deckItems, dueItems, MISTAKES_DECK } from '../cards/decks'
 
 export function HomePage() {
   const progress = useProgress()
   const examSession = useExamSession()
   const [now] = useState(() => Date.now())
+  const settings = useSettings()
+
+  const DAY_MS = 24 * 60 * 60 * 1000
+  const answers = Object.values(progress.questions).reduce((sum, stat) => sum + stat.seen, 0)
+  const backupStale =
+    settings.lastBackupAt === null || now - settings.lastBackupAt > BACKUP_CONFIG.remindAfterDays * DAY_MS
+  const showBackupReminder =
+    answers >= BACKUP_CONFIG.minAnswers && backupStale && now >= settings.backupSnoozedUntil
 
   const done = QUESTIONS.filter((q) => progress.questions[q.id]).length
   const dueCards = [...DECKS.map((deck) => deck.id), MISTAKES_DECK].reduce(
@@ -30,6 +41,24 @@ export function HomePage() {
           <Tx k="home.progress" vars={{ done, total: QUESTIONS.length }} />
         </span>
       </section>
+
+      {showBackupReminder && (
+        <section className="notice stack">
+          <Tx k="home.backup.text" />
+          <div className="btn-row">
+            <button
+              type="button"
+              className="btn"
+              onClick={() => updateSettings({ backupSnoozedUntil: Date.now() + BACKUP_CONFIG.snoozeDays * DAY_MS })}
+            >
+              <Tx k="home.backup.later" primaryOnly />
+            </button>
+            <Link to="/settings" className="btn btn-primary">
+              <Tx k="home.backup.go" primaryOnly />
+            </Link>
+          </div>
+        </section>
+      )}
 
       {examSession && (
         <Tile to="/exam" icon="▶️" title={<Tx k="home.resumeExam" />} />

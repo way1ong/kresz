@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react'
 import { LangSwitch } from '../../components/LangSwitch'
-import { Tx, useT, type TKey } from '../../i18n'
+import { HTML_LANG, primaryLang, Tx, useT, type TKey } from '../../i18n'
+import { formatDate } from '../../lib/format'
 import { examStore } from '../../store/exam'
 import { progressStore, reviveProgress } from '../../store/progress'
 import { updateSettings, useSettings, type ThemeMode } from '../../store/settings'
@@ -19,6 +20,7 @@ function exportProgress() {
   link.download = `kresz-progress-${new Date().toISOString().slice(0, 10)}.json`
   link.click()
   URL.revokeObjectURL(url)
+  updateSettings({ lastBackupAt: Date.now() })
 }
 
 export function SettingsPage() {
@@ -33,6 +35,7 @@ export function SettingsPage() {
       const parsed: unknown = JSON.parse(await file.text())
       if (!parsed || typeof parsed !== 'object' || !('questions' in parsed)) throw new Error('not a progress file')
       progressStore.set(reviveProgress(parsed))
+      updateSettings({ lastBackupAt: Date.now() })
       setImportStatus('ok')
     } catch {
       setImportStatus('error')
@@ -98,6 +101,20 @@ export function SettingsPage() {
         </h2>
         <p className="muted small">
           <Tx k="settings.data.hint" />
+        </p>
+        <p className="muted small">
+          <Tx k="settings.data.safari" />
+        </p>
+        <p className="small">
+          {settings.lastBackupAt ? (
+            <Tx
+              k="settings.backup.last"
+              vars={{ date: formatDate(settings.lastBackupAt, HTML_LANG[primaryLang(settings.lang)]) }}
+              layout="inline"
+            />
+          ) : (
+            <Tx k="settings.backup.never" layout="inline" />
+          )}
         </p>
         <button type="button" className="btn" onClick={exportProgress}>
           <Tx k="settings.export" layout="inline" />

@@ -51,6 +51,7 @@ export function CardDecksPage() {
           </>
         }
       />
+      <Tile to="/cards/guide" icon="🗂️" title={<Tx k="gallery.title" layout="inline" />} desc={<Tx k="gallery.desc" />} />
       <p className="muted small">
         <Tx k="cards.leitnerInfo" />
       </p>
