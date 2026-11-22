@@ -132,6 +132,5 @@
 
   "pwa.offlineReady": "Застосунок готовий до роботи офлайн.",
   "pwa.updateAvailable": "Доступна нова версія.",
-  "pwa.reload": "Оновити",
-  "pwa.dismiss": "Закрити"
+  "pwa.reload": "Оновити"
 }

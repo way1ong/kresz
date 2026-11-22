@@ -132,6 +132,5 @@
 
   "pwa.offlineReady": "Az alkalmazás offline is használható.",
   "pwa.updateAvailable": "Új verzió érhető el.",
-  "pwa.reload": "Frissítés",
-  "pwa.dismiss": "Bezárás"
+  "pwa.reload": "Frissítés"
 }

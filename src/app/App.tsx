@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import { PwaToast } from '../components/PwaToast'
 import { HomePage } from '../features/home/HomePage'
 import { SettingsPage } from '../features/settings/SettingsPage'
 import { HTML_LANG, primaryLang, Tx } from '../i18n'
@@ -24,7 +25,12 @@ export function App() {
   }, [settings.lang])
 
   const [section = '', ...rest] = route
-  return <Layout section={section}>{renderPage(section, rest)}</Layout>
+  return (
+    <>
+      <Layout section={section}>{renderPage(section, rest)}</Layout>
+      <PwaToast />
+    </>
+  )
 }
 
 function renderPage(section: string, rest: string[]) {
