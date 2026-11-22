@@ -232,5 +232,138 @@
       "front": "Коли дозволено подавати звуковий сигнал?",
       "back": "У разі небезпеки ДТП — щоб йому запобігти, а також поза населеним пунктом — щоб попередити про намір обгону."
     }
+  },
+  {
+    "id": "rule-light-red-yellow",
+    "deck": "rules",
+    "image": "light-red-yellow",
+    "kreszRef": "KRESZ 9. § (4) e)",
+    "hu": {
+      "front": "Mit jelez a piros és a sárga fény együtt?",
+      "back": "A továbbhaladás tilalmát, és azt, hogy zöld fényjelzés következik."
+    },
+    "ua": {
+      "front": "Що означають червоний і жовтий сигнали разом?",
+      "back": "Заборону руху й те, що далі буде зелений сигнал."
+    }
+  },
+  {
+    "id": "rule-light-yellow",
+    "deck": "rules",
+    "image": "light-yellow",
+    "kreszRef": "KRESZ 9. § (4) c)",
+    "hu": {
+      "front": "Mi a teendő folyamatos sárga fénynél?",
+      "back": "Meg kell állni; ha biztonságosan megállni már nem lehet, az útkereszteződésen mielőbb át kell haladni."
+    },
+    "ua": {
+      "front": "Що робити на постійний жовтий сигнал?",
+      "back": "Зупинитися; якщо безпечно зупинитися вже неможливо — якнайшвидше проїхати перехрестя."
+    }
+  },
+  {
+    "id": "rule-light-flashing",
+    "deck": "rules",
+    "kreszRef": "KRESZ 9. § (4) f)",
+    "hu": {
+      "front": "Mit jelent a villogó sárga fény?",
+      "back": "Veszélyes helyre hívja fel a figyelmet: fokozott óvatossággal szabad továbbhaladni."
+    },
+    "ua": {
+      "front": "Що означає жовтий миготливий сигнал?",
+      "back": "Привертає увагу до небезпечного місця: рухатися далі можна з особливою обережністю."
+    }
+  },
+  {
+    "id": "rule-lights-vs-signs",
+    "deck": "rules",
+    "kreszRef": "KRESZ 9. § (9); 6. § (3)",
+    "hu": {
+      "front": "Mi a közúti jelzések sorrendje, ha ellentmondanak egymásnak?",
+      "back": "A rendőr jelzése az elsődleges; ha a forgalmat fényjelző készülék irányítja, a „Főútvonal” és az elsőbbséget szabályozó táblák nem irányadók."
+    },
+    "ua": {
+      "front": "Який порядок дорожніх сигналів, якщо вони суперечать один одному?",
+      "back": "Найголовніший — сигнал поліцейського; якщо рух регулює світлофор, знак «Főútvonal» і знаки пріоритету не діють."
+    }
+  },
+  {
+    "id": "rule-police-arm-up",
+    "deck": "rules",
+    "kreszRef": "KRESZ 6. § (1) b)",
+    "hu": {
+      "front": "Mit jelent a rendőr függőlegesen feltartott karja?",
+      "back": "A forgalom irányának megváltozását: meg kell állni; ha biztonságosan megállni már nem lehet, mielőbb át kell haladni."
+    },
+    "ua": {
+      "front": "Що означає піднята вертикально рука поліцейського?",
+      "back": "Напрямок дозволеного руху змінюється: треба зупинитися; якщо безпечно зупинитися вже неможливо — якнайшвидше проїхати."
+    }
+  },
+  {
+    "id": "rule-zarovonal",
+    "deck": "rules",
+    "kreszRef": "KRESZ 18. § (1) c)",
+    "hu": {
+      "front": "Mit szabad tenni a záróvonallal (folytonos hosszirányú vonallal)?",
+      "back": "Járművel sem átlépni, sem érinteni nem szabad (kivéve a mellette levő terelővonal felől)."
+    },
+    "ua": {
+      "front": "Що можна робити із суцільною поздовжньою лінією (záróvonal)?",
+      "back": "Її не можна ні перетинати, ні торкатися (крім як з боку переривчастої лінії, нанесеної поруч)."
+    }
+  },
+  {
+    "id": "rule-yellow-lines",
+    "deck": "rules",
+    "kreszRef": "KRESZ 18. § (1) m)–n)",
+    "hu": {
+      "front": "Mit jelez az úttest szélén a folytonos, illetve a szaggatott sárga vonal?",
+      "back": "A folytonos megállási tilalomra, a szaggatott várakozási tilalomra hívja fel a figyelmet."
+    },
+    "ua": {
+      "front": "Що означають суцільна та переривчаста жовті лінії біля краю проїзної частини?",
+      "back": "Суцільна привертає увагу до заборони зупинки, переривчаста — до заборони стоянки."
+    }
+  },
+  {
+    "id": "rule-motorway-min",
+    "deck": "rules",
+    "image": "motorway",
+    "kreszRef": "KRESZ 37. § (1)",
+    "hu": {
+      "front": "Milyen járművel szabad autópályán közlekedni?",
+      "back": "Csak olyan gépjárművel (és pótkocsijával), amely sík úton legalább 60 km/óra sebességgel képes haladni."
+    },
+    "ua": {
+      "front": "Яким транспортним засобом можна їхати автомагістраллю?",
+      "back": "Лише механічним транспортним засобом (і з причепом), здатним на рівній дорозі їхати щонайменше 60 км/год."
+    }
+  },
+  {
+    "id": "rule-railway-white",
+    "deck": "rules",
+    "kreszRef": "KRESZ 39. § (5) b)",
+    "hu": {
+      "front": "Mikor szabad ráhajtani a fénysorompóval biztosított vasúti átjáróra?",
+      "back": "Ha a fénysorompó villogó fehér fényjelzést ad (és a folyamatos áthaladás lehetséges)."
+    },
+    "ua": {
+      "front": "Коли можна в'їжджати на переїзд зі світловою сигналізацією (fénysorompó)?",
+      "back": "Коли сигналізація показує миготливий білий сигнал (і переїзд можна проїхати безперервно)."
+    }
+  },
+  {
+    "id": "rule-emergency-vehicle",
+    "deck": "rules",
+    "kreszRef": "KRESZ 42. § (1), (3)",
+    "hu": {
+      "front": "Mi a teendő a megkülönböztető jelzéseket (kék villogó fényt és szirénát) használó gépjárművel szemben?",
+      "back": "Minden helyzetben elsőbbséget kell adni neki, akadálytalan továbbhaladását félrehúzódással, szükség esetén megállással lehetővé kell tenni; előzni tilos."
+    },
+    "ua": {
+      "front": "Як поводитися щодо транспортного засобу зі спеціальними сигналами (синім маячком і сиреною)?",
+      "back": "Давати йому дорогу в будь-якій ситуації, забезпечити безперешкодний проїзд — зміщенням убік, за потреби зупинкою; обганяти його заборонено."
+    }
   }
 ]

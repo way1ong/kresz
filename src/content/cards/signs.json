@@ -558,5 +558,145 @@
       "front": "",
       "back": "«Кінець населеного пункту» (Lakott terület vége) — Населений пункт закінчується; далі діють правила для руху поза населеним пунктом."
     }
+  },
+  {
+    "id": "sign-noRightTurn",
+    "deck": "signs",
+    "image": "noRightTurn",
+    "kreszRef": "KRESZ 14. § (1) a)",
+    "hu": {
+      "front": "",
+      "back": "„Jobbra bekanyarodni tilos” – Az útkereszteződésben jobbra bekanyarodni tilos."
+    },
+    "ua": {
+      "front": "",
+      "back": "«Поворот праворуч заборонено» (Jobbra bekanyarodni tilos) — На перехресті заборонено повертати праворуч."
+    }
+  },
+  {
+    "id": "sign-speedLimitEnd",
+    "deck": "signs",
+    "image": "speedLimitEnd",
+    "kreszRef": "KRESZ 14. § (7)",
+    "hu": {
+      "front": "",
+      "back": "„Sebességkorlátozás vége” – Feloldja a „Sebességkorlátozás” tábla hatályát; innen az általános sebességhatárok érvényesek."
+    },
+    "ua": {
+      "front": "",
+      "back": "«Кінець обмеження швидкості» (Sebességkorlátozás vége) — Скасовує дію знака «Sebességkorlátozás»; далі діють загальні обмеження швидкості."
+    }
+  },
+  {
+    "id": "sign-noOvertakingEnd",
+    "deck": "signs",
+    "image": "noOvertakingEnd",
+    "kreszRef": "KRESZ 14. § (7)",
+    "hu": {
+      "front": "",
+      "back": "„Előzési tilalom vége” – Feloldja az „Előzni tilos” tábla hatályát."
+    },
+    "ua": {
+      "front": "",
+      "back": "«Кінець заборони обгону» (Előzési tilalom vége) — Скасовує дію знака «Előzni tilos»."
+    }
+  },
+  {
+    "id": "sign-restrictionsEnd",
+    "deck": "signs",
+    "image": "restrictionsEnd",
+    "kreszRef": "KRESZ 14. § (7)",
+    "hu": {
+      "front": "",
+      "back": "„Mozgó járművekre vonatkozó tilalmak vége” – Feloldja a megfordulási tilalom, a sebességkorlátozás, a legkisebb követési távolság és az előzési tilalmak tábláinak hatályát."
+    },
+    "ua": {
+      "front": "",
+      "back": "«Кінець заборон для транспорту, що рухається» (Mozgó járművekre vonatkozó tilalmak vége) — Скасовує дію знаків заборони розвороту, обмеження швидкості, мінімальної дистанції та заборон обгону."
+    }
+  },
+  {
+    "id": "sign-noTrucks",
+    "deck": "signs",
+    "image": "noTrucks",
+    "kreszRef": "KRESZ 14. § (1) r)",
+    "hu": {
+      "front": "",
+      "back": "„Tehergépkocsival behajtani tilos” – Az útra tehergépkocsival – kivéve a legfeljebb 3500 kg megengedett legnagyobb össztömegű, zárt kocsiszekrényű tehergépkocsit –, valamint vontatóval, mezőgazdasági vontatóval és lassú járművel behajtani tilos."
+    },
+    "ua": {
+      "front": "",
+      "back": "«Рух вантажних автомобілів заборонено» (Tehergépkocsival behajtani tilos) — В'їзд заборонено вантажним автомобілям (крім вантажівок із закритим кузовом і дозволеною максимальною масою до 3500 кг), а також тягачам, сільськогосподарським тягачам і тихохідним транспортним засобам."
+    }
+  },
+  {
+    "id": "sign-noBicycles",
+    "deck": "signs",
+    "image": "noBicycles",
+    "kreszRef": "KRESZ 14. § (1) v)",
+    "hu": {
+      "front": "",
+      "back": "„Kerékpárral behajtani tilos” – Az útra kerékpárral behajtani tilos."
+    },
+    "ua": {
+      "front": "",
+      "back": "«Рух на велосипедах заборонено» (Kerékpárral behajtani tilos) — В'їзд на дорогу на велосипеді заборонено."
+    }
+  },
+  {
+    "id": "sign-bikePath",
+    "deck": "signs",
+    "image": "bikePath",
+    "kreszRef": "KRESZ 13. § (1) e)",
+    "hu": {
+      "front": "",
+      "back": "„Kerékpárút” – A kétkerekű kerékpárok közlekedésére kijelölt út; más jármű közlekedése rajta főszabályként tilos."
+    },
+    "ua": {
+      "front": "",
+      "back": "«Велосипедна доріжка» (Kerékpárút) — Дорога, призначена для руху двоколісних велосипедів; рух інших транспортних засобів нею за загальним правилом заборонено."
+    }
+  },
+  {
+    "id": "sign-footPath",
+    "deck": "signs",
+    "image": "footPath",
+    "kreszRef": "KRESZ 13. § (1) g)",
+    "hu": {
+      "front": "",
+      "back": "„Gyalogút” – A gyalogosok közlekedésére szolgáló önálló út; jármű közlekedése a gyalogúton tilos."
+    },
+    "ua": {
+      "front": "",
+      "back": "«Пішохідна доріжка» (Gyalogút) — Окрема дорога для руху пішоходів; рух транспортних засобів нею заборонено."
+    }
+  },
+  {
+    "id": "sign-children",
+    "deck": "signs",
+    "image": "children",
+    "kreszRef": "KRESZ 16. § (1) q); 26. § (6)",
+    "hu": {
+      "front": "",
+      "back": "„Gyermekek” – A gyermekeknek az úttestre lépésével fokozottan számolni kell. Ha a kiegészítő tábla távolságot jelöl meg, azon a szakaszon legfeljebb 30 km/óra sebességgel szabad haladni."
+    },
+    "ua": {
+      "front": "",
+      "back": "«Діти» (Gyermekek) — Слід особливо зважати на те, що на проїзну частину можуть вийти діти. Якщо додаткова табличка вказує відстань, на цій ділянці дозволено їхати не швидше 30 км/год."
+    }
+  },
+  {
+    "id": "sign-railwayCross",
+    "deck": "signs",
+    "image": "railwayCross",
+    "kreszRef": "KRESZ 16. § (4) a); 39. § (3)",
+    "hu": {
+      "front": "",
+      "back": "„Vasúti átjáró kezdete” – A vasúti átjáró kezdetét jelzi (András-kereszt). Ha meg kell állni, ennél a jelzésnél, illetve a megállás helyét jelző útburkolati jel előtt kell megállni."
+    },
+    "ua": {
+      "front": "",
+      "back": "«Початок залізничного переїзду» (Vasúti átjáró kezdete) — Позначає початок залізничного переїзду (Андріївський хрест). Якщо треба зупинитися, зупиняються біля цього знака або перед лінією зупинки."
+    }
   }
 ]

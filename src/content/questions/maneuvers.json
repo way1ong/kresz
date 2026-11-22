@@ -241,5 +241,149 @@
       "explanation": "Перед зупинкою, де стоїть трамвай і пасажири сідають із проїзної частини чи виходять на неї, треба зупинитися; їхати далі можна лише після того, як трамвай рушить."
     },
     "correct": 0
+  },
+  {
+    "id": "maneuvers-011",
+    "topic": "maneuvers",
+    "kreszRef": "KRESZ 34. § (1) b)–c)",
+    "hu": {
+      "question": "Előzni szeretne, de a visszapillantó tükörben látja, hogy az Ön mögött haladó jármű már megkezdte az Ön előzését. Mit tehet?",
+      "answers": [
+        "Nem kezdheti meg az előzést.",
+        "Megkezdheti az előzést, ha előbb irányjelzést ad.",
+        "Megkezdheti az előzést, mert az elöl haladónak van elsőbbsége."
+      ],
+      "explanation": "Előzni csak akkor szabad, ha az előzni kívánó jármű előzését más jármű nem kezdte meg, és ha az előtte ugyanabban a forgalmi sávban haladó jármű előzési szándékot nem jelzett."
+    },
+    "ua": {
+      "question": "Ви хочете обганяти, але в дзеркалі бачите, що транспортний засіб позаду вже почав обганяти Вас. Що можна зробити?",
+      "answers": [
+        "Починати обгін не можна.",
+        "Можна почати обгін, якщо спершу ввімкнути покажчик повороту.",
+        "Можна почати обгін, бо перевагу має той, хто їде попереду."
+      ],
+      "explanation": "Обганяти дозволено лише тоді, коли обгін Вашого транспортного засобу не почав інший транспортний засіб і коли той, хто їде попереду в тій самій смузі, не подав сигнал про намір обгону."
+    },
+    "correct": 0
+  },
+  {
+    "id": "maneuvers-012",
+    "topic": "maneuvers",
+    "kreszRef": "KRESZ 36. § (1)",
+    "hu": {
+      "question": "Párhuzamos közlekedésre alkalmas úttesten főszabályként melyik forgalmi sávban kell közlekedni?",
+      "answers": [
+        "A külső (jobb szélső) forgalmi sávban.",
+        "Bármelyik forgalmi sávban, tetszés szerint.",
+        "A belső forgalmi sávban, mert ott gyorsabb a forgalom."
+      ],
+      "explanation": "Olyan úttesten, amelyen az azonos irányú forgalom számára két vagy több forgalmi sáv van, főszabályként a külső (jobb szélső) forgalmi sávban kell közlekedni. Más forgalmi sávra ráhajtani csak előzés, balra bekanyarodás, illetőleg megfordulás céljából szabad (lakott területen a szabály enyhébb)."
+    },
+    "ua": {
+      "question": "Якою смугою за загальним правилом треба їхати на проїзній частині, що має дві чи більше смуг для руху в одному напрямку?",
+      "answers": [
+        "Зовнішньою (крайньою правою) смугою.",
+        "Будь-якою смугою на власний розсуд.",
+        "Внутрішньою смугою, бо там рух швидший."
+      ],
+      "explanation": "На проїзній частині з двома чи більше смугами для руху в одному напрямку (párhuzamos közlekedésre alkalmas úttest) за загальним правилом їдуть зовнішньою (крайньою правою) смугою. Виїжджати на іншу смугу можна лише для обгону, повороту ліворуч або розвороту (у населеному пункті правило м'якше)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "maneuvers-013",
+    "topic": "maneuvers",
+    "kreszRef": "KRESZ 36. § (7)",
+    "hu": {
+      "question": "Az egyik forgalmi sáv megszűnik; a sávok útburkolati jellel vannak jelölve. Melyik járműnek van elsőbbsége?",
+      "answers": [
+        "Annak, amelyik terelővonal átlépése nélkül haladhat tovább.",
+        "Annak, amelyik a megszűnő sávban halad, mert neki nincs más lehetősége.",
+        "Mindig a bal oldali sávban haladónak."
+      ],
+      "explanation": "Ahol valamelyik forgalmi sáv megszűnik, annak a járműnek van elsőbbsége, amelyik terelővonal átlépése nélkül haladhat tovább. Ha a sávok nincsenek jelölve, az elsőbbség azé, aki irányváltoztatás nélkül tud továbbhaladni."
+    },
+    "ua": {
+      "question": "Одна зі смуг руху закінчується; смуги позначено розміткою. Хто має перевагу?",
+      "answers": [
+        "Той, хто може їхати далі, не перетинаючи лінію розмітки (terelővonal).",
+        "Той, хто їде смугою, що закінчується, бо в нього немає іншого виходу.",
+        "Завжди той, хто їде лівою смугою."
+      ],
+      "explanation": "Там, де одна зі смуг закінчується, перевагу має транспортний засіб, який може їхати далі, не перетинаючи переривчасту лінію розмітки. Якщо смуги не позначено, перевага за тим, хто може їхати далі без зміни напрямку."
+    },
+    "correct": 0
+  },
+  {
+    "id": "maneuvers-014",
+    "topic": "maneuvers",
+    "kreszRef": "KRESZ 32. § (2)",
+    "hu": {
+      "question": "Olyan keskeny úttesten találkozik szembejövő járművel, ahol egymás mellett nem férnek el. Mi a teendő?",
+      "answers": [
+        "Meg kell állni, és az elhaladást az útpadkára húzódással vagy hátramenettel kell lehetővé tenni; hátramenni annak kell, akinek ez könnyebb.",
+        "Mindig a kisebb járműnek kell hátramennie.",
+        "Annak van elsőbbsége, aki előbb ad fényjelzést."
+      ],
+      "explanation": "Olyan keskeny úttesten, amelyen a járművek egymás melletti elhaladása nehéz vagy lehetetlen, meg kell állni, és az elhaladást az útpadkára húzódással vagy hátramenettel kell lehetővé tenni. Hátramenni azzal a járművel kell, amelyikkel ez – a járművek adottságait és a körülményeket figyelembe véve – könnyebben megtehető."
+    },
+    "ua": {
+      "question": "На вузькій проїзній частині Ви зустрілися з транспортним засобом, і роз'їхатися ніяк. Що робити?",
+      "answers": [
+        "Зупинитися й уможливити роз'їзд, з'їхавши на узбіччя або здавши назад; задній хід виконує той, кому це легше.",
+        "Назад завжди здає менший транспортний засіб.",
+        "Перевагу має той, хто першим подасть світловий сигнал."
+      ],
+      "explanation": "На вузькій проїзній частині, де зустрічний роз'їзд утруднений або неможливий, треба зупинитися й уможливити роз'їзд з'їздом на узбіччя або рухом заднім ходом. Назад здає той транспортний засіб, якому — з огляду на його особливості та обставини — це зробити легше."
+    },
+    "correct": 0
+  },
+  {
+    "id": "maneuvers-015",
+    "topic": "maneuvers",
+    "kreszRef": "KRESZ 31. § (1)",
+    "hu": {
+      "question": "Kétirányú forgalmú úton, útburkolati jelek hiányában hová kell besorolnia balra bekanyarodás előtt?",
+      "answers": [
+        "Az úttest felezővonala mellé.",
+        "Az úttest jobb szélére.",
+        "Az úttest bal szélére, a szembejövő sávba."
+      ],
+      "explanation": "Útburkolati jelek hiányában jobbra bekanyarodás előtt az úttest jobb szélére, balra bekanyarodás előtt az úttest felezővonala mellé – osztottpályás és egyirányú forgalmú úton az úttest bal szélére – kell az útkereszteződés előtt kellő távolságban besorolni, és a szándékot irányjelzéssel jelezni kell."
+    },
+    "ua": {
+      "question": "Дорога з двостороннім рухом, розмітки немає. Де треба зайняти положення перед поворотом ліворуч?",
+      "answers": [
+        "Біля осьової лінії проїзної частини.",
+        "Біля правого краю проїзної частини.",
+        "Біля лівого краю проїзної частини, на зустрічній смузі."
+      ],
+      "explanation": "Якщо розмітки немає, перед поворотом праворуч слід завчасно зайняти положення біля правого краю проїзної частини, перед поворотом ліворуч — біля її осьової лінії (на дорозі з розділювальною смугою та з одностороннім рухом — біля лівого краю), а намір позначити покажчиком повороту."
+    },
+    "correct": 0
+  },
+  {
+    "id": "maneuvers-016",
+    "topic": "maneuvers",
+    "kreszRef": "KRESZ 31. § (6)",
+    "hu": {
+      "question": "Párhuzamos közlekedésre nem alkalmas úton balra akar bekanyarodni. Miről kell még meggyőződnie a bekanyarodás előtt?",
+      "answers": [
+        "Arról, hogy balról járművének előzését vagy kikerülését másik jármű nem kezdte meg.",
+        "Arról, hogy a mögötte haladó jármű is irányjelzést ad.",
+        "Semmi másról, ha az irányjelzést időben megkezdte."
+      ],
+      "explanation": "A balra bekanyarodó jármű vezetője párhuzamos közlekedésre nem alkalmas úton a bekanyarodást akkor hajthatja végre, ha meggyőződött arról is, hogy balról járművének előzését vagy kikerülését másik jármű nem kezdte meg."
+    },
+    "ua": {
+      "question": "Ви хочете повернути ліворуч на дорозі, що має лише одну смугу у Вашому напрямку. У чому ще треба переконатися перед поворотом?",
+      "answers": [
+        "У тому, що зліва інший транспортний засіб не почав обгін чи об'їзд Вашого транспортного засобу.",
+        "У тому, що транспортний засіб позаду теж увімкнув покажчик повороту.",
+        "Ні в чому, якщо покажчик повороту ввімкнено вчасно."
+      ],
+      "explanation": "На дорозі, не придатній для руху в кілька рядів (párhuzamos közlekedésre nem alkalmas út), водій може повернути ліворуч лише тоді, коли переконався й у тому, що зліва інший транспортний засіб не почав його обганяти чи об'їжджати."
+    },
+    "correct": 0
   }
 ]

@@ -5,12 +5,20 @@
     "kreszRef": "KRESZ 26. § (1) a) ad)",
     "hu": {
       "question": "Legfeljebb mekkora sebességgel szabad személygépkocsival lakott területen közlekedni, ha jelzőtábla mást nem jelez?",
-      "answers": ["50 km/óra", "60 km/óra", "40 km/óra"],
+      "answers": [
+        "50 km/óra",
+        "60 km/óra",
+        "40 km/óra"
+      ],
       "explanation": "Személygépkocsival, motorkerékpárral és 3500 kg megengedett legnagyobb össztömeget meg nem haladó gépkocsival lakott területen legfeljebb 50 km/óra sebességgel szabad közlekedni."
     },
     "ua": {
       "question": "З якою найбільшою швидкістю дозволено їхати легковим автомобілем у населеному пункті, якщо знаки не вказують іншого?",
-      "answers": ["50 км/год", "60 км/год", "40 км/год"],
+      "answers": [
+        "50 км/год",
+        "60 км/год",
+        "40 км/год"
+      ],
       "explanation": "Легковим автомобілем, мотоциклом і автомобілем із дозволеною максимальною масою до 3500 кг у населеному пункті (lakott terület) дозволено їхати не швидше 50 км/год."
     },
     "correct": 0
@@ -21,12 +29,20 @@
     "kreszRef": "KRESZ 26. § (1) a) ac)",
     "hu": {
       "question": "Legfeljebb mekkora sebességgel szabad személygépkocsival lakott területen kívül közlekedni olyan úton, amely nem autópálya és nem autóút?",
-      "answers": ["90 km/óra", "100 km/óra", "80 km/óra"],
+      "answers": [
+        "90 km/óra",
+        "100 km/óra",
+        "80 km/óra"
+      ],
       "explanation": "Személygépkocsival lakott területen kívül egyéb úton (nem autópályán és nem autóúton) legfeljebb 90 km/óra sebességgel szabad közlekedni."
     },
     "ua": {
       "question": "З якою найбільшою швидкістю дозволено їхати легковим автомобілем поза населеним пунктом дорогою, яка не є ні автомагістраллю (autópálya), ні дорогою для автомобілів (autóút)?",
-      "answers": ["90 км/год", "100 км/год", "80 км/год"],
+      "answers": [
+        "90 км/год",
+        "100 км/год",
+        "80 км/год"
+      ],
       "explanation": "Легковим автомобілем поза населеним пунктом на інших дорогах (не autópálya й не autóút) дозволено їхати не швидше 90 км/год."
     },
     "correct": 0
@@ -38,12 +54,20 @@
     "image": "expressway",
     "hu": {
       "question": "Legfeljebb mekkora sebességgel szabad személygépkocsival autóúton közlekedni?",
-      "answers": ["110 km/óra", "130 km/óra", "90 km/óra"],
+      "answers": [
+        "110 km/óra",
+        "130 km/óra",
+        "90 km/óra"
+      ],
       "explanation": "Személygépkocsival autóúton legfeljebb 110 km/óra sebességgel szabad közlekedni."
     },
     "ua": {
       "question": "З якою найбільшою швидкістю дозволено їхати легковим автомобілем дорогою для автомобілів (autóút)?",
-      "answers": ["110 км/год", "130 км/год", "90 км/год"],
+      "answers": [
+        "110 км/год",
+        "130 км/год",
+        "90 км/год"
+      ],
       "explanation": "Легковим автомобілем на дорозі для автомобілів (autóút) дозволено їхати не швидше 110 км/год."
     },
     "correct": 0
@@ -55,12 +79,20 @@
     "image": "motorway",
     "hu": {
       "question": "Legfeljebb mekkora sebességgel szabad személygépkocsival autópályán közlekedni?",
-      "answers": ["130 km/óra", "110 km/óra", "140 km/óra"],
+      "answers": [
+        "130 km/óra",
+        "110 km/óra",
+        "140 km/óra"
+      ],
       "explanation": "Személygépkocsival autópályán legfeljebb 130 km/óra sebességgel szabad közlekedni."
     },
     "ua": {
       "question": "З якою найбільшою швидкістю дозволено їхати легковим автомобілем автомагістраллю (autópálya)?",
-      "answers": ["130 км/год", "110 км/год", "140 км/год"],
+      "answers": [
+        "130 км/год",
+        "110 км/год",
+        "140 км/год"
+      ],
       "explanation": "Легковим автомобілем на автомагістралі (autópálya) дозволено їхати не швидше 130 км/год."
     },
     "correct": 0
@@ -71,12 +103,20 @@
     "kreszRef": "KRESZ 39/A. § (2)",
     "hu": {
       "question": "Legfeljebb mekkora sebességgel szabad járművel lakó-pihenő övezetben közlekedni?",
-      "answers": ["20 km/óra", "30 km/óra", "10 km/óra"],
+      "answers": [
+        "20 km/óra",
+        "30 km/óra",
+        "10 km/óra"
+      ],
       "explanation": "A lakó-pihenő övezetben járművel legfeljebb 20 km/óra sebességgel szabad közlekedni, és a vezetőnek fokozottan ügyelnie kell a gyalogosok (különösen a gyermekek) és a kerékpárosok biztonságára."
     },
     "ua": {
       "question": "З якою найбільшою швидкістю дозволено їхати в житловій зоні (lakó-pihenő övezet)?",
-      "answers": ["20 км/год", "30 км/год", "10 км/год"],
+      "answers": [
+        "20 км/год",
+        "30 км/год",
+        "10 км/год"
+      ],
       "explanation": "У житловій зоні (lakó-pihenő övezet) дозволено їхати не швидше 20 км/год, а водій має особливо дбати про безпеку пішоходів (насамперед дітей) і велосипедистів."
     },
     "correct": 0
@@ -87,12 +127,20 @@
     "kreszRef": "KRESZ 26. § (1) b)",
     "hu": {
       "question": "Személygépkocsival pótkocsit vontat. Legfeljebb mekkora sebességgel haladhat ezzel a járműszerelvénnyel autópályán?",
-      "answers": ["80 km/óra", "100 km/óra", "130 km/óra"],
+      "answers": [
+        "80 km/óra",
+        "100 km/óra",
+        "130 km/óra"
+      ],
       "explanation": "Gépjárműből és pótkocsiból álló járműszerelvénnyel autópályán legfeljebb 80 km/óra, lakott területen kívül egyéb úton 70 km/óra, lakott területen 50 km/óra sebességgel szabad közlekedni."
     },
     "ua": {
       "question": "Ви буксируєте легковим автомобілем причіп. З якою найбільшою швидкістю можна їхати таким автопоїздом по автомагістралі?",
-      "answers": ["80 км/год", "100 км/год", "130 км/год"],
+      "answers": [
+        "80 км/год",
+        "100 км/год",
+        "130 км/год"
+      ],
       "explanation": "Автопоїздом (járműszerelvény) із механічного транспортного засобу та причепа дозволено їхати: на автомагістралі не швидше 80 км/год, поза населеним пунктом на інших дорогах — 70 км/год, у населеному пункті — 50 км/год."
     },
     "correct": 0
@@ -151,12 +199,20 @@
     "kreszRef": "KRESZ 26. § (1) d/1.",
     "hu": {
       "question": "Legfeljebb mekkora sebességgel szabad közlekedni hólánccal felszerelt gépjárművel?",
-      "answers": ["50 km/óra", "70 km/óra", "30 km/óra"],
+      "answers": [
+        "50 km/óra",
+        "70 km/óra",
+        "30 km/óra"
+      ],
       "explanation": "Hólánccal felszerelt gépjárművel legfeljebb 50 km/óra sebességgel szabad közlekedni."
     },
     "ua": {
       "question": "З якою найбільшою швидкістю дозволено їхати механічним транспортним засобом із ланцюгами протиковзання (hólánc)?",
-      "answers": ["50 км/год", "70 км/год", "30 км/год"],
+      "answers": [
+        "50 км/год",
+        "70 км/год",
+        "30 км/год"
+      ],
       "explanation": "Механічним транспортним засобом, на якому встановлено ланцюги протиковзання (hólánc), дозволено їхати не швидше 50 км/год."
     },
     "correct": 0
@@ -182,6 +238,127 @@
         "90 км/год, бо знак скасовує обмеження для населеного пункту."
       ],
       "explanation": "Якщо знак «Sebességkorlátozás» показує в населеному пункті швидкість понад 50 км/год, а поза ним — понад 90 км/год, то легковим автомобілем, мотоциклом і автомобілем із дозволеною максимальною масою до 3500 кг можна їхати не швидше, ніж зазначено на знаку."
+    },
+    "correct": 0
+  },
+  {
+    "id": "speed-011",
+    "topic": "speed",
+    "kreszRef": "KRESZ 26. § (1) d)",
+    "hu": {
+      "question": "Legfeljebb mekkora sebességgel szabad közlekedni elromlott járművet vontató gépjárművel?",
+      "answers": [
+        "40 km/óra",
+        "50 km/óra",
+        "60 km/óra"
+      ],
+      "explanation": "Elromlott járművet vontató gépjárművel legfeljebb 40 km/óra sebességgel szabad közlekedni; emellett fokozott óvatossággal, lehetőleg kis forgalmú úton és időszakban kell haladni."
+    },
+    "ua": {
+      "question": "З якою найбільшою швидкістю дозволено їхати механічним транспортним засобом, який буксирує несправний транспортний засіб?",
+      "answers": [
+        "40 км/год",
+        "50 км/год",
+        "60 км/год"
+      ],
+      "explanation": "Механічним транспортним засобом, що буксирує несправний транспортний засіб, дозволено їхати не швидше 40 км/год; до того ж рухатися слід особливо обережно, за можливості дорогами й у час зі слабким рухом."
+    },
+    "correct": 0
+  },
+  {
+    "id": "speed-012",
+    "topic": "speed",
+    "kreszRef": "KRESZ 26. § (5)",
+    "hu": {
+      "question": "Szabad-e a megengedettnél jóval lassabban haladni?",
+      "answers": [
+        "Indokolatlanul nem szabad olyan lassan haladni, hogy az a forgalmat akadályozza.",
+        "Igen, bármikor: a lassú haladás soha nem szabálytalan.",
+        "Nem: mindig a megengedett legnagyobb sebességgel kell haladni."
+      ],
+      "explanation": "Nem szabad a járművel indokolatlanul olyan lassan haladni, hogy az a forgalmat akadályozza. Ha a lassú haladásnak oka van (például rossz látási vagy útviszonyok), az nem szabálytalan."
+    },
+    "ua": {
+      "question": "Чи можна їхати значно повільніше, ніж дозволено?",
+      "answers": [
+        "Без причини не можна їхати так повільно, щоб це перешкоджало руху.",
+        "Так, будь-коли: повільна їзда ніколи не є порушенням.",
+        "Ні: завжди треба їхати з максимальною дозволеною швидкістю."
+      ],
+      "explanation": "Заборонено без причини їхати так повільно, щоб це перешкоджало руху. Якщо повільна їзда має причину (наприклад, погана видимість чи стан дороги), порушення немає."
+    },
+    "correct": 0
+  },
+  {
+    "id": "speed-013",
+    "topic": "speed",
+    "kreszRef": "KRESZ 27. § (3)",
+    "hu": {
+      "question": "Mikor szabad a jármű sebességét hirtelen fékezéssel csökkenteni?",
+      "answers": [
+        "Csak akkor, ha ezt a személy- vagy vagyonbiztonság megóvása szükségessé teszi.",
+        "Bármikor, mert a követési távolságért a mögöttes vezető felel.",
+        "Akkor is, ha a vezető figyelmeztetni akarja a túl közel haladó mögöttest."
+      ],
+      "explanation": "A jármű sebességét hirtelen fékezéssel csökkenteni csak abban az esetben szabad, ha ezt a személy- vagy vagyonbiztonság megóvása szükségessé teszi."
+    },
+    "ua": {
+      "question": "Коли дозволено різко гальмувати?",
+      "answers": [
+        "Лише тоді, коли це потрібно для безпеки людей чи збереження майна.",
+        "Будь-коли, бо за дистанцію відповідає водій позаду.",
+        "І тоді, коли водій хоче «провчити» того, хто їде надто близько позаду."
+      ],
+      "explanation": "Знижувати швидкість різким гальмуванням дозволено лише тоді, коли цього вимагає безпека людей або збереження майна."
+    },
+    "correct": 0
+  },
+  {
+    "id": "speed-014",
+    "topic": "speed",
+    "kreszRef": "KRESZ 28. § (3)",
+    "hu": {
+      "question": "Milyen sebességgel szabad útkereszteződést megközelíteni?",
+      "answers": [
+        "Csak olyan sebességgel, hogy a vezető eleget tehessen elsőbbségadási kötelezettségének, és a sebességével másokat ne tévesszen meg.",
+        "Lakott területen legfeljebb 30 km/óra sebességgel.",
+        "Bármilyen megengedett sebességgel, ha a vezetőnek elsőbbsége van."
+      ],
+      "explanation": "Útkereszteződést járművel csak olyan sebességgel szabad megközelíteni, hogy a vezető eleget tehessen elsőbbségadási kötelezettségének, és e tekintetben másokat a jármű sebességével ne tévesszen meg."
+    },
+    "ua": {
+      "question": "З якою швидкістю дозволено наближатися до перехрестя?",
+      "answers": [
+        "Лише з такою, щоб водій міг виконати обов'язок дати дорогу й не вводив інших в оману своєю швидкістю.",
+        "У населеному пункті — не швидше 30 км/год.",
+        "З будь-якою дозволеною швидкістю, якщо водій має перевагу."
+      ],
+      "explanation": "До перехрестя дозволено наближатися лише з такою швидкістю, щоб водій міг виконати обов'язок дати дорогу й щоб швидкість його транспортного засобу не вводила інших в оману щодо цього."
+    },
+    "correct": 0
+  },
+  {
+    "id": "speed-015",
+    "topic": "speed",
+    "kreszRef": "KRESZ 43. § (2)",
+    "image": "pedestrianWarning",
+    "hu": {
+      "question": "Hogyan kell megközelíteni a kijelölt gyalogosátkelőhelyet?",
+      "answers": [
+        "Fokozott óvatossággal és olyan sebességgel, hogy a járművel szükség esetén az átkelőhely előtt meg is lehessen állni.",
+        "Legfeljebb 20 km/óra sebességgel.",
+        "Változatlan sebességgel, ha az átkelőhelyen éppen nincs gyalogos."
+      ],
+      "explanation": "A kijelölt gyalogosátkelőhelyet csak fokozott óvatossággal és olyan sebességgel szabad megközelíteni, hogy a vezető a járművel, amennyiben szükséges, az átkelőhely előtt meg is tudjon állni."
+    },
+    "ua": {
+      "question": "Як слід наближатися до позначеного пішохідного переходу?",
+      "answers": [
+        "Особливо обережно і з такою швидкістю, щоб за потреби можна було зупинитися перед переходом.",
+        "Не швидше 20 км/год.",
+        "Не змінюючи швидкості, якщо на переході саме немає пішоходів."
+      ],
+      "explanation": "До позначеного пішохідного переходу дозволено наближатися лише особливо обережно і з такою швидкістю, щоб водій за потреби міг зупинити транспортний засіб перед переходом."
     },
     "correct": 0
   }

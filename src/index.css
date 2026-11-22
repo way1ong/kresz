@@ -581,6 +581,23 @@ button {
   height: auto;
 }
 
+/* Схеми перехресть показуємо більшими, ніж знаки. */
+.q-image.scene svg,
+.flashcard .q-image.scene svg {
+  width: min(64vw, 250px);
+}
+
+.q-head .grow {
+  white-space: nowrap;
+}
+
+.q-head .badge {
+  display: inline-block;
+  max-width: 58%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .answers {
   display: flex;
   flex-direction: column;

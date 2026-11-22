@@ -117,7 +117,7 @@ export function PracticeSessionPage({ topicId }: { topicId: string }) {
           ‹
         </Link>
         <span className="grow">
-          <Tx k="common.questionOf" vars={{ n: round.index + 1, total }} layout="inline" />
+          <Tx k="common.questionOf" vars={{ n: round.index + 1, total }} primaryOnly />
         </span>
         {questionTopic && (
           <span className="badge badge-muted">

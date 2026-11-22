@@ -105,7 +105,7 @@ export function CardReviewPage({ deckId }: { deckId: string }) {
           </span>
         </div>
         {current.image && (
-          <div className="q-image">
+          <div className={current.image.startsWith('x-') ? 'q-image scene' : 'q-image'}>
             <SignImage id={current.image} />
           </div>
         )}

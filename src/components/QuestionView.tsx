@@ -24,7 +24,7 @@ export function QuestionView({ question, order, selected, revealed, onSelect, mo
         <Bi hu={question.hu.question} ua={question.ua.question} mode={mode} />
       </div>
       {question.image && (
-        <div className="q-image">
+        <div className={question.image.startsWith('x-') ? 'q-image scene' : 'q-image'}>
           <SignImage id={question.image} />
         </div>
       )}

@@ -15,6 +15,8 @@ function normalizeBase(value: string | undefined): string {
 export default defineConfig({
   base,
   define: { __APP_VERSION__: JSON.stringify(pkg.version) },
+  // Увесь контент навмисно лежить в одному бандлі: він однаково кешується цілком для офлайну.
+  build: { chunkSizeWarningLimit: 2000 },
   plugins: [
     react(),
     VitePWA({

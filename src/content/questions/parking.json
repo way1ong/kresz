@@ -5,12 +5,20 @@
     "kreszRef": "KRESZ 1. számú függelék III. d)–e)",
     "hu": {
       "question": "A vezető a járműnél marad, de nem be- vagy kiszállás és nem rakodás miatt áll meg. Legfeljebb mennyi ideig számít ez megállásnak?",
-      "answers": ["Legfeljebb 5 percig.", "Legfeljebb 10 percig.", "Legfeljebb 15 percig."],
+      "answers": [
+        "Legfeljebb 5 percig.",
+        "Legfeljebb 10 percig.",
+        "Legfeljebb 15 percig."
+      ],
       "explanation": "Megállás: járművel a be- és kiszálláshoz vagy a folyamatos fel- és lerakáshoz szükséges ideig, illetőleg – ha a vezető a járműnél marad – egyéb okból legfeljebb 5 percig történő egy helyben tartózkodás. Az ennél hosszabb egy helyben tartózkodás várakozás."
     },
     "ua": {
       "question": "Водій лишається біля транспортного засобу, але стоїть не для посадки чи висадки й не для завантаження. Скільки щонайбільше це вважається зупинкою (megállás)?",
-      "answers": ["Не довше 5 хвилин.", "Не довше 10 хвилин.", "Не довше 15 хвилин."],
+      "answers": [
+        "Не довше 5 хвилин.",
+        "Не довше 10 хвилин.",
+        "Не довше 15 хвилин."
+      ],
       "explanation": "Зупинка (megállás) — перебування на місці протягом часу, потрібного для посадки й висадки або безперервного завантаження й розвантаження, а якщо водій лишається біля транспортного засобу — з іншої причини не довше 5 хвилин. Довше перебування на місці — це стоянка (várakozás)."
     },
     "correct": 0
@@ -21,12 +29,20 @@
     "kreszRef": "KRESZ 40. § (5) d)",
     "hu": {
       "question": "Az útkereszteződésnél az úttestek széleinek metszéspontjától számítva milyen távolságon belül tilos megállni, ha közúti jelzésből más nem következik?",
-      "answers": ["5 méteren belül.", "10 méteren belül.", "15 méteren belül."],
+      "answers": [
+        "5 méteren belül.",
+        "10 méteren belül.",
+        "15 méteren belül."
+      ],
       "explanation": "Tilos megállni körforgalmú úton, útkereszteződésben és az úttestek széleinek metszéspontjától számított 5 méter távolságon belül, ha a közúti jelzésből más nem következik."
     },
     "ua": {
       "question": "На якій відстані від точки перетину країв проїзних частин біля перехрестя заборонено зупинку, якщо дорожні знаки чи розмітка не вказують іншого?",
-      "answers": ["У межах 5 метрів.", "У межах 10 метрів.", "У межах 15 метрів."],
+      "answers": [
+        "У межах 5 метрів.",
+        "У межах 10 метрів.",
+        "У межах 15 метрів."
+      ],
       "explanation": "Зупинку заборонено на дорозі з круговим рухом, на перехресті та ближче 5 метрів від точки перетину країв проїзних частин, якщо дорожні знаки чи розмітка не вказують іншого."
     },
     "correct": 0
@@ -38,12 +54,20 @@
     "image": "pedestrianCrossing",
     "hu": {
       "question": "Személygépkocsival a kijelölt gyalogosátkelőhely előtt milyen távolságon belül tilos megállni?",
-      "answers": ["5 méteren belül.", "10 méteren belül.", "15 méteren belül."],
+      "answers": [
+        "5 méteren belül.",
+        "10 méteren belül.",
+        "15 méteren belül."
+      ],
       "explanation": "Tilos megállni kijelölt gyalogosátkelőhelyen, valamint a gyalogosátkelőhely előtt személygépkocsival, motorkerékpárral, segédmotoros kerékpárral, kerékpárral és kézikocsival 5 méter, egyéb járművel 15 méter távolságon belül."
     },
     "ua": {
       "question": "На якій відстані перед позначеним пішохідним переходом заборонено зупинку легковим автомобілем?",
-      "answers": ["Ближче 5 метрів.", "Ближче 10 метрів.", "Ближче 15 метрів."],
+      "answers": [
+        "Ближче 5 метрів.",
+        "Ближче 10 метрів.",
+        "Ближче 15 метрів."
+      ],
       "explanation": "Зупинку заборонено на позначеному пішохідному переході, а також перед ним: легковим автомобілем, мотоциклом, мопедом, велосипедом і ручним візком — ближче 5 метрів, іншими транспортними засобами — ближче 15 метрів."
     },
     "correct": 0
@@ -55,12 +79,20 @@
     "image": "railwayBarrier",
     "hu": {
       "question": "A vasúti átjárótól számítva milyen távolságon belül tilos megállni?",
-      "answers": ["30 méteren belül.", "15 méteren belül.", "50 méteren belül."],
+      "answers": [
+        "30 méteren belül.",
+        "15 méteren belül.",
+        "50 méteren belül."
+      ],
       "explanation": "Tilos megállni vasúti átjáróban és attól számított 30 méter távolságon belül, valamint vasúti, illetőleg villamospályán és ezekhez olyan közel, hogy a jármű a vasúti jármű, illetőleg a villamos közlekedését akadályozza."
     },
     "ua": {
       "question": "На якій відстані від залізничного переїзду заборонено зупинку?",
-      "answers": ["Ближче 30 метрів.", "Ближче 15 метрів.", "Ближче 50 метрів."],
+      "answers": [
+        "Ближче 30 метрів.",
+        "Ближче 15 метрів.",
+        "Ближче 50 метрів."
+      ],
       "explanation": "Зупинку заборонено на залізничному переїзді та ближче 30 метрів від нього, а також на залізничній чи трамвайній колії та так близько до них, що транспортний засіб перешкоджав би руху поїзда чи трамвая."
     },
     "correct": 0
@@ -169,12 +201,20 @@
     "kreszRef": "KRESZ 40. § (8)",
     "hu": {
       "question": "Jelzőtábla megengedi a járdán való megállást. Legalább mekkora helynek kell a járdán a gyalogosok közlekedésére szabadon maradnia?",
-      "answers": ["Legalább 1,5 méternek.", "Legalább 1 méternek.", "Legalább 0,75 méternek."],
+      "answers": [
+        "Legalább 1,5 méternek.",
+        "Legalább 1 méternek.",
+        "Legalább 0,75 méternek."
+      ],
       "explanation": "A járdán csak akkor szabad megállni, ha azt jelzőtábla vagy útburkolati jel megengedi, a jármű a járda szélességének legfeljebb a felét foglalja el, a járdán a gyalogosok közlekedésére legalább 1,5 méter szabadon marad, és a jármű tengelyterhelése az 1000 kg-ot nem haladja meg."
     },
     "ua": {
       "question": "Знак дозволяє зупинку на тротуарі. Скільки щонайменше місця має лишитися на тротуарі для руху пішоходів?",
-      "answers": ["Щонайменше 1,5 метра.", "Щонайменше 1 метр.", "Щонайменше 0,75 метра."],
+      "answers": [
+        "Щонайменше 1,5 метра.",
+        "Щонайменше 1 метр.",
+        "Щонайменше 0,75 метра."
+      ],
       "explanation": "На тротуарі дозволено зупинятися лише тоді, коли це дозволяє знак або розмітка, транспортний засіб займає не більше половини ширини тротуару, для пішоходів лишається щонайменше 1,5 метра, а навантаження на вісь транспортного засобу не перевищує 1000 кг."
     },
     "correct": 0
@@ -201,6 +241,151 @@
         "Так, якщо ввімкнути аварійну сигналізацію."
       ],
       "explanation": "На проїзній частині автомагістралі (autópálya) та дороги для автомобілів (autóút) зупинку заборонено, крім вимушеної дорожньою обстановкою. На смузі для аварійної зупинки (leállósáv) зупинку й стоянку також заборонено, крім, наприклад, випадку, коли транспортний засіб через технічну несправність не може їхати далі."
+    },
+    "correct": 0
+  },
+  {
+    "id": "parking-011",
+    "topic": "parking",
+    "kreszRef": "KRESZ 40. § (5) b)",
+    "hu": {
+      "question": "Legalább mekkora helynek kell maradnia a megálló jármű és az úttesten levő záróvonal között?",
+      "answers": [
+        "Legalább 3 méternek.",
+        "Legalább 2 méternek.",
+        "Legalább 5,5 méternek."
+      ],
+      "explanation": "Tilos megállni ott, ahol a jármű és az úttesten levő záróvonal, vagy a jármű és az úttest másik szélén álló jármű között legalább három méter széles hely nem marad."
+    },
+    "ua": {
+      "question": "Скільки щонайменше місця має лишатися між транспортним засобом, що зупинився, і суцільною лінією (záróvonal) на проїзній частині?",
+      "answers": [
+        "Щонайменше 3 метри.",
+        "Щонайменше 2 метри.",
+        "Щонайменше 5,5 метра."
+      ],
+      "explanation": "Зупинку заборонено там, де між транспортним засобом і суцільною лінією розмітки або між ним і транспортним засобом, що стоїть біля протилежного краю проїзної частини, не лишається щонайменше трьох метрів."
+    },
+    "correct": 0
+  },
+  {
+    "id": "parking-012",
+    "topic": "parking",
+    "kreszRef": "KRESZ 40. § (5) f)",
+    "hu": {
+      "question": "Szabad-e megállni hídon, aluljáróban vagy alagútban?",
+      "answers": [
+        "Nem, ezeken a helyeken és a be- és kijáratuknál is tilos megállni.",
+        "Igen, ha a jármű az úttest jobb széléhez húzódik.",
+        "Csak lakott területen szabad."
+      ],
+      "explanation": "Tilos megállni hídon, aluljáróban, alagútban, valamint ezek be- és kijáratánál. A tilalom nem vonatkozik a forgalmi okból szükséges megállásra."
+    },
+    "ua": {
+      "question": "Чи можна зупинятися на мосту, у підземному проїзді чи в тунелі?",
+      "answers": [
+        "Ні, там, а також біля в'їзду й виїзду з них зупинку заборонено.",
+        "Так, якщо транспортний засіб стоїть біля правого краю проїзної частини.",
+        "Можна лише в населеному пункті."
+      ],
+      "explanation": "Зупинку заборонено на мосту, у підземному проїзді (aluljáró), у тунелі, а також біля в'їзду до них і виїзду з них. Заборона не стосується зупинки, вимушеної дорожньою обстановкою."
+    },
+    "correct": 0
+  },
+  {
+    "id": "parking-013",
+    "topic": "parking",
+    "kreszRef": "KRESZ 41. § (7)",
+    "hu": {
+      "question": "Mikor szabad a járművet őrizetlenül hagyni?",
+      "answers": [
+        "Ha a vezető gondoskodott arról, hogy a jármű önmagától el ne indulhasson, és illetéktelen személy el ne indíthassa.",
+        "Bármikor, ha a jármű szabályos helyen áll.",
+        "Csak akkor, ha a jármű riasztóval van felszerelve."
+      ],
+      "explanation": "A járművet őrizetlenül hagyni abban az esetben szabad, ha a vezető gondoskodott arról, hogy a jármű önmagától el ne indulhasson, és illetéktelen személy azt el ne indíthassa."
+    },
+    "ua": {
+      "question": "Коли можна залишити транспортний засіб без нагляду?",
+      "answers": [
+        "Якщо водій подбав, щоб транспортний засіб не міг рушити сам і щоб його не могла завести стороння особа.",
+        "Будь-коли, якщо транспортний засіб стоїть у дозволеному місці.",
+        "Лише якщо транспортний засіб обладнано сигналізацією."
+      ],
+      "explanation": "Залишати транспортний засіб без нагляду дозволено, якщо водій подбав про те, щоб він не міг самовільно рушити й щоб стороння особа не могла його завести."
+    },
+    "correct": 0
+  },
+  {
+    "id": "parking-014",
+    "topic": "parking",
+    "kreszRef": "KRESZ 40. § (7)",
+    "hu": {
+      "question": "Mikor nyithatja ki a vezető a jármű ajtaját?",
+      "answers": [
+        "Csak akkor, ha ezzel a közlekedés biztonságát, valamint a személy- és vagyonbiztonságot nem veszélyezteti.",
+        "Bármikor, ha a jármű már megállt.",
+        "Csak a járda felőli oldalon."
+      ],
+      "explanation": "A jármű ajtaját a vezető csak akkor nyithatja ki, ha ezzel a közlekedés biztonságát, valamint a személy- és vagyonbiztonságot nem veszélyezteti."
+    },
+    "ua": {
+      "question": "Коли водій може відчинити двері транспортного засобу?",
+      "answers": [
+        "Лише якщо це не загрожує безпеці руху, людей і майна.",
+        "Будь-коли, якщо транспортний засіб уже зупинився.",
+        "Лише з боку тротуару."
+      ],
+      "explanation": "Водій може відчинити двері лише тоді, коли це не створює небезпеки для руху, людей і майна."
+    },
+    "correct": 0
+  },
+  {
+    "id": "parking-015",
+    "topic": "parking",
+    "kreszRef": "KRESZ 41. § (2) c)–d)",
+    "hu": {
+      "question": "Az alábbiak közül hol tilos várakozni?",
+      "answers": [
+        "Ahol a jármű az út menti ingatlanra való behajtást vagy az onnan történő kihajtást akadályozza (a jogosult hozzájárulása nélkül).",
+        "Lakott területen minden mellékutcában.",
+        "Minden olyan úton, ahol nincs kijelölt várakozóhely."
+      ],
+      "explanation": "Tilos várakozni – többek között – ott, ahol a jármű az út menti ingatlanra való behajtást vagy az onnan történő kihajtást az ingatlannal rendelkezni jogosult hozzájárulása nélkül akadályozza, valamint ahol szabályosan várakozó másik jármű megközelítését vagy elindulását akadályozhatja."
+    },
+    "ua": {
+      "question": "Де з переліченого заборонено стоянку?",
+      "answers": [
+        "Там, де транспортний засіб перешкоджає в'їзду на прилеглу ділянку чи виїзду з неї (без згоди того, хто нею розпоряджається).",
+        "У населеному пункті на всіх бічних вулицях.",
+        "На кожній дорозі, де немає позначеного місця для стоянки."
+      ],
+      "explanation": "Стоянку заборонено, зокрема, там, де транспортний засіб без згоди особи, яка має право розпоряджатися ділянкою, перешкоджає в'їзду на прилеглу до дороги ділянку або виїзду з неї, а також там, де він може перешкодити під'їзду до іншого правильно припаркованого транспортного засобу чи його виїзду."
+    },
+    "correct": 0
+  },
+  {
+    "id": "parking-016",
+    "topic": "parking",
+    "kreszRef": "KRESZ 41. § (5)",
+    "image": "parking",
+    "hu": {
+      "question": "A „Várakozóhely” tábla alatti kiegészítő tábla csak meghatározott időtartamú várakozást enged. Mit kell tennie?",
+      "answers": [
+        "A várakozás megkezdésének időpontját a szélvédő mögött elhelyezett tárcsán jeleznie kell, és a jelzést a jármű eltávozása nélkül nem változtathatja meg.",
+        "Elég megjegyeznie az érkezés időpontját.",
+        "Az időtartam lejártakor a tárcsát újra beállíthatja, és maradhat."
+      ],
+      "explanation": "Ahol jelzőtábla meghatározott időtartamú várakozást enged, a várakozás megkezdésének időpontját a járművön – gépkocsi esetében a szélvédő üvege mögött – elhelyezett tárcsán jelezni kell. A tárcsa jelzését a jármű eltávozása nélkül megváltoztatni tilos."
+    },
+    "ua": {
+      "question": "Додаткова табличка під знаком «Várakozóhely» (місце для стоянки) дозволяє стоянку лише обмежений час. Що треба зробити?",
+      "answers": [
+        "Позначити час початку стоянки на паркувальному диску (tárcsa) за лобовим склом і не змінювати його, не від'їхавши.",
+        "Досить запам'ятати час прибуття.",
+        "Коли час спливе, можна переставити диск і стояти далі."
+      ],
+      "explanation": "Там, де знак дозволяє стоянку лише певний час, час її початку треба позначити на диску (tárcsa), розміщеному на транспортному засобі — в автомобілі за лобовим склом. Змінювати показ диска, не від'їхавши, заборонено."
     },
     "correct": 0
   }
