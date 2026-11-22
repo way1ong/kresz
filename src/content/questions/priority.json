@@ -432,5 +432,135 @@
       "explanation": "Якщо знаків немає, Т-подібне перехрестя теж рівнозначне: перевагу має той, хто наближається справа. «Наскрізна» дорога сама по собі переваги не дає. Для водія червоного автомобіля Ви наближаєтеся справа, тому дорогу дає він."
     },
     "correct": 0
+  },
+  {
+    "id": "priority-018",
+    "topic": "priority",
+    "kreszRef": "KRESZ 28. § (2) b); 13. § (1) c)",
+    "image": "r-enter",
+    "points": 3,
+    "hu": {
+      "question": "Ön a kék járművel körforgalomba hajt be; a behajtás előtt „Elsőbbségadás kötelező” és „Körforgalom” tábla van. A körforgalomban a piros jármű közeledik. Melyik jármű haladhat elsőként?",
+      "answers": [
+        "A piros jármű, mert Önnek a tábla miatt elsőbbséget kell adnia a körforgalomban haladónak.",
+        "Ön (a kék jármű), mert a piros járműhöz képest jobbról érkezik.",
+        "Az, amelyik előbb ad irányjelzést."
+      ],
+      "explanation": "A körforgalomban haladók elsőbbségét nem külön szabály, hanem a behajtás előtt elhelyezett „Elsőbbségadás kötelező” tábla biztosítja: az ilyen táblával megjelölt útról érkezőnek elsőbbséget kell adnia a keresztező (itt: a körforgalmú) úton érkező jármű részére."
+    },
+    "ua": {
+      "question": "Ви синім автомобілем в'їжджаєте на кругове перехрестя; перед в'їздом стоять знаки «Elsőbbségadás kötelező» («Дати дорогу») і «Körforgalom» («Круговий рух»). По колу наближається червоний автомобіль. Хто проїжджає першим?",
+      "answers": [
+        "Червоний автомобіль, бо через знак Ви маєте дати дорогу тому, хто їде по колу.",
+        "Ви (синій автомобіль), бо наближаєтеся до червоного справа.",
+        "Той, хто першим увімкне покажчик повороту."
+      ],
+      "explanation": "Перевагу тим, хто їде по колу, дає не окреме правило, а знак «Elsőbbségadás kötelező» перед в'їздом: хто під'їжджає дорогою з таким знаком, має дати дорогу транспорту на дорозі, що перетинається (тут — на дорозі з круговим рухом)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "priority-019",
+    "topic": "priority",
+    "kreszRef": "KRESZ 31. § (5) a); 43. § (1)",
+    "image": "x-right-turn-ped",
+    "points": 3,
+    "hu": {
+      "question": "Ön a kék járművel jobbra kanyarodik. Azon az úttesten, amelyre bekanyarodik, gyalogos halad át; kijelölt gyalogosátkelőhely nincs. Mi a helyes?",
+      "answers": [
+        "Elsőbbséget kell adnia a gyalogosnak.",
+        "A gyalogosnak kell megvárnia Önt, mert nincs kijelölt gyalogosátkelőhely.",
+        "Annak van elsőbbsége, aki előbb ért oda."
+      ],
+      "explanation": "Útkereszteződésnél a bekanyarodó járművel – kijelölt gyalogosátkelőhely hiányában is – elsőbbséget kell adni a gyalogosnak, ha azon az úttesten halad át, amelyre a jármű bekanyarodik."
+    },
+    "ua": {
+      "question": "Ви синім автомобілем повертаєте праворуч. Проїзну частину, на яку Ви повертаєте, переходить пішохід; позначеного пішохідного переходу немає. Що правильно?",
+      "answers": [
+        "Треба дати дорогу пішоходу.",
+        "Пішохід має зачекати на Вас, бо позначеного переходу немає.",
+        "Перевагу має той, хто першим туди дістався."
+      ],
+      "explanation": "На перехресті транспортний засіб, що повертає, має дати дорогу пішоходу, який переходить проїзну частину, на яку цей транспортний засіб повертає, — навіть без позначеного пішохідного переходу."
+    },
+    "correct": 0
+  },
+  {
+    "id": "priority-020",
+    "topic": "priority",
+    "kreszRef": "KRESZ 28. § (1) a)",
+    "image": "x-equal-left-vs-right",
+    "points": 3,
+    "hu": {
+      "question": "Egyenrangú utak kereszteződése, jelzőtábla nincs. Ön a kék járművel balra kanyarodik, a piros jármű jobbról érkezik és egyenesen halad. Melyik jármű haladhat át elsőként?",
+      "answers": [
+        "A piros jármű, mert Önhöz képest jobbról érkezik.",
+        "Ön (a kék jármű), mert előbb ért az útkereszteződéshez.",
+        "Ön (a kék jármű), mert a kanyarodó járműnek van elsőbbsége."
+      ],
+      "explanation": "Egyenrangú útkereszteződésben a jobbról érkező járműnek van elsőbbsége – attól függetlenül, hogy Ön egyenesen halad vagy kanyarodik."
+    },
+    "ua": {
+      "question": "Перехрестя рівнозначних доріг, знаків немає. Ви синім автомобілем повертаєте ліворуч, червоний наближається справа та їде прямо. Хто проїжджає першим?",
+      "answers": [
+        "Червоний автомобіль, бо він наближається до Вас справа.",
+        "Ви (синій автомобіль), бо першими під'їхали до перехрестя.",
+        "Ви (синій автомобіль), бо перевагу має той, хто повертає."
+      ],
+      "explanation": "На перехресті рівнозначних доріг перевагу має той, хто наближається справа, — незалежно від того, їдете Ви прямо чи повертаєте."
+    },
+    "correct": 0
+  },
+  {
+    "id": "priority-021",
+    "topic": "priority",
+    "kreszRef": "KRESZ 12. § (1) b); 28. § (2) b)",
+    "image": "x-stop-t",
+    "points": 3,
+    "hu": {
+      "question": "Ön a kék járművel „ÁLLJ! Elsőbbségadás kötelező” táblánál balra kanyarodna. A keresztező úton mindkét irányból jármű közeledik. Mi a helyes?",
+      "answers": [
+        "Meg kell állnia, és mindkét járműnek elsőbbséget kell adnia.",
+        "Megállás után elsőként Ön haladhat tovább, mert a megállással eleget tett a tábla előírásának.",
+        "Csak a jobbról érkező piros járműnek kell elsőbbséget adnia."
+      ],
+      "explanation": "Az „ÁLLJ! Elsőbbségadás kötelező” táblánál mindig meg kell állni, és elsőbbséget kell adni a keresztező úton bármelyik irányból érkező járműnek. A megállás önmagában nem ad jogot a továbbhaladásra."
+    },
+    "ua": {
+      "question": "Ви синім автомобілем хочете повернути ліворуч біля знака «ÁLLJ! Elsőbbségadás kötelező». Дорогою, що перетинається, з обох боків наближаються автомобілі. Що правильно?",
+      "answers": [
+        "Треба зупинитися й дати дорогу обом автомобілям.",
+        "Після зупинки першим їдете Ви, бо зупинкою вимогу знака виконано.",
+        "Дати дорогу треба лише червоному автомобілю, що наближається справа."
+      ],
+      "explanation": "Біля знака «ÁLLJ! Elsőbbségadás kötelező» завжди треба зупинитися й дати дорогу транспорту, який наближається дорогою, що перетинається, з будь-якого боку. Сама зупинка права на проїзд не дає."
+    },
+    "correct": 0
+  },
+  {
+    "id": "priority-022",
+    "topic": "priority",
+    "kreszRef": "KRESZ 28. § (2) b); 31. § (5) c)",
+    "image": "x-yield-three",
+    "points": 3,
+    "hu": {
+      "question": "Ön a kék járművel „Elsőbbségadás kötelező” táblánál áll. A főútvonalon a zöld jármű egyenesen halad, a piros jármű balra kanyarodik. Milyen sorrendben haladhatnak át a járművek?",
+      "answers": [
+        "Zöld, piros, kék (Ön).",
+        "Piros, zöld, kék (Ön).",
+        "Kék (Ön), zöld, piros."
+      ],
+      "explanation": "Ön a tábla miatt mindkét, a keresztező úton érkező járműnek elsőbbséget ad. A főútvonalon a balra bekanyarodó piros járműnek elsőbbséget kell adnia a szemből érkező, egyenesen haladó zöld járműnek. A sorrend ezért: zöld, piros, kék."
+    },
+    "ua": {
+      "question": "Ви синім автомобілем стоїте біля знака «Elsőbbségadás kötelező». Головною дорогою зелений автомобіль їде прямо, червоний повертає ліворуч. У якій черговості проїжджають автомобілі?",
+      "answers": [
+        "Зелений, червоний, синій (Ви).",
+        "Червоний, зелений, синій (Ви).",
+        "Синій (Ви), зелений, червоний."
+      ],
+      "explanation": "Через знак Ви даєте дорогу обом автомобілям на дорозі, що перетинається. На головній дорозі червоний, що повертає ліворуч, має дати дорогу зустрічному зеленому, який їде прямо. Тому черговість: зелений, червоний, синій."
+    },
+    "correct": 0
   }
 ]

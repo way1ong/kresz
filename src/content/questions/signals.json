@@ -291,5 +291,57 @@
       "explanation": "Суцільна жовта лінія біля краю проїзної частини чи на бордюрі привертає увагу до заборони зупинки, переривчаста жовта — до заборони стоянки."
     },
     "correct": 0
+  },
+  {
+    "id": "signals-013",
+    "topic": "signals",
+    "kreszRef": "KRESZ 6. § (1) a)",
+    "image": "p-side-go",
+    "points": 3,
+    "hu": {
+      "question": "A rendőr mindkét karját oldalirányban kinyújtva irányítja a forgalmat. Ön a kék járművel a rendőr kinyújtott karjával párhuzamos irányból érkezik. Mit tehet?",
+      "answers": [
+        "Továbbhaladhat: egyenesen, valamint jobbra vagy balra bekanyarodva is, ha jelzőtábla nem tiltja.",
+        "Meg kell állnia, mert a rendőr karja az Ön irányába mutat.",
+        "Csak egyenesen haladhat tovább."
+      ],
+      "explanation": "A rendőr mindkét karjának oldalirányú kinyújtása a kinyújtott karral párhuzamos irányból érkezők részére szabad utat jelez: a járművel – ha jelzőtábla nem tiltja – egyenesen, valamint jobbra vagy balra bekanyarodva tovább szabad haladni. A piros jármű a karra merőleges irányból érkezik, neki meg kell állnia."
+    },
+    "ua": {
+      "question": "Поліцейський регулює рух, витягнувши обидві руки в сторони. Ви синім автомобілем під'їжджаєте з напрямку, паралельного його рукам. Що можна зробити?",
+      "answers": [
+        "Їхати далі: прямо, а також праворуч чи ліворуч, якщо знак цього не забороняє.",
+        "Зупинитися, бо рука поліцейського вказує у Ваш бік.",
+        "Їхати можна лише прямо."
+      ],
+      "explanation": "Обидві руки поліцейського, витягнуті в сторони, дозволяють рух тим, хто під'їжджає з напрямку, паралельного рукам: можна їхати прямо, а також повертати праворуч чи ліворуч, якщо знак цього не забороняє. Червоний автомобіль під'їжджає перпендикулярно до рук — він має зупинитися."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signals-014",
+    "topic": "signals",
+    "kreszRef": "KRESZ 6. § (1) a), (3)",
+    "image": "p-side-stop",
+    "points": 3,
+    "hu": {
+      "question": "A fényjelző készülék Önnek zöldet mutat, de az útkereszteződésben rendőr irányítja a forgalmat: kinyújtott karjai az Ön haladási irányára merőlegesek. Mi a teendő?",
+      "answers": [
+        "Meg kell állnia, mert a rendőr jelzése a továbbhaladás tilalmát jelzi, és az erősebb a fényjelzésnél.",
+        "Áthaladhat, mert a fényjelző készülék zöldet mutat.",
+        "Óvatosan áthaladhat, ha a keresztirányból nem jön jármű."
+      ],
+      "explanation": "A kinyújtott karra merőleges irányból érkezők részére a rendőr jelzése a továbbhaladás tilalmát jelzi: meg kell állni. A többi közúti jelzés (a fényjelző készülék és a jelzőtáblák is) csak annyiban irányadó, amennyiben a rendőr jelzésével nem ellentétes."
+    },
+    "ua": {
+      "question": "Світлофор показує Вам зелений, але рух на перехресті регулює поліцейський: його витягнуті руки перпендикулярні до напрямку Вашого руху. Що робити?",
+      "answers": [
+        "Зупинитися, бо сигнал поліцейського забороняє рух і має перевагу над світлофором.",
+        "Проїхати, бо світлофор показує зелений.",
+        "Обережно проїхати, якщо з поперечного напрямку ніхто не їде."
+      ],
+      "explanation": "Для тих, хто під'їжджає перпендикулярно до витягнутих рук, сигнал поліцейського означає заборону руху: треба зупинитися. Інші сигнали (світлофор і знаки) застосовуються лише тією мірою, якою не суперечать сигналу поліцейського."
+    },
+    "correct": 0
   }
 ]

@@ -3,6 +3,7 @@ import { Link } from '../../app/router'
 import { DECKS } from '../../content'
 import { Bi, Tx } from '../../i18n'
 import { shuffle } from '../../lib/random'
+import { isScene } from '../../signs/scenes'
 import { SignImage } from '../../signs/SignImage'
 import { progressStore, recordCardReview, useProgress } from '../../store/progress'
 import { deckItems, dueItems, MISTAKES_DECK, type ReviewItem } from './decks'
@@ -105,7 +106,7 @@ export function CardReviewPage({ deckId }: { deckId: string }) {
           </span>
         </div>
         {current.image && (
-          <div className={current.image.startsWith('x-') ? 'q-image scene' : 'q-image'}>
+          <div className={isScene(current.image) ? 'q-image scene' : 'q-image'}>
             <SignImage id={current.image} />
           </div>
         )}

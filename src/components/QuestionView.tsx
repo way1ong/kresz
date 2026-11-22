@@ -1,5 +1,6 @@
 import type { Question } from '../content/types'
 import { Bi, Tx } from '../i18n'
+import { isScene } from '../signs/scenes'
 import { SignImage } from '../signs/SignImage'
 import type { LangMode } from '../store/settings'
 
@@ -24,7 +25,7 @@ export function QuestionView({ question, order, selected, revealed, onSelect, mo
         <Bi hu={question.hu.question} ua={question.ua.question} mode={mode} />
       </div>
       {question.image && (
-        <div className={question.image.startsWith('x-') ? 'q-image scene' : 'q-image'}>
+        <div className={isScene(question.image) ? 'q-image scene' : 'q-image'}>
           <SignImage id={question.image} />
         </div>
       )}
