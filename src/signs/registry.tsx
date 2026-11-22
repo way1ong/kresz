@@ -124,7 +124,7 @@ function EndCircle({ children }: { children?: ReactNode }) {
     <>
       <circle cx="50" cy="50" r="45" fill={WHITE} stroke={BLACK} strokeWidth="2.5" />
       {children}
-      <path d="M22 72 72 22M25 75 75 25M28 78 78 28" stroke={BLACK} strokeWidth="1.6" />
+      <path d="M21 79 79 21" stroke={BLACK} strokeWidth="9" />
     </>
   )
 }
@@ -234,7 +234,8 @@ export const SIGNS: Record<string, () => ReactNode> = {
   ),
   footPath: () => (
     <BlueDisc>
-      <Pedestrian x={24} y={20} scale={1.5} color={WHITE} />
+      <Pedestrian x={18} y={20} scale={1.5} color={WHITE} />
+      <Pedestrian x={48} y={40} scale={0.98} color={WHITE} />
     </BlueDisc>
   ),
   roundabout: () => (
@@ -295,7 +296,10 @@ export const SIGNS: Record<string, () => ReactNode> = {
   restrictionsEnd: () => <EndCircle />,
   noTrucks: () => (
     <Prohibition>
-      <Truck x={26} y={36} scale={1} />
+      {/* за офіційним рисунком вантажівка «дивиться» ліворуч */}
+      <g transform="translate(100 0) scale(-1 1)">
+        <Truck x={26} y={36} scale={1} />
+      </g>
     </Prohibition>
   ),
   noBicycles: () => (

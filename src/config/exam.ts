@@ -1,57 +1,67 @@
 /**
  * Параметри теоретичного іспиту KRESZ, категорія B («Közlekedési alapismeretek»,
- * számítógépes elméleti vizsga). Усі параметри іспиту зібрані тут.
+ * számítógépes elméleti vizsga — SZEV). Усі параметри іспиту зібрані тут.
  *
- * ДЖЕРЕЛО (перевірено 2026-11-22):
- *   KAV Közlekedési Alkalmassági és Vizsgaközpont — «Tantervi és vizsgakövetelmények
- *   a „B” kategóriás járművezető-képző tanfolyamok számára», 2023 (підписано 2023-08-22),
- *   розділ VII. A. Közlekedési alapismeretek:
- *     «A vizsga teljesítéséhez egy 55 kérdésből álló számítógépes, feleletválasztós tesztet
- *      kell sikeresen megoldani. A vizsga időtartama 55 perc. Az elérhető maximális pontszám
- *      75 pont, melyből a sikeres vizsgához legalább 65 pontot kell elérni.»
- *   https://vizsgakozpont.hu/uploads/2023/dokumentumok/tantervi_es_vizsgakov_b_kategoria_2023_alairt.pdf
+ * ОФІЦІЙНІ ДЖЕРЕЛА (перевірено 2026-11-22):
+ *  1. 24/2005. (IV. 21.) GKM rendelet, 8. számú melléklet, 1.4. «Az elméleti vizsgáztatás
+ *     főbb adatai», рядок «B, B1 / K»: kérdések száma 55, összpontértéke 75,
+ *     megfelelés pontszáma 65, megengedett hibapontok száma 10, tiszta vizsgaidő 55 perc.
+ *     https://njt.jog.gov.hu/jogszabaly/2005-24-20-0L
+ *  2. KAV — «Tantervi és vizsgakövetelmények a „B” kategóriás járművezető-képző tanfolyamok
+ *     számára», чинна редакція (hatályos: 2024. október 1.), розділ VII. A.:
+ *     «…egy 55 kérdésből álló számítógépes, feleletválasztós tesztet kell sikeresen megoldani.
+ *      A vizsga időtartama 55 perc. Az elérhető maximális pontszám 75 pont, melyből a sikeres
+ *      vizsgához legalább 65 pontot kell elérni.»
+ *     https://vizsgakozpont.hu/uploads/2024/dokumentumok/tantervi_es_vizsgakovetelmeny_b_kategoria_20241001_signed.pdf
+ *     (редакція 2023 року діяла до 2024-09-30; параметри іспиту в ній ті самі).
  *
- * Чи це найновіша редакція документа — НЕ перевірено: перед іспитом варто глянути
- * на vizsgakozpont.hu, чи немає новішої версії.
+ * За тим самим документом KAV іспит охоплює три предмети: «Közlekedési alapismeretek»,
+ * «Járművezetés elmélete» та «Szerkezeti és üzemeltetési ismeretek».
  */
 export const EXAM_CONFIG = {
-  // ---- ПЕРЕВІРЕНО за документом KAV (див. вище) ----
+  // ---- ПЕРЕВІРЕНО за офіційними джерелами (див. вище) ----
   /** Кількість питань. */
   questionCount: 55,
-  /** Загальний час, хвилини. */
+  /** Загальний («чистий») час іспиту, хвилини. */
   durationMinutes: 55,
   /** Максимальна кількість балів. */
   maxPoints: 75,
-  /** Прохідний поріг, балів. */
+  /** Прохідний поріг, балів (тобто дозволено щонайбільше 10 штрафних балів). */
   passPoints: 65,
 
-  // ---- НЕПЕРЕВІРЕНО: у документі KAV цього немає ----
+  // ---- ОФІЦІЙНО НЕ ПІДТВЕРДЖЕНО: в офіційних документах цього немає ----
   /**
-   * НЕПЕРЕВІРЕНО. Скільки питань оцінюється в 3 бали (решта — по 1 балу).
-   * Це лише арифметичний висновок: 55 питань і 75 балів за умови, що питання
-   * коштують 1 або 3 бали, дають 10 × 3 + 45 × 1. Сам поділ на 1 і 3 бали
-   * та те, які саме теми «трибальні», офіційним джерелом не підтверджено.
-   * У контенті 3 бали (поле "points": 3) мають питання про пріоритет — це припущення.
+   * Скільки питань оцінюється в 3 бали (решта — по 1 балу).
+   * Офіційні документи наводять лише суму (55 питань, 75 балів). Поділ «10 питань по 3 бали
+   * + 45 по 1 балу» одностайно описують неофіційні джерела (автошколи, навчальні сайти);
+   * за ними 3 бали дають питання про перевагу / черговість проїзду та дорожні ситуації.
+   * У контенті 3 бали (поле "points": 3) мають питання про пріоритет — за цим описом.
    */
   threePointQuestions: 10,
   /**
-   * НЕПЕРЕВІРЕНО. Окремий ліміт часу на одне питання, секунди (null — немає).
-   * Документ 2023 року згадує «kérdésenként 1 perc» лише в перехідних положеннях
-   * (для іспитів 24.08–04.09.2023), тож тут діє тільки загальний ліміт часу.
+   * Окремий ліміт часу на одне питання, секунди (null — немає, діє лише загальний ліміт).
+   * Офіційно визначено тільки загальний час — 55 хвилин. Автошкола Jogsiközpont описує
+   * програму іспиту так: «Egy kérdésre 1 perc jut», а пропущене питання повертається
+   * в кінці тесту із залишком часу. Офіційного опису програми знайти не вдалося,
+   * тому тут ліміту на питання немає — це поблажливіше, ніж, імовірно, на іспиті.
    */
   perQuestionSeconds: null as number | null,
   /**
-   * НЕПЕРЕВІРЕНО. Чи можна на справжньому іспиті повертатися до попередніх питань.
-   * Тут навігацію дозволено.
+   * Чи можна повертатися до попередніх питань. Офіційно не описано; за неофіційними
+   * описами на справжньому іспиті назад повернутися не можна (лише пропустити питання).
+   * Тут навігацію дозволено — теж поблажливіше, ніж, імовірно, на іспиті.
    */
   allowNavigation: true,
 } as const
 
 export const EXAM_SOURCE = {
-  label: 'KAV – Tantervi és vizsgakövetelmények, „B” kategória (2023), VII. A.',
-  url: 'https://vizsgakozpont.hu/uploads/2023/dokumentumok/tantervi_es_vizsgakov_b_kategoria_2023_alairt.pdf',
+  label: '24/2005. (IV. 21.) GKM rendelet 8. melléklet 1.4.; KAV – Tantervi és vizsgakövetelmények, „B” kategória (hatályos: 2024.10.01.)',
+  urls: [
+    'https://njt.jog.gov.hu/jogszabaly/2005-24-20-0L',
+    'https://vizsgakozpont.hu/uploads/2024/dokumentumok/tantervi_es_vizsgakovetelmeny_b_kategoria_20241001_signed.pdf',
+  ],
   checkedAt: '2026-11-22',
 } as const
 
-/** Ключі перекладів для переліку неперевірених параметрів (показуються перед іспитом). */
+/** Ключі перекладів для переліку офіційно не підтверджених параметрів (показуються перед іспитом). */
 export const EXAM_UNVERIFIED = ['exam.unverified.points', 'exam.unverified.flow'] as const
