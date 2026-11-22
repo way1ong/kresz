@@ -44,6 +44,28 @@ describe('planExam', () => {
   })
 })
 
+describe('обмеження питань «на розпізнавання»', () => {
+  const text = { question: 'q', answers: ['a', 'b', 'c'], explanation: 'e' }
+  const recognition: Question[] = Array.from({ length: 100 }, (_, i) => ({
+    id: `gen-${i}`, topic: 't', kreszRef: 'r', generated: 'sign', hu: text, ua: text, correct: 0,
+  }))
+
+  it('у повний іспит потрапляє не більше заданої кількості', () => {
+    for (const seed of [1, 2, 3, 4, 5]) {
+      const plan = planExam([...makePool(20, 80), ...recognition], { ...RULES, maxRecognitionQuestions: 6 }, seededRng(seed))
+      expect(plan.questions).toHaveLength(55)
+      expect(plan.questions.filter((q) => q.generated).length).toBeLessThanOrEqual(6)
+      expect(plan.reduced).toBe(false)
+    }
+  })
+
+  it('якщо інших питань бракує, запас «розпізнавальних» таки використовується', () => {
+    const plan = planExam([...makePool(10, 20), ...recognition], { ...RULES, maxRecognitionQuestions: 6 }, seededRng(6))
+    expect(plan.questions).toHaveLength(55)
+    expect(plan.questions.filter((q) => q.generated).length).toBe(25)
+  })
+})
+
 describe('scoreExam', () => {
   const plan = planExam(makePool(10, 45), RULES, seededRng(5))
   const start = 1_000_000

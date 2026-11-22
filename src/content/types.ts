@@ -18,6 +18,13 @@ export interface Question {
   image?: string
   /** Вага питання на іспиті: 1 (типово) або 3 бали. */
   points?: 1 | 3
+  /** Необов'язково: відповіді-малюнки (id малюнків у тому ж порядку, що й answers). */
+  answerImages?: string[]
+  /**
+   * Питання згенеровано з даних (див. generators.ts), а не написано у файлі теми:
+   * sign / term — питання на розпізнавання знаків і термінів, scene — ситуація на перехресті.
+   */
+  generated?: 'sign' | 'term' | 'scene'
   hu: QuestionText
   ua: QuestionText
   /** Індекс правильної відповіді в answers (з нуля). */

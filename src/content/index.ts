@@ -1,4 +1,5 @@
 import decksJson from './decks.json'
+import { generateSignQuestions, generateTermQuestions } from './generators'
 import topicsJson from './topics.json'
 import type { Card, Deck, Question, Topic } from './types'
 
@@ -13,13 +14,21 @@ const cardModules = import.meta.glob<Card[]>('./cards/*.json', { eager: true, im
 export const TOPICS: Topic[] = topicsJson
 export const DECKS: Deck[] = decksJson
 
-export const QUESTIONS: Question[] = Object.keys(questionModules)
-  .sort()
-  .flatMap((path) => questionModules[path])
-
 export const CARDS: Card[] = Object.keys(cardModules)
   .sort()
   .flatMap((path) => cardModules[path])
+
+/** Питання, написані у файлах тем. */
+const WRITTEN_QUESTIONS: Question[] = Object.keys(questionModules)
+  .sort()
+  .flatMap((path) => questionModules[path])
+
+/** Усі питання: написані вручну + згенеровані з карток знаків і термінів. */
+export const QUESTIONS: Question[] = [
+  ...WRITTEN_QUESTIONS,
+  ...generateSignQuestions(CARDS.filter((card) => card.deck === 'signs')),
+  ...generateTermQuestions(CARDS.filter((card) => card.deck === 'terms')),
+]
 
 export const QUESTION_BY_ID: ReadonlyMap<string, Question> = new Map(QUESTIONS.map((q) => [q.id, q]))
 export const TOPIC_BY_ID: ReadonlyMap<string, Topic> = new Map(TOPICS.map((t) => [t.id, t]))

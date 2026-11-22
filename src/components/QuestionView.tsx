@@ -48,7 +48,7 @@ export function QuestionView({ question, order, selected, revealed, onSelect, mo
           <SignImage id={question.image} />
         </div>
       )}
-      <div className="answers">
+      <div className={question.answerImages ? 'answers images' : 'answers'}>
         {order.map((answerIndex, position) => {
           const isSelected = selected === answerIndex
           const isCorrect = question.correct === answerIndex
@@ -72,7 +72,22 @@ export function QuestionView({ question, order, selected, revealed, onSelect, mo
               <span className="answer-letter" aria-hidden="true">
                 {revealed && isCorrect ? '✓' : revealed && isSelected ? '✕' : LETTERS[position]}
               </span>
-              <Bi hu={question.hu.answers[answerIndex]} ua={question.ua.answers[answerIndex]} mode={mode} className="grow" />
+              {question.answerImages ? (
+                // Відповіді-малюнки: назву знака показуємо лише після відповіді.
+                <span className="answer-image">
+                  <SignImage id={question.answerImages[answerIndex]} size={76} />
+                  {revealed && (
+                    <Bi hu={question.hu.answers[answerIndex]} ua={question.ua.answers[answerIndex]} mode={mode} />
+                  )}
+                </span>
+              ) : (
+                <Bi
+                  hu={question.hu.answers[answerIndex]}
+                  ua={question.ua.answers[answerIndex]}
+                  mode={mode}
+                  className="grow"
+                />
+              )}
             </button>
           )
         })}

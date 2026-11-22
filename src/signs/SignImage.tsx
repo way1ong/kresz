@@ -1,8 +1,8 @@
-import { IMAGES } from './images'
+import { getImage } from './images'
 
 /** Малюнок (знак, схема перехрестя чи світлофор) за id. Невідомий id нічого не показує. */
 export function SignImage({ id, label, size }: { id: string; label?: string; size?: number }) {
-  const render = IMAGES[id]
+  const render = getImage(id)
   if (!render) return null
   return (
     <svg

@@ -8,5 +8,6 @@
   {"id": "signals", "icon": "🚦", "hu": "Fényjelzések, rendőri jelzések, útburkolati jelek", "ua": "Світлофори, регулювальник, розмітка"},
   {"id": "special", "icon": "🛤️", "hu": "Autópálya, vasúti átjáró, villamos", "ua": "Автомагістраль, переїзд, трамвай"},
   {"id": "theory", "icon": "🧠", "hu": "Járművezetés elmélete", "ua": "Теорія керування"},
-  {"id": "vehicle", "icon": "🔧", "hu": "Szerkezeti és üzemeltetési ismeretek", "ua": "Будова та експлуатація автомобіля"}
+  {"id": "vehicle", "icon": "🔧", "hu": "Szerkezeti és üzemeltetési ismeretek", "ua": "Будова та експлуатація автомобіля"},
+  {"id": "terms", "icon": "📖", "hu": "Fogalmak", "ua": "Терміни"}
 ]

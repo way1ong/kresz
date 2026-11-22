@@ -9,6 +9,8 @@ export interface ExamRules {
   maxPoints: number
   passPoints: number
   threePointQuestions: number
+  /** Скільки щонайбільше згенерованих питань «на розпізнавання» брати в один іспит. */
+  maxRecognitionQuestions?: number
 }
 
 export interface ExamItem {
@@ -69,7 +71,15 @@ const pointsOf = (q: Question) => q.points ?? 1
  */
 export function planExam(pool: Question[], rules: ExamRules = EXAM_CONFIG, rng: Rng = Math.random): ExamPlan {
   const three = shuffle(pool.filter((q) => pointsOf(q) === 3), rng)
-  const one = shuffle(pool.filter((q) => pointsOf(q) !== 3), rng)
+  const isRecognition = (q: Question) => q.generated === 'sign' || q.generated === 'term'
+  const onePointers = pool.filter((q) => pointsOf(q) !== 3)
+  // Питань «на розпізнавання» беремо обмежену кількість; решта йде в кінець як запас.
+  const recognition = shuffle(onePointers.filter(isRecognition), rng)
+  const cap = rules.maxRecognitionQuestions ?? recognition.length
+  const one = [
+    ...shuffle([...onePointers.filter((q) => !isRecognition(q)), ...recognition.slice(0, cap)], rng),
+    ...recognition.slice(cap),
+  ]
 
   const wantThree = Math.min(rules.threePointQuestions, rules.questionCount)
   const picked = [...three.slice(0, wantThree), ...one.slice(0, rules.questionCount - wantThree)]
