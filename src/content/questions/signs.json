@@ -1,0 +1,607 @@
+[
+  {
+    "id": "signs-001",
+    "topic": "signs",
+    "kreszRef": "KRESZ 12. § (1) b)",
+    "image": "stop",
+    "points": 3,
+    "hu": {
+      "question": "Mit kell tennie ennél a táblánál?",
+      "answers": [
+        "Meg kell állnia, és elsőbbséget kell adnia a keresztező úton érkező járműveknek.",
+        "Csak akkor kell megállnia, ha a keresztező úton jármű közeledik.",
+        "Lassítania kell, de megállnia nem kötelező."
+      ],
+      "explanation": "Az „ÁLLJ! Elsőbbségadás kötelező” táblánál mindig meg kell állni: a megállás helyét jelző útburkolati jel előtt, ennek hiányában az útkereszteződésbe való behaladás előtt. Ezután elsőbbséget kell adni a keresztező (betorkolló) úton érkező járműveknek."
+    },
+    "ua": {
+      "question": "Що потрібно зробити біля цього знака?",
+      "answers": [
+        "Зупинитися й дати дорогу транспортним засобам, що рухаються дорогою, яку перетинаєте.",
+        "Зупинитися лише тоді, коли дорогою, яку перетинаєте, наближається транспортний засіб.",
+        "Зменшити швидкість, але зупинятися не обов'язково."
+      ],
+      "explanation": "Біля знака «ÁLLJ! Elsőbbségadás kötelező» («СТІЙ! Дати дорогу») зупинятися треба завжди: перед розміткою, що позначає місце зупинки, а якщо її немає — перед в'їздом на перехрестя. Після цього слід дати дорогу транспорту на дорозі, яку перетинаєте (до якої прилягаєте)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-002",
+    "topic": "signs",
+    "kreszRef": "KRESZ 12. § (1) a)",
+    "image": "yield",
+    "points": 3,
+    "hu": {
+      "question": "Mit jelez ez a tábla?",
+      "answers": [
+        "Az útkereszteződésben elsőbbséget kell adni a keresztező (betorkolló) úton érkező jármű részére.",
+        "Az útkereszteződésben csak a jobbról érkező járműnek kell elsőbbséget adni.",
+        "Az útkereszteződés előtt minden esetben meg kell állni."
+      ],
+      "explanation": "Az „Elsőbbségadás kötelező” tábla azt jelzi, hogy az útkereszteződésben elsőbbséget kell adni a keresztező (betorkolló) úton mindkét irányból érkező járműnek. Megállni csak akkor kell, ha ez az elsőbbségadáshoz szükséges."
+    },
+    "ua": {
+      "question": "Що означає цей знак?",
+      "answers": [
+        "На перехресті треба дати дорогу транспортному засобу, що рухається дорогою, яку перетинаєте (до якої прилягаєте).",
+        "На перехресті треба дати дорогу лише транспортному засобу, що наближається справа.",
+        "Перед перехрестям завжди обов'язково зупинитися."
+      ],
+      "explanation": "Знак «Elsőbbségadás kötelező» («Дати дорогу») означає, що на перехресті слід дати дорогу транспорту, який рухається дорогою, що перетинається, з обох напрямків. Зупинятися потрібно лише тоді, коли це необхідно, щоб дати дорогу."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-003",
+    "topic": "signs",
+    "kreszRef": "KRESZ 16. § (2)",
+    "image": "otherDanger",
+    "hu": {
+      "question": "Lakott területen kívül (nem autópályán) mekkora távolság van a veszélyt jelző tábla és a veszély helye között, ha kiegészítő tábla mást nem jelöl?",
+      "answers": [
+        "150–250 méter",
+        "50–100 méter",
+        "250–500 méter"
+      ],
+      "explanation": "A veszélyt jelző tábla és a veszély helye közötti távolság autópályán 250–500 méter, lakott területen kívül egyéb úton 150–250 méter, lakott területen 50–100 méter – kivéve, ha kiegészítő tábla rövidebb távolságot jelöl meg."
+    },
+    "ua": {
+      "question": "Поза населеним пунктом (не на автомагістралі): яка відстань між попереджувальним знаком і небезпечним місцем, якщо додаткова табличка не вказує іншого?",
+      "answers": [
+        "150–250 метрів",
+        "50–100 метрів",
+        "250–500 метрів"
+      ],
+      "explanation": "Відстань між попереджувальним знаком і місцем небезпеки: на автомагістралі 250–500 м, поза населеним пунктом на інших дорогах 150–250 м, у населеному пункті 50–100 м — якщо додаткова табличка не вказує меншу відстань."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-004",
+    "topic": "signs",
+    "kreszRef": "KRESZ 14. § (1) z)",
+    "image": "noEntry",
+    "hu": {
+      "question": "Mit jelez ez a tábla?",
+      "answers": [
+        "Az egyirányú forgalmú útra ebből az irányból behajtani tilos.",
+        "Az útra mindkét irányból tilos behajtani.",
+        "Az úton megállni tilos."
+      ],
+      "explanation": "A „Behajtani tilos” tábla azt jelzi, hogy az egyirányú forgalmú útra ebből az irányból behajtani tilos. A „Mindkét irányból behajtani tilos” tábla ettől eltér: az fehér alapú, piros szegélyű kör."
+    },
+    "ua": {
+      "question": "Що означає цей знак?",
+      "answers": [
+        "На дорогу з одностороннім рухом заборонено в'їжджати з цього напрямку.",
+        "В'їзд на дорогу заборонено з обох напрямків.",
+        "На дорозі заборонено зупинку."
+      ],
+      "explanation": "Знак «Behajtani tilos» («В'їзд заборонено») означає, що на дорогу з одностороннім рухом не можна в'їжджати з цього боку. Знак «Mindkét irányból behajtani tilos» (рух заборонено в обох напрямках) інший: біле коло з червоною облямівкою."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-005",
+    "topic": "signs",
+    "kreszRef": "KRESZ 15. § (1) b); 1. számú függelék III. d)–e)",
+    "image": "noParking",
+    "hu": {
+      "question": "Megállhat-e ennek a táblának a hatálya alatt, hogy utasa kiszálljon?",
+      "answers": [
+        "Igen, mert a tábla csak a várakozást tiltja; a ki- és beszálláshoz szükséges ideig meg szabad állni.",
+        "Nem, a tábla a megállást is tiltja.",
+        "Csak akkor, ha közben bekapcsolja az elakadásjelzőt."
+      ],
+      "explanation": "A „Várakozni tilos” tábla csak a várakozást tiltja. Megállás: a be- és kiszálláshoz vagy a folyamatos fel- és lerakáshoz szükséges ideig, illetve – ha a vezető a járműnél marad – egyéb okból legfeljebb 5 percig tartó egy helyben tartózkodás. Az ennél hosszabb egy helyben tartózkodás már várakozás."
+    },
+    "ua": {
+      "question": "Чи можна в зоні дії цього знака зупинитися, щоб висадити пасажира?",
+      "answers": [
+        "Так, бо знак забороняє лише стоянку (várakozás); зупинитися на час, потрібний для висадки чи посадки, можна.",
+        "Ні, знак забороняє і зупинку.",
+        "Лише якщо ввімкнути аварійну сигналізацію."
+      ],
+      "explanation": "Знак «Várakozni tilos» («Стоянку заборонено») забороняє лише стоянку. Зупинка (megállás) — це перебування на місці протягом часу, потрібного для посадки й висадки або безперервного завантаження й розвантаження, а якщо водій лишається біля транспортного засобу — з іншої причини не довше 5 хвилин. Довше перебування на місці — це вже стоянка (várakozás)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-006",
+    "topic": "signs",
+    "kreszRef": "KRESZ 14. § (1) f)",
+    "image": "noOvertaking",
+    "hu": {
+      "question": "Ennek a táblának a hatálya alatt személygépkocsival megelőzheti-e az Ön előtt haladó kerékpárost?",
+      "answers": [
+        "Igen, a tilalom a kerékpár gépjárművel való előzésére nem vonatkozik.",
+        "Nem, a tábla minden jármű előzését tiltja.",
+        "Csak lakott területen kívül."
+      ],
+      "explanation": "Az „Előzni tilos” tábla tilalma nem vonatkozik kétkerekű motorkerékpárnak, segédmotoros kerékpárnak és kerékpárnak, valamint állati erővel vont járműnek és kézikocsinak gépjárművel való előzésére, továbbá az úttest közepén levő vágányon haladó villamos előzésére. Az előzés általános szabályait ilyenkor is be kell tartani."
+    },
+    "ua": {
+      "question": "Чи можна в зоні дії цього знака обігнати легковим автомобілем велосипедиста, що їде попереду?",
+      "answers": [
+        "Так, заборона не поширюється на обгін велосипеда механічним транспортним засобом (gépjármű).",
+        "Ні, знак забороняє обгін будь-яких транспортних засобів.",
+        "Лише поза населеним пунктом."
+      ],
+      "explanation": "Заборона знака «Előzni tilos» («Обгін заборонено») не поширюється на обгін механічним транспортним засобом двоколісного мотоцикла, мопеда (segédmotoros kerékpár) і велосипеда, а також гужового транспорту й ручного візка, і на обгін трамвая, що рухається колією посередині проїзної частини. Загальних правил обгону при цьому все одно треба дотримуватися."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-007",
+    "topic": "signs",
+    "kreszRef": "KRESZ 14. § (6)–(7)",
+    "image": "speedLimit50",
+    "hu": {
+      "question": "Meddig tart ennek a táblának a hatálya, ha alatta nincs kiegészítő tábla, és feloldó tábla sem következik?",
+      "answers": [
+        "A következő útkereszteződés kezdetéig.",
+        "A táblától számított 500 méterig.",
+        "Addig, amíg a vezető úgy nem ítéli meg, hogy a veszély megszűnt."
+      ],
+      "explanation": "A „Sebességkorlátozás” tábla hatálya a táblánál kezdődik és a következő útkereszteződés kezdetéig tart, kivéve, ha kiegészítő tábla rövidebb távolságot jelöl meg, vagy a „Sebességkorlátozás vége”, illetve a „Mozgó járművekre vonatkozó tilalmak vége” tábla előbb feloldja. Ha a táblát a „Lakott terület kezdete” táblával együtt helyezték el, a korlátozás a teljes lakott területre kiterjed."
+    },
+    "ua": {
+      "question": "До якого місця діє цей знак, якщо під ним немає додаткової таблички й далі немає знака, що скасовує обмеження?",
+      "answers": [
+        "До початку наступного перехрестя.",
+        "На 500 метрів від знака.",
+        "Доки водій не вирішить, що небезпека минула."
+      ],
+      "explanation": "Дія знака «Sebességkorlátozás» («Обмеження швидкості») починається від знака й триває до початку наступного перехрестя, якщо додаткова табличка не вказує меншу відстань або обмеження раніше не скасовує знак «Sebességkorlátozás vége» чи «Mozgó járművekre vonatkozó tilalmak vége». Якщо знак встановлено разом зі знаком «Lakott terület kezdete» (початок населеного пункту), обмеження діє в усьому населеному пункті."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-008",
+    "topic": "signs",
+    "kreszRef": "KRESZ 16. § (1) t)",
+    "image": "equalCrossing",
+    "points": 3,
+    "hu": {
+      "question": "Mit jelez ez a tábla?",
+      "answers": [
+        "Olyan útkereszteződés következik, amelyben a jobbról érkező járműnek van elsőbbsége.",
+        "Olyan útkereszteződés következik, amelyben Önnek elsőbbsége van a keresztező úton érkezőkkel szemben.",
+        "Sorompó nélküli vasúti átjáró következik."
+      ],
+      "explanation": "Az „Egyenrangú utak kereszteződése” tábla azt jelzi, hogy az úton olyan útkereszteződés van, amelyben a jobbról érkező járműnek van elsőbbsége (jobbkézszabály)."
+    },
+    "ua": {
+      "question": "Що означає цей знак?",
+      "answers": [
+        "Попереду перехрестя, на якому перевагу має транспортний засіб, що наближається справа.",
+        "Попереду перехрестя, на якому Ви маєте перевагу перед тими, хто рухається дорогою, що перетинається.",
+        "Попереду залізничний переїзд без шлагбаума."
+      ],
+      "explanation": "Знак «Egyenrangú utak kereszteződése» («Перехрещення рівнозначних доріг») попереджає про перехрестя, на якому перевагу має транспортний засіб, що наближається справа (правило правої руки)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-009",
+    "topic": "signs",
+    "kreszRef": "KRESZ 13. § (1) c)",
+    "image": "roundabout",
+    "hu": {
+      "question": "Hogyan kell haladni azon az úton, amelyet ez a tábla jelez?",
+      "answers": [
+        "Úgy, hogy az út által körbezárt terület a vezetőtől balra essék.",
+        "Úgy, hogy az út által körbezárt terület a vezetőtől jobbra essék.",
+        "Bármelyik irányban, de legfeljebb 30 km/óra sebességgel."
+      ],
+      "explanation": "A „Körforgalom” tábla olyan utat jelez, amelyen úgy kell haladni, hogy az út által körbezárt terület a vezetőtől balra essék – vagyis az óramutató járásával ellentétes irányban."
+    },
+    "ua": {
+      "question": "Як треба рухатися дорогою, яку позначає цей знак?",
+      "answers": [
+        "Так, щоб територія, яку оточує дорога, була ліворуч від водія.",
+        "Так, щоб територія, яку оточує дорога, була праворуч від водія.",
+        "У будь-якому напрямку, але не швидше 30 км/год."
+      ],
+      "explanation": "Знак «Körforgalom» («Круговий рух») позначає дорогу, якою слід рухатися так, щоб оточена нею територія залишалася ліворуч від водія, тобто проти годинникової стрілки."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-010",
+    "topic": "signs",
+    "kreszRef": "KRESZ 16. § (1) u)",
+    "image": "minorRoadCrossing",
+    "points": 3,
+    "hu": {
+      "question": "Mit jelez ez a tábla?",
+      "answers": [
+        "Olyan útkereszteződés következik, amelyben Önnek elsőbbsége van a keresztező úton érkező járművel szemben.",
+        "Olyan útkereszteződés következik, amelyben a jobbról érkező járműnek van elsőbbsége.",
+        "Az út a következő útkereszteződéstől egyirányú."
+      ],
+      "explanation": "Az „Útkereszteződés alárendelt úttal” tábla azt jelzi, hogy az úton olyan útkereszteződés van, amelyben a járműnek elsőbbsége van a keresztező úton érkező járművel szemben."
+    },
+    "ua": {
+      "question": "Що означає цей знак?",
+      "answers": [
+        "Попереду перехрестя, на якому Ви маєте перевагу перед транспортним засобом, що рухається дорогою, яку перетинаєте.",
+        "Попереду перехрестя, на якому перевагу має транспортний засіб, що наближається справа.",
+        "Від наступного перехрестя дорога стає односторонньою."
+      ],
+      "explanation": "Знак «Útkereszteződés alárendelt úttal» («Перехрещення з другорядною дорогою») означає, що попереду перехрестя, на якому Ваш транспортний засіб має перевагу перед тим, що рухається дорогою, яка перетинається."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-011",
+    "topic": "signs",
+    "kreszRef": "KRESZ 16. § (1) h)–i)",
+    "image": "bump",
+    "hu": {
+      "question": "Mit jelez a „Bukkanó” tábla?",
+      "answers": [
+        "Az úton a domborzati viszonyok miatt a kilátás korlátozott.",
+        "Az úttesten sebességcsökkentő küszöböt alakítottak ki.",
+        "Az úttest erősen csúszóssá válhat."
+      ],
+      "explanation": "A „Bukkanó” tábla azt jelzi, hogy az úton a domborzati viszonyok miatt a kilátás korlátozott. A sebességcsökkentő bordákat (küszöböket) és a lényegesen rosszabb állapotú úttestet az „Egyenetlen úttest” tábla jelzi."
+    },
+    "ua": {
+      "question": "Що означає знак «Bukkanó»?",
+      "answers": [
+        "Через рельєф місцевості оглядовість на дорозі обмежена.",
+        "На проїзній частині влаштовано пристрій примусового зниження швидкості («лежачий поліцейський»).",
+        "Проїзна частина може стати дуже слизькою."
+      ],
+      "explanation": "Знак «Bukkanó» (перелом профілю дороги, «горб») означає, що через рельєф оглядовість на дорозі обмежена. Про пристрої примусового зниження швидкості та про значно гірший стан проїзної частини попереджає знак «Egyenetlen úttest» («Нерівна дорога»)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-012",
+    "topic": "signs",
+    "kreszRef": "KRESZ 14. § (1) b), (5)",
+    "image": "noLeftTurn",
+    "hu": {
+      "question": "Mit tilt ez a tábla?",
+      "answers": [
+        "Az útkereszteződésben a balra bekanyarodást és a megfordulást is.",
+        "Csak a balra bekanyarodást; megfordulni szabad.",
+        "A balra bekanyarodást a lakott terület végéig minden útkereszteződésben."
+      ],
+      "explanation": "A „Balra bekanyarodni tilos” tábla azt jelzi, hogy az útkereszteződésben megfordulni és balra bekanyarodni tilos. A tábla hatálya arra az útkereszteződésre terjed ki, amelyik előtt elhelyezték."
+    },
+    "ua": {
+      "question": "Що забороняє цей знак?",
+      "answers": [
+        "На перехресті — і поворот ліворуч, і розворот.",
+        "Лише поворот ліворуч; розвертатися можна.",
+        "Поворот ліворуч на всіх перехрестях до кінця населеного пункту."
+      ],
+      "explanation": "Знак «Balra bekanyarodni tilos» («Поворот ліворуч заборонено») означає, що на перехресті заборонено і розворот, і поворот ліворуч. Дія знака поширюється на те перехрестя, перед яким його встановлено."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-013",
+    "topic": "signs",
+    "kreszRef": "KRESZ 14. § (7)",
+    "image": "restrictionsEnd",
+    "hu": {
+      "question": "Mely táblák hatályát oldja fel ez a tábla?",
+      "answers": [
+        "A megfordulási tilalomét, a sebességkorlátozásét, a legkisebb követési távolságét és az előzési tilalmakét.",
+        "Minden tilalmi tábláét, a megállási és a várakozási tilalmat is beleértve.",
+        "Csak a sebességkorlátozásét."
+      ],
+      "explanation": "A „Mozgó járművekre vonatkozó tilalmak vége” tábla a „Megfordulni tilos”, a „Sebességkorlátozás”, a „Legkisebb követési távolság”, az „Előzni tilos” és a „Tehergépkocsival előzni tilos” táblák hatályát oldja fel. A megállási és várakozási tilalmat nem."
+    },
+    "ua": {
+      "question": "Дію яких знаків скасовує цей знак?",
+      "answers": [
+        "Заборони розвороту, обмеження швидкості, мінімальної дистанції та заборон обгону.",
+        "Усіх заборонних знаків, зокрема заборони зупинки й стоянки.",
+        "Лише обмеження швидкості."
+      ],
+      "explanation": "Знак «Mozgó járművekre vonatkozó tilalmak vége» (кінець заборон для транспорту, що рухається) скасовує дію знаків «Megfordulni tilos», «Sebességkorlátozás», «Legkisebb követési távolság», «Előzni tilos» і «Tehergépkocsival előzni tilos». Заборону зупинки чи стоянки він не скасовує."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-014",
+    "topic": "signs",
+    "kreszRef": "KRESZ 26. § (6); 16. § (1) q)",
+    "image": "children",
+    "hu": {
+      "question": "E tábla alatt a kiegészítő tábla távolságot jelöl meg. Legfeljebb mekkora sebességgel szabad a megjelölt útszakaszon közlekedni, ha a közúti jelzésekből más nem következik?",
+      "answers": [
+        "30 km/óra",
+        "40 km/óra",
+        "50 km/óra"
+      ],
+      "explanation": "Ha a „Gyermekek” tábla alatt kiegészítő tábla távolságot jelöl meg, az így megjelölt útszakaszon – ha a közúti jelzésekből más nem következik – legfeljebb 30 km/óra sebességgel szabad közlekedni. A kiegészítő tábla azt is jelezheti, hogy a korlátozás csak meghatározott időszakban érvényes."
+    },
+    "ua": {
+      "question": "Під цим знаком додаткова табличка вказує відстань. З якою найбільшою швидкістю можна їхати на позначеній ділянці, якщо знаки й розмітка не вказують іншого?",
+      "answers": [
+        "30 км/год",
+        "40 км/год",
+        "50 км/год"
+      ],
+      "explanation": "Якщо під знаком «Gyermekek» («Діти») додаткова табличка вказує відстань, то на позначеній ділянці — якщо з дорожніх знаків і розмітки не випливає інше — дозволено їхати не швидше 30 км/год. Табличка може також вказувати, що обмеження діє лише в певний час."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-015",
+    "topic": "signs",
+    "kreszRef": "KRESZ 12. § (1) c)",
+    "image": "oncomingPriority",
+    "points": 3,
+    "hu": {
+      "question": "Mit jelez ez a tábla?",
+      "answers": [
+        "Az útszűkületben elsőbbséget kell adni a szembejövő jármű részére.",
+        "Az útszűkületben Önnek van elsőbbsége a szembejövő járművel szemben.",
+        "Az úton innen kétirányú forgalom van."
+      ],
+      "explanation": "„A szembejövő forgalom elsőbbsége” tábla azt jelzi, hogy az útszűkületben elsőbbséget kell adni a szembejövő jármű részére. Párja a kék, négyzet alakú „Elsőbbség a szembejövő forgalommal szemben” tábla."
+    },
+    "ua": {
+      "question": "Що означає цей знак?",
+      "answers": [
+        "На звуженій ділянці треба дати дорогу зустрічному транспортному засобу.",
+        "На звуженій ділянці Ви маєте перевагу перед зустрічним транспортним засобом.",
+        "Звідси на дорозі двосторонній рух."
+      ],
+      "explanation": "Знак «A szembejövő forgalom elsőbbsége» («Перевага зустрічного руху») означає, що на звуженій ділянці треба дати дорогу зустрічному транспортному засобу. Його пара — синій квадратний знак «Elsőbbség a szembejövő forgalommal szemben»."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-016",
+    "topic": "signs",
+    "kreszRef": "KRESZ 15. § (1) a)",
+    "image": "noStopping",
+    "hu": {
+      "question": "Megállhat-e ennek a táblának a hatálya alatt, hogy utasa kiszálljon?",
+      "answers": [
+        "Nem; a tábla a megállást és a várakozást is tiltja, kivéve a forgalmi vagy műszaki okból szükséges megállást.",
+        "Igen, a ki- és beszálláshoz szükséges ideig.",
+        "Igen, de legfeljebb 5 percig, ha a vezető a járműnél marad."
+      ],
+      "explanation": "A „Megállni tilos” tábla azt jelzi, hogy – a forgalmi vagy műszaki okból szükséges megállást kivéve – megállni, valamint várakozni tilos. Az utas ki- vagy beszállása nem forgalmi ok."
+    },
+    "ua": {
+      "question": "Чи можна в зоні дії цього знака зупинитися, щоб висадити пасажира?",
+      "answers": [
+        "Ні; знак забороняє і зупинку, і стоянку, крім зупинки, вимушеної дорожньою обстановкою чи технічною причиною.",
+        "Так, на час, потрібний для висадки чи посадки.",
+        "Так, але не довше 5 хвилин, якщо водій лишається біля автомобіля."
+      ],
+      "explanation": "Знак «Megállni tilos» («Зупинку заборонено») забороняє і зупинку, і стоянку — крім зупинки, вимушеної дорожньою обстановкою або технічною причиною. Висадка чи посадка пасажира такою причиною не є."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-017",
+    "topic": "signs",
+    "kreszRef": "KRESZ 13. § (1) b)",
+    "image": "passRight",
+    "hu": {
+      "question": "Mit jelez ez a tábla?",
+      "answers": [
+        "A táblát – illetve az akadályt, amelyen elhelyezték – a nyíl által jelzett irányban kell kikerülni.",
+        "A következő útkereszteződésben jobbra kell bekanyarodni.",
+        "Az úttest jobb oldala le van zárva."
+      ],
+      "explanation": "A „Kikerülési irány” tábla azt jelzi, hogy a táblát – illetőleg azt az akadályt vagy egyéb tárgyat, amelyen a táblát elhelyezték – a táblán levő nyíl által jelzett irányban kell kikerülni."
+    },
+    "ua": {
+      "question": "Що означає цей знак?",
+      "answers": [
+        "Знак — або перешкоду, на якій його встановлено, — треба об'їжджати з боку, на який показує стрілка.",
+        "На наступному перехресті треба повернути праворуч.",
+        "Правий бік проїзної частини закрито."
+      ],
+      "explanation": "Знак «Kikerülési irány» («Напрямок об'їзду») означає, що знак (або перешкоду чи інший об'єкт, на якому його встановлено) слід об'їжджати в напрямку, який показує стрілка."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-018",
+    "topic": "signs",
+    "kreszRef": "KRESZ 10. § (6)",
+    "image": "noParking",
+    "hu": {
+      "question": "A megállási és a várakozási tilalmat jelző tábla hatálya az úttest melyik oldalára terjed ki?",
+      "answers": [
+        "Arra az oldalra, amelyik mellett a táblát elhelyezték.",
+        "Mindig az úttest mindkét oldalára.",
+        "Mindig csak a menetirány szerinti jobb oldalra."
+      ],
+      "explanation": "A megállási és a várakozási tilalmat, valamint a várakozóhelyet jelző táblát az úttest mellett a jobb és a bal oldalon egyaránt elhelyezhetik. E táblák hatálya az úttestnek arra az oldalára terjed ki, amelyik mellett azokat elhelyezték."
+    },
+    "ua": {
+      "question": "На який бік проїзної частини поширюється дія знаків, що забороняють зупинку або стоянку?",
+      "answers": [
+        "На той бік, біля якого знак встановлено.",
+        "Завжди на обидва боки проїзної частини.",
+        "Завжди лише на правий за напрямком руху бік."
+      ],
+      "explanation": "Знаки, що забороняють зупинку чи стоянку, і знак місця для стоянки можуть встановлювати і праворуч, і ліворуч від проїзної частини. Їхня дія поширюється на той бік проїзної частини, біля якого їх встановлено."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-019",
+    "topic": "signs",
+    "kreszRef": "KRESZ 14. § (3)",
+    "image": "noEntryBoth",
+    "hu": {
+      "question": "A „Mindkét irányból behajtani tilos” tábla alatt „Kivéve célforgalom” kiegészítő tábla van. Kire nem vonatkozik a tilalom?",
+      "answers": [
+        "Arra a járműre, amelynek úti célja a táblával megjelölt úton vagy övezetben van.",
+        "Minden személygépkocsira.",
+        "Azokra, akik csak áthaladnak az úton, de nem állnak meg."
+      ],
+      "explanation": "Ha a behajtási tilalmat jelző tábla alatt „Kivéve célforgalom” kiegészítő tábla van, a tilalom nem vonatkozik arra a járműre, amelynek úti célja a táblával megjelölt úton vagy övezetben van. Az átmenő forgalomra a tilalom érvényes."
+    },
+    "ua": {
+      "question": "Під знаком «Mindkét irányból behajtani tilos» (рух заборонено) є табличка «Kivéve célforgalom». На кого заборона не поширюється?",
+      "answers": [
+        "На транспортний засіб, місце призначення якого — на позначеній знаком дорозі чи в зоні.",
+        "На всі легкові автомобілі.",
+        "На тих, хто лише проїжджає дорогою, не зупиняючись."
+      ],
+      "explanation": "Якщо під знаком заборони в'їзду є табличка «Kivéve célforgalom» («крім тих, хто їде до місця призначення»), заборона не стосується транспортного засобу, пункт призначення якого розташований на позначеній знаком дорозі чи в зоні. На транзит заборона діє."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-020",
+    "topic": "signs",
+    "kreszRef": "KRESZ 14. § (8)",
+    "image": "builtUpStart",
+    "hu": {
+      "question": "A „Sebességkorlátozás” táblát a „Lakott terület kezdete” táblával együtt helyezték el. Meddig érvényes a korlátozás?",
+      "answers": [
+        "A teljes lakott területre kiterjed.",
+        "Csak a következő útkereszteződésig.",
+        "A táblától számított 500 méterig."
+      ],
+      "explanation": "Ha a „Sebességkorlátozás” jelzőtáblát a „Lakott terület kezdete” jelzőtáblával együtt helyezték el, a sebességkorlátozás hatálya a teljes lakott területre kiterjed."
+    },
+    "ua": {
+      "question": "Знак «Sebességkorlátozás» («Обмеження швидкості») встановлено разом зі знаком початку населеного пункту. Доки діє обмеження?",
+      "answers": [
+        "У всьому населеному пункті.",
+        "Лише до наступного перехрестя.",
+        "На 500 метрів від знака."
+      ],
+      "explanation": "Якщо знак «Sebességkorlátozás» встановлено разом зі знаком «Lakott terület kezdete» (початок населеного пункту), обмеження швидкості діє на всій території населеного пункту."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-021",
+    "topic": "signs",
+    "kreszRef": "KRESZ 14. § (9)",
+    "image": "noOvertaking",
+    "hu": {
+      "question": "Az „Előzni tilos” tábla alatti kiegészítő tábla időszakot jelöl meg (például 6–22 h). Mit jelent ez?",
+      "answers": [
+        "A tilalom csak a megjelölt időszakban áll fenn.",
+        "A tilalom a megjelölt időszakon kívül áll fenn.",
+        "A megjelölt időszakban csak a tehergépkocsikra vonatkozik a tilalom."
+      ],
+      "explanation": "Ha a tilalmi jelzőtábla alatt elhelyezett kiegészítő tábla időszakot jelöl meg, a tilalom csak ebben az időszakban áll fenn."
+    },
+    "ua": {
+      "question": "Під знаком «Előzni tilos» («Обгін заборонено») табличка вказує проміжок часу (наприклад, 6–22 h). Що це означає?",
+      "answers": [
+        "Заборона діє лише в зазначений час.",
+        "Заборона діє поза зазначеним часом.",
+        "У зазначений час заборона стосується лише вантажівок."
+      ],
+      "explanation": "Якщо під заборонним знаком додаткова табличка вказує проміжок часу, заборона діє лише в цей час."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-022",
+    "topic": "signs",
+    "kreszRef": "KRESZ 15. § (3)",
+    "image": "noStopping",
+    "hu": {
+      "question": "A „Megállni tilos” tábla alatti kiegészítő táblán nyíl látható. Mit jelez a nyíl?",
+      "answers": [
+        "Azt, hogy a tilalom a táblától kezdődően vagy a tábláig áll fenn: a nyíl a korlátozás alá eső terület felé mutat.",
+        "Azt, hogy a nyíl irányában kell elhagyni a területet.",
+        "Azt, hogy a tilalom csak a nyíl irányába kanyarodókra vonatkozik."
+      ],
+      "explanation": "A megállási és várakozási tilalmat jelző táblák alatt – a tábla síkjára merőlegesen – elhelyezett kiegészítő táblán nyíl jelezheti, hogy a tilalom a táblától kezdődően vagy a tábláig áll fenn (a nyíl a korlátozás alá eső terület felé mutat), illetőleg a tábla előtt és után egyaránt fennáll."
+    },
+    "ua": {
+      "question": "На табличці під знаком «Megállni tilos» («Зупинку заборонено») зображено стрілку. Що вона означає?",
+      "answers": [
+        "Що заборона діє від знака або до знака: стрілка показує в бік території, на яку поширюється обмеження.",
+        "Що територію треба залишити в напрямку стрілки.",
+        "Що заборона стосується лише тих, хто повертає в напрямку стрілки."
+      ],
+      "explanation": "На табличці під знаками заборони зупинки й стоянки стрілка може показувати, що заборона діє від знака або до знака (стрілка спрямована в бік території з обмеженням) чи діє і перед знаком, і після нього."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-023",
+    "topic": "signs",
+    "kreszRef": "KRESZ 16. § (3)",
+    "image": "slippery",
+    "hu": {
+      "question": "A veszélyt jelző tábla alatti kiegészítő táblán két felfelé mutató nyíl között felirat (például „2 km”) látható. Mit jelez?",
+      "answers": [
+        "Azt, hogy a veszély hosszabb útszakaszon áll fenn.",
+        "Azt, hogy a veszély helye 2 km-re van a táblától.",
+        "Azt, hogy 2 km-en át előzni tilos."
+      ],
+      "explanation": "A veszélyt jelző tábla alatt elhelyezett kiegészítő táblán – két felfelé mutató nyíl között – levő felirat azt jelzi, hogy a veszély hosszabb útszakaszon áll fenn."
+    },
+    "ua": {
+      "question": "На табличці під попереджувальним знаком між двома стрілками, спрямованими вгору, є напис (наприклад, «2 km»). Що це означає?",
+      "answers": [
+        "Що небезпека триває на довшій ділянці дороги.",
+        "Що небезпечне місце — за 2 км від знака.",
+        "Що протягом 2 км обгін заборонено."
+      ],
+      "explanation": "Напис між двома стрілками вгору на табличці під попереджувальним знаком означає, що небезпека триває на довшій ділянці дороги."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-024",
+    "topic": "signs",
+    "kreszRef": "KRESZ 16. § (4) b)",
+    "image": "railwayBarrier",
+    "hu": {
+      "question": "A vasúti átjáró előtt háromsávos, majd kétsávos, majd egysávos előjelző táblák következnek. Mit jeleznek?",
+      "answers": [
+        "Azt, hogy a vezető vasúti átjáróhoz közeledik; a táblák a veszélyt jelző tábla és az átjáró közötti szakaszt három egyenlő részre osztják.",
+        "Azt, hogy a sávok száma háromról egyre csökken.",
+        "Azt, hogy az átjáróban három vágány van."
+      ],
+      "explanation": "A három előjelző tábla azt jelzi, hogy a jármű vezetője vasúti átjáróhoz közeledik: a veszélyt jelző tábla alatt elhelyezett háromsávos, majd a kétsávos, végül az egysávos tábla a veszélyt jelző tábla és a vasúti átjáró közötti útszakaszt három egyenlő részre osztja. Nincsenek minden átjáró előtt elhelyezve."
+    },
+    "ua": {
+      "question": "Перед залізничним переїздом один за одним стоять знаки з трьома, двома й однією похилою смугою. Що вони означають?",
+      "answers": [
+        "Що водій наближається до переїзду; знаки ділять ділянку від попереджувального знака до переїзду на три рівні частини.",
+        "Що кількість смуг зменшується з трьох до однієї.",
+        "Що на переїзді три колії."
+      ],
+      "explanation": "Три знаки наближення означають, що водій під'їжджає до залізничного переїзду: знак із трьома смугами (під попереджувальним знаком), потім із двома і з однією ділять ділянку між попереджувальним знаком і переїздом на три рівні частини. Їх встановлюють не перед кожним переїздом."
+    },
+    "correct": 0
+  }
+]

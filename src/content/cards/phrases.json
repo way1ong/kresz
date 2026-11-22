@@ -1,0 +1,506 @@
+[
+  {
+    "id": "phrase-koteles",
+    "deck": "phrases",
+    "hu": {
+      "front": "köteles",
+      "back": "A vezető köteles megállni."
+    },
+    "ua": {
+      "front": "köteles",
+      "back": "зобов'язаний — «Водій зобов'язаний зупинитися.»"
+    }
+  },
+  {
+    "id": "phrase-tilos",
+    "deck": "phrases",
+    "hu": {
+      "front": "tilos",
+      "back": "Az útkereszteződésben előzni tilos."
+    },
+    "ua": {
+      "front": "tilos",
+      "back": "заборонено — «На перехресті обганяти заборонено.»"
+    }
+  },
+  {
+    "id": "phrase-szabad-e",
+    "deck": "phrases",
+    "hu": {
+      "front": "szabad-e…?",
+      "back": "Szabad-e itt megállni?"
+    },
+    "ua": {
+      "front": "szabad-e…?",
+      "back": "чи можна…? чи дозволено…? — «Чи можна тут зупинитися?»"
+    }
+  },
+  {
+    "id": "phrase-nem-szabad",
+    "deck": "phrases",
+    "hu": {
+      "front": "nem szabad",
+      "back": "A záróvonalat átlépni nem szabad."
+    },
+    "ua": {
+      "front": "nem szabad",
+      "back": "не можна — «Суцільну лінію перетинати не можна.»"
+    }
+  },
+  {
+    "id": "phrase-kell",
+    "deck": "phrases",
+    "hu": {
+      "front": "kell",
+      "back": "A táblánál meg kell állni."
+    },
+    "ua": {
+      "front": "kell",
+      "back": "треба, потрібно — «Біля знака треба зупинитися.»"
+    }
+  },
+  {
+    "id": "phrase-kiveve",
+    "deck": "phrases",
+    "hu": {
+      "front": "kivéve",
+      "back": "Behajtani tilos, kivéve célforgalom."
+    },
+    "ua": {
+      "front": "kivéve",
+      "back": "крім, за винятком — «В'їзд заборонено, крім тих, хто їде до місця призначення в цій зоні.»"
+    }
+  },
+  {
+    "id": "phrase-kiveve-ha",
+    "deck": "phrases",
+    "hu": {
+      "front": "kivéve, ha…",
+      "back": "…kivéve, ha jelzőtábla mást jelez."
+    },
+    "ua": {
+      "front": "kivéve, ha…",
+      "back": "крім випадків, коли… — «…крім випадків, коли знак указує інше.»"
+    }
+  },
+  {
+    "id": "phrase-ha-mas-nem",
+    "deck": "phrases",
+    "hu": {
+      "front": "ha közúti jelzésből más nem következik",
+      "back": "Ha közúti jelzésből más nem következik, jobbról kell kikerülni."
+    },
+    "ua": {
+      "front": "ha közúti jelzésből más nem következik",
+      "back": "якщо зі знаків, розмітки чи світлофора не випливає інше — «Якщо зі знаків чи розмітки не випливає інше, об'їжджати треба справа.»"
+    }
+  },
+  {
+    "id": "phrase-legfeljebb",
+    "deck": "phrases",
+    "hu": {
+      "front": "legfeljebb",
+      "back": "Lakott területen legfeljebb 50 km/óra sebességgel szabad haladni."
+    },
+    "ua": {
+      "front": "legfeljebb",
+      "back": "щонайбільше, не більше ніж — «У населеному пункті дозволено їхати не швидше 50 км/год.»"
+    }
+  },
+  {
+    "id": "phrase-legalabb",
+    "deck": "phrases",
+    "hu": {
+      "front": "legalább",
+      "back": "A járdán legalább 1,5 méternek szabadon kell maradnia."
+    },
+    "ua": {
+      "front": "legalább",
+      "back": "щонайменше, не менше ніж — «На тротуарі має лишитися вільним щонайменше 1,5 метра.»"
+    }
+  },
+  {
+    "id": "phrase-elsobbseget-adni",
+    "deck": "phrases",
+    "hu": {
+      "front": "elsőbbséget kell adni (valakinek)",
+      "back": "Elsőbbséget kell adnia a jobbról érkező járműnek."
+    },
+    "ua": {
+      "front": "elsőbbséget kell adni (valakinek)",
+      "back": "треба дати дорогу (комусь) — «Ви маєте дати дорогу транспортному засобу, що наближається справа.»"
+    }
+  },
+  {
+    "id": "phrase-elsobbsege-van",
+    "deck": "phrases",
+    "hu": {
+      "front": "elsőbbsége van",
+      "back": "Kinek van elsőbbsége?"
+    },
+    "ua": {
+      "front": "elsőbbsége van",
+      "back": "має перевагу — «Хто має перевагу?»"
+    }
+  },
+  {
+    "id": "phrase-tovabbhaladhat",
+    "deck": "phrases",
+    "hu": {
+      "front": "továbbhaladhat",
+      "back": "A zöld jelzésnél továbbhaladhat."
+    },
+    "ua": {
+      "front": "továbbhaladhat",
+      "back": "може їхати далі — «На зелений сигнал можна їхати далі.»"
+    }
+  },
+  {
+    "id": "phrase-meg-kell-allnia",
+    "deck": "phrases",
+    "hu": {
+      "front": "meg kell állnia",
+      "back": "A megállás helyét jelző vonal előtt meg kell állnia."
+    },
+    "ua": {
+      "front": "meg kell állnia",
+      "back": "(Ви) маєте зупинитися — «Ви маєте зупинитися перед лінією зупинки.»"
+    }
+  },
+  {
+    "id": "phrase-megelozheti-e",
+    "deck": "phrases",
+    "hu": {
+      "front": "megelőzheti-e…?",
+      "back": "Megelőzheti-e az Ön előtt haladó kerékpárost?"
+    },
+    "ua": {
+      "front": "megelőzheti-e…?",
+      "back": "чи можете (Ви) обігнати…? — «Чи можете Ви обігнати велосипедиста, що їде попереду?»"
+    }
+  },
+  {
+    "id": "phrase-elozes-kikerules",
+    "deck": "phrases",
+    "hu": {
+      "front": "előzés / kikerülés",
+      "back": "Az álló jármű melletti elhaladás kikerülés, nem előzés."
+    },
+    "ua": {
+      "front": "előzés / kikerülés",
+      "back": "обгін / об'їзд — «Проїзд повз транспортний засіб, що стоїть, — це об'їзд, а не обгін.»"
+    }
+  },
+  {
+    "id": "phrase-bekanyarodik",
+    "deck": "phrases",
+    "hu": {
+      "front": "bekanyarodik (jobbra / balra)",
+      "back": "A balra bekanyarodó jármű elsőbbséget ad a szembejövőnek."
+    },
+    "ua": {
+      "front": "bekanyarodik (jobbra / balra)",
+      "back": "повертає (праворуч / ліворуч) — «Транспортний засіб, що повертає ліворуч, дає дорогу зустрічному.»"
+    }
+  },
+  {
+    "id": "phrase-egyenesen",
+    "deck": "phrases",
+    "hu": {
+      "front": "egyenesen halad tovább",
+      "back": "Mindhárom jármű egyenesen halad tovább."
+    },
+    "ua": {
+      "front": "egyenesen halad tovább",
+      "back": "їде далі прямо — «Усі три транспортні засоби їдуть далі прямо.»"
+    }
+  },
+  {
+    "id": "phrase-megfordul",
+    "deck": "phrases",
+    "hu": {
+      "front": "megfordul / hátramenetet végez",
+      "back": "Egyirányú forgalmú úton megfordulni tilos."
+    },
+    "ua": {
+      "front": "megfordul / hátramenetet végez",
+      "back": "розвертається / рухається заднім ходом — «На дорозі з одностороннім рухом розвертатися заборонено.»"
+    }
+  },
+  {
+    "id": "phrase-besorol",
+    "deck": "phrases",
+    "hu": {
+      "front": "besorol",
+      "back": "Balra bekanyarodás előtt az úttest felezővonala mellé kell besorolni."
+    },
+    "ua": {
+      "front": "besorol",
+      "back": "займає потрібну смугу (положення) перед маневром — «Перед поворотом ліворуч треба зайняти положення біля осьової лінії.»"
+    }
+  },
+  {
+    "id": "phrase-iranyjelzes",
+    "deck": "phrases",
+    "hu": {
+      "front": "irányjelzést ad",
+      "back": "Az elindulást irányjelzéssel jelezni kell."
+    },
+    "ua": {
+      "front": "irányjelzést ad",
+      "back": "подає сигнал покажчиком повороту — «Початок руху треба позначити покажчиком повороту.»"
+    }
+  },
+  {
+    "id": "phrase-haladektalanul",
+    "deck": "phrases",
+    "hu": {
+      "front": "haladéktalanul",
+      "back": "A rendőrséget haladéktalanul értesíteni kell."
+    },
+    "ua": {
+      "front": "haladéktalanul",
+      "back": "негайно — «Поліцію треба повідомити негайно.»"
+    }
+  },
+  {
+    "id": "phrase-fokozott-ovatossaggal",
+    "deck": "phrases",
+    "hu": {
+      "front": "fokozott óvatossággal",
+      "back": "A vasúti átjárót fokozott óvatossággal kell megközelíteni."
+    },
+    "ua": {
+      "front": "fokozott óvatossággal",
+      "back": "з особливою обережністю — «До залізничного переїзду слід наближатися з особливою обережністю.»"
+    }
+  },
+  {
+    "id": "phrase-lehetoseghez-kepest",
+    "deck": "phrases",
+    "hu": {
+      "front": "a lehetőséghez képest",
+      "back": "Lakott területen kívül a lehetőséghez képest az úttesten kívül kell megállni."
+    },
+    "ua": {
+      "front": "a lehetőséghez képest",
+      "back": "за можливості — «Поза населеним пунктом зупинятися слід, за можливості, поза проїзною частиною.»"
+    }
+  },
+  {
+    "id": "phrase-lakott-terulet",
+    "deck": "phrases",
+    "hu": {
+      "front": "lakott területen / lakott területen kívül",
+      "back": "Lakott területen kívül 90 km/óra a megengedett sebesség."
+    },
+    "ua": {
+      "front": "lakott területen / lakott területen kívül",
+      "back": "у населеному пункті / поза населеним пунктом — «Поза населеним пунктом дозволена швидкість — 90 км/год.»"
+    }
+  },
+  {
+    "id": "phrase-menetirany",
+    "deck": "phrases",
+    "hu": {
+      "front": "a menetirány szerinti jobb oldal",
+      "back": "Megállni az úttest menetirány szerinti jobb szélén szabad."
+    },
+    "ua": {
+      "front": "a menetirány szerinti jobb oldal",
+      "back": "правий за напрямком руху бік — «Зупинятися можна біля правого за напрямком руху краю проїзної частини.»"
+    }
+  },
+  {
+    "id": "phrase-szembejovo",
+    "deck": "phrases",
+    "hu": {
+      "front": "szembejövő / szemből érkező (jármű)",
+      "back": "Az útszűkületben a szembejövő járműnek van elsőbbsége."
+    },
+    "ua": {
+      "front": "szembejövő / szemből érkező (jármű)",
+      "back": "зустрічний (транспортний засіб) — «На звуженій ділянці перевагу має зустрічний транспортний засіб.»"
+    }
+  },
+  {
+    "id": "phrase-keresztezo",
+    "deck": "phrases",
+    "hu": {
+      "front": "keresztező út / betorkolló út",
+      "back": "A keresztező úton érkező járműnek elsőbbséget kell adni."
+    },
+    "ua": {
+      "front": "keresztező út / betorkolló út",
+      "back": "дорога, що перетинається / дорога, що прилягає — «Треба дати дорогу транспортному засобу на дорозі, що перетинається.»"
+    }
+  },
+  {
+    "id": "phrase-hatalya",
+    "deck": "phrases",
+    "hu": {
+      "front": "a tábla hatálya",
+      "back": "A tábla hatálya a következő útkereszteződés kezdetéig tart."
+    },
+    "ua": {
+      "front": "a tábla hatálya",
+      "back": "дія знака, зона дії знака — «Дія знака триває до початку наступного перехрестя.»"
+    }
+  },
+  {
+    "id": "phrase-feloldja",
+    "deck": "phrases",
+    "hu": {
+      "front": "feloldja (a tilalmat)",
+      "back": "A „Sebességkorlátozás vége” tábla feloldja a korlátozást."
+    },
+    "ua": {
+      "front": "feloldja (a tilalmat)",
+      "back": "скасовує (заборону) — «Знак «Кінець обмеження швидкості» скасовує обмеження.»"
+    }
+  },
+  {
+    "id": "phrase-mit-jelez",
+    "deck": "phrases",
+    "hu": {
+      "front": "Mit jelez ez a tábla?",
+      "back": "A tábla azt jelzi, hogy az úton előzni tilos."
+    },
+    "ua": {
+      "front": "Mit jelez ez a tábla?",
+      "back": "Що означає цей знак? — «Знак означає, що на дорозі обгін заборонено.»"
+    }
+  },
+  {
+    "id": "phrase-melyik-helyes",
+    "deck": "phrases",
+    "hu": {
+      "front": "Melyik állítás helyes?",
+      "back": "Az alábbiak közül melyik állítás helyes?"
+    },
+    "ua": {
+      "front": "Melyik állítás helyes?",
+      "back": "Яке твердження правильне? — «Яке з наведених тверджень правильне?»"
+    }
+  },
+  {
+    "id": "phrase-mi-a-teendo",
+    "deck": "phrases",
+    "hu": {
+      "front": "Mi a teendő?",
+      "back": "Mi a teendő, ha a fényjelző készülék sárgára vált?"
+    },
+    "ua": {
+      "front": "Mi a teendő?",
+      "back": "Що слід робити? — «Що слід робити, коли світлофор перемикається на жовтий?»"
+    }
+  },
+  {
+    "id": "phrase-forgalmi-helyzet",
+    "deck": "phrases",
+    "hu": {
+      "front": "ebben a forgalmi helyzetben",
+      "back": "Ki haladhat át elsőként ebben a forgalmi helyzetben?"
+    },
+    "ua": {
+      "front": "ebben a forgalmi helyzetben",
+      "back": "у цій дорожній ситуації — «Хто проїжджає першим у цій дорожній ситуації?»"
+    }
+  },
+  {
+    "id": "phrase-athaladasi-sorrend",
+    "deck": "phrases",
+    "hu": {
+      "front": "áthaladási sorrend; elsőként / másodikként / utolsóként",
+      "back": "Milyen sorrendben haladhatnak át a járművek?"
+    },
+    "ua": {
+      "front": "áthaladási sorrend; elsőként / másodikként / utolsóként",
+      "back": "черговість проїзду; першим / другим / останнім — «У якій черговості проїжджають транспортні засоби?»"
+    }
+  },
+  {
+    "id": "phrase-jarmu-fajtak",
+    "deck": "phrases",
+    "hu": {
+      "front": "jármű / gépjármű / gépkocsi / személygépkocsi",
+      "back": "A villamos jármű, de nem gépjármű."
+    },
+    "ua": {
+      "front": "jármű / gépjármű / gépkocsi / személygépkocsi",
+      "back": "транспортний засіб / механічний ТЗ / автомобіль / легковий автомобіль — «Трамвай — транспортний засіб, але не gépjármű.»"
+    }
+  },
+  {
+    "id": "phrase-megallas-varakozas",
+    "deck": "phrases",
+    "hu": {
+      "front": "megállás / várakozás",
+      "back": "A „Várakozni tilos” táblánál megállni szabad."
+    },
+    "ua": {
+      "front": "megállás / várakozás",
+      "back": "зупинка / стоянка — «Біля знака «Стоянку заборонено» зупинятися можна.»"
+    }
+  },
+  {
+    "id": "phrase-uttest-sav-jarda",
+    "deck": "phrases",
+    "hu": {
+      "front": "úttest / forgalmi sáv / járda",
+      "back": "Az úttest jobb szélén kell megállni."
+    },
+    "ua": {
+      "front": "úttest / forgalmi sáv / járda",
+      "back": "проїзна частина / смуга руху / тротуар — «Зупинятися треба біля правого краю проїзної частини.»"
+    }
+  },
+  {
+    "id": "phrase-zarovonal",
+    "deck": "phrases",
+    "hu": {
+      "front": "záróvonal / terelővonal",
+      "back": "A záróvonalat sem átlépni, sem érinteni nem szabad."
+    },
+    "ua": {
+      "front": "záróvonal / terelővonal",
+      "back": "суцільна лінія / переривчаста лінія розмітки — «Суцільну лінію не можна ні перетинати, ні торкатися.»"
+    }
+  },
+  {
+    "id": "phrase-felteve",
+    "deck": "phrases",
+    "hu": {
+      "front": "feltéve, hogy…",
+      "back": "…feltéve, hogy ezzel a forgalmat nem akadályozza."
+    },
+    "ua": {
+      "front": "feltéve, hogy…",
+      "back": "за умови, що… — «…за умови, що це не перешкоджає руху.»"
+    }
+  },
+  {
+    "id": "phrase-kello",
+    "deck": "phrases",
+    "hu": {
+      "front": "kellő távolságban / kellő időben",
+      "back": "Az irányjelzést kellő időben kell megkezdeni."
+    },
+    "ua": {
+      "front": "kellő távolságban / kellő időben",
+      "back": "на достатній відстані / завчасно — «Покажчик повороту треба ввімкнути завчасно.»"
+    }
+  },
+  {
+    "id": "phrase-csak-akkor",
+    "deck": "phrases",
+    "hu": {
+      "front": "csak akkor, ha…",
+      "back": "Ráhajtani csak akkor szabad, ha vonat nem közeledik."
+    },
+    "ua": {
+      "front": "csak akkor, ha…",
+      "back": "лише якщо…, лише тоді, коли… — «В'їжджати можна лише тоді, коли поїзд не наближається.»"
+    }
+  }
+]

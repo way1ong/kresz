@@ -1,0 +1,890 @@
+[
+  {
+    "id": "safety-001",
+    "topic": "safety",
+    "kreszRef": "KRESZ 4. § (1) c)",
+    "hu": {
+      "question": "Vezethet-e gépkocsit, ha szervezetében szeszes ital fogyasztásából származó alkohol van?",
+      "answers": [
+        "Nem; járművet csak az vezethet, akinek a szervezetében nincs szeszes ital fogyasztásából származó alkohol.",
+        "Igen, ha a véralkoholszintje nem éri el a 0,5 ezreléket.",
+        "Igen, ha a fogyasztás óta legalább egy óra eltelt."
+      ],
+      "explanation": "Járművet az vezethet, aki a vezetési képességre hátrányosan ható szer befolyása alatt nem áll, és szervezetében nincs szeszes ital fogyasztásából származó alkohol. A KRESZ gépkocsivezetőre semmilyen megengedett alkoholszintet nem állapít meg."
+    },
+    "ua": {
+      "question": "Чи можна керувати автомобілем, якщо в організмі є алкоголь від уживання спиртних напоїв?",
+      "answers": [
+        "Ні; керувати транспортним засобом може лише той, у чиєму організмі немає алкоголю від уживання спиртних напоїв.",
+        "Так, якщо вміст алкоголю в крові менший за 0,5 проміле.",
+        "Так, якщо після вживання минула щонайменше година."
+      ],
+      "explanation": "Керувати транспортним засобом може той, хто не перебуває під впливом речовин, що погіршують здатність керувати, і в чиєму організмі немає алкоголю від уживання спиртних напоїв. Жодного допустимого рівня алкоголю для водія автомобіля KRESZ не встановлює."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-002",
+    "topic": "safety",
+    "kreszRef": "KRESZ 3. § (2)",
+    "hu": {
+      "question": "Használhat-e a gépkocsi vezetője menet közben kézben tartott mobiltelefont?",
+      "answers": [
+        "Nem, a gépkocsi vezetője menet közben kézben tartott mobil rádiótelefont nem használhat.",
+        "Igen, ha lakott területen kívül halad.",
+        "Igen, ha a sebessége nem haladja meg a 30 km/órát."
+      ],
+      "explanation": "A gépkocsi vezetője menet közben kézben tartott mobil rádiótelefont nem használhat. A tilalom a kézben tartott készülékre vonatkozik."
+    },
+    "ua": {
+      "question": "Чи може водій автомобіля під час руху користуватися мобільним телефоном, тримаючи його в руці?",
+      "answers": [
+        "Ні, водій автомобіля під час руху не може користуватися мобільним телефоном, який тримає в руці.",
+        "Так, якщо їде поза населеним пунктом.",
+        "Так, якщо швидкість не перевищує 30 км/год."
+      ],
+      "explanation": "Водій автомобіля під час руху не може користуватися мобільним телефоном, який тримає в руці. Заборона стосується саме апарата в руці."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-003",
+    "topic": "safety",
+    "kreszRef": "KRESZ 48. § (4)–(5)",
+    "hu": {
+      "question": "Személygépkocsiban kinek kell becsatolnia a biztonsági övet?",
+      "answers": [
+        "Minden olyan személynek, aki biztonsági övvel felszerelt ülésen utazik – elöl és hátul egyaránt.",
+        "Csak a vezetőnek és az első ülésen utazónak.",
+        "Csak lakott területen kívül kötelező, akkor mindenkinek."
+      ],
+      "explanation": "Olyan járműben, amelynek üléseit biztonsági övvel szerelték fel, az ülésen utazó személynek a biztonsági öv becsatolásával kell magát rögzíteni. Kivétel például a hátramenetben közlekedő gépkocsi vezetője és az, aki orvosi igazolással rendelkezik."
+    },
+    "ua": {
+      "question": "Хто в легковому автомобілі повинен пристебнутися ременем безпеки?",
+      "answers": [
+        "Кожен, хто їде на сидінні, обладнаному ременем безпеки, — і спереду, і ззаду.",
+        "Лише водій і пасажир на передньому сидінні.",
+        "Це обов'язково лише поза населеним пунктом, тоді для всіх."
+      ],
+      "explanation": "У транспортному засобі, сидіння якого обладнано ременями безпеки, кожен, хто їде на такому сидінні, повинен пристебнутися. Винятки — наприклад, водій автомобіля, що рухається заднім ходом, і той, хто має відповідну медичну довідку."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-004",
+    "topic": "safety",
+    "kreszRef": "KRESZ 48. § (7)–(8)",
+    "hu": {
+      "question": "Főszabályként milyen testmagasság alatt szállítható gyermek a gépkocsiban csak gyermekbiztonsági rendszerben rögzítve?",
+      "answers": [
+        "150 cm alatt.",
+        "135 cm alatt.",
+        "120 cm alatt."
+      ],
+      "explanation": "A gépkocsiban 150 cm-nél alacsonyabb gyermek csak a testméretéhez és testsúlyához igazodó gyermekbiztonsági rendszerben rögzítve szállítható. Kivétel például, ha a gyermek a hátsó ülésen utazik, a 3. életévét betöltötte, legalább 135 cm magas, és az ülés biztonsági övével testméretéhez igazodóan biztonságosan rögzíthető."
+    },
+    "ua": {
+      "question": "За загальним правилом: дитину нижчу за який зріст можна перевозити в автомобілі лише в дитячій утримувальній системі (gyermekbiztonsági rendszer)?",
+      "answers": [
+        "Нижчу за 150 см.",
+        "Нижчу за 135 см.",
+        "Нижчу за 120 см."
+      ],
+      "explanation": "Дитину нижчу за 150 см можна перевозити в автомобілі лише зафіксованою в дитячій утримувальній системі, що відповідає її зросту й вазі. Виняток — наприклад, якщо дитина їде на задньому сидінні, їй уже виповнилося 3 роки, її зріст щонайменше 135 см і її можна безпечно, відповідно до зросту, пристебнути ременем безпеки сидіння."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-005",
+    "topic": "safety",
+    "kreszRef": "KRESZ 44. § (8)",
+    "hu": {
+      "question": "Lakott területen kívül nappal, jó látási viszonyok között ki kell-e világítani a forgalomban részt vevő gépkocsit?",
+      "answers": [
+        "Igen, nappali menetjelző lámpával vagy tompított fényszóróval.",
+        "Nem, nappal és jó látási viszonyok között nem kell.",
+        "Igen, távolsági fényszóróval."
+      ],
+      "explanation": "Lakott területen kívüli úton a forgalomban részt vevő gépkocsit nappali menetjelző lámpával vagy tompított fényszóróval nappal és jó látási viszonyok között is ki kell világítani."
+    },
+    "ua": {
+      "question": "Чи треба поза населеним пунктом удень за доброї видимості вмикати світло на автомобілі, що рухається?",
+      "answers": [
+        "Так: денні ходові вогні або ближнє світло фар.",
+        "Ні, удень за доброї видимості не треба.",
+        "Так: дальнє світло фар."
+      ],
+      "explanation": "На дорозі поза населеним пунктом автомобіль, що бере участь у русі, повинен навіть удень і за доброї видимості мати ввімкнені денні ходові вогні (nappali menetjelző lámpa) або ближнє світло фар (tompított fényszóró)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-006",
+    "topic": "safety",
+    "kreszRef": "KRESZ 44. § (3)",
+    "hu": {
+      "question": "Hol szabad a tompított fényszóró helyett távolsági fényszórót használni (a fényjelzést kivéve)?",
+      "answers": [
+        "Csak lakott területen kívül, és csak úgy, hogy az másokat ne vakítson el.",
+        "Bárhol, ha az út nincs kivilágítva.",
+        "Lakott területen is, ha szemből nem jön jármű."
+      ],
+      "explanation": "A tompított fényszóró helyett távolsági fényszórót – fényjelzés kivételével – csak lakott területen kívül szabad használni. Tilos a használata, ha elvakíthatja a szembejövő jármű vezetőjét vagy – a visszapillantó tükrön át – az elöl haladó jármű vezetőjét."
+    },
+    "ua": {
+      "question": "Де замість ближнього світла фар дозволено вмикати дальнє (крім подавання світлового сигналу)?",
+      "answers": [
+        "Лише поза населеним пунктом і лише так, щоб не засліплювати інших.",
+        "Будь-де, якщо дорога не освітлена.",
+        "І в населеному пункті, якщо назустріч ніхто не їде."
+      ],
+      "explanation": "Замість ближнього світла фар дальнє (távolsági fényszóró) дозволено вмикати — крім подавання світлового сигналу — лише поза населеним пунктом. Користуватися ним заборонено, якщо воно може засліпити водія зустрічного транспортного засобу або — через дзеркало заднього виду — водія транспортного засобу попереду."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-007",
+    "topic": "safety",
+    "kreszRef": "KRESZ 58. § (1)",
+    "hu": {
+      "question": "Járművével közúti baleset részese lett. Mi az első kötelessége?",
+      "answers": [
+        "Azonnal megállni, a megsérült vagy veszélybe került személynek segítséget nyújtani, és mindent megtenni a további balesetek elkerülése érdekében.",
+        "A járművel a legközelebbi parkolóig továbbhaladni, és ott megvárni a többi érintettet.",
+        "Megállni csak akkor kell, ha a másik fél ezt kéri."
+      ],
+      "explanation": "A balesettel érintett jármű vezetője köteles a járművel azonnal megállni, a baleset folytán megsérült vagy veszélybe került személy részére segítséget nyújtani, és az esetleges további balesetek elkerülése érdekében minden tőle telhetőt megtenni."
+    },
+    "ua": {
+      "question": "Ваш транспортний засіб став учасником ДТП. Який Ваш перший обов'язок?",
+      "answers": [
+        "Негайно зупинитися, допомогти постраждалим і тим, хто опинився в небезпеці, та зробити все можливе, щоб не сталося нових ДТП.",
+        "Доїхати до найближчої стоянки й там чекати на інших учасників.",
+        "Зупинятися потрібно лише тоді, коли цього просить інша сторона."
+      ],
+      "explanation": "Водій транспортного засобу, причетного до ДТП, зобов'язаний негайно зупинитися, надати допомогу особі, яка внаслідок ДТП постраждала чи опинилася в небезпеці, і зробити все, що від нього залежить, щоб уникнути подальших ДТП."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-008",
+    "topic": "safety",
+    "kreszRef": "KRESZ 58. § (2)",
+    "hu": {
+      "question": "A baleset személyi sérülést okozott. Mit kell tennie a segítségnyújtáson túl?",
+      "answers": [
+        "Haladéktalanul értesíteni kell a rendőrséget, lehetőség szerint meg kell őrizni a nyomokat, és a helyszínt csak az intézkedő rendőr engedélyével szabad elhagyni.",
+        "Elég adatokat cserélni a másik féllel, utána a helyszín elhagyható.",
+        "A rendőrséget csak akkor kell értesíteni, ha a felek nem tudnak megegyezni."
+      ],
+      "explanation": "Ha a baleset halált vagy személyi sérülést okozott, a balesetről a rendőrhatóságot (a legközelebbi rendőrt) haladéktalanul értesíteni kell, a lehetőségekhez képest gondoskodni kell a nyomok megőrzéséről, és a helyszínt csak az intézkedő rendőr engedélyével szabad elhagyni."
+    },
+    "ua": {
+      "question": "Унаслідок ДТП є постраждалі. Що треба зробити, крім надання допомоги?",
+      "answers": [
+        "Негайно повідомити поліцію, за можливості зберегти сліди й залишати місце події лише з дозволу поліцейського, який оформлює ДТП.",
+        "Досить обмінятися даними з іншою стороною, після цього можна їхати.",
+        "Поліцію треба повідомляти лише тоді, коли сторони не можуть домовитися."
+      ],
+      "explanation": "Якщо ДТП спричинило смерть або тілесні ушкодження, про нього треба негайно повідомити поліцію (найближчого поліцейського), за можливості подбати про збереження слідів, а залишати місце події дозволено лише з дозволу поліцейського, який оформлює ДТП."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-009",
+    "topic": "safety",
+    "kreszRef": "KRESZ 58. § (5)",
+    "hu": {
+      "question": "Személysérüléssel járó baleset helyszínéhez ér, de Ön a balesetben nem érintett. Van-e kötelessége?",
+      "answers": [
+        "Igen, köteles a tőle elvárható segítséget megadni, és ehhez a járművön tartott elsősegélynyújtó felszerelést használni, illetve a segítségnyújtó rendelkezésére bocsátani.",
+        "Nincs, segítséget csak a balesetben érintettek kötelesek nyújtani.",
+        "Csak akkor, ha egészségügyi végzettsége van."
+      ],
+      "explanation": "Személysérülést okozó baleset és jármű kigyulladása esetében a balesettel nem érintett járművek vezetői is kötelesek a tőlük elvárható segítséget nyújtani. A vezető a járművön készenlétben tartott elsősegélynyújtó felszerelést köteles a segítségnyújtáshoz használni, illetve a segítségnyújtó rendelkezésére bocsátani."
+    },
+    "ua": {
+      "question": "Ви під'їхали до місця ДТП з постраждалими, але самі до нього не причетні. Чи маєте Ви якісь обов'язки?",
+      "answers": [
+        "Так: Ви зобов'язані надати допомогу, якої від Вас можна очікувати, і використати для цього аптечку з транспортного засобу або передати її тому, хто надає допомогу.",
+        "Ні, допомагати зобов'язані лише учасники ДТП.",
+        "Лише якщо маєте медичну освіту."
+      ],
+      "explanation": "У разі ДТП з постраждалими та в разі займання транспортного засобу водії непричетних транспортних засобів також зобов'язані надати допомогу, якої від них можна очікувати. Водій повинен використати для допомоги аптечку (elsősegélynyújtó felszerelés), яку возить у транспортному засобі, або надати її тому, хто допомагає."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-010",
+    "topic": "safety",
+    "kreszRef": "KRESZ 56. § (6)",
+    "hu": {
+      "question": "Lakott területen kívül személygépkocsija elromlott, és az úttesten áll. Mivel kell megjelölnie?",
+      "answers": [
+        "Elakadást jelző háromszöggel, amelyet a jármű mögött úgy kell elhelyezni, hogy a többi vezető kellő távolságból észlelhesse az elromlott járművet.",
+        "Elég a helyzetjelző lámpákat bekapcsolni, háromszög nem szükséges.",
+        "Semmivel, ha nappal van és jók a látási viszonyok."
+      ],
+      "explanation": "Lakott területen kívül az úttesten vagy a leállósávon levő elromlott gépjárművet (a kétkerekű motorkerékpár kivételével) elakadást jelző háromszöggel meg kell jelölni. A háromszöget a jármű mögött úgy kell elhelyezni, hogy az elromlott járművet a többi jármű vezetője kellő távolságból észlelhesse. Emellett az elakadásjelző (mindkét oldali irányjelzők egyidejű működtetése) is használható."
+    },
+    "ua": {
+      "question": "Поза населеним пунктом Ваш легковий автомобіль зламався й стоїть на проїзній частині. Чим його треба позначити?",
+      "answers": [
+        "Знаком аварійної зупинки (elakadást jelző háromszög), встановленим позаду так, щоб інші водії помітили несправний автомобіль із достатньої відстані.",
+        "Досить увімкнути габаритні вогні, трикутник не потрібен.",
+        "Нічим, якщо зараз день і добра видимість."
+      ],
+      "explanation": "Поза населеним пунктом несправний механічний транспортний засіб (крім двоколісного мотоцикла), що стоїть на проїзній частині або на смузі для аварійної зупинки, треба позначити знаком аварійної зупинки (elakadást jelző háromszög). Його ставлять позаду так, щоб водії інших транспортних засобів помітили несправний транспортний засіб із достатньої відстані. Додатково можна ввімкнути аварійну сигналізацію (одночасну роботу покажчиків повороту з обох боків)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-011",
+    "topic": "safety",
+    "kreszRef": "KRESZ 44. § (4)",
+    "hu": {
+      "question": "Mikor szabad ködfényszórót és hátsó helyzetjelző ködlámpát használni?",
+      "answers": [
+        "Ha a látási viszonyok ezt indokolják.",
+        "Éjszaka bármikor, a jobb láthatóság érdekében.",
+        "Lakott területen kívül mindig."
+      ],
+      "explanation": "Tompított vagy távolsági fényszóró helyett vagy mellett ködfényszórót, továbbá hátsó helyzetjelző ködlámpát abban az esetben szabad használni, ha a látási viszonyok ezt indokolják (például köd, sűrű hóesés)."
+    },
+    "ua": {
+      "question": "Коли дозволено вмикати протитуманні фари та задній протитуманний ліхтар?",
+      "answers": [
+        "Якщо цього вимагають умови видимості.",
+        "Уночі будь-коли — щоб краще бачити.",
+        "Поза населеним пунктом завжди."
+      ],
+      "explanation": "Протитуманні фари (ködfényszóró) — замість ближнього чи дальнього світла або разом із ним — і задній протитуманний ліхтар (hátsó helyzetjelző ködlámpa) дозволено вмикати тоді, коли цього вимагають умови видимості (наприклад, туман, густий снігопад)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-012",
+    "topic": "safety",
+    "kreszRef": "KRESZ 56. § (1)–(2)",
+    "hu": {
+      "question": "Menet közben észleli, hogy elromlott a jármű üzemi fékberendezése. Mi a teendő?",
+      "answers": [
+        "Haladéktalanul meg kell állítania a járművet, és a hiba elhárításáig nem közlekedhet vele.",
+        "Óvatosan, csökkentett sebességgel hazáig közlekedhet.",
+        "A legközelebbi szervizig a kézifék használatával közlekedhet."
+      ],
+      "explanation": "A vezető köteles a járművet – lehetőleg olyan helyen, ahol a forgalmat nem akadályozza – haladéktalanul megállítani, ha olyan hibát észlel, amely balesethez vezethet, különösen ha elromlott a kormányszerkezet, az üzemi fékberendezés vagy az összes féklámpa. A hiba elhárításáig a járművel közlekedni nem szabad."
+    },
+    "ua": {
+      "question": "Під час руху Ви помітили, що відмовила робоча гальмівна система. Що робити?",
+      "answers": [
+        "Негайно зупинити транспортний засіб і не їхати ним, доки несправність не усунуто.",
+        "Обережно, зі зменшеною швидкістю доїхати додому.",
+        "Доїхати до найближчого сервісу, користуючись стоянковим гальмом."
+      ],
+      "explanation": "Водій зобов'язаний негайно зупинити транспортний засіб — за можливості там, де він не заважає руху, — якщо помітив несправність, що може призвести до ДТП, зокрема відмову рульового керування, робочої гальмівної системи чи всіх стоп-сигналів. До усунення несправності їхати заборонено."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-013",
+    "topic": "safety",
+    "kreszRef": "KRESZ 42. § (3)",
+    "hu": {
+      "question": "Megelőzheti-e a megkülönböztető jelzéseket (villogó kék fényt és szirénát) használó gépjárművet?",
+      "answers": [
+        "Nem, az ilyen gépjárművet előzni tilos.",
+        "Igen, ha az lassabban halad a megengedett sebességnél.",
+        "Igen, de csak lakott területen kívül."
+      ],
+      "explanation": "Megkülönböztető jelzéseket használó gépjárművet előzni tilos. Mögötte a követési távolságot úgy kell megválasztani, hogy az ne zavarja sem az ilyen gépjárművet, sem a közlekedés többi résztvevőjét."
+    },
+    "ua": {
+      "question": "Чи можна обганяти транспортний засіб, який використовує спеціальні сигнали (синій проблисковий маячок і сирену)?",
+      "answers": [
+        "Ні, такий транспортний засіб обганяти заборонено.",
+        "Так, якщо він їде повільніше за дозволену швидкість.",
+        "Так, але лише поза населеним пунктом."
+      ],
+      "explanation": "Обганяти механічний транспортний засіб, що використовує спеціальні сигнали (megkülönböztető jelzések), заборонено. Дистанцію за ним слід обирати так, щоб не заважати ні йому, ні іншим учасникам руху."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-014",
+    "topic": "safety",
+    "kreszRef": "KRESZ 58. § (4)",
+    "hu": {
+      "question": "Balesetet szenvedett, és rendőri intézkedés válik szükségessé. Mit tilos tennie az intézkedés megtörténtéig?",
+      "answers": [
+        "Szeszes italt fogyasztani.",
+        "Elsősegélyt nyújtani.",
+        "A járművet kivilágítani."
+      ],
+      "explanation": "Ha a baleset miatt rendőri intézkedés válik szükségessé, a rendőri intézkedés megtörténtéig a vezetőnek szeszes italt fogyasztania tilos."
+    },
+    "ua": {
+      "question": "Сталася ДТП, і потрібне втручання поліції. Чого не можна робити, доки поліція не оформить подію?",
+      "answers": [
+        "Уживати спиртні напої.",
+        "Надавати першу допомогу.",
+        "Вмикати освітлення транспортного засобу."
+      ],
+      "explanation": "Якщо через ДТП потрібні дії поліції, водієві заборонено вживати спиртні напої, доки поліція не виконає ці дії."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-015",
+    "topic": "safety",
+    "kreszRef": "KRESZ 58. § (3)",
+    "hu": {
+      "question": "Csak anyagi kárral járó baleset történt, senki sem sérült meg, és rendőri intézkedést senki sem kér. Mit kötelesek tenni az érintettek?",
+      "answers": [
+        "Személyazonosságukat egymásnak hitelt érdemlően igazolni, és megnevezni a felelősségbiztosítójukat.",
+        "Semmit, mindenki szabadon távozhat.",
+        "Minden esetben meg kell várniuk a rendőrséget."
+      ],
+      "explanation": "A rendőrhatóság értesítése, illetve rendőri intézkedés hiányában a balesetben érintettek kötelesek személyazonosságukat egymás számára kölcsönösen, hitelt érdemlően igazolni, és megnevezni azt a biztosítót, amellyel a járműre felelősségbiztosítási szerződést kötöttek."
+    },
+    "ua": {
+      "question": "Сталася ДТП лише з матеріальною шкодою, ніхто не постраждав, і поліцію ніхто не викликає. Що зобов'язані зробити учасники?",
+      "answers": [
+        "Достовірно підтвердити одне одному свою особу й назвати свого страховика цивільної відповідальності.",
+        "Нічого, усі можуть вільно їхати.",
+        "У будь-якому разі дочекатися поліції."
+      ],
+      "explanation": "Якщо поліцію не повідомляють і її дії не потрібні, учасники ДТП зобов'язані взаємно й достовірно підтвердити одне одному свою особу та назвати страховика, з яким укладено договір страхування цивільної відповідальності щодо транспортного засобу."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-016",
+    "topic": "safety",
+    "kreszRef": "KRESZ 57. § (6)",
+    "hu": {
+      "question": "Elromlott jármű vontatásakor mi a szabály a vontatókötél hosszára?",
+      "answers": [
+        "Nem lehet hosszabb, mint a vontatott jármű; ha három méternél hosszabb, feltűnő módon meg kell jelölni.",
+        "Legalább 10 méter hosszúnak kell lennie.",
+        "A hossza tetszőleges, megjelölni nem kell."
+      ],
+      "explanation": "A vontatókötélnek (vontatórúdnak) olyan hosszúnak kell lennie, hogy a két jármű kanyarodás közben össze ne érhessen, de nem lehet hosszabb, mint a vontatott jármű. Ha három méternél hosszabb, feltűnő módon (például zászlóval, lámpával) meg kell jelölni."
+    },
+    "ua": {
+      "question": "Яке правило щодо довжини буксирного троса під час буксирування несправного транспортного засобу?",
+      "answers": [
+        "Він не може бути довшим за буксирований транспортний засіб; якщо він довший за три метри, його треба помітно позначити.",
+        "Він має бути щонайменше 10 метрів завдовжки.",
+        "Довжина довільна, позначати не треба."
+      ],
+      "explanation": "Буксирний трос (чи жорстке зчеплення) має бути такої довжини, щоб транспортні засоби не зіткнулися на повороті, але не довшим за буксирований транспортний засіб. Якщо він довший за три метри, його треба помітно позначити (наприклад, прапорцем чи ліхтарем)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-017",
+    "topic": "safety",
+    "kreszRef": "KRESZ 44. § (1)–(2)",
+    "hu": {
+      "question": "Mikor és mivel kell a forgalomban részt vevő gépkocsit kivilágítani?",
+      "answers": [
+        "Éjszaka és korlátozott látási viszonyok között helyzetjelző lámpákkal és tompított fényszóróval.",
+        "Csak éjszaka, és elég a helyzetjelző lámpa.",
+        "Csak lakott területen kívül, távolsági fényszóróval."
+      ],
+      "explanation": "A forgalomban részt vevő járművet éjszaka és korlátozott látási viszonyok között ki kell világítani; a gépjárművet helyzetjelző lámpákkal és tompított fényszóróval. (Lakott területen kívül a gépkocsit nappal is ki kell világítani.)"
+    },
+    "ua": {
+      "question": "Коли і чим треба освітлювати автомобіль, що бере участь у русі?",
+      "answers": [
+        "Уночі та в умовах обмеженої видимості — габаритними вогнями й ближнім світлом фар.",
+        "Лише вночі, і досить габаритних вогнів.",
+        "Лише поза населеним пунктом, дальнім світлом."
+      ],
+      "explanation": "Транспортний засіб, що бере участь у русі, треба освітлювати вночі та в умовах обмеженої видимості; механічний транспортний засіб — габаритними вогнями (helyzetjelző lámpák) і ближнім світлом фар (tompított fényszóró). (Поза населеним пунктом автомобіль освітлюють і вдень.)"
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-018",
+    "topic": "safety",
+    "kreszRef": "KRESZ 5. § (2)",
+    "hu": {
+      "question": "Mit köteles ellenőrizni a vezető, mielőtt a járművel a telephelyről (például a garázsból) elindul?",
+      "answers": [
+        "A kormányberendezés, a fékberendezés, a gumiabroncsok, valamint a világító- és fényjelző berendezések állapotát.",
+        "Csak az üzemanyag mennyiségét.",
+        "Semmit, ha a jármű műszaki vizsgája érvényes."
+      ],
+      "explanation": "A jármű vezetője, mielőtt a járművel a telephelyről (így különösen a garázsból) elindul, köteles ellenőrizni a kormányberendezés, a fékberendezés, a gumiabroncsok, valamint a kötelezően előírt világító- és fényjelző berendezések állapotát (működését)."
+    },
+    "ua": {
+      "question": "Що водій зобов'язаний перевірити перед виїздом із місця стоянки (наприклад, із гаража)?",
+      "answers": [
+        "Стан рульового керування, гальм, шин, а також приладів освітлення й світлової сигналізації.",
+        "Лише кількість пального.",
+        "Нічого, якщо техогляд чинний."
+      ],
+      "explanation": "Перш ніж виїхати з місця постійної стоянки (зокрема з гаража), водій зобов'язаний перевірити стан (роботу) рульового керування, гальмівної системи, шин і обов'язкових приладів освітлення та світлової сигналізації."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-019",
+    "topic": "safety",
+    "kreszRef": "KRESZ 4. § (2)",
+    "hu": {
+      "question": "Átengedheti-e a vezetést olyan személynek, aki szeszes italt fogyasztott?",
+      "answers": [
+        "Nem: a vezetést nem szabad átengedni annak, aki a járművezetés személyi feltételeinek nem felel meg.",
+        "Igen, ha az illetőnek van vezetői engedélye.",
+        "Igen, rövid távolságra."
+      ],
+      "explanation": "A jármű vezetését az üzembentartó nem engedheti meg, illetőleg a vezető nem engedheti át olyan személynek, aki a személyi feltételeknek (érvényes vezetői engedély, biztonságos vezetésre képes állapot, alkoholmentesség) nem felel meg."
+    },
+    "ua": {
+      "question": "Чи можна передати керування особі, яка вживала спиртне?",
+      "answers": [
+        "Ні: керування не можна передавати тому, хто не відповідає вимогам до водія.",
+        "Так, якщо ця особа має посвідчення водія.",
+        "Так, на коротку відстань."
+      ],
+      "explanation": "Власник не може дозволити, а водій — передати керування особі, яка не відповідає вимогам до водія (чинне посвідчення, стан, придатний для безпечного керування, відсутність алкоголю в організмі)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-020",
+    "topic": "safety",
+    "kreszRef": "KRESZ 45. § (1)",
+    "hu": {
+      "question": "Éjszaka, közvilágítás nélküli helyen az úttesten hagyja a gépkocsiját. Ki kell-e világítania?",
+      "answers": [
+        "Igen, a helyzetjelző lámpákkal.",
+        "Nem, álló járművet soha nem kell kivilágítani.",
+        "Igen, tompított fényszóróval."
+      ],
+      "explanation": "Az úttesten álló járművet éjszaka és korlátozott látási viszonyok között ki kell világítani, kivéve, ha közvilágítás van, vagy a járművet egyéb külső fényforrás kellően megvilágítja. A gépjárművet a helyzetjelző lámpákkal kell kivilágítani."
+    },
+    "ua": {
+      "question": "Уночі Ви лишаєте автомобіль на проїзній частині там, де немає вуличного освітлення. Чи треба його освітлювати?",
+      "answers": [
+        "Так, габаритними вогнями.",
+        "Ні, нерухомий транспортний засіб освітлювати не треба ніколи.",
+        "Так, ближнім світлом фар."
+      ],
+      "explanation": "Транспортний засіб, що стоїть на проїзній частині, уночі й за обмеженої видимості треба освітлювати — крім випадків, коли є вуличне освітлення або його достатньо освітлює інше зовнішнє джерело. Механічний транспортний засіб освітлюють габаритними вогнями (helyzetjelző lámpák)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-021",
+    "topic": "safety",
+    "kreszRef": "KRESZ 45. § (2)",
+    "hu": {
+      "question": "Szabad-e álló (nem forgalmi okból megálló) járművön távolsági fényszórót vagy ködfényszórót használni?",
+      "answers": [
+        "Nem, álló járművön ezeket használni tilos.",
+        "Igen, ha lakott területen kívül áll.",
+        "Igen, hogy a jármű jobban látható legyen."
+      ],
+      "explanation": "Álló járművön – a forgalmi okból megálló járművet kivéve – tompított fényszórót csak erős ködben vagy sűrű hóesésben szabad használni; távolsági fényszórót, ködfényszórót használni tilos."
+    },
+    "ua": {
+      "question": "Чи можна на транспортному засобі, що стоїть (не через дорожню обстановку), вмикати дальнє світло або протитуманні фари?",
+      "answers": [
+        "Ні, на нерухомому транспортному засобі це заборонено.",
+        "Так, якщо він стоїть поза населеним пунктом.",
+        "Так, щоб транспортний засіб було краще видно."
+      ],
+      "explanation": "На транспортному засобі, що стоїть (крім зупинки через дорожню обстановку), ближнє світло можна вмикати лише в густому тумані чи сильному снігопаді; дальнє світло й протитуманні фари вмикати заборонено."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-022",
+    "topic": "safety",
+    "kreszRef": "KRESZ 48. § (2)",
+    "hu": {
+      "question": "Mikor szabad hóláncot használni?",
+      "answers": [
+        "Csak havas, jeges úton.",
+        "Télen bármilyen úton.",
+        "Bármikor, ha a vezető biztonságosabbnak érzi."
+      ],
+      "explanation": "Hóláncot csak havas, jeges úton szabad használni. Hólánccal felszerelt gépjárművel legfeljebb 50 km/óra sebességgel szabad közlekedni."
+    },
+    "ua": {
+      "question": "Коли дозволено користуватися ланцюгами протиковзання (hólánc)?",
+      "answers": [
+        "Лише на засніженій чи зледенілій дорозі.",
+        "Узимку на будь-якій дорозі.",
+        "Будь-коли, якщо водієві так спокійніше."
+      ],
+      "explanation": "Ланцюги протиковзання дозволено використовувати лише на засніженій, зледенілій дорозі. З ланцюгами можна їхати не швидше 50 км/год."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-023",
+    "topic": "safety",
+    "kreszRef": "KRESZ 42. § (4)",
+    "hu": {
+      "question": "Hogyan szabad megközelíteni és megelőzni a figyelmeztető jelzést (sárga villogó fényt) használó járművet?",
+      "answers": [
+        "Fokozott óvatossággal.",
+        "Sehogy: az ilyen járművet előzni tilos.",
+        "Ugyanúgy, mint bármely más járművet."
+      ],
+      "explanation": "A figyelmeztető jelzést (sárga villogó fényt) használó járművet fokozott óvatossággal szabad megközelíteni, mellette elhaladni vagy megelőzni. (Előzni a megkülönböztető jelzéseket – kék villogó fényt és szirénát – használó gépjárművet tilos.)"
+    },
+    "ua": {
+      "question": "Як дозволено наближатися до транспортного засобу з попереджувальним сигналом (жовтим проблисковим маячком) і обганяти його?",
+      "answers": [
+        "З особливою обережністю.",
+        "Ніяк: такий транспортний засіб обганяти заборонено.",
+        "Так само, як будь-який інший транспортний засіб."
+      ],
+      "explanation": "До транспортного засобу з попереджувальним сигналом (жовтим проблисковим маячком) можна наближатися, проїжджати повз нього й обганяти його з особливою обережністю. (Обганяти заборонено транспорт зі спеціальними сигналами — синім маячком і сиреною.)"
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-024",
+    "topic": "safety",
+    "kreszRef": "KRESZ 57. § (3)–(5)",
+    "hu": {
+      "question": "Elromlott jármű vontatásakor ki utazhat a vontatott járműben?",
+      "answers": [
+        "Csak a vezetője; a vontatott járművön a vezetőn kívül személyt szállítani tilos.",
+        "A vezető és az első ülésen egy utas.",
+        "Bárki, ha becsatolja a biztonsági övet."
+      ],
+      "explanation": "A vontatott járművet olyan személynek kell vezetnie, aki megfelel a járművezetés személyi feltételeinek. Vontatott járművön – a vezetőn kívül – személyt szállítani tilos; az emelve vontatott járművön még vezető sem utazhat. Kétkerekű motorkerékpárt, segédmotoros kerékpárt és kerékpárt vontatni tilos."
+    },
+    "ua": {
+      "question": "Хто може їхати в несправному транспортному засобі, який буксирують?",
+      "answers": [
+        "Лише його водій; перевозити в буксированому транспортному засобі інших людей заборонено.",
+        "Водій і один пасажир на передньому сидінні.",
+        "Будь-хто, якщо пристебнеться ременем безпеки."
+      ],
+      "explanation": "Буксированим транспортним засобом має керувати особа, яка відповідає вимогам до водія. Перевозити в ньому людей, крім водія, заборонено; у транспортному засобі, який буксирують із частковим підняттям, не може їхати навіть водій. Двоколісний мотоцикл, мопед і велосипед буксирувати заборонено."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-025",
+    "topic": "safety",
+    "kreszRef": "KRESZ 57. § (7)",
+    "hu": {
+      "question": "Mivel szabad vontatni azt a járművet, amelynek az üzemi fékberendezése romlott el?",
+      "answers": [
+        "Csak merev vontatórúddal.",
+        "Vontatókötéllel, ha az legalább 5 méter hosszú.",
+        "Bármivel, ha a vontató jármű lassan halad."
+      ],
+      "explanation": "Olyan járművet, amelynek üzemi fékberendezése romlott el, vagy amelynek megengedett legnagyobb össztömege a 3500 kilogrammot meghaladja, csak – a húzó- és nyomóerők felvételére egyaránt alkalmas – merev vontatórúddal szabad vontatni."
+    },
+    "ua": {
+      "question": "Чим дозволено буксирувати транспортний засіб із несправною робочою гальмівною системою?",
+      "answers": [
+        "Лише на жорсткому зчепленні.",
+        "На тросі, якщо він щонайменше 5 метрів завдовжки.",
+        "Будь-чим, якщо буксирувальник їде повільно."
+      ],
+      "explanation": "Транспортний засіб із несправною робочою гальмівною системою або з дозволеною максимальною масою понад 3500 кг дозволено буксирувати лише на жорсткому зчепленні (merev vontatórúd), яке сприймає і тягове, і штовхальне зусилля."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-026",
+    "topic": "safety",
+    "kreszRef": "KRESZ 56. § (1) c)–e)",
+    "hu": {
+      "question": "Az alábbi hibák közül melyik észlelésekor kell a járművet haladéktalanul megállítani?",
+      "answers": [
+        "Ha az összes féklámpa elromlott.",
+        "Ha az egyik ködfényszóró nem világít.",
+        "Ha a belső világítás nem működik."
+      ],
+      "explanation": "A járművet haladéktalanul meg kell állítani, ha olyan hibája van, amely balesethez vezethet – különösen, ha elromlott a kormányszerkezete, az üzemi fékberendezése, az összes féklámpája, az irányjelző berendezése (kivéve, ha kézzel megfelelő irányjelzés adható), illetve a bal oldali első vagy hátsó helyzetjelző lámpája, amikor a kivilágítás szükséges."
+    },
+    "ua": {
+      "question": "У разі якої з цих несправностей транспортний засіб треба негайно зупинити?",
+      "answers": [
+        "Якщо не працюють усі стоп-сигнали.",
+        "Якщо не світить одна протитуманна фара.",
+        "Якщо не працює освітлення салону."
+      ],
+      "explanation": "Транспортний засіб треба негайно зупинити, якщо він має несправність, що може призвести до ДТП, — зокрема відмову рульового керування, робочого гальма, усіх стоп-сигналів, покажчиків повороту (крім випадку, коли сигнал можна подати рукою) або лівого переднього чи заднього габаритного вогню, коли потрібне освітлення."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-027",
+    "topic": "safety",
+    "kreszRef": "KRESZ 44. § (7)",
+    "hu": {
+      "question": "Mely járművet kell nappal, jó látási viszonyok között, lakott területen is kivilágítani?",
+      "answers": [
+        "A motorkerékpárt (tompított fényszóróval).",
+        "A személygépkocsit.",
+        "Egyiket sem: nappal lakott területen semmit nem kell kivilágítani."
+      ],
+      "explanation": "A forgalomban részt vevő motorkerékpárt és a tompított fényszóróval felszerelt segédmotoros kerékpárt tompított fényszóróval nappal és jó látási viszonyok között is ki kell világítani. A gépkocsit nappal csak lakott területen kívül kötelező kivilágítani."
+    },
+    "ua": {
+      "question": "Який транспортний засіб треба освітлювати вдень за доброї видимості навіть у населеному пункті?",
+      "answers": [
+        "Мотоцикл (ближнім світлом фар).",
+        "Легковий автомобіль.",
+        "Жоден: удень у населеному пункті нічого освітлювати не треба."
+      ],
+      "explanation": "Мотоцикл і мопед, обладнаний фарою ближнього світла, під час руху треба освітлювати ближнім світлом і вдень за доброї видимості. Автомобіль удень обов'язково освітлювати лише поза населеним пунктом."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-028",
+    "topic": "safety",
+    "kreszRef": "KRESZ 58. § (3)",
+    "hu": {
+      "question": "Parkolás közben megrongált egy álló járművet, amelynek a vezetője nincs jelen. Mit kell tennie?",
+      "answers": [
+        "Személyi adatait és biztosítója nevét erre alkalmas módon a helyszínen kell hagynia.",
+        "Semmit, ha a kár csekély.",
+        "Elég, ha a saját biztosítójának bejelenti az esetet."
+      ],
+      "explanation": "Ha a baleset folytán megrongálódott jármű vezetője nincs jelen, a károkozó köteles személyi adatait és biztosítója nevét erre alkalmas módon a helyszínen hátrahagyni."
+    },
+    "ua": {
+      "question": "Паркуючись, Ви пошкодили автомобіль, що стоїть, а його водія поруч немає. Що треба зробити?",
+      "answers": [
+        "Залишити на місці у придатний спосіб свої особисті дані й назву свого страховика.",
+        "Нічого, якщо шкода незначна.",
+        "Досить повідомити про випадок свого страховика."
+      ],
+      "explanation": "Якщо водія транспортного засобу, пошкодженого внаслідок ДТП, немає на місці, той, хто завдав шкоди, зобов'язаний залишити на місці події у придатний спосіб свої особисті дані й назву свого страховика."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-029",
+    "topic": "safety",
+    "kreszRef": "KRESZ 5. § (4)",
+    "hu": {
+      "question": "Mit kell a vezetőnek a jármű okmányai közül vezetés közben magánál tartania?",
+      "answers": [
+        "A jármű hatósági engedélyét (forgalmi engedélyét), ha jogszabály eltérően nem rendelkezik.",
+        "Csak a kötelező biztosítás kötvényét.",
+        "Semmit, az adatok elektronikusan ellenőrizhetők."
+      ],
+      "explanation": "A jármű hatósági engedélyét – ha jogszabály eltérően nem rendelkezik – a vezetőnek vezetés közben magánál kell tartania. A külföldi hatóság által kiállított vezetői engedélyt szintén magánál kell tartania."
+    },
+    "ua": {
+      "question": "Який документ на транспортний засіб водій має мати при собі під час керування?",
+      "answers": [
+        "Реєстраційний документ транспортного засобу (hatósági engedély, forgalmi engedély), якщо закон не передбачає іншого.",
+        "Лише поліс обов'язкового страхування.",
+        "Ніякого: дані перевіряють електронно."
+      ],
+      "explanation": "Реєстраційний документ транспортного засобу водій — якщо закон не передбачає іншого — має мати при собі під час керування. Посвідчення водія, видане іноземним органом, теж треба мати при собі."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-030",
+    "topic": "safety",
+    "kreszRef": "KRESZ 4. § (3)",
+    "hu": {
+      "question": "Külföldön (például Ukrajnában) kiállított vezetői engedéllyel vezet Magyarországon. Mire kell ügyelnie?",
+      "answers": [
+        "A külföldi hatóság által kiállított vezetői engedélyt vezetés közben magánál kell tartania.",
+        "Elég, ha az engedély fényképe megvan a telefonján.",
+        "Semmire, az engedélyt nem kell magánál tartania."
+      ],
+      "explanation": "A vezetői engedélyt, ha azt külföldi hatóság állította ki, a vezetőnek vezetés közben magánál kell tartania."
+    },
+    "ua": {
+      "question": "Ви керуєте в Угорщині з посвідченням водія, виданим за кордоном (наприклад, в Україні). На що треба зважати?",
+      "answers": [
+        "Посвідчення, видане іноземним органом, треба мати при собі під час керування.",
+        "Досить фото посвідчення в телефоні.",
+        "Ні на що: мати посвідчення при собі не обов'язково."
+      ],
+      "explanation": "Посвідчення водія, якщо його видав іноземний орган, водій має мати при собі під час керування."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-031",
+    "topic": "safety",
+    "kreszRef": "KRESZ 5. § (5)",
+    "hu": {
+      "question": "Szabad-e a rendszámtáblát letakarni vagy megváltoztatni?",
+      "answers": [
+        "Nem: a rendszámtáblát a kijelölt helyen, jól olvasható állapotban kell tartani; megváltoztatni, letakarni tilos.",
+        "Igen, parkolás idejére letakarható.",
+        "Igen, ha a jármű nem közúton áll."
+      ],
+      "explanation": "A hatósági jelzést (rendszámtáblát) a járművön a felszerelésére kijelölt helyen, jól olvasható állapotban kell tartani; azt megváltoztatni, letakarni vagy jogosulatlanul eltávolítani tilos."
+    },
+    "ua": {
+      "question": "Чи можна затуляти або змінювати номерний знак?",
+      "answers": [
+        "Ні: номерний знак має бути на призначеному місці й добре читатися; змінювати чи затуляти його заборонено.",
+        "Так, на час стоянки його можна затулити.",
+        "Так, якщо транспортний засіб стоїть не на дорозі загального користування."
+      ],
+      "explanation": "Номерний знак має бути встановлений на призначеному для нього місці й добре читатися; змінювати, затуляти чи самовільно знімати його заборонено."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-032",
+    "topic": "safety",
+    "kreszRef": "KRESZ 56. § (3)",
+    "hu": {
+      "question": "A járműnek olyan műszaki hibája van, amely a közlekedés biztonságát közvetlenül nem veszélyezteti. Meddig közlekedhet vele?",
+      "answers": [
+        "Fokozott óvatossággal a legközelebbi olyan helyig, ahol a hiba elhárítható.",
+        "Korlátlanul, amíg a hiba nem súlyosbodik.",
+        "Egyáltalán nem közlekedhet vele."
+      ],
+      "explanation": "A közlekedés biztonságát közvetlenül nem veszélyeztető műszaki hiba esetében a járművel – fokozott óvatossággal, lehetőleg kis forgalmú úton és időszakban – a legközelebbi olyan helyig szabad közlekedni, ahol a hiba elhárítható."
+    },
+    "ua": {
+      "question": "Транспортний засіб має несправність, яка безпосередньо не загрожує безпеці руху. Доки ним можна їхати?",
+      "answers": [
+        "З особливою обережністю до найближчого місця, де несправність можна усунути.",
+        "Необмежено, доки несправність не погіршиться.",
+        "Їхати не можна взагалі."
+      ],
+      "explanation": "Із несправністю, що безпосередньо не загрожує безпеці руху, можна — з особливою обережністю, за можливості дорогами й у час зі слабким рухом — їхати до найближчого місця, де її можна усунути."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-033",
+    "topic": "safety",
+    "kreszRef": "KRESZ 57. § (2)",
+    "hu": {
+      "question": "Mekkora legyen legalább a vontató jármű tényleges súlya, ha az elromlott jármű üzemi féke működik?",
+      "answers": [
+        "Érje el a vontatott jármű tényleges súlyának a felét.",
+        "Legalább kétszerese legyen a vontatott jármű súlyának.",
+        "A súly nem számít, csak a motor teljesítménye."
+      ],
+      "explanation": "Elromlott gépjárművet olyan járművel szabad vontatni, amelynek tényleges súlya eléri a vontatott jármű tényleges súlyának a felét; ha azonban az üzemi fékberendezés romlott el, csak olyannal, amelynek tényleges súlya eléri a vontatott jármű tényleges súlyát."
+    },
+    "ua": {
+      "question": "Якою щонайменше має бути фактична вага буксирувальника, якщо в несправному транспортному засобі робоче гальмо працює?",
+      "answers": [
+        "Не меншою за половину фактичної ваги буксированого транспортного засобу.",
+        "Щонайменше вдвічі більшою за вагу буксированого.",
+        "Вага не важить, лише потужність двигуна."
+      ],
+      "explanation": "Несправний механічний транспортний засіб можна буксирувати транспортним засобом, фактична вага якого не менша за половину фактичної ваги буксированого; якщо ж несправне робоче гальмо — лише таким, чия фактична вага не менша за вагу буксированого."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-034",
+    "topic": "safety",
+    "kreszRef": "KRESZ 57. § (4)",
+    "hu": {
+      "question": "Hogyan szabad vontatni azt a járművet, amelynek a kormányszerkezete romlott el?",
+      "answers": [
+        "Csak emelve.",
+        "Vontatókötéllel, lépésben.",
+        "Merev vontatórúddal, ha a vezető benne ül."
+      ],
+      "explanation": "Olyan járművet, amelynek kormányszerkezete romlott el, csak emelve szabad vontatni. Emelve vontatott járművön még vezető sem utazhat."
+    },
+    "ua": {
+      "question": "Як дозволено буксирувати транспортний засіб із несправним рульовим керуванням?",
+      "answers": [
+        "Лише з частковим підняттям (emelve).",
+        "На тросі, дуже повільно.",
+        "На жорсткому зчепленні, якщо в ньому сидить водій."
+      ],
+      "explanation": "Транспортний засіб із несправним рульовим керуванням можна буксирувати лише з підняттям (на підйомному пристрої). У транспортному засобі, який так буксирують, не може їхати навіть водій."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-035",
+    "topic": "safety",
+    "kreszRef": "KRESZ 57. § (8)",
+    "hu": {
+      "question": "Vontatás közben mit kell működtetni a vontatott járművön (ha nem emelve vontatják)?",
+      "answers": [
+        "A féklámpát és az irányjelzőt, éjszaka és korlátozott látási viszonyok között pedig ki is kell világítani.",
+        "Semmit, elég a vontató jármű világítása.",
+        "Csak az elakadásjelzőt."
+      ],
+      "explanation": "A vontatott jármű féklámpáját és irányjelző berendezését – kivéve, ha a járművet emelve vontatják – működtetni kell, továbbá éjszaka és korlátozott látási viszonyok között a vontatott járművet is ki kell világítani."
+    },
+    "ua": {
+      "question": "Що під час буксирування має працювати на буксированому транспортному засобі (якщо його не буксирують із підняттям)?",
+      "answers": [
+        "Стоп-сигнали й покажчики повороту, а вночі та за обмеженої видимості його треба ще й освітлювати.",
+        "Нічого, досить освітлення буксирувальника.",
+        "Лише аварійна сигналізація."
+      ],
+      "explanation": "На буксированому транспортному засобі — крім буксирування з підняттям — мають працювати стоп-сигнали й покажчики повороту, а вночі та за обмеженої видимості його теж треба освітлювати."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-036",
+    "topic": "safety",
+    "kreszRef": "KRESZ 44. § (6)",
+    "hu": {
+      "question": "Hogyan szabad fényjelzést adni?",
+      "answers": [
+        "A távolsági fényszóró felvillantásával, feltéve, hogy ez a közlekedés többi résztvevőjét nem vakítja el.",
+        "A ködfényszóró tartós bekapcsolásával.",
+        "Az elakadásjelző bekapcsolásával."
+      ],
+      "explanation": "Fényjelzést adni a távolsági fényszóró felvillantásával szabad, feltéve, hogy ez a közlekedés többi résztvevőjét nem vakítja el."
+    },
+    "ua": {
+      "question": "Як дозволено подавати світловий сигнал?",
+      "answers": [
+        "Короткочасним увімкненням дальнього світла, якщо це не засліплює інших учасників руху.",
+        "Тривалим увімкненням протитуманних фар.",
+        "Увімкненням аварійної сигналізації."
+      ],
+      "explanation": "Світловий сигнал дозволено подавати коротким «блиманням» дальнього світла — за умови, що це не засліплює інших учасників руху."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-037",
+    "topic": "safety",
+    "kreszRef": "KRESZ 42. § (2)",
+    "hu": {
+      "question": "Megkülönböztető fényjelzést (villogó kék fényt) használó, álló járműhöz közeledik. Hogyan haladhat el mellette?",
+      "answers": [
+        "Csak fokozott óvatossággal.",
+        "Sehogy: meg kell állnia, amíg a jármű el nem indul.",
+        "Változatlan sebességgel, ha a sávja szabad."
+      ],
+      "explanation": "Megkülönböztető fényjelzést használó, álló járművet megközelíteni, illetőleg mellette elhaladni csak fokozott óvatossággal szabad."
+    },
+    "ua": {
+      "question": "Ви наближаєтеся до транспортного засобу, що стоїть з увімкненим синім проблисковим маячком. Як можна проїхати повз нього?",
+      "answers": [
+        "Лише з особливою обережністю.",
+        "Ніяк: треба стояти, доки він не поїде.",
+        "Не змінюючи швидкості, якщо Ваша смуга вільна."
+      ],
+      "explanation": "До транспортного засобу, що стоїть з увімкненим спеціальним світловим сигналом, можна наближатися й проїжджати повз нього лише з особливою обережністю."
+    },
+    "correct": 0
+  }
+]

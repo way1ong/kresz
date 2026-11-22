@@ -1,0 +1,510 @@
+[
+  {
+    "id": "people-001",
+    "topic": "people",
+    "kreszRef": "KRESZ 21. § (12)",
+    "hu": {
+      "question": "Lakott területen kívül, éjszaka defekt miatt megáll, és kiszáll a járműből az úttestre vagy az útpadkára. Mit kell viselnie?",
+      "answers": [
+        "Fényvisszaverő mellényt (ruházatot).",
+        "Semmi különöset, ha a jármű elakadásjelzője működik.",
+        "Csak akkor kell mellényt viselnie, ha autópályán áll."
+      ],
+      "explanation": "A lakott területen kívüli út úttestjén, leállósávján, útpadkáján tartózkodó gyalogosnak, személynek éjszaka és korlátozott látási viszonyok esetén fényvisszaverő mellényt (ruházatot) kell viselnie. Ez a járműből kiszálló vezetőre és utasokra is vonatkozik."
+    },
+    "ua": {
+      "question": "Поза населеним пунктом уночі Ви зупинилися через пробите колесо й виходите з автомобіля на проїзну частину чи узбіччя. Що треба мати на собі?",
+      "answers": [
+        "Світловідбивний жилет (одяг).",
+        "Нічого особливого, якщо в автомобіля працює аварійна сигналізація.",
+        "Жилет потрібен, лише якщо Ви стоїте на автомагістралі."
+      ],
+      "explanation": "Пішохід чи будь-яка особа, що перебуває на проїзній частині, смузі для аварійної зупинки або узбіччі дороги поза населеним пунктом, уночі та за обмеженої видимості повинна мати на собі світловідбивний жилет (одяг). Це стосується і водія та пасажирів, які вийшли з автомобіля."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-002",
+    "topic": "people",
+    "kreszRef": "KRESZ 21. § (3) a)",
+    "hu": {
+      "question": "Járda és útpadka nélküli úton, lakott területen kívül melyik oldalon kell a gyalogosnak az úttesten haladnia?",
+      "answers": [
+        "Mindig a bal oldalon, a járműforgalommal szemben.",
+        "Mindig a jobb oldalon, a járműforgalommal egy irányban.",
+        "Bármelyik oldalon, ha egy sorban haladnak."
+      ],
+      "explanation": "Ha a gyalogosok az úttesten közlekednek, az úttest szélén, egy sorban kell haladniuk: lakott területen lehetőleg, lakott területen kívül mindig a menetirány szerinti bal oldalon, a járműforgalommal szemben. A vezető ezért számíthat arra, hogy a gyalogos szemből közeledik az út szélén."
+    },
+    "ua": {
+      "question": "Поза населеним пунктом на дорозі без тротуару й узбіччя: яким боком проїзної частини має йти пішохід?",
+      "answers": [
+        "Завжди лівим, назустріч транспорту.",
+        "Завжди правим, у напрямку руху транспорту.",
+        "Будь-яким, якщо йдуть в один ряд."
+      ],
+      "explanation": "Якщо пішоходи йдуть проїзною частиною, вони мають рухатися біля її краю в один ряд: у населеному пункті — за можливості, а поза ним — завжди лівим за напрямком руху боком, назустріч транспорту. Тож водій може очікувати пішохода, який іде назустріч краєм дороги."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-003",
+    "topic": "people",
+    "kreszRef": "KRESZ 21. § (7); 43. § (1)",
+    "image": "pedestrianCrossing",
+    "hu": {
+      "question": "Kinek van elsőbbsége a kijelölt gyalogosátkelőhelyen áthaladó gyalogossal szemben?",
+      "answers": [
+        "Csak a megkülönböztető jelzéseket használó gépjárműnek.",
+        "Minden járműnek, amely már nagyon közel jár az átkelőhelyhez.",
+        "A villamosnak és az autóbusznak."
+      ],
+      "explanation": "A kijelölt gyalogosátkelőhelyen áthaladó gyalogosnak a járművekkel szemben elsőbbsége van. Kivétel a megkülönböztető jelzéseket használó gépjármű: vele szemben a gyalogosnak sincs elsőbbsége."
+    },
+    "ua": {
+      "question": "Хто має перевагу перед пішоходом, що переходить позначеним пішохідним переходом?",
+      "answers": [
+        "Лише транспортний засіб, який використовує спеціальні сигнали.",
+        "Будь-який транспортний засіб, що вже дуже близько до переходу.",
+        "Трамвай і автобус."
+      ],
+      "explanation": "Пішохід на позначеному пішохідному переході має перевагу перед транспортними засобами. Виняток — транспортний засіб зі спеціальними сигналами (megkülönböztető jelzések): перед ним переваги немає й у пішохода."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-004",
+    "topic": "people",
+    "kreszRef": "KRESZ 21. § (9) e)–f)",
+    "image": "motorway",
+    "hu": {
+      "question": "Szabad-e gyalogosnak az autópályán közlekednie vagy azon áthaladnia?",
+      "answers": [
+        "Nem: az autópályán – a leállósávon is – tilos gyalogosan közlekedni és áthaladni.",
+        "Igen, de csak a leállósávon.",
+        "Igen, ha fényvisszaverő mellényt visel."
+      ],
+      "explanation": "A gyalogosnak tilos autópályán (a leállósávon is) közlekedni, valamint áthaladni; autóúton tilos közlekedni, és útkereszteződésen kívül áthaladni is."
+    },
+    "ua": {
+      "question": "Чи можна пішоходові йти автомагістраллю або переходити її?",
+      "answers": [
+        "Ні: на автомагістралі — і на смузі для аварійної зупинки теж — пішоходам заборонено і йти, і переходити.",
+        "Так, але лише смугою для аварійної зупинки.",
+        "Так, якщо на ньому світловідбивний жилет."
+      ],
+      "explanation": "Пішоходові заборонено рухатися автомагістраллю (зокрема смугою для аварійної зупинки) і переходити її; дорогою для автомобілів (autóút) заборонено рухатися, а переходити — поза перехрестям."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-005",
+    "topic": "people",
+    "kreszRef": "KRESZ 21. § (11)",
+    "image": "mainRoad",
+    "hu": {
+      "question": "Hány éves kor alatt tilos a gyermeket főútvonalon felügyelet nélkül hagyni?",
+      "answers": [
+        "6 éves kor alatt.",
+        "10 éves kor alatt.",
+        "14 éves kor alatt."
+      ],
+      "explanation": "Főútvonalon 6 éven aluli gyermeket felügyelet nélkül hagyni tilos."
+    },
+    "ua": {
+      "question": "Дитину до якого віку заборонено залишати без нагляду на головній дорозі (főútvonal)?",
+      "answers": [
+        "До 6 років.",
+        "До 10 років.",
+        "До 14 років."
+      ],
+      "explanation": "На головній дорозі заборонено залишати без нагляду дитину віком до 6 років."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-006",
+    "topic": "people",
+    "kreszRef": "KRESZ 23. § (2)–(3)",
+    "hu": {
+      "question": "Mit tilos tennie a személygépkocsi utasának?",
+      "answers": [
+        "A vezetőt a vezetésben zavarni, valamint a jármű ablakán vagy ajtaján kihajolni.",
+        "A hátsó ülésen utazni, ha az első ülés szabad.",
+        "Menet közben beszélgetni a vezetővel."
+      ],
+      "explanation": "Az utasnak tilos a vezetőt a vezetésben zavarni, állva utazni (kivéve autóbuszon, trolibuszon és villamoson), a jármű lépcsőjén vagy külső részén utazni, valamint az ablakon vagy ajtón kihajolni. Az ajtót az utas is csak akkor nyithatja ki, ha ezzel a közlekedés biztonságát nem veszélyezteti."
+    },
+    "ua": {
+      "question": "Що заборонено пасажирові легкового автомобіля?",
+      "answers": [
+        "Заважати водієві керувати, а також висуватися з вікна чи дверей.",
+        "Їхати на задньому сидінні, якщо переднє вільне.",
+        "Розмовляти з водієм під час руху."
+      ],
+      "explanation": "Пасажирові заборонено заважати водієві керувати, їхати стоячи (крім автобуса, тролейбуса й трамвая), їхати на підніжці чи зовнішній частині транспортного засобу та висуватися з вікна чи дверей. Двері пасажир теж може відчиняти лише тоді, коли це не загрожує безпеці руху."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-007",
+    "topic": "people",
+    "kreszRef": "KRESZ 23. § (1)",
+    "hu": {
+      "question": "Mikor szállhat fel az utas a járműre, illetve szállhat le róla?",
+      "answers": [
+        "Csak álló járműre szállhat fel, és csak álló járműről szállhat le.",
+        "Lassan guruló járműről is leszállhat, ha a vezető megengedi.",
+        "Bármikor, ha a jármű sebessége 5 km/óra alatt van."
+      ],
+      "explanation": "Az utas csak álló járműre szállhat fel és csak álló járműről szállhat le."
+    },
+    "ua": {
+      "question": "Коли пасажир може сідати в транспортний засіб і виходити з нього?",
+      "answers": [
+        "Сідати можна лише в нерухомий транспортний засіб і виходити лише з нерухомого.",
+        "Виходити можна й з транспортного засобу, що повільно котиться, якщо водій дозволить.",
+        "Будь-коли, якщо швидкість менша за 5 км/год."
+      ],
+      "explanation": "Пасажир може сідати лише в транспортний засіб, що стоїть, і виходити лише з транспортного засобу, що стоїть."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-008",
+    "topic": "people",
+    "kreszRef": "KRESZ 46. § (2)",
+    "hu": {
+      "question": "Legfeljebb hány személyt szabad személygépkocsival szállítani?",
+      "answers": [
+        "Legfeljebb annyit, amennyi a jármű hatósági engedélyében szerepel – a vezetőt is beleszámítva.",
+        "Ahányan beférnek, ha mindenki ül.",
+        "A hatósági engedélyben szereplő számnál eggyel többet, ha a többlet utas gyermek."
+      ],
+      "explanation": "Gépjárművel legfeljebb a jármű hatósági engedélyében (forgalmi engedélyében) feltüntetett számú személyt szabad szállítani; ebbe a vezető is beleszámít."
+    },
+    "ua": {
+      "question": "Скільки щонайбільше осіб можна перевозити легковим автомобілем?",
+      "answers": [
+        "Не більше, ніж зазначено в реєстраційному документі транспортного засобу, — разом із водієм.",
+        "Скільки поміститься, якщо всі сидять.",
+        "На одну особу більше, ніж у документі, якщо зайвий пасажир — дитина."
+      ],
+      "explanation": "Механічним транспортним засобом можна перевозити не більше осіб, ніж зазначено в його реєстраційному документі (hatósági engedély, forgalmi engedély); водій теж входить до цієї кількості."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-009",
+    "topic": "people",
+    "kreszRef": "KRESZ 46. § (3)",
+    "hu": {
+      "question": "Hány személy szállítható a gépkocsi első (a vezető melletti) ülésén?",
+      "answers": [
+        "Csak egy személy.",
+        "Két személy, ha mindketten gyermekek.",
+        "Két személy, ha mindkettő be tudja csatolni magát."
+      ],
+      "explanation": "A gépkocsi első ülésén csak egy személy szállítható."
+    },
+    "ua": {
+      "question": "Скільки осіб можна перевозити на передньому сидінні автомобіля (поруч із водієм)?",
+      "answers": [
+        "Лише одну особу.",
+        "Двох, якщо обоє — діти.",
+        "Двох, якщо обоє можуть пристебнутися."
+      ],
+      "explanation": "На передньому сидінні автомобіля можна перевозити лише одну особу."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-010",
+    "topic": "people",
+    "kreszRef": "KRESZ 46. § (6)",
+    "hu": {
+      "question": "Szabad-e személygépkocsival vontatott pótkocsin (utánfutón, lakókocsiban) menet közben személyt szállítani?",
+      "answers": [
+        "Nem, pótkocsin személyt szállítani tilos.",
+        "Igen, ha a pótkocsiban ülőhely van.",
+        "Igen, de csak lakott területen kívül."
+      ],
+      "explanation": "Pótkocsin személyt szállítani tilos (a jogszabály csak szűk kivételeket enged, például a szerelvény biztonságos közlekedéséhez szükséges, a hatósági engedélyben meghatározott személyt). Lakókocsiban menet közben senki sem utazhat."
+    },
+    "ua": {
+      "question": "Чи можна під час руху перевозити людей у причепі, який тягне легковий автомобіль (вантажному причепі, будинку на колесах)?",
+      "answers": [
+        "Ні, перевозити людей у причепі заборонено.",
+        "Так, якщо в причепі є місце для сидіння.",
+        "Так, але лише поза населеним пунктом."
+      ],
+      "explanation": "Перевозити людей у причепі заборонено (закон допускає лише вузькі винятки, наприклад особу, потрібну для безпечного руху автопоїзда й зазначену в документах). У причепі-дачі під час руху їхати не може ніхто."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-011",
+    "topic": "people",
+    "kreszRef": "KRESZ 47. § (2) a), c)–d)",
+    "hu": {
+      "question": "Hogyan kell a rakományt a járművön elhelyezni?",
+      "answers": [
+        "Úgy, hogy ne akadályozza a vezetőt a kilátásban és a vezetésben, ne rontsa számottevően a jármű stabilitását, és rögzítve legyen, hogy el ne csússzon, le ne essen.",
+        "Bárhogyan, ha a csomagtartó ajtaja becsukható.",
+        "Úgy, hogy a nehéz csomagok a tetőcsomagtartóra kerüljenek."
+      ],
+      "explanation": "A rakomány nem akadályozhatja a vezetőt a szabad kilátásban és a vezetésben, a többieket a jármű fényjelzéseinek észlelésében; egyenletesen kell elhelyezni, hogy a stabilitást számottevően ne rontsa, és úgy kell rögzíteni, hogy el ne csússzék, le ne essék, ki ne ömöljék."
+    },
+    "ua": {
+      "question": "Як треба розміщувати вантаж у транспортному засобі?",
+      "answers": [
+        "Так, щоб він не заважав водієві бачити дорогу й керувати, помітно не погіршував стійкість і був закріплений від зсуву й падіння.",
+        "Як завгодно, якщо багажник зачиняється.",
+        "Так, щоб важкі речі лежали на багажнику на даху."
+      ],
+      "explanation": "Вантаж не повинен заважати водієві бачити дорогу й керувати, а іншим учасникам — бачити світлові сигнали транспортного засобу; його розміщують рівномірно, щоб помітно не погіршувати стійкість, і закріплюють так, щоб він не зсувався, не падав і не висипався."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-012",
+    "topic": "people",
+    "kreszRef": "KRESZ 47. § (3)",
+    "hu": {
+      "question": "Legfeljebb mennyivel nyúlhat túl a rakomány a személygépkocsi tetőcsomagtartóján előre és hátra?",
+      "answers": [
+        "Előre és hátra legfeljebb 40–40 cm-rel.",
+        "Előre nem nyúlhat túl, hátra legfeljebb 1 méterrel.",
+        "Előre és hátra legfeljebb 1–1 méterrel."
+      ],
+      "explanation": "Zárt kocsiszekrényű jármű tetején rakományt csak tetőcsomagtartón szabad elhelyezni. Személygépkocsi tetőcsomagtartóján a rakomány akkor is szállítható, ha a járművön előre és hátra legfeljebb 40–40 cm-re túlnyúlik."
+    },
+    "ua": {
+      "question": "На скільки щонайбільше вантаж на багажнику на даху легкового автомобіля може виступати вперед і назад?",
+      "answers": [
+        "Уперед і назад — не більше ніж на 40 см.",
+        "Уперед виступати не може, назад — до 1 метра.",
+        "Уперед і назад — до 1 метра."
+      ],
+      "explanation": "На даху транспортного засобу із закритим кузовом вантаж можна перевозити лише на багажнику на даху. На багажнику легкового автомобіля вантаж можна везти й тоді, коли він виступає за автомобіль уперед і назад не більше ніж на 40 см."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-013",
+    "topic": "people",
+    "kreszRef": "KRESZ 47. § (7)",
+    "hu": {
+      "question": "A gépkocsi hátsó részéhez rögzített rakomány (például kerékpártartón szállított kerékpár) hátrafelé legfeljebb mennyire nyúlhat ki?",
+      "answers": [
+        "Legfeljebb 1 méterre, és nem takarhatja el a lámpákat és a rendszámtáblát.",
+        "Legfeljebb 2 méterre.",
+        "Bármennyire, ha piros zászlóval megjelölték."
+      ],
+      "explanation": "A gépkocsi hátsó részéhez rögzített rakomány hátrafelé legfeljebb 1 m-re, oldalirányban legfeljebb 0,4 m-re nyúlhat ki, szélessége nem haladhatja meg a 2,5 m-t, és úgy kell elhelyezni, hogy a hátsó világító- és fényjelző berendezések, valamint a rendszámtábla láthatók legyenek."
+    },
+    "ua": {
+      "question": "На скільки щонайбільше може виступати назад вантаж, закріплений ззаду на автомобілі (наприклад, велосипед на кріпленні)?",
+      "answers": [
+        "Не більше ніж на 1 метр, і він не може затуляти ліхтарі та номерний знак.",
+        "Не більше ніж на 2 метри.",
+        "На скільки завгодно, якщо його позначено червоним прапорцем."
+      ],
+      "explanation": "Вантаж, закріплений на задній частині автомобіля, може виступати назад не більше ніж на 1 м, убік — не більше ніж на 0,4 м, його ширина не може перевищувати 2,5 м, а задні світлові прилади й номерний знак мають лишатися видимими."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-014",
+    "topic": "people",
+    "kreszRef": "KRESZ 47. § (6)",
+    "hu": {
+      "question": "Mivel kell megjelölni a járművön túlnyúló rakományt nappal?",
+      "answers": [
+        "Legalább 40 × 40 cm méretű piros vagy piros-fehér csíkos zászlóval, illetve táblával.",
+        "Bármilyen színű szalaggal.",
+        "Nappal nem kell megjelölni, csak éjszaka."
+      ],
+      "explanation": "A járművön túlnyúló rakományt (álló járművön is) legalább 40 × 40 cm méretű piros vagy piros-fehér csíkos zászlóval, illetőleg táblával kell megjelölni; éjszaka és korlátozott látási viszonyok között ezen felül lámpával és fényvisszaverővel is."
+    },
+    "ua": {
+      "question": "Чим удень треба позначити вантаж, що виступає за межі транспортного засобу?",
+      "answers": [
+        "Червоним або червоно-білим смугастим прапорцем чи табличкою розміром щонайменше 40 × 40 см.",
+        "Стрічкою будь-якого кольору.",
+        "Удень позначати не треба, лише вночі."
+      ],
+      "explanation": "Вантаж, що виступає за транспортний засіб (і на нерухомому теж), позначають червоним або червоно-білим смугастим прапорцем чи табличкою розміром щонайменше 40 × 40 см; уночі та за обмеженої видимості — додатково ліхтарем і світловідбивачем."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-015",
+    "topic": "people",
+    "kreszRef": "KRESZ 47. § (2) f)",
+    "hu": {
+      "question": "Legfeljebb mekkora lehet a rakomány magassága a jármű magasságával együtt?",
+      "answers": [
+        "4 méter.",
+        "3 méter.",
+        "4,5 méter."
+      ],
+      "explanation": "A rakomány magassága – a jármű magasságával együtt – a négy métert nem haladhatja meg."
+    },
+    "ua": {
+      "question": "Якою щонайбільше може бути висота вантажу разом із висотою транспортного засобу?",
+      "answers": [
+        "4 метри.",
+        "3 метри.",
+        "4,5 метра."
+      ],
+      "explanation": "Висота вантажу разом із висотою транспортного засобу не може перевищувати чотирьох метрів."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-016",
+    "topic": "people",
+    "kreszRef": "KRESZ 20. § (6)",
+    "hu": {
+      "question": "Párhuzamos közlekedésre nem alkalmas úttesten „Gyermekszállítás” táblával megjelölt autóbusz áll, és mindkét oldali irányjelzőjét egyszerre működteti. Mit tehet?",
+      "answers": [
+        "Nem kerülheti ki, és a szembejövő forgalom sem haladhat el mellette, amíg a gyermekek be- és kiszállása tart.",
+        "Lépésben, fokozott óvatossággal kikerülheti.",
+        "Hangjelzés után kikerülheti."
+      ],
+      "explanation": "Tilos a „Gyermekszállítás” táblával megjelölt autóbuszt kikerülni, valamint mellette a szembejövő forgalomnak elhaladni, ha az párhuzamos közlekedésre nem alkalmas úttesten áll, és a gyermekek be- és kiszállását a vezető az autóbusz mindkét oldali első és hátsó irányjelzőjének egyidejű működtetésével jelzi."
+    },
+    "ua": {
+      "question": "На проїзній частині з однією смугою в кожному напрямку стоїть автобус із табличкою «Gyermekszállítás» («Перевезення дітей») і одночасно блимає покажчиками повороту з обох боків. Що можна робити?",
+      "answers": [
+        "Об'їжджати його не можна, і зустрічний транспорт теж не може проїжджати повз нього, доки триває посадка чи висадка дітей.",
+        "Можна об'їхати дуже повільно й особливо обережно.",
+        "Можна об'їхати після звукового сигналу."
+      ],
+      "explanation": "Заборонено об'їжджати автобус із табличкою «Gyermekszállítás», а зустрічному транспорту — проїжджати повз нього, якщо він стоїть на проїзній частині, не придатній для руху в кілька рядів, і водій позначає посадку чи висадку дітей одночасною роботою передніх і задніх покажчиків повороту з обох боків."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-017",
+    "topic": "people",
+    "kreszRef": "KRESZ 43. § (4)",
+    "image": "children",
+    "hu": {
+      "question": "Kikre kell a vezetőnek fokozottan ügyelnie az úttesten?",
+      "answers": [
+        "A gyermekekre, a megállóhelyről az úttestre lelépő gyalogosokra, valamint azokra, akik koruk vagy fogyatékosságuk miatt felismerhetően nem képesek ügyelni a saját biztonságukra.",
+        "Csak a kijelölt gyalogosátkelőhelyen áthaladókra.",
+        "Csak a fényvisszaverő mellényt viselő gyalogosokra."
+      ],
+      "explanation": "A vezetőnek fokozottan ügyelnie kell többek között a villamosmegállónál a járdasziget és a járda között áthaladó, a megállóhelyről az úttestre lelépő gyalogosok, az autóbuszra fel- és arról leszálló gyermekek, valamint az egyedül vagy csoportosan haladó gyermekek és a saját biztonságukra ügyelni felismerhetően nem képes személyek biztonságára."
+    },
+    "ua": {
+      "question": "На кого на проїзній частині водій має зважати особливо?",
+      "answers": [
+        "На дітей, на пішоходів, що сходять на проїзну частину із зупинки, і на тих, хто через вік чи ваду явно не може подбати про власну безпеку.",
+        "Лише на тих, хто переходить позначеним пішохідним переходом.",
+        "Лише на пішоходів у світловідбивних жилетах."
+      ],
+      "explanation": "Водій має особливо дбати про безпеку, зокрема, пішоходів, які проходять між острівцем трамвайної зупинки й тротуаром або сходять на проїзну частину із зупинки, дітей, що сідають в автобус чи виходять із нього, дітей, які йдуть самі або групою, та осіб, які через вік, ваду чи іншу причину явно не можуть дбати про власну безпеку."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-018",
+    "topic": "people",
+    "kreszRef": "KRESZ 54. § (2)",
+    "hu": {
+      "question": "Lakott területen, ahol az úttest kerékpározásra alkalmatlan, legfeljebb mekkora sebességgel szabad kerékpárral a járdán közlekedni?",
+      "answers": [
+        "Legfeljebb 10 km/óra sebességgel, a gyalogosforgalom zavarása nélkül.",
+        "Legfeljebb 20 km/óra sebességgel.",
+        "A járdán kerékpározni soha nem szabad."
+      ],
+      "explanation": "Lakott területen levő olyan úton, ahol az úttest kerékpár-közlekedésre alkalmatlan, kerékpárral a gyalogosforgalom zavarása nélkül és legfeljebb 10 km/óra sebességgel a járdán is szabad közlekedni."
+    },
+    "ua": {
+      "question": "У населеному пункті, де проїзна частина непридатна для велосипеда, з якою найбільшою швидкістю можна їхати велосипедом по тротуару?",
+      "answers": [
+        "Не швидше 10 км/год і не заважаючи пішоходам.",
+        "Не швидше 20 км/год.",
+        "Їздити велосипедом по тротуару не можна ніколи."
+      ],
+      "explanation": "На дорозі в населеному пункті, де проїзна частина непридатна для руху велосипедів, велосипедом можна їхати й тротуаром — не заважаючи пішоходам і не швидше 10 км/год."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-019",
+    "topic": "people",
+    "kreszRef": "KRESZ 54. § (6)",
+    "hu": {
+      "question": "Mi kell ahhoz, hogy kerékpárral éjszaka, lakott területen kívül szabadon közlekedni?",
+      "answers": [
+        "Előre fehér, hátra piros fényű lámpa és fényvisszaverő, valamint a kerékpároson fényvisszaverő mellény (ruházat).",
+        "Elég egy hátsó piros fényvisszaverő.",
+        "Semmi: a kerékpárra nincs világítási előírás."
+      ],
+      "explanation": "Kerékpárral éjszaka és korlátozott látási viszonyok között akkor szabad közlekedni, ha a kerékpáron vagy a kerékpároson előre fehér, hátrafelé piros színű (folyamatos vagy villogó) fényt adó lámpa és fényvisszaverő van, lakott területen kívül pedig a kerékpáros fényvisszaverő mellényt (ruházatot) visel."
+    },
+    "ua": {
+      "question": "Що потрібно, щоб уночі їхати велосипедом поза населеним пунктом?",
+      "answers": [
+        "Ліхтар із білим світлом спереду й червоним ззаду та світловідбивач, а на велосипедистові — світловідбивний жилет (одяг).",
+        "Досить заднього червоного світловідбивача.",
+        "Нічого: для велосипеда вимог до освітлення немає."
+      ],
+      "explanation": "Уночі та за обмеженої видимості велосипедом можна їхати, якщо на велосипеді чи велосипедистові є ліхтар із білим світлом уперед і червоним назад (постійним або миготливим) та світловідбивач, а поза населеним пунктом велосипедист ще й у світловідбивному жилеті (одязі)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-020",
+    "topic": "people",
+    "kreszRef": "KRESZ 54. § (4)",
+    "hu": {
+      "question": "Lakott területen kívül a főútvonalon haladó kerékpáros balra szeretne kanyarodni. Hogyan teheti meg?",
+      "answers": [
+        "Le kell szállnia, és a kerékpárt tolva, gyalogosként kell áthaladnia az úttesten.",
+        "Irányjelzés után az úttest közepére sorolva kanyarodhat.",
+        "Sehogyan, főútvonalon kerékpározni tilos."
+      ],
+      "explanation": "Kerékpárral lakott területen kívül a főútvonalról balra bekanyarodni vagy megfordulni nem szabad: a kerékpárosnak le kell szállnia, és a kerékpárt tolva – a gyalogosok közlekedésére vonatkozó szabályok szerint – kell az úttesten áthaladnia."
+    },
+    "ua": {
+      "question": "Поза населеним пунктом велосипедист на головній дорозі хоче повернути ліворуч. Як він може це зробити?",
+      "answers": [
+        "Має зійти з велосипеда й перейти проїзну частину, ведучи його, як пішохід.",
+        "Може повернути, зайнявши після сигналу положення посередині проїзної частини.",
+        "Ніяк: головною дорогою велосипедом їздити заборонено."
+      ],
+      "explanation": "Поза населеним пунктом велосипедом не можна повертати ліворуч чи розвертатися з головної дороги: велосипедист має зійти й перейти проїзну частину, ведучи велосипед, за правилами для пішоходів."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-021",
+    "topic": "people",
+    "kreszRef": "KRESZ 21. § (5)",
+    "hu": {
+      "question": "Lakott területen, főútvonalon nincs a közelben kijelölt gyalogosátkelőhely. Hol mehet át a gyalogos az úttesten?",
+      "answers": [
+        "Az útkereszteződésnél, a járda meghosszabbított vonalában.",
+        "Bárhol, ahol nem jön jármű.",
+        "Sehol, csak kijelölt gyalogosátkelőhelyen."
+      ],
+      "explanation": "A gyalogos az úttesten a kijelölt gyalogosátkelőhelyen mehet át; ha a közelben ilyen nincs, lakott területen levő főútvonalon az útkereszteződésnél (a járda meghosszabbított vonalában), egyéb helyen bárhol – a legrövidebb áthaladást biztosító irányban."
+    },
+    "ua": {
+      "question": "У населеному пункті на головній дорозі поблизу немає позначеного пішохідного переходу. Де пішохід може перейти проїзну частину?",
+      "answers": [
+        "На перехресті, по лінії продовження тротуару.",
+        "Будь-де, де немає транспорту.",
+        "Ніде, лише позначеним переходом."
+      ],
+      "explanation": "Пішохід переходить проїзну частину позначеним пішохідним переходом; якщо поблизу його немає, то на головній дорозі в населеному пункті — на перехресті (по лінії продовження тротуару), а в інших місцях — будь-де, найкоротшим шляхом."
+    },
+    "correct": 0
+  }
+]

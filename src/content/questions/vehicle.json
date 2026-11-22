@@ -1,0 +1,890 @@
+[
+  {
+    "id": "vehicle-001",
+    "topic": "vehicle",
+    "kreszRef": "6/1990. (IV. 12.) KöHÉM rendelet 36. § (4) a)",
+    "hu": {
+      "question": "Személygépkocsin legalább mekkora legyen a gumiabroncs futófelületén a mintázat magassága (a profilmélység)?",
+      "answers": [
+        "A teljes felületen legalább 1,6 mm.",
+        "Legalább 1 mm.",
+        "Legalább 3 mm."
+      ],
+      "explanation": "Személygépkocsin (M1 kategória) csak olyan gumiabroncsot szabad használni, amelyen a futófelület mintázatának magassága a teljes felületen eléri az 1,6 mm-t. Ennél kopottabb gumiabroncs különösen nedves úton veszélyes."
+    },
+    "ua": {
+      "question": "Якою щонайменше має бути висота малюнка протектора шини на легковому автомобілі?",
+      "answers": [
+        "Щонайменше 1,6 мм по всій поверхні.",
+        "Щонайменше 1 мм.",
+        "Щонайменше 3 мм."
+      ],
+      "explanation": "На легковому автомобілі (категорія M1) дозволено використовувати лише шини, у яких висота малюнка протектора по всій поверхні становить не менше 1,6 мм. Більш зношена шина особливо небезпечна на мокрій дорозі."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-002",
+    "topic": "vehicle",
+    "kreszRef": "6/1990. (IV. 12.) KöHÉM rendelet 36. § (5)",
+    "hu": {
+      "question": "Milyen gumiabroncsok szerelhetők az azonos tengelyen lévő kerekekre?",
+      "answers": [
+        "Csak azonos méretű, szerkezetű, teherbírású és mintázati jellegű (például mindkettő téli) gumiabroncsok.",
+        "Bármilyenek, ha a kerékméret azonos.",
+        "Bal oldalra nyári, jobb oldalra téli is szerelhető."
+      ],
+      "explanation": "Az azonos tengelyen lévő kerekekre csak olyan gumiabroncsok szerelhetők, amelyeknek mérete, szerkezete, teherbírása és mintázati jellege (nyári, téli, illetőleg országúti, terep) azonos."
+    },
+    "ua": {
+      "question": "Які шини можна встановлювати на колеса однієї осі?",
+      "answers": [
+        "Лише однакові за розміром, конструкцією, вантажопідйомністю та типом малюнка (наприклад, обидві зимові).",
+        "Будь-які, якщо розмір колеса однаковий.",
+        "Ліворуч літню, праворуч зимову — теж можна."
+      ],
+      "explanation": "На колеса однієї осі дозволено встановлювати лише шини з однаковими розміром, конструкцією, вантажопідйомністю та типом малюнка (літні, зимові, шосейні, позашляхові)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-003",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – gumiabroncsnyomás, rendellenes kopások",
+    "hu": {
+      "question": "Mit okoz a tartósan túl alacsony gumiabroncsnyomás?",
+      "answers": [
+        "A futófelület széleinek fokozott kopását, a gumiabroncs melegedését, nagyobb fogyasztást és bizonytalanabb menettulajdonságokat.",
+        "A futófelület közepének fokozott kopását.",
+        "Rövidebb fékutat és kisebb fogyasztást."
+      ],
+      "explanation": "Túl alacsony nyomásnál a gumiabroncs jobban deformálódik: a futófelület szélei kopnak, az abroncs melegszik (akár tönkre is mehet), nő a gördülési ellenállás és a fogyasztás, romlik az irányíthatóság. Túl nagy nyomásnál a futófelület közepe kopik. A nyomást hideg abroncson kell ellenőrizni."
+    },
+    "ua": {
+      "question": "До чого призводить тривалий надто низький тиск у шинах?",
+      "answers": [
+        "До посиленого зношення країв протектора, нагрівання шини, більшої витрати пального й гіршої керованості.",
+        "До посиленого зношення середини протектора.",
+        "До коротшого гальмівного шляху й меншої витрати пального."
+      ],
+      "explanation": "За надто низького тиску шина сильніше деформується: зношуються краї протектора, шина нагрівається (може навіть зруйнуватися), зростають опір коченню й витрата пального, погіршується керованість. За надто високого тиску зношується середина протектора. Тиск перевіряють на холодних шинах."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-004",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – a műszerfal visszajelzései (olajnyomás)",
+    "hu": {
+      "question": "Menet közben kigyullad a piros olajnyomás-visszajelző lámpa. Mit kell tennie?",
+      "answers": [
+        "Azonnal, biztonságosan megállni és a motort leállítani.",
+        "A legközelebbi szervizig óvatosan továbbhaladni.",
+        "Növelni a fordulatszámot, hogy az olajnyomás helyreálljon."
+      ],
+      "explanation": "A piros olajnyomás-visszajelző azt jelzi, hogy a motor kenése nem megfelelő. Járó motorral percek alatt súlyos motorkárosodás keletkezhet, ezért azonnal meg kell állni, a motort le kell állítani, és ellenőrizni kell az olajszintet."
+    },
+    "ua": {
+      "question": "Під час руху загорілася червона лампа тиску оливи. Що треба зробити?",
+      "answers": [
+        "Негайно безпечно зупинитися й заглушити двигун.",
+        "Обережно їхати далі до найближчого сервісу.",
+        "Збільшити оберти, щоб тиск оливи відновився."
+      ],
+      "explanation": "Червона лампа тиску оливи означає, що змащення двигуна недостатнє. Якщо двигун працює далі, за лічені хвилини він може серйозно пошкодитися, тому треба негайно зупинитися, заглушити двигун і перевірити рівень оливи."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-005",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – a motorok hűtése",
+    "hu": {
+      "question": "A hűtőfolyadék-hőmérséklet jelzője túlmelegedést mutat. Mi a helyes teendő?",
+      "answers": [
+        "Megállni, a motort hagyni lehűlni; a forró hűtőrendszer zárósapkáját nem szabad kinyitni.",
+        "Azonnal levenni a hűtő zárósapkáját, és hideg vizet tölteni a rendszerbe.",
+        "Nagyobb sebességgel haladni, hogy a menetszél lehűtse a motort."
+      ],
+      "explanation": "Túlmelegedett motorral továbbhaladni súlyos károsodást okozhat. Meg kell állni, és meg kell várni, míg a motor lehűl. A forró hűtőrendszer nyomás alatt van: a zárósapka kinyitásakor a kicsapó forró folyadék és gőz súlyos égési sérülést okozhat."
+    },
+    "ua": {
+      "question": "Покажчик температури охолоджувальної рідини показує перегрів. Що правильно зробити?",
+      "answers": [
+        "Зупинитися й дати двигуну охолонути; кришку гарячої системи охолодження відкривати не можна.",
+        "Одразу зняти кришку радіатора й долити холодної води.",
+        "Їхати швидше, щоб зустрічний потік охолодив двигун."
+      ],
+      "explanation": "Їхати далі з перегрітим двигуном — ризик серйозної поломки. Треба зупинитися й дочекатися, доки двигун охолоне. Гаряча система охолодження перебуває під тиском: якщо відкрити кришку, гаряча рідина й пара можуть спричинити тяжкі опіки."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-006",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – az akkumulátor, a generátor és az indítómotor feladata",
+    "hu": {
+      "question": "Mi tölti az akkumulátort járó motornál?",
+      "answers": [
+        "A generátor.",
+        "Az indítómotor.",
+        "A gyújtótekercs."
+      ],
+      "explanation": "Járó motornál a generátor látja el árammal a fogyasztókat és tölti az akkumulátort. Az akkumulátor az indítómotort táplálja indításkor, és álló motornál látja el a fogyasztókat. Ha menet közben a töltésjelző lámpa világít, a generátor nem tölt, és az akkumulátor előbb-utóbb lemerül."
+    },
+    "ua": {
+      "question": "Що заряджає акумулятор, коли двигун працює?",
+      "answers": [
+        "Генератор.",
+        "Стартер.",
+        "Котушка запалювання."
+      ],
+      "explanation": "Коли двигун працює, генератор живить споживачів і заряджає акумулятор. Акумулятор живить стартер під час запуску й споживачів при заглушеному двигуні. Якщо під час руху горить лампа заряджання, генератор не заряджає, і акумулятор рано чи пізно розрядиться."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-007",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – a motor kenése",
+    "hu": {
+      "question": "Hogyan kell helyesen ellenőrizni a motorolaj szintjét?",
+      "answers": [
+        "Vízszintes helyen álló járművön, leállított motornál, néhány perc várakozás után; a szint a nívópálca alsó és felső jele között legyen.",
+        "Járó motornál, magas fordulatszámon.",
+        "Lejtőn álló járművön, közvetlenül a motor leállítása után."
+      ],
+      "explanation": "Az olajszintet vízszintes talajon álló járművön, leállított motornál kell ellenőrizni, miután az olaj visszafolyt az olajteknőbe. A szintnek a nívópálca MIN és MAX jele között kell lennie; a túl kevés és a túl sok olaj egyaránt káros."
+    },
+    "ua": {
+      "question": "Як правильно перевіряти рівень моторної оливи?",
+      "answers": [
+        "На автомобілі, що стоїть на рівному місці, при заглушеному двигуні, зачекавши кілька хвилин; рівень має бути між нижньою і верхньою позначками щупа.",
+        "При працюючому двигуні на високих обертах.",
+        "На автомобілі, що стоїть на схилі, одразу після зупинки двигуна."
+      ],
+      "explanation": "Рівень оливи перевіряють на автомобілі, що стоїть на рівній поверхні, при заглушеному двигуні, коли олива стекла в піддон. Рівень має бути між позначками MIN і MAX на щупі; шкідливі і нестача, і надлишок оливи."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-008",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – üzemi fék működési rendellenességeinek felismerése",
+    "hu": {
+      "question": "A fékpedál a szokásosnál jóval mélyebbre nyomható, „puha”. Mire utal ez?",
+      "answers": [
+        "A hidraulikus fékrendszer hibájára (például levegő került a rendszerbe vagy szivárog a fékfolyadék); a járművel így nem szabad közlekedni.",
+        "Arra, hogy a fékbetétek újak, és még nem koptak be.",
+        "Ez természetes jelenség meleg időben."
+      ],
+      "explanation": "A megnyúlt, „puha” pedálút a hidraulikus fékrendszer hibáját jelzi: levegő került a rendszerbe, vagy a fékfolyadék szivárog. Az üzemi fék hibája esetén a járművet haladéktalanul meg kell állítani, és a hiba elhárításáig nem szabad vele közlekedni."
+    },
+    "ua": {
+      "question": "Педаль гальма натискається значно глибше, ніж зазвичай, вона «м'яка». Про що це свідчить?",
+      "answers": [
+        "Про несправність гідравлічної гальмівної системи (наприклад, у систему потрапило повітря або витікає гальмівна рідина); їхати таким автомобілем не можна.",
+        "Про те, що гальмівні колодки нові й ще не притерлися.",
+        "Це природне явище в теплу погоду."
+      ],
+      "explanation": "«М'яка» педаль із довгим ходом свідчить про несправність гідравлічної гальмівної системи: у систему потрапило повітря або витікає гальмівна рідина. У разі несправності робочого гальма автомобіль треба негайно зупинити й не їхати ним, доки її не усунуто."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-009",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – a vákuumos fékrásegítő; a szervokormány",
+    "hu": {
+      "question": "Leállított motorral guruló (például vontatott) személygépkocsinál mire kell számítani?",
+      "answers": [
+        "A fék- és a kormányrásegítés megszűnik: a fékezéshez és a kormányzáshoz sokkal nagyobb erő kell.",
+        "A fék egyáltalán nem működik.",
+        "Semmi nem változik, a rásegítés az akkumulátorról működik tovább."
+      ],
+      "explanation": "A vákuumos fékrásegítő és a hagyományos szervokormány csak járó motornál működik. Leállított motorral a jármű fékezhető és kormányozható marad, de sokkal nagyobb pedál- és kormányerővel – erre vontatáskor is számítani kell."
+    },
+    "ua": {
+      "question": "Чого слід чекати в легковому автомобілі, що котиться із заглушеним двигуном (наприклад, на буксирі)?",
+      "answers": [
+        "Підсилювачі гальм і керма не працюють: для гальмування й повороту керма потрібне значно більше зусилля.",
+        "Гальма не працюють узагалі.",
+        "Нічого не змінюється: підсилювачі працюють від акумулятора."
+      ],
+      "explanation": "Вакуумний підсилювач гальм і звичайний гідропідсилювач керма працюють лише при працюючому двигуні. Із заглушеним двигуном автомобіль можна гальмувати й керувати ним, але зі значно більшим зусиллям — на це треба зважати й під час буксирування."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-010",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – a katalizátor; szükségindítás",
+    "hu": {
+      "question": "Miért kell kerülni a katalizátoros gépkocsi betolással vagy vontatással történő beindítását?",
+      "answers": [
+        "Mert az el nem égett tüzelőanyag a kipufogórendszerbe jutva károsíthatja a katalizátort.",
+        "Mert közben az akkumulátor túltöltődik.",
+        "Mert a gumiabroncsok aránytalanul kopnak."
+      ],
+      "explanation": "Betolásos vagy vontatásos indításkor el nem égett benzin juthat a kipufogórendszerbe, amely a forró katalizátorban meggyulladva tönkreteheti azt. Lemerült akkumulátor esetén ezért indítókábellel („bikázással”) célszerű indítani."
+    },
+    "ua": {
+      "question": "Чому слід уникати запуску автомобіля з каталізатором «із штовхача» або буксируванням?",
+      "answers": [
+        "Бо незгоріле пальне, потрапивши у випускну систему, може пошкодити каталізатор.",
+        "Бо при цьому перезаряджається акумулятор.",
+        "Бо непропорційно зношуються шини."
+      ],
+      "explanation": "Під час запуску «з штовхача» чи буксируванням у випускну систему може потрапити незгорілий бензин; спалахнувши в гарячому каталізаторі, він здатен його зруйнувати. Тому з розрядженим акумулятором краще запускати двигун від іншого акумулятора проводами."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-011",
+    "topic": "vehicle",
+    "kreszRef": "6/1990. (IV. 12.) KöHÉM rendelet 103. § (1); 106. § (1)",
+    "hu": {
+      "question": "Mit kell a személygépkocsin kötelezően készenlétben tartani?",
+      "answers": [
+        "Elakadásjelző háromszöget és elsősegélynyújtó felszerelést.",
+        "Vontatókötelet és tartalék üzemanyagot.",
+        "Hóláncot az év minden szakában."
+      ],
+      "explanation": "Minden gépjárművön (az oldalkocsi nélküli motorkerékpár kivételével) készenlétben kell tartani egy jóváhagyási jellel ellátott elakadásjelző háromszöget, továbbá elsősegélynyújtó felszerelést, amelyet portól és víztől védve, a vezető számára jól hozzáférhető helyen kell tartani."
+    },
+    "ua": {
+      "question": "Що обов'язково має бути напоготові в легковому автомобілі?",
+      "answers": [
+        "Знак аварійної зупинки та аптечка першої допомоги.",
+        "Буксирний трос і запас пального.",
+        "Ланцюги протиковзання цілий рік."
+      ],
+      "explanation": "У кожному механічному транспортному засобі (крім мотоцикла без коляски) має бути напоготові знак аварійної зупинки зі знаком схвалення, а також аптечка (elsősegélynyújtó felszerelés), яку зберігають захищеною від пилу й води в місці, легкодоступному для водія."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-012",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – tengelykapcsoló feladata",
+    "hu": {
+      "question": "Mi a tengelykapcsoló feladata?",
+      "answers": [
+        "A motor és a sebességváltó közötti kapcsolat oldása és fokozatos zárása (elinduláskor és sebességváltáskor).",
+        "A jármű rögzítése álló helyzetben.",
+        "A motor fordulatszámának szabályozása."
+      ],
+      "explanation": "A tengelykapcsoló megszakítja, illetve fokozatosan létrehozza a kapcsolatot a motor és a sebességváltó között. Erre elinduláskor, sebességváltáskor és megálláskor van szükség. A pedálon tartott láb („csúsztatás”) feleslegesen koptatja."
+    },
+    "ua": {
+      "question": "Яке призначення зчеплення?",
+      "answers": [
+        "Роз'єднувати й плавно з'єднувати двигун із коробкою передач (під час рушання й перемикання передач).",
+        "Утримувати автомобіль на місці під час стоянки.",
+        "Регулювати оберти двигуна."
+      ],
+      "explanation": "Зчеплення (tengelykapcsoló) розриває та плавно відновлює зв'язок між двигуном і коробкою передач. Це потрібно під час рушання, перемикання передач і зупинки. Якщо тримати ногу на педалі («пробуксовування»), воно марно зношується."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-013",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – az automata sebességváltómű kapcsolója, üzemmódok",
+    "hu": {
+      "question": "Mit jelent az automata sebességváltó „P” állása?",
+      "answers": [
+        "Parkolóállás: a váltó reteszeli a hajtott kerekeket; csak álló járműnél szabad kapcsolni.",
+        "Teljesítményfokozat: gyorsabb gyorsulás előzéshez.",
+        "Üres állás: a jármű szabadon gurulhat."
+      ],
+      "explanation": "Az automata váltó állásai: P – parkolás (a váltó mechanikusan reteszel), R – hátramenet, N – üres, D – előremenet. A P állást csak álló járműnél szabad kapcsolni; lejtőn a rögzítőféket is be kell húzni."
+    },
+    "ua": {
+      "question": "Що означає положення «P» автоматичної коробки передач?",
+      "answers": [
+        "Паркування: коробка блокує ведучі колеса; вмикати лише на нерухомому автомобілі.",
+        "Режим потужності: швидший розгін для обгону.",
+        "Нейтраль: автомобіль може вільно котитися."
+      ],
+      "explanation": "Положення автоматичної коробки: P — паркування (коробка механічно блокується), R — задній хід, N — нейтраль, D — рух уперед. Положення P вмикають лише на нерухомому автомобілі; на схилі слід затягнути ще й стоянкове гальмо."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-014",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – üzemeltetés télen",
+    "hu": {
+      "question": "A jogszabály szerint mekkora mintázatmagasság fölött számít egy gumiabroncs téli gumiabroncsnak (a gyártói jelölés mellett)?",
+      "answers": [
+        "Ha a mintázat magassága meghaladja a 4 mm-t.",
+        "Ha a mintázat magassága meghaladja az 1,6 mm-t.",
+        "A mintázat magassága nem számít, csak a jelölés."
+      ],
+      "explanation": "A 6/1990. KöHÉM rendelet szerint téli gumiabroncs az, amelyet téli körülményekhez gyártottak, a gyártó téli abroncsként jelölt meg (például „M+S”, hópihe vagy háromágú hegycsúcs jelzés), és amelynek mintázatmagassága meghaladja a 4 mm-t."
+    },
+    "ua": {
+      "question": "За якої висоти малюнка протектора шина (крім маркування виробника) вважається за законом зимовою?",
+      "answers": [
+        "Якщо висота малюнка перевищує 4 мм.",
+        "Якщо висота малюнка перевищує 1,6 мм.",
+        "Висота малюнка не має значення, важить лише маркування."
+      ],
+      "explanation": "За постановою 6/1990. KöHÉM зимовою вважається шина, виготовлена для зимових умов, позначена виробником як зимова (наприклад, «M+S», сніжинка чи гірська вершина з трьома піками) і з висотою малюнка протектора понад 4 мм."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-015",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – a műszerfal visszajelzései; dízelmotor indítása",
+    "hu": {
+      "question": "Hideg dízelmotor indításakor mire kell várni a gyújtás ráadása után?",
+      "answers": [
+        "Arra, hogy az izzítást jelző (spirál alakú) visszajelző lámpa kialudjon.",
+        "Arra, hogy a töltésjelző lámpa kigyulladjon.",
+        "Semmire, a dízelmotor azonnal indítható."
+      ],
+      "explanation": "A dízelmotorban a tüzelőanyag a sűrítés hőjétől gyullad meg; hideg motornál ezt az izzítógyertyák segítik. A gyújtás ráadása után meg kell várni, míg az izzítást jelző visszajelző kialszik, és csak utána kell indítózni."
+    },
+    "ua": {
+      "question": "Чого треба дочекатися після ввімкнення запалювання, запускаючи холодний дизельний двигун?",
+      "answers": [
+        "Щоб згасла контрольна лампа свічок розжарювання (у вигляді спіралі).",
+        "Щоб загорілася лампа заряджання.",
+        "Нічого: дизель можна запускати одразу."
+      ],
+      "explanation": "У дизельному двигуні пальне займається від тепла стиснення; у холодному двигуні цьому допомагають свічки розжарювання. Після ввімкнення запалювання треба дочекатися, доки згасне контрольна лампа розжарювання, і лише тоді вмикати стартер."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-016",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – a környezet védelmével kapcsolatos feladatok",
+    "hu": {
+      "question": "Mi a teendő a fáradt motorolajjal és a használt akkumulátorral?",
+      "answers": [
+        "Veszélyes hulladékok: kijelölt gyűjtőhelyen (szervizben, hulladékudvarban) kell leadni őket.",
+        "A háztartási szemétbe dobhatók.",
+        "A fáradt olaj a csatornába önthető, mert a víz felhígítja."
+      ],
+      "explanation": "A fáradt olaj, a használt akkumulátor, a hűtőfolyadék és a fékfolyadék veszélyes hulladék: súlyosan szennyezi a talajt és a vizeket. Csak az erre kijelölt gyűjtőhelyen szabad leadni őket."
+    },
+    "ua": {
+      "question": "Що робити з відпрацьованою моторною оливою та старим акумулятором?",
+      "answers": [
+        "Це небезпечні відходи: їх треба здати у визначений пункт приймання (сервіс, пункт збору відходів).",
+        "Їх можна викинути з побутовим сміттям.",
+        "Відпрацьовану оливу можна вилити в каналізацію, бо вода її розбавить."
+      ],
+      "explanation": "Відпрацьована олива, старий акумулятор, охолоджувальна й гальмівна рідини — небезпечні відходи: вони сильно забруднюють ґрунт і воду. Здавати їх можна лише у визначені для цього пункти приймання."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-017",
+    "topic": "vehicle",
+    "kreszRef": "5/1990. (IV. 12.) KöHÉM rendelet 11. § (3) b)",
+    "hu": {
+      "question": "Új személygépkocsit a forgalomba helyezéstől számítva mennyi időn belül kell először időszakos műszaki vizsgálatra vinni?",
+      "answers": [
+        "Négy éven belül.",
+        "Két éven belül.",
+        "Egy éven belül."
+      ],
+      "explanation": "A 3500 kg megengedett legnagyobb össztömeget meg nem haladó gépkocsinál az időszakos vizsgálat határideje új jármű esetében négy év. Használt járműnél az első használatba vétel évét követő három naptári éven belül három év, azon túl két év."
+    },
+    "ua": {
+      "question": "Через скільки часу від першої реєстрації новий легковий автомобіль має вперше пройти періодичний техогляд?",
+      "answers": [
+        "Протягом чотирьох років.",
+        "Протягом двох років.",
+        "Протягом одного року."
+      ],
+      "explanation": "Для автомобіля з дозволеною максимальною масою до 3500 кг строк періодичного техогляду нового транспортного засобу — чотири роки. Для вживаного: протягом трьох календарних років після року першого введення в експлуатацію — три роки, пізніше — два роки."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-018",
+    "topic": "vehicle",
+    "kreszRef": "6/1990. (IV. 12.) KöHÉM rendelet 43. § (2)–(3)",
+    "hu": {
+      "question": "Milyen kivitelű a gépkocsi tompított fényszórója, és legalább mekkora távolságon világítja meg az utat?",
+      "answers": [
+        "Aszimmetrikus, és a jármű előtt legalább 40 méter távolságon megvilágítja az utat anélkül, hogy a szembejövőt vakítaná.",
+        "Szimmetrikus, és legalább 100 méterre világít.",
+        "Aszimmetrikus, és legalább 150 méterre világít."
+      ],
+      "explanation": "A tompított fényszórónak aszimmetrikus kivitelűnek kell lennie, és – a szembejövő jármű vezetőjének vakítása nélkül – az út felületét a jármű előtt sötétben, tiszta időben legalább 40 méter távolságon meg kell világítania. Az aszimmetria miatt az út jobb széle messzebbre látható."
+    },
+    "ua": {
+      "question": "Якої конструкції фара ближнього світла автомобіля і на яку щонайменшу відстань вона освітлює дорогу?",
+      "answers": [
+        "Асиметрична; освітлює дорогу перед автомобілем щонайменше на 40 метрів, не засліплюючи зустрічних.",
+        "Симетрична; світить щонайменше на 100 метрів.",
+        "Асиметрична; світить щонайменше на 150 метрів."
+      ],
+      "explanation": "Фара ближнього світла має бути асиметричною і — не засліплюючи водія зустрічного транспортного засобу — освітлювати дорогу перед автомобілем у темряві за ясної погоди щонайменше на 40 метрів. Завдяки асиметрії правий край дороги видно далі."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-019",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – a motorok felépítése és működése",
+    "hu": {
+      "question": "Mi a fő különbség az Otto-motor (benzinmotor) és a dízelmotor működése között?",
+      "answers": [
+        "Az Otto-motorban a keveréket gyújtógyertya szikrája gyújtja meg, a dízelmotorban a tüzelőanyag a sűrítés hőjétől magától gyullad meg.",
+        "A dízelmotorban gyújtógyertya van, az Otto-motorban nincs.",
+        "Nincs különbség, csak a tüzelőanyag ára más."
+      ],
+      "explanation": "Az Otto-motorban a benzin–levegő keveréket a gyújtógyertya villamos szikrája gyújtja meg. A dízelmotor csak levegőt sűrít nagyon nagy nyomásra; a befecskendezett gázolaj a felforrósodott levegőtől öngyulladással ég el. Hideg dízelmotor indítását izzítógyertyák segítik."
+    },
+    "ua": {
+      "question": "У чому головна відмінність роботи бензинового двигуна (Otto) від дизельного?",
+      "answers": [
+        "У бензиновому суміш запалює іскра свічки запалювання, а в дизельному пальне самозаймається від тепла стиснення.",
+        "У дизельному є свічки запалювання, а в бензиновому немає.",
+        "Відмінності немає, різна лише ціна пального."
+      ],
+      "explanation": "У бензиновому двигуні суміш бензину з повітрям запалює електрична іскра свічки. Дизель стискає лише повітря до дуже високого тиску; впорснуте дизельне пальне самозаймається від розжареного повітря. Запуску холодного дизеля допомагають свічки розжарювання."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-020",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – a motorok felépítése és működése",
+    "hu": {
+      "question": "Melyik a négyütemű motor ütemeinek helyes sorrendje?",
+      "answers": [
+        "Szívás, sűrítés, munkaütem (terjeszkedés), kipufogás.",
+        "Sűrítés, szívás, kipufogás, munkaütem.",
+        "Szívás, munkaütem, sűrítés, kipufogás."
+      ],
+      "explanation": "A négyütemű motor egy munkaciklusa négy ütemből áll: szívás (a henger megtelik), sűrítés, munkaütem (az égés tolja a dugattyút – csak ez az ütem ad hasznos munkát), végül kipufogás."
+    },
+    "ua": {
+      "question": "Який правильний порядок тактів чотиритактного двигуна?",
+      "answers": [
+        "Впуск, стиснення, робочий хід (розширення), випуск.",
+        "Стиснення, впуск, випуск, робочий хід.",
+        "Впуск, робочий хід, стиснення, випуск."
+      ],
+      "explanation": "Робочий цикл чотиритактного двигуна складається з чотирьох тактів: впуск (циліндр наповнюється), стиснення, робочий хід (згоряння штовхає поршень — лише цей такт дає корисну роботу) і випуск."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-021",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – a katalizátor",
+    "hu": {
+      "question": "Mi a katalizátor feladata?",
+      "answers": [
+        "A kipufogógáz káros anyagainak csökkentése.",
+        "A motor teljesítményének növelése.",
+        "A kipufogó hangjának tompítása."
+      ],
+      "explanation": "A katalizátor a kipufogógáz káros összetevőit (szén-monoxid, el nem égett szénhidrogének, nitrogén-oxidok) alakítja át kevésbé ártalmas anyagokká. Működéséhez megfelelő üzemi hőmérséklet kell, és az ólmozott benzin, illetve az el nem égett tüzelőanyag tönkreteheti."
+    },
+    "ua": {
+      "question": "Яке завдання каталізатора?",
+      "answers": [
+        "Зменшувати вміст шкідливих речовин у відпрацьованих газах.",
+        "Збільшувати потужність двигуна.",
+        "Приглушувати звук вихлопу."
+      ],
+      "explanation": "Каталізатор перетворює шкідливі складники відпрацьованих газів (чадний газ, незгорілі вуглеводні, оксиди азоту) на менш шкідливі речовини. Для роботи йому потрібна робоча температура; етильований бензин і незгоріле пальне можуть його зруйнувати."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-022",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – környezetvédelmi szempontok – kipufogógázok",
+    "hu": {
+      "question": "Miért életveszélyes a motort zárt garázsban járatni?",
+      "answers": [
+        "Mert a kipufogógázban lévő szén-monoxid színtelen, szagtalan, és rövid idő alatt halálos mérgezést okozhat.",
+        "Mert a motor zárt térben túlmelegszik.",
+        "Mert az akkumulátor zárt térben gyorsabban lemerül."
+      ],
+      "explanation": "A kipufogógáz szén-monoxidot tartalmaz, amely színtelen és szagtalan, ezért észrevétlenül halmozódik fel zárt térben, és mérgezést okoz. A motort ezért zárt garázsban nem szabad járatni."
+    },
+    "ua": {
+      "question": "Чому смертельно небезпечно залишати двигун працювати в зачиненому гаражі?",
+      "answers": [
+        "Бо чадний газ у відпрацьованих газах не має ні кольору, ні запаху й може швидко спричинити смертельне отруєння.",
+        "Бо в закритому приміщенні двигун перегрівається.",
+        "Бо в закритому приміщенні швидше розряджається акумулятор."
+      ],
+      "explanation": "Відпрацьовані гази містять чадний газ (монооксид вуглецю) без кольору й запаху, тому він непомітно накопичується в закритому приміщенні й спричиняє отруєння. Тож у зачиненому гаражі двигун запускати на тривалий час не можна."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-023",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – a villamos berendezések",
+    "hu": {
+      "question": "Kiégett egy biztosíték. Mivel szabad pótolni?",
+      "answers": [
+        "Csak azonos névleges áramerősségű (azonos értékű) biztosítékkal.",
+        "Nagyobb értékű biztosítékkal, hogy ne égjen ki újra.",
+        "Egy darab dróttal vagy fémfóliával."
+      ],
+      "explanation": "A biztosíték az áramkört védi a túlterheléstől és a zárlattól. Csak azonos értékű biztosítékkal szabad pótolni; a nagyobb értékű biztosíték vagy a drót nem véd, a vezeték túlmelegedhet és tüzet okozhat. Ha az új biztosíték is kiég, a hibát szakemberrel kell megkerestetni."
+    },
+    "ua": {
+      "question": "Перегорів запобіжник. Чим його можна замінити?",
+      "answers": [
+        "Лише запобіжником того самого номіналу.",
+        "Запобіжником більшого номіналу, щоб знову не перегорів.",
+        "Шматком дроту чи фольги."
+      ],
+      "explanation": "Запобіжник захищає електричне коло від перевантаження й короткого замикання. Замінювати його можна лише запобіжником того самого номіналу; більший номінал чи дріт не захищають — проводка може перегрітися й спричинити пожежу. Якщо перегорів і новий, несправність має шукати фахівець."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-024",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – a jelzőberendezések működése",
+    "hu": {
+      "question": "Az irányjelző visszajelzője a szokásosnál jóval gyorsabban villog. Mire utal ez?",
+      "answers": [
+        "Arra, hogy az egyik irányjelző izzó kiégett.",
+        "Arra, hogy az akkumulátor túltöltött.",
+        "Arra, hogy a vészvillogó be van kapcsolva."
+      ],
+      "explanation": "A legtöbb gépkocsinál az irányjelző a szokásosnál gyorsabb villogással jelzi, ha az adott oldalon valamelyik izzó nem működik. A hibát ki kell javítani: az irányjelző berendezés hibájával csak akkor szabad közlekedni, ha kézzel megfelelő irányjelzés adható."
+    },
+    "ua": {
+      "question": "Контрольна лампа покажчика повороту блимає значно швидше, ніж зазвичай. Про що це свідчить?",
+      "answers": [
+        "Про те, що перегоріла одна з ламп покажчика повороту.",
+        "Про те, що акумулятор перезаряджено.",
+        "Про те, що ввімкнено аварійну сигналізацію."
+      ],
+      "explanation": "У більшості автомобілів покажчик повороту блимає швидше, ніж зазвичай, коли з відповідного боку не працює одна з ламп. Несправність треба усунути: з несправними покажчиками повороту їхати можна, лише якщо сигнал вдається належно подати рукою."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-025",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – a világítóberendezések működése",
+    "hu": {
+      "question": "Erősen megrakott csomagtartóval indul útnak. Mire kell ügyelnie a fényszórókkal kapcsolatban?",
+      "answers": [
+        "A fényszórók magasságát lejjebb kell állítani, mert a megsüllyedt hátsó rész miatt feljebb világítanának és vakítanának.",
+        "Semmire, a terhelés nem befolyásolja a fényszórókat.",
+        "A távolsági fényszórót kell használni, hogy messzebbre lásson."
+      ],
+      "explanation": "Ha a jármű hátulja a terheléstől megsüllyed, az eleje megemelkedik, és a tompított fényszóró feljebb világít: elvakíthatja a szembejövőket. Ezért a fényszórómagasság-állítóval a terhelésnek megfelelően lejjebb kell állítani (ahol a rendszer nem automatikus)."
+    },
+    "ua": {
+      "question": "Ви вирушаєте з дуже навантаженим багажником. На що зважити щодо фар?",
+      "answers": [
+        "Фари треба опустити коректором, бо через просілу задню частину вони світили б вище й засліплювали.",
+        "Ні на що: навантаження на фари не впливає.",
+        "Треба ввімкнути дальнє світло, щоб бачити далі."
+      ],
+      "explanation": "Коли зад автомобіля просідає під вантажем, перед піднімається, і ближнє світло світить вище — може засліплювати зустрічних. Тому коректором фар їх опускають відповідно до навантаження (якщо система не автоматична)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-026",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – a gumiabroncsok felépítése, fajtái és jelölésük",
+    "hu": {
+      "question": "Mit jelent a gumiabroncs oldalfalán a „195/65 R 15” jelölés?",
+      "answers": [
+        "195 mm széles, az oldalfal magassága a szélesség 65%-a, radiál szerkezetű, 15 colos keréktárcsára való.",
+        "195 km/óra a megengedett sebesség, 65 kg a teherbírás, 15 a gyártás hete.",
+        "195 cm az átmérő, 65 a nyomás, 15 a profilmélység."
+      ],
+      "explanation": "A jelölés első száma a gumiabroncs szélessége milliméterben, a második az oldalfal magassága a szélesség százalékában (profilarány), az R a radiál szerkezetet, az utolsó szám a keréktárcsa átmérőjét jelenti colban. A járműre csak a forgalmi engedélyben szereplő méretű abroncs szerelhető."
+    },
+    "ua": {
+      "question": "Що означає маркування «195/65 R 15» на боковині шини?",
+      "answers": [
+        "Ширина 195 мм, висота боковини — 65% від ширини, радіальна конструкція, для диска 15 дюймів.",
+        "Дозволена швидкість 195 км/год, навантаження 65 кг, 15-й тиждень виготовлення.",
+        "Діаметр 195 см, тиск 65, глибина протектора 15."
+      ],
+      "explanation": "Перше число — ширина шини в міліметрах, друге — висота боковини у відсотках від ширини (профіль), R — радіальна конструкція, останнє число — діаметр диска в дюймах. На автомобіль можна ставити лише шини розміру, зазначеного в реєстраційному документі."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-027",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – a gumiabroncsok megfelelősége, rendellenes kopások",
+    "hu": {
+      "question": "A gumiabroncs futófelülete csak az egyik szélén kopik erősen. Mire utal ez?",
+      "answers": [
+        "A futómű (kerékbeállítás) hibájára.",
+        "Túl alacsony abroncsnyomásra.",
+        "Túl magas abroncsnyomásra."
+      ],
+      "explanation": "Az egyoldalú kopás tipikusan a futómű beállításának (például a kerékösszetartásnak vagy a kerékdőlésnek) a hibájára utal, ezért a futóművet be kell állíttatni. Túl alacsony nyomásnál mindkét szél, túl magas nyomásnál a futófelület közepe kopik."
+    },
+    "ua": {
+      "question": "Протектор шини сильно зношується лише з одного краю. Про що це свідчить?",
+      "answers": [
+        "Про несправність ходової частини (порушені кути встановлення коліс).",
+        "Про надто низький тиск у шині.",
+        "Про надто високий тиск у шині."
+      ],
+      "explanation": "Одностороннє зношення зазвичай свідчить про порушене налаштування ходової частини (наприклад, сходження чи розвал), тож її треба відрегулювати. За надто низького тиску зношуються обидва краї, за надто високого — середина протектора."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-028",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – pótkerék, szükségpótkerék",
+    "hu": {
+      "question": "Mire kell ügyelni a szükségpótkerékkel („mankókerékkel”) való közlekedéskor?",
+      "answers": [
+        "Csak a keréken feltüntetett, korlátozott sebességgel és a legközelebbi javítási lehetőségig szabad vele közlekedni.",
+        "Semmire: ugyanúgy használható, mint a rendes kerék.",
+        "Csak az első tengelyre szerelhető."
+      ],
+      "explanation": "A szükségpótkerék keskenyebb és más tapadású, mint a rendes kerék, ezért ideiglenes megoldás: a rajta feltüntetett legnagyobb sebességet nem szabad túllépni, és a hibás kereket mielőbb meg kell javíttatni vagy ki kell cserélni."
+    },
+    "ua": {
+      "question": "На що зважати, їдучи на тимчасовому запасному колесі («докатці»)?",
+      "answers": [
+        "Їхати можна лише з обмеженою швидкістю, зазначеною на колесі, і до найближчого місця ремонту.",
+        "Ні на що: воно таке саме, як звичайне колесо.",
+        "Його можна ставити лише на передню вісь."
+      ],
+      "explanation": "«Докатка» вужча й має інше зчеплення, ніж звичайне колесо, тому це тимчасове рішення: не можна перевищувати зазначену на ній максимальну швидкість, а пошкоджене колесо слід якнайшвидше відремонтувати або замінити."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-029",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – ápolási munkák – kerékcsere",
+    "hu": {
+      "question": "Kerékcserénél mikor kell a kerékcsavarokat meglazítani?",
+      "answers": [
+        "Még az emelés előtt, amíg a kerék a talajon áll; a járművet közben rögzíteni kell elgurulás ellen.",
+        "Csak miután a kerék már a levegőben van.",
+        "Mindegy, a sorrendnek nincs jelentősége."
+      ],
+      "explanation": "Kerékcsere előtt a járművet rögzíteni kell (rögzítőfék, sebességfokozat, szükség esetén kiékelés). A csavarokat még a talajon álló keréken kell meglazítani, mert a felemelt kerék elfordulna. Visszaszereléskor a csavarokat átlósan, a jármű leengedése után kell véglegesen meghúzni."
+    },
+    "ua": {
+      "question": "Коли під час заміни колеса треба послабити колісні болти?",
+      "answers": [
+        "Ще до підняття, поки колесо стоїть на землі; автомобіль при цьому треба зафіксувати від відкочування.",
+        "Лише коли колесо вже в повітрі.",
+        "Байдуже, порядок не має значення."
+      ],
+      "explanation": "Перед заміною колеса автомобіль фіксують (стоянкове гальмо, передача, за потреби упори). Болти послаблюють, поки колесо стоїть на землі, бо підняте колесо прокручувалося б. Під час встановлення болти остаточно затягують навхрест уже після опускання автомобіля."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-030",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – a hidraulikus üzemi fékberendezés felépítése",
+    "hu": {
+      "question": "Miért kétkörös a személygépkocsik hidraulikus üzemi fékrendszere?",
+      "answers": [
+        "Hogy az egyik fékkör meghibásodása esetén a másikkal a jármű még megállítható legyen – hosszabb fékúttal.",
+        "Hogy a fékek kevésbé kopjanak.",
+        "Hogy a fékpedál könnyebben járjon."
+      ],
+      "explanation": "A kétkörös fékrendszerben a két kör egymástól független. Ha az egyik (például szivárgás miatt) kiesik, a másik még működik: a pedálút megnő, a fékhatás csökken, de a jármű megállítható. Ilyen hibával közlekedni nem szabad, a járművet meg kell állítani."
+    },
+    "ua": {
+      "question": "Чому гідравлічна робоча гальмівна система легкових автомобілів двоконтурна?",
+      "answers": [
+        "Щоб у разі відмови одного контуру автомобіль можна було зупинити другим — з довшим гальмівним шляхом.",
+        "Щоб гальма менше зношувалися.",
+        "Щоб педаль гальма ходила легше."
+      ],
+      "explanation": "У двоконтурній системі контури незалежні. Якщо один (наприклад, через витік) відмовляє, другий ще працює: хід педалі більшає, гальмування слабшає, але автомобіль можна зупинити. З такою несправністю їхати не можна — автомобіль треба зупинити."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-031",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – a műszerfal visszajelzései (ABS)",
+    "hu": {
+      "question": "Menet közben kigyullad és égve marad az ABS visszajelző lámpája. Mit jelent ez?",
+      "answers": [
+        "A blokkolásgátló nem működik; a fék hagyományos módon fékez, de erős fékezéskor a kerekek blokkolhatnak.",
+        "A fékrendszer egyáltalán nem működik.",
+        "Azt, hogy az ABS éppen beavatkozik."
+      ],
+      "explanation": "Az égve maradó ABS-lámpa a blokkolásgátló hibáját jelzi. Az üzemi fék ilyenkor is működik, de blokkolásgátlás nélkül: vészfékezéskor a kerekek megcsúszhatnak, a jármű kormányozhatatlanná válhat. Óvatosabban kell vezetni, és a hibát mielőbb ki kell javíttatni."
+    },
+    "ua": {
+      "question": "Під час руху загорілася й не гасне лампа ABS. Що це означає?",
+      "answers": [
+        "Антиблокувальна система не працює; гальма діють звичайно, але під час різкого гальмування колеса можуть заблокуватися.",
+        "Гальмівна система не працює взагалі.",
+        "Те, що ABS саме спрацьовує."
+      ],
+      "explanation": "Лампа ABS, що горить постійно, означає несправність антиблокувальної системи. Робоче гальмо при цьому працює, але без антиблокування: під час екстреного гальмування колеса можуть заблокуватися, і автомобіль стане некерованим. Їхати слід обережніше й якнайшвидше усунути несправність."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-032",
+    "topic": "vehicle",
+    "kreszRef": "KRESZ 13. § (1) k)–k/2.; 48. § (2)",
+    "hu": {
+      "question": "Melyik kerekekre kell a hóláncot felszerelni?",
+      "answers": [
+        "A hajtott kerekekre (legalább az egyik hajtott tengely kerekeire).",
+        "Mindig csak az első kerekekre.",
+        "Mindig csak a hátsó kerekekre."
+      ],
+      "explanation": "A „Hólánc használata kötelező” tábla szerint a jármű legalább egy hajtott tengelyén kell a gumiabroncsokat hólánccal felszerelni – ezek a kerekek viszik át a vonóerőt az útra. Hóláncot csak havas, jeges úton szabad használni, és hólánccal legfeljebb 50 km/óra sebességgel szabad közlekedni."
+    },
+    "ua": {
+      "question": "На які колеса треба встановлювати ланцюги протиковзання?",
+      "answers": [
+        "На ведучі колеса (щонайменше на колеса однієї ведучої осі).",
+        "Завжди лише на передні.",
+        "Завжди лише на задні."
+      ],
+      "explanation": "За знаком «Hólánc használata kötelező» ланцюги мають бути на шинах щонайменше однієї ведучої осі — саме ці колеса передають тягове зусилля на дорогу. Користуватися ними можна лише на засніженій чи зледенілій дорозі, а їхати з ними — не швидше 50 км/год."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-033",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – elektromos és hibridhajtás",
+    "hu": {
+      "question": "Mi jellemző az elektromos és a hibrid gépkocsikra fékezéskor, lassításkor?",
+      "answers": [
+        "A villanymotor generátorként működve energiát táplál vissza az akkumulátorba (rekuperáció).",
+        "Fékezéskor több energiát fogyasztanak, mint gyorsításkor.",
+        "Nincs bennük hagyományos fék."
+      ],
+      "explanation": "Elektromos és hibrid járműveknél lassításkor a villanymotor generátorként működik, és a mozgási energia egy részét visszatölti az akkumulátorba. Hagyományos fékjük is van. Mivel kis sebességnél nagyon csendesek, a gyalogosok kevésbé veszik észre őket."
+    },
+    "ua": {
+      "question": "Що властиво електромобілям і гібридам під час гальмування та сповільнення?",
+      "answers": [
+        "Електродвигун працює як генератор і повертає енергію в акумулятор (рекуперація).",
+        "Під час гальмування вони споживають більше енергії, ніж під час розгону.",
+        "У них немає звичайних гальм."
+      ],
+      "explanation": "В електромобілях і гібридах під час сповільнення електродвигун працює як генератор і повертає частину кінетичної енергії в акумулятор. Звичайні гальма в них теж є. На малій швидкості вони дуже тихі, тож пішоходи помічають їх гірше."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-034",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – fékasszisztens (BAS)",
+    "hu": {
+      "question": "Mi a fékasszisztens (BAS) feladata?",
+      "answers": [
+        "Vészfékezéskor, ha a vezető gyorsan, de nem elég erősen lép a fékre, a legnagyobb fékerőt hozza létre.",
+        "Megakadályozza a visszagurulást emelkedőn.",
+        "Tartja a beállított sebességet."
+      ],
+      "explanation": "A fékasszisztens a pedál lenyomásának gyorsaságából ismeri fel a vészhelyzetet, és azonnal a legnagyobb fékhatást biztosítja akkor is, ha a vezető nem nyomja elég erősen a pedált. Az ABS-szel együtt működik."
+    },
+    "ua": {
+      "question": "Яке завдання системи допомоги під час екстреного гальмування (BAS)?",
+      "answers": [
+        "Під час екстреного гальмування, якщо водій натиснув педаль швидко, але недостатньо сильно, створює максимальне гальмівне зусилля.",
+        "Не дає автомобілю відкочуватися на підйомі.",
+        "Підтримує задану швидкість."
+      ],
+      "explanation": "Система розпізнає аварійну ситуацію за швидкістю натискання педалі й одразу забезпечує максимальне гальмування, навіть якщо водій тисне недостатньо сильно. Працює разом з ABS."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-035",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – adaptív sebességtartó automatika (ACC)",
+    "hu": {
+      "question": "Miben tud többet az adaptív sebességtartó automatika (ACC) a hagyományos tempomatnál?",
+      "answers": [
+        "A beállított sebesség tartása mellett az elöl haladó járműhöz igazodva a követési távolságot is szabályozza.",
+        "A kormányzást is teljesen átveszi.",
+        "Felismeri a jelzőlámpák színét, és megáll a pirosnál."
+      ],
+      "explanation": "A tempomat csak a beállított sebességet tartja. Az adaptív rendszer érzékeli az elöl haladó járművet, és lassítással, majd újra gyorsítással tartja a beállított követési távolságot. A vezetés felelőssége ettől még a vezetőé marad; csúszós úton a sebességtartó használata nem ajánlott."
+    },
+    "ua": {
+      "question": "Чим адаптивний круїз-контроль (ACC) кращий за звичайний?",
+      "answers": [
+        "Крім підтримання заданої швидкості, він регулює ще й дистанцію до автомобіля попереду.",
+        "Він повністю бере на себе й кермування.",
+        "Він розпізнає колір світлофора й зупиняється на червоний."
+      ],
+      "explanation": "Звичайний круїз-контроль лише тримає задану швидкість. Адаптивна система бачить автомобіль попереду й, сповільнюючись і знову розганяючись, підтримує задану дистанцію. Відповідальність за керування однаково лишається на водієві; на слизькій дорозі круїз-контролем користуватися не радять."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-036",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – gumiabroncs-nyomásfigyelő rendszerek",
+    "hu": {
+      "question": "Menet közben kigyullad a gumiabroncsnyomás-figyelő rendszer visszajelzője. Mi a teendő?",
+      "answers": [
+        "Mielőbb biztonságos helyen megállni, és ellenőrizni a gumiabroncsokat és a nyomásukat.",
+        "Semmi, a rendszer magától helyreállítja a nyomást.",
+        "Növelni a sebességet, hogy az abroncs felmelegedjen."
+      ],
+      "explanation": "A nyomásfigyelő rendszer arra figyelmeztet, hogy valamelyik abroncsban csökkent a nyomás (például defekt miatt). Alacsony nyomással tovább haladva az abroncs túlmelegedhet és tönkremehet, a jármű irányíthatósága romlik, ezért mielőbb meg kell állni és ellenőrizni kell."
+    },
+    "ua": {
+      "question": "Під час руху загорівся індикатор системи контролю тиску в шинах. Що робити?",
+      "answers": [
+        "Якнайшвидше зупинитися в безпечному місці й перевірити шини та тиск у них.",
+        "Нічого: система сама відновить тиск.",
+        "Збільшити швидкість, щоб шина прогрілася."
+      ],
+      "explanation": "Система попереджає, що в одній із шин упав тиск (наприклад, через прокол). Якщо їхати далі з низьким тиском, шина може перегрітися й зруйнуватися, а керованість погіршується, тому треба якнайшвидше зупинитися й перевірити."
+    },
+    "correct": 0
+  },
+  {
+    "id": "vehicle-037",
+    "topic": "vehicle",
+    "kreszRef": "KAV tanterv V. C. Szerkezeti és üzemeltetési ismeretek – holttérfigyelő rendszer, tolatóradar",
+    "hu": {
+      "question": "Felmentik-e a vezetőt a körültekintés alól a vezetést támogató rendszerek (holttérfigyelő, tolatóradar, sávtartó)?",
+      "answers": [
+        "Nem: ezek csak segítenek, a jármű biztonságos vezetéséért továbbra is a vezető felel.",
+        "Igen, ha a rendszer nem jelez, biztosan nincs akadály.",
+        "Igen, de csak autópályán."
+      ],
+      "explanation": "A vezetést támogató rendszerek érzékelői tévedhetnek vagy nem észlelhetnek mindent (például szennyezett érzékelő, rossz időjárás, kis akadály esetén). A vezetőnek ezért ugyanúgy körül kell néznie és figyelnie kell, mintha a rendszer nem volna."
+    },
+    "ua": {
+      "question": "Чи звільняють водія від уважності системи допомоги (контроль «сліпих зон», парктронік, утримання в смузі)?",
+      "answers": [
+        "Ні: вони лише допомагають, а за безпечне керування й далі відповідає водій.",
+        "Так: якщо система мовчить, перешкоди точно немає.",
+        "Так, але лише на автомагістралі."
+      ],
+      "explanation": "Датчики систем допомоги можуть помилятися або чогось не помітити (забруднений датчик, погана погода, мала перешкода). Тому водій має роззиратися й стежити так само, ніби системи немає."
+    },
+    "correct": 0
+  }
+]

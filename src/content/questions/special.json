@@ -1,0 +1,495 @@
+[
+  {
+    "id": "special-001",
+    "topic": "special",
+    "kreszRef": "KRESZ 37. § (1)",
+    "image": "motorway",
+    "hu": {
+      "question": "Milyen járművel szabad autópályán és autóúton közlekedni?",
+      "answers": [
+        "Csak olyan gépjárművel (és pótkocsijával), amely sík úton legalább 60 km/óra sebességgel képes haladni.",
+        "Bármilyen járművel, amelynek rendszáma van.",
+        "Bármilyen gépjárművel és segédmotoros kerékpárral."
+      ],
+      "explanation": "Autópályán és autóúton, valamint az azokra való ráhajtásra szolgáló úton csak olyan gépjárművel, illetőleg gépjárműből és pótkocsiból álló járműszerelvénnyel szabad közlekedni, amely sík úton legalább 60 km/óra sebességgel képes haladni; más jármű közlekedése tilos."
+    },
+    "ua": {
+      "question": "Яким транспортним засобом дозволено їхати автомагістраллю (autópálya) та дорогою для автомобілів (autóút)?",
+      "answers": [
+        "Лише механічним транспортним засобом (і з причепом), здатним на рівній дорозі їхати щонайменше 60 км/год.",
+        "Будь-яким транспортним засобом із номерним знаком.",
+        "Будь-яким механічним транспортним засобом і мопедом."
+      ],
+      "explanation": "Автомагістраллю, дорогою для автомобілів і в'їздом на них дозволено їхати лише механічним транспортним засобом (gépjármű) або автопоїздом із нього та причепа, який на рівній дорозі здатен розвинути щонайменше 60 км/год; рух інших транспортних засобів заборонено."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-002",
+    "topic": "special",
+    "kreszRef": "KRESZ 37. § (3) b)",
+    "image": "motorway",
+    "hu": {
+      "question": "Mit tilos tenni az autópályán?",
+      "answers": [
+        "Hátramenetet végezni, megfordulni és az úttesteket elválasztó sávra ráhajtani.",
+        "A belső forgalmi sávban előzni.",
+        "110 km/óránál lassabban haladni."
+      ],
+      "explanation": "Autópályán és autóúton tilos hátramenetet végezni, megfordulni és az úttesteket elválasztó sávra ráhajtani. Aki elvétette a lehajtót, a következő csomópontig tovább kell haladnia."
+    },
+    "ua": {
+      "question": "Що заборонено робити на автомагістралі?",
+      "answers": [
+        "Рухатися заднім ходом, розвертатися та виїжджати на розділювальну смугу.",
+        "Обганяти внутрішньою смугою.",
+        "Їхати повільніше 110 км/год."
+      ],
+      "explanation": "На автомагістралі та дорозі для автомобілів заборонено рух заднім ходом, розворот і виїзд на смугу, що розділяє проїзні частини. Хто проминув з'їзд, має їхати до наступної розв'язки."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-003",
+    "topic": "special",
+    "kreszRef": "KRESZ 37. § (8)",
+    "hu": {
+      "question": "Kétsávos autópályán forgalmi torlódás alakul ki. Hogyan kell a járműveknek elhelyezkedniük?",
+      "answers": [
+        "A belső (bal szélső) sávban haladóknak szorosan a sáv bal szélére, a többi sávban haladóknak jobbra kell húzódniuk.",
+        "Mindenkinek a leállósávra kell húzódnia.",
+        "Mindenkinek a saját sávja közepén kell maradnia."
+      ],
+      "explanation": "Torlódás esetén – a megkülönböztető jelzést használó és más jogosult járművek akadálytalan továbbhaladása érdekében – a belső (bal szélső) forgalmi sávban közlekedőknek szorosan a sáv bal szélére, az egyéb sávokban közlekedőknek a lehetséges mértékben jobbra kell húzódniuk, szükség esetén a terelővonalat is átlépve („mentőfolyosó”)."
+    },
+    "ua": {
+      "question": "На автомагістралі з двома смугами утворився затор. Як мають розташуватися транспортні засоби?",
+      "answers": [
+        "Ті, хто у внутрішній (крайній лівій) смузі, — упритул до лівого краю смуги, решта — якомога правіше.",
+        "Усі мають з'їхати на смугу для аварійної зупинки.",
+        "Усі мають лишатися посередині своєї смуги."
+      ],
+      "explanation": "У разі затору — щоб забезпечити безперешкодний проїзд транспорту зі спеціальними сигналами та інших уповноважених транспортних засобів — ті, хто їде внутрішньою (крайньою лівою) смугою, зміщуються впритул до її лівого краю, а ті, хто в інших смугах, — якомога правіше, за потреби перетинаючи лінію розмітки («коридор для екстрених служб»)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-004",
+    "topic": "special",
+    "kreszRef": "KRESZ 56. § (3)",
+    "hu": {
+      "question": "Autópályán olyan műszaki hibát észlel, amely a közlekedés biztonságát közvetlenül nem veszélyezteti. Mit kell tennie?",
+      "answers": [
+        "A legközelebbi lehajtásra szolgáló úton el kell hagynia az autópályát.",
+        "A leállósávon kell megvárnia a segítséget.",
+        "Úti céljáig továbbhaladhat az autópályán."
+      ],
+      "explanation": "A közlekedés biztonságát közvetlenül nem veszélyeztető műszaki hiba esetében a járművel fokozott óvatossággal a legközelebbi olyan helyig szabad közlekedni, ahol a hiba elhárítható. Ha a hiba autópályán vagy autóúton következik be, arról a legközelebbi lehajtásra szolgáló úton, illetőleg útkereszteződésben le kell térni."
+    },
+    "ua": {
+      "question": "На автомагістралі Ви помітили технічну несправність, яка безпосередньо не загрожує безпеці руху. Що треба зробити?",
+      "answers": [
+        "З'їхати з автомагістралі на найближчому з'їзді.",
+        "Чекати на допомогу на смузі для аварійної зупинки.",
+        "Їхати автомагістраллю далі до місця призначення."
+      ],
+      "explanation": "З несправністю, яка безпосередньо не загрожує безпеці руху, дозволено з особливою обережністю доїхати до найближчого місця, де її можна усунути. Якщо вона виникла на автомагістралі чи дорозі для автомобілів, з них треба з'їхати на найближчому з'їзді чи перехресті."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-005",
+    "topic": "special",
+    "kreszRef": "KRESZ 39. § (2)",
+    "image": "railwayCross",
+    "hu": {
+      "question": "Hogyan szabad áthaladni a vasúti átjárón?",
+      "answers": [
+        "Csak folyamatosan – megállás nélkül –, legalább 5 km/óra átlagsebességgel.",
+        "Lépésben, szükség esetén az átjáróban megállva és körülnézve.",
+        "Legalább 30 km/óra sebességgel."
+      ],
+      "explanation": "A vasúti átjárón csak folyamatosan – megállás nélkül –, legalább 5 km/óra átlagsebességgel szabad áthaladni. Ha a folyamatos áthaladásra nincs lehetőség (például az átjáró túloldalán torlódás van), az átjáró előtt meg kell állni."
+    },
+    "ua": {
+      "question": "Як дозволено проїжджати залізничний переїзд?",
+      "answers": [
+        "Лише безперервно — без зупинки — із середньою швидкістю щонайменше 5 км/год.",
+        "Дуже повільно, за потреби зупиняючись на переїзді, щоб роззирнутися.",
+        "Зі швидкістю щонайменше 30 км/год."
+      ],
+      "explanation": "Залізничний переїзд дозволено проїжджати лише безперервно — без зупинки — із середньою швидкістю щонайменше 5 км/год. Якщо безперервно проїхати неможливо (наприклад, за переїздом затор), треба зупинитися перед переїздом."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-006",
+    "topic": "special",
+    "kreszRef": "KRESZ 39. § (3) e), (5) b)",
+    "image": "railwayNoBarrier",
+    "hu": {
+      "question": "A vasúti átjáró fénysorompója sem villogó piros, sem villogó fehér jelzést nem ad (sötét). Mit kell tennie?",
+      "answers": [
+        "Meg kell állnia az átjáró előtt, mert a fénysorompó nem ad villogó fehér jelzést.",
+        "Áthaladhat, mert a fénysorompó nem jelez pirosat.",
+        "Lassítás nélkül áthaladhat, ha vonat nem látszik."
+      ],
+      "explanation": "A fénysorompóval biztosított átjáróra csak akkor szabad ráhajtani, ha a fénysorompó villogó fehér fényjelzést ad. Ha nem ad villogó fehér jelzést, meg kell állni; üzemzavar esetén a megállás után csak akkor szabad ráhajtani, ha a vezető meggyőződött arról, hogy vasúti jármű nem közeledik."
+    },
+    "ua": {
+      "question": "Світлова сигналізація на залізничному переїзді не показує ні миготливого червоного, ні миготливого білого сигналу (не світиться). Що треба зробити?",
+      "answers": [
+        "Зупинитися перед переїздом, бо сигналізація не показує миготливого білого сигналу.",
+        "Проїхати, бо червоний сигнал не горить.",
+        "Проїхати, не зменшуючи швидкості, якщо поїзда не видно."
+      ],
+      "explanation": "На переїзд зі світловою сигналізацією (fénysorompó) дозволено в'їжджати лише тоді, коли вона показує миготливий білий сигнал. Якщо його немає, треба зупинитися; у разі несправності після зупинки в'їжджати можна лише переконавшись, що поїзд не наближається."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-007",
+    "topic": "special",
+    "kreszRef": "KRESZ 39. § (3) b)",
+    "image": "railwayBarrier",
+    "hu": {
+      "question": "A vasúti átjáró sorompórúdja éppen emelkedik, de még nincs teljesen nyitva. Ráhajthat-e az átjáróra?",
+      "answers": [
+        "Nem, meg kell állni, amíg a sorompórúd nem áll teljesen nyitott helyzetben.",
+        "Igen, ha a jármű már elfér a rúd alatt.",
+        "Igen, mert a vonat már elhaladt."
+      ],
+      "explanation": "A vasúti átjáró előtt meg kell állni, ha a teljes sorompó vagy a félsorompó rúdja nem teljesen nyitott helyzetben áll vagy mozog. Ráhajtani csak akkor szabad, ha a rudak nyitott véghelyzetben állnak, és a fény- vagy hangjelző berendezés nem ad jelzést."
+    },
+    "ua": {
+      "question": "Шлагбаум на залізничному переїзді саме піднімається, але ще не відкритий повністю. Чи можна в'їжджати на переїзд?",
+      "answers": [
+        "Ні, треба стояти, доки шлагбаум не буде повністю відкритий.",
+        "Так, якщо транспортний засіб уже проходить під шлагбаумом.",
+        "Так, бо поїзд уже проїхав."
+      ],
+      "explanation": "Перед переїздом треба зупинитися, якщо брус шлагбаума чи напівшлагбаума не перебуває в повністю відкритому положенні або рухається. В'їжджати можна лише тоді, коли бруси стоять у крайньому відкритому положенні, а світлова чи звукова сигналізація не подає сигналів."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-008",
+    "topic": "special",
+    "kreszRef": "KRESZ 39. § (4)",
+    "image": "railwayNoBarrier",
+    "hu": {
+      "question": "Mikor szabad biztosítatlan vasúti átjáróra ráhajtani?",
+      "answers": [
+        "Ha a vezető meggyőződött arról, hogy vasúti jármű egyik irányból sem közeledik, és a folyamatos áthaladás lehetséges.",
+        "Bármikor, ha az átjáró előtt nincs „ÁLLJ!” tábla.",
+        "Ha a vezető előtte hangjelzést adott."
+      ],
+      "explanation": "Biztosítatlan vasúti átjáróra (ahol sem sorompó, sem fénysorompó, sem jelzőőr nincs) csak abban az esetben szabad ráhajtani, ha a vezető meggyőződött arról, hogy az átjáró felé vasúti jármű egyik irányból sem közeledik, és a folyamatos áthaladásra lehetőség van."
+    },
+    "ua": {
+      "question": "Коли дозволено в'їжджати на нерегульований залізничний переїзд (biztosítatlan vasúti átjáró)?",
+      "answers": [
+        "Якщо водій переконався, що поїзд не наближається з жодного боку і що переїзд можна проїхати безперервно.",
+        "Будь-коли, якщо перед переїздом немає знака «ÁLLJ!».",
+        "Якщо водій перед цим подав звуковий сигнал."
+      ],
+      "explanation": "На нерегульований переїзд (без шлагбаума, світлової сигналізації та чергового) дозволено в'їжджати лише тоді, коли водій переконався, що до переїзду з жодного боку не наближається поїзд і що проїхати можна безперервно."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-009",
+    "topic": "special",
+    "kreszRef": "KRESZ 39. § (7)",
+    "hu": {
+      "question": "Járműve elakadt a vasúti átjáróban, és azonnal eltávolítani nem tudja. Mi a kötelessége?",
+      "answers": [
+        "Mindent meg kell tennie, hogy a közeledő vasúti jármű vezetője vagy a vasút más alkalmazottja mielőbb tudomást szerezzen a veszélyről.",
+        "A járműben kell maradnia, és hangjelzést kell adnia.",
+        "Elég bekapcsolnia az elakadásjelzőt."
+      ],
+      "explanation": "Ha a vasúti átjáróban a jármű elakad, és vezetője azt azonnal eltávolítani nem képes, köteles mindent megtenni annak érdekében, hogy a közeledő vasúti jármű vezetője vagy a vasút más alkalmazottja a veszélyhelyzetről a lehető legrövidebb időn belül tudomást szerezzen."
+    },
+    "ua": {
+      "question": "Ваш транспортний засіб застряг на залізничному переїзді, і негайно прибрати його не вдається. Який Ваш обов'язок?",
+      "answers": [
+        "Зробити все, щоб машиніст поїзда, що наближається, або інший працівник залізниці якнайшвидше дізнався про небезпеку.",
+        "Лишатися в транспортному засобі й подавати звуковий сигнал.",
+        "Досить увімкнути аварійну сигналізацію."
+      ],
+      "explanation": "Якщо транспортний засіб застряг на переїзді й водій не може негайно його прибрати, він зобов'язаний зробити все, щоб машиніст поїзда, що наближається, або інший працівник залізниці якнайшвидше дізнався про небезпечну ситуацію."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-010",
+    "topic": "special",
+    "kreszRef": "KRESZ 39. § (3)",
+    "image": "railwayCross",
+    "hu": {
+      "question": "Ha a vasúti átjáró előtt meg kell állnia, hol kell megállnia?",
+      "answers": [
+        "A „Vasúti átjáró kezdete” jelzésnél (András-keresztnél), illetve a megállás helyét jelző útburkolati jel előtt.",
+        "Közvetlenül az első sínszál előtt.",
+        "A vasúti átjárót jelző veszélyt jelző táblánál."
+      ],
+      "explanation": "A vasúti átjáró előtt a „Vasúti átjáró kezdete” jelzésnél vagy a megállás helyét jelző útburkolati jel előtt kell megállni, ha például vasúti jármű közeledik, a sorompó nincs teljesen nyitva, a fénysorompó villogó pirosat ad, vagy ott „ÁLLJ! Elsőbbségadás kötelező” tábla van."
+    },
+    "ua": {
+      "question": "Якщо перед залізничним переїздом треба зупинитися, то де саме?",
+      "answers": [
+        "Біля знака «Vasúti átjáró kezdete» (Андріївського хреста) або перед лінією зупинки.",
+        "Безпосередньо перед першою рейкою.",
+        "Біля попереджувального знака про залізничний переїзд."
+      ],
+      "explanation": "Перед переїздом зупиняються біля знака «Vasúti átjáró kezdete» або перед розміткою, що позначає місце зупинки, — якщо, наприклад, наближається поїзд, шлагбаум відкритий не повністю, світлова сигналізація миготить червоним або там стоїть знак «ÁLLJ! Elsőbbségadás kötelező»."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-011",
+    "topic": "special",
+    "kreszRef": "KRESZ 38. § (2)",
+    "hu": {
+      "question": "A villamosvágányok az úttest közepén, egymás mellett vannak; az úttest nem alkalmas párhuzamos közlekedésre. Ráhajthat-e az ellentétes irányú villamosforgalom vágányára?",
+      "answers": [
+        "Csak bekanyarodás és megfordulás esetén.",
+        "Igen, előzéskor is, ha szemből nem jön villamos.",
+        "Soha, semmilyen esetben."
+      ],
+      "explanation": "Ahol a villamosvágányok az úttest közepén egymás mellett vannak, az ellentétes irányú villamosforgalom részére szolgáló vágányra (párhuzamos közlekedésre alkalmas, sávokkal jelölt úttesten pedig a villamospályára) – a bekanyarodás és a megfordulás esetét kivéve – ráhajtani nem szabad."
+    },
+    "ua": {
+      "question": "Трамвайні колії лежать поруч посередині проїзної частини, яка має лише одну смугу в кожному напрямку. Чи можна виїжджати на колію зустрічного трамвайного руху?",
+      "answers": [
+        "Лише під час повороту й розвороту.",
+        "Так, і під час обгону, якщо назустріч не їде трамвай.",
+        "Ніколи, за жодних умов."
+      ],
+      "explanation": "Там, де трамвайні колії лежать поруч посередині проїзної частини, виїжджати на колію зустрічного трамвайного руху (а на проїзній частині з кількома позначеними смугами — на трамвайну колію взагалі) заборонено, крім випадків повороту й розвороту."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-012",
+    "topic": "special",
+    "kreszRef": "KRESZ 38. § (4); 31. § (5) a)",
+    "points": 3,
+    "hu": {
+      "question": "Ön egyenesen halad az útkereszteződésben. Az Önnel azonos irányból érkező villamos bekanyarodik, és keresztezi az Ön útját. Kinek van elsőbbsége?",
+      "answers": [
+        "Önnek: az egyenesen haladó járműnek a vele azonos irányból érkező és bekanyarodó villamossal szemben is elsőbbsége van.",
+        "A villamosnak, mert a villamosnak mindig elsőbbsége van.",
+        "Annak, aki előbb ért az útkereszteződésbe."
+      ],
+      "explanation": "Útkereszteződésben az egyenesen haladó járműnek a vele azonos irányból érkező és bekanyarodó villamossal szemben is elsőbbsége van. Fordított helyzetben viszont a bekanyarodó jármű köteles elsőbbséget adni az azonos irányból érkező villamosnak."
+    },
+    "ua": {
+      "question": "Ви їдете через перехрестя прямо. Трамвай, що їде в тому самому напрямку, повертає й перетинає Ваш шлях. Хто має перевагу?",
+      "answers": [
+        "Ви: той, хто їде прямо, має перевагу й перед трамваєм, який під'їжджає з того самого напрямку й повертає.",
+        "Трамвай, бо трамвай завжди має перевагу.",
+        "Той, хто першим в'їхав на перехрестя."
+      ],
+      "explanation": "На перехресті транспортний засіб, що їде прямо, має перевагу й перед трамваєм, який під'їжджає з того самого напрямку й повертає. У зворотній ситуації транспортний засіб, що повертає, повинен дати дорогу трамваю, який їде в тому самому напрямку."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-013",
+    "topic": "special",
+    "kreszRef": "KRESZ 39/A. § (3)",
+    "hu": {
+      "question": "Hol szabad járművel várakozni a lakó-pihenő övezetben, ha az úton nincs járda?",
+      "answers": [
+        "Csak az erre kijelölt területen.",
+        "Bárhol, ahol a jármű a forgalmat nem akadályozza.",
+        "Sehol, lakó-pihenő övezetben várakozni tilos."
+      ],
+      "explanation": "A lakó-pihenő övezetben, ha az úton járda nincs, a gyalogosok az utat teljes szélességében használhatják, járművel várakozni pedig csak az erre kijelölt területen szabad. A megengedett legnagyobb sebesség 20 km/óra."
+    },
+    "ua": {
+      "question": "Де в житловій зоні (lakó-pihenő övezet) дозволена стоянка, якщо на дорозі немає тротуару?",
+      "answers": [
+        "Лише на спеціально позначеній для цього території.",
+        "Будь-де, де транспортний засіб не заважає руху.",
+        "Ніде: у житловій зоні стоянку заборонено."
+      ],
+      "explanation": "У житловій зоні, якщо на дорозі немає тротуару, пішоходи можуть користуватися дорогою на всю ширину, а стоянка транспортних засобів дозволена лише на спеціально позначеній території. Дозволена швидкість — не більше 20 км/год."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-014",
+    "topic": "special",
+    "kreszRef": "KRESZ 37. § (5)",
+    "image": "motorway",
+    "hu": {
+      "question": "Szabad-e torlódáskor az autópálya leállósávján előrehaladni?",
+      "answers": [
+        "Nem: a leállósávon csak az arra jogosult járművek és a forgalmi sávokba besorolni kívánó járművek haladhatnak.",
+        "Igen, ha a sebesség nem haladja meg a 30 km/órát.",
+        "Igen, a következő lehajtóig."
+      ],
+      "explanation": "A leállósávon – ha a közúti jelzésekből más nem következik – csak a jogszabályban felsorolt járművek (például a forgalmat ellenőrző, útfenntartó vagy megkülönböztető jelzést használó járművek) és a forgalmi sávokban haladó járművek közé besorolni kívánó járművek haladhatnak."
+    },
+    "ua": {
+      "question": "Чи можна під час затору їхати вперед смугою для аварійної зупинки автомагістралі?",
+      "answers": [
+        "Ні: цією смугою можуть рухатися лише уповноважені транспортні засоби та ті, хто вбудовується в потік.",
+        "Так, якщо швидкість не перевищує 30 км/год.",
+        "Так, до наступного з'їзду."
+      ],
+      "explanation": "Смугою для аварійної зупинки — якщо знаки чи розмітка не вказують іншого — можуть рухатися лише перелічені в правилах транспортні засоби (наприклад, ті, що контролюють рух, утримують дорогу чи використовують спеціальні сигнали) і транспортні засоби, які хочуть вбудуватися в потік на смугах руху."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-015",
+    "topic": "special",
+    "kreszRef": "KRESZ 37. § (3) a)",
+    "image": "motorway",
+    "hu": {
+      "question": "Szabad-e autópályára út menti ingatlanról vagy más, útnak nem minősülő területről ráhajtani?",
+      "answers": [
+        "Nem, ez tilos; autópályára csak a ráhajtásra szolgáló úton szabad felhajtani.",
+        "Igen, ha a forgalom gyér.",
+        "Igen, de csak a leállósávra."
+      ],
+      "explanation": "Tilos autópályára és autóútra út menti ingatlanról, valamint útnak nem minősülő más területről ráhajtani, illetőleg oda behajtani."
+    },
+    "ua": {
+      "question": "Чи можна виїжджати на автомагістраль із прилеглої ділянки або іншої території, що не є дорогою?",
+      "answers": [
+        "Ні, це заборонено; на автомагістраль в'їжджають лише призначеним для цього в'їздом.",
+        "Так, якщо рух слабкий.",
+        "Так, але лише на смугу для аварійної зупинки."
+      ],
+      "explanation": "Заборонено виїжджати на автомагістраль і дорогу для автомобілів із прилеглої до дороги ділянки чи іншої території, що не є дорогою, а також з'їжджати з них туди."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-016",
+    "topic": "special",
+    "kreszRef": "KRESZ 38. § (1)",
+    "hu": {
+      "question": "Mikor szabad más járművel a villamospályára ráhajtani, azon haladni?",
+      "answers": [
+        "Ha a látási viszonyok nem akadályozzák a közeledő villamos észlelését, és a jármű a villamosforgalmat nem zavarja.",
+        "Soha, a villamospálya kizárólag a villamosé.",
+        "Bármikor, a villamos úgyis megáll."
+      ],
+      "explanation": "Villamospályára más járművel ráhajtani, azon folyamatosan haladni vagy előzni – a jogszabályban említett kivételekkel – csak abban az esetben szabad, ha a vezetőt a látási viszonyok nem akadályozzák a közeledő villamos kellő távolságból való észlelésében, és a jármű a villamosforgalmat nem zavarja."
+    },
+    "ua": {
+      "question": "Коли іншим транспортним засобам дозволено виїжджати на трамвайну колію та їхати нею?",
+      "answers": [
+        "Якщо видимість дає змогу вчасно помітити трамвай, що наближається, і транспортний засіб не заважає трамвайному руху.",
+        "Ніколи: трамвайна колія лише для трамвая.",
+        "Будь-коли, трамвай однаково зупиниться."
+      ],
+      "explanation": "Виїжджати на трамвайну колію, безперервно їхати нею чи обганяти там — за винятками, зазначеними в правилах, — можна лише тоді, коли умови видимості не заважають водієві з достатньої відстані помітити трамвай, що наближається, і транспортний засіб не перешкоджає трамвайному руху."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-017",
+    "topic": "special",
+    "kreszRef": "KRESZ 12. § (4)",
+    "image": "stop",
+    "hu": {
+      "question": "Vasúti átjárónál „ÁLLJ! Elsőbbségadás kötelező” tábla van. Mi a teendő?",
+      "answers": [
+        "Meg kell állni, és csak akkor szabad továbbhaladni, ha a vezető meggyőződött arról, hogy vasúti jármű nem közeledik.",
+        "Csak akkor kell megállni, ha vonat közeledik.",
+        "Lassítva, megállás nélkül át lehet haladni, ha a sorompó nyitva van."
+      ],
+      "explanation": "Ha az „ÁLLJ! Elsőbbségadás kötelező” táblát vasúti átjárónál helyezték el, a megállás helyét jelző útburkolati jel előtt – ennek hiányában a tábla előtt – meg kell állni, és továbbhaladni csak akkor szabad, ha a vezető meggyőződött arról, hogy vasúti jármű nem közeledik."
+    },
+    "ua": {
+      "question": "Біля залізничного переїзду стоїть знак «ÁLLJ! Elsőbbségadás kötelező». Що робити?",
+      "answers": [
+        "Зупинитися й їхати далі лише тоді, коли переконаєтеся, що поїзд не наближається.",
+        "Зупинитися лише тоді, коли наближається поїзд.",
+        "Можна проїхати повільно без зупинки, якщо шлагбаум відкритий."
+      ],
+      "explanation": "Якщо знак «ÁLLJ! Elsőbbségadás kötelező» встановлено біля залізничного переїзду, треба зупинитися перед лінією зупинки, а якщо її немає — перед знаком, і їхати далі можна, лише переконавшись, що поїзд не наближається."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-018",
+    "topic": "special",
+    "kreszRef": "KRESZ 19. § (7)",
+    "image": "railwayNoBarrier",
+    "hu": {
+      "question": "Mi jelzi a fénysorompó üzemzavarát?",
+      "answers": [
+        "Ha sem a piros, sem a fehér fény nem világít.",
+        "Ha a fehér fény villog.",
+        "Ha a két piros fény felváltva villog."
+      ],
+      "explanation": "A vasúti átjárót biztosító berendezés üzemzavarát jelzi többek között, ha a fénysorompón sem a piros, sem a fehér fény nem világít, vagy ha a sorompórudak eltérő állásban vagy félig nyitott helyzetben vannak. Ilyenkor az átjáró előtt meg kell állni."
+    },
+    "ua": {
+      "question": "Що свідчить про несправність світлової сигналізації переїзду (fénysorompó)?",
+      "answers": [
+        "Те, що не світить ні червоний, ні білий сигнал.",
+        "Те, що миготить білий сигнал.",
+        "Те, що два червоні сигнали миготять поперемінно."
+      ],
+      "explanation": "Про несправність обладнання переїзду свідчить, зокрема, те, що на світловій сигналізації не світить ні червоний, ні білий сигнал, або те, що бруси шлагбаума стоять у різних положеннях чи напіввідкриті. Тоді перед переїздом треба зупинитися."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-019",
+    "topic": "special",
+    "kreszRef": "KRESZ 39. § (5) a)",
+    "image": "railwayBarrier",
+    "hu": {
+      "question": "Mikor szabad ráhajtani a teljes sorompóval biztosított vasúti átjáróra?",
+      "answers": [
+        "Ha mindkét sorompórúd nyitott véghelyzetben áll, és a kiegészítő fény- vagy hangjelző berendezés nem ad jelzést.",
+        "Amint a sorompórudak elkezdenek felemelkedni.",
+        "Ha a sorompó zárva van, de vonat nem látszik."
+      ],
+      "explanation": "Teljes sorompóval biztosított átjáróra csak akkor szabad ráhajtani, ha a sorompó mindkét rúdja nyitott véghelyzetben áll, esetleges fény- és/vagy hangjelző berendezése jelzést nem ad, a jelzőőr „Megállj” jelzést nem ad, és a folyamatos áthaladásra lehetőség van."
+    },
+    "ua": {
+      "question": "Коли дозволено в'їжджати на залізничний переїзд із повним шлагбаумом?",
+      "answers": [
+        "Коли обидва бруси стоять у крайньому відкритому положенні, а додаткова світлова чи звукова сигналізація не подає сигналів.",
+        "Щойно бруси почнуть підніматися.",
+        "Коли шлагбаум закритий, але поїзда не видно."
+      ],
+      "explanation": "На переїзд із повним шлагбаумом можна в'їжджати, лише коли обидва його бруси в крайньому відкритому положенні, світлова й звукова сигналізація (якщо є) не подає сигналів, черговий не подає сигналу «Стій» і переїзд можна проїхати безперервно."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-020",
+    "topic": "special",
+    "kreszRef": "KRESZ 38. § (3); 29. § (1)",
+    "hu": {
+      "question": "Villamospályával ellátott úton egyenesen halad; az Önnel azonos irányban haladó villamos irányt változtat, és keresztezné az Ön útját. Kinek van elsőbbsége?",
+      "answers": [
+        "Önnek: az irányt változtató villamosnak elsőbbséget kell adnia az egyenesen haladó, irányt nem változtató járműnek.",
+        "A villamosnak, mert kötött pályán közlekedik.",
+        "Annak, aki előbb ad irányjelzést."
+      ],
+      "explanation": "Az egyenesen haladó jármű és a menetirányt változtató villamos viszonyában az irányváltoztatás általános szabálya az irányadó: aki irányt változtat, köteles az azonos irányban vagy szemben haladó, irányt nem változtató járműveknek elsőbbséget adni."
+    },
+    "ua": {
+      "question": "Ви їдете прямо дорогою з трамвайною колією; трамвай, що їде у Вашому напрямку, змінює напрямок і перетнув би Ваш шлях. Хто має перевагу?",
+      "answers": [
+        "Ви: трамвай, що змінює напрямок, має дати дорогу транспортному засобу, який їде прямо й напрямку не змінює.",
+        "Трамвай, бо він рухається колією.",
+        "Той, хто першим увімкне покажчик повороту."
+      ],
+      "explanation": "Між транспортним засобом, що їде прямо, і трамваєм, що змінює напрямок, діє загальне правило зміни напрямку: хто змінює напрямок, має дати дорогу тим, хто їде в тому самому чи зустрічному напрямку й напрямку не змінює."
+    },
+    "correct": 0
+  }
+]
