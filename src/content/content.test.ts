@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url'
 import { describe, expect, it } from 'vitest'
 import { hasImage } from '../signs/images'
 import { generateSignQuestions, generateTermQuestions } from './generators'
+import { generateSceneQuestions } from './sceneGenerator'
 import decks from './decks.json'
 import topics from './topics.json'
 import type { Card, Question } from './types'
@@ -28,7 +29,11 @@ const deckIds = new Set(decks.map((d) => d.id))
 const nonEmpty = (value: unknown) => typeof value === 'string' && value.trim().length > 0
 
 const cardsOf = (deck: string) => cardFiles.flatMap((f) => f.items).filter((card) => card.deck === deck)
-const generated = [...generateSignQuestions(cardsOf('signs')), ...generateTermQuestions(cardsOf('terms'))]
+const generated = [
+  ...generateSignQuestions(cardsOf('signs')),
+  ...generateTermQuestions(cardsOf('terms')),
+  ...generateSceneQuestions(),
+]
 
 function checkQuestion(q: Question) {
   expect(nonEmpty(q.id)).toBe(true)
@@ -83,7 +88,11 @@ describe('питання', () => {
 
 describe('згенеровані питання', () => {
   it('генерація детермінована', () => {
-    const again = [...generateSignQuestions(cardsOf('signs')), ...generateTermQuestions(cardsOf('terms'))]
+    const again = [
+      ...generateSignQuestions(cardsOf('signs')),
+      ...generateTermQuestions(cardsOf('terms')),
+      ...generateSceneQuestions(),
+    ]
     expect(again).toEqual(generated)
   })
 

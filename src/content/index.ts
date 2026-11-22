@@ -1,5 +1,6 @@
 import decksJson from './decks.json'
 import { generateSignQuestions, generateTermQuestions } from './generators'
+import { generateSceneQuestions } from './sceneGenerator'
 import topicsJson from './topics.json'
 import type { Card, Deck, Question, Topic } from './types'
 
@@ -23,11 +24,12 @@ const WRITTEN_QUESTIONS: Question[] = Object.keys(questionModules)
   .sort()
   .flatMap((path) => questionModules[path])
 
-/** Усі питання: написані вручну + згенеровані з карток знаків і термінів. */
+/** Усі питання: написані вручну + згенеровані (знаки, терміни, ситуації на перехресті). */
 export const QUESTIONS: Question[] = [
   ...WRITTEN_QUESTIONS,
   ...generateSignQuestions(CARDS.filter((card) => card.deck === 'signs')),
   ...generateTermQuestions(CARDS.filter((card) => card.deck === 'terms')),
+  ...generateSceneQuestions(),
 ]
 
 export const QUESTION_BY_ID: ReadonlyMap<string, Question> = new Map(QUESTIONS.map((q) => [q.id, q]))

@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react'
+import { parseSceneImageId, type SceneGo } from '../content/sceneGenerator'
 import { SIGNS } from './registry'
 
 /**
@@ -314,7 +315,28 @@ export const SCENES: Record<string, () => ReactNode> = {
   ),
 }
 
+const GO: Record<SceneGo, Turn> = { s: 'straight', l: 'left', r: 'right' }
+
+/** Схема для згенерованої ситуації: id виду "gx:<організація руху>:<маневр синього>:<звідки й куди червоний>". */
+export function dynamicScene(id: string): (() => ReactNode) | undefined {
+  const scenario = parseSceneImageId(id)
+  if (!scenario) return undefined
+  const minor: Arm[] = scenario.config === 'min' ? ['s', 'n'] : ['w', 'e']
+  const major: Arm[] = scenario.config === 'min' ? ['w', 'e'] : ['s', 'n']
+  const signs =
+    scenario.config === 'eq'
+      ? []
+      : [...minor.map((arm) => ({ arm, sign: 'yield' })), ...major.map((arm) => ({ arm, sign: 'mainRoad' }))]
+  return scene({
+    signs,
+    vehicles: [
+      { arm: 's', go: GO[scenario.blueGo], color: 'blue' },
+      { arm: scenario.redArm, go: GO[scenario.redGo], color: 'red' },
+    ],
+  })
+}
+
 /** Схеми перехресть (на відміну від знаків і світлофорів) показуємо більшими. */
 export function isScene(id: string): boolean {
-  return /^[xpr]-/.test(id)
+  return /^[xpr]-/.test(id) || id.startsWith('gx:')
 }
