@@ -122,9 +122,10 @@ export const SIGNS: Record<string, () => ReactNode> = {
   motorway: () => (
     <>
       <rect x="4" y="10" width="92" height="80" rx="8" fill={BLUE} stroke={WHITE} strokeWidth="2" />
-      <path d="M38 82 44 30M62 82 56 30" stroke={WHITE} strokeWidth="7" />
-      <path d="M16 36h68" stroke={WHITE} strokeWidth="8" />
-      <path d="M22 36v12M78 36v12" stroke={WHITE} strokeWidth="5" />
+      <path d="M26 84H42L47 16H39ZM74 84H58L53 16H61Z" fill={WHITE} />
+      <rect x="10" y="39" width="80" height="14" fill={BLUE} />
+      <path d="M12 44H88" stroke={WHITE} strokeWidth="4.5" />
+      <path d="M22 46v7M78 46v7" stroke={WHITE} strokeWidth="3" />
     </>
   ),
   expressway: () => (
