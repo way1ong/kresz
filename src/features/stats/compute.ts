@@ -1,6 +1,6 @@
 import { PRACTICE_CONFIG } from '../../config/practice'
 import type { Question, Topic } from '../../content/types'
-import type { Progress } from '../../store/progress'
+import type { ExamRecord, Progress } from '../../store/progress'
 
 export interface TopicStats {
   topic: Topic
@@ -65,4 +65,45 @@ export function boxDistribution(cardIds: string[], progress: Progress, boxCount:
     counts[box && box >= 1 && box <= boxCount ? box : 0] += 1
   }
   return counts
+}
+
+export type ReadinessLevel = 'none' | 'low' | 'almost' | 'ready'
+
+export interface Readiness {
+  level: ReadinessLevel
+  /** Скільки останніх іспитів враховано. */
+  considered: number
+  passed: number
+  /** Середній результат у відсотках від максимуму. */
+  averagePercent: number | null
+}
+
+const READINESS_WINDOW = 5
+const READINESS_MIN_EXAMS = 3
+
+/**
+ * Груба оцінка готовності за останніми пробними іспитами:
+ * менше трьох іспитів — оцінки немає; усі останні складено — «готовий»;
+ * складено щонайменше половину — «майже»; інакше — «ще ні».
+ */
+export function readiness(exams: ExamRecord[]): Readiness {
+  const recent = exams.slice(-READINESS_WINDOW)
+  const passed = recent.filter((exam) => exam.passed).length
+  const averagePercent =
+    recent.length > 0
+      ? Math.round((recent.reduce((sum, exam) => sum + exam.score / exam.maxScore, 0) / recent.length) * 100)
+      : null
+  let level: ReadinessLevel = 'low'
+  if (recent.length < READINESS_MIN_EXAMS) level = 'none'
+  else if (passed === recent.length) level = 'ready'
+  else if (passed * 2 >= recent.length) level = 'almost'
+  return { level, considered: recent.length, passed, averagePercent }
+}
+
+/** Питання для режиму «слабкі місця»: остання відповідь хибна або питання є в колоді помилок. */
+export function weakQuestionIds(questions: Question[], progress: Progress): string[] {
+  const mistakes = new Set(progress.mistakes)
+  return questions
+    .filter((q) => mistakes.has(q.id) || progress.questions[q.id]?.lastCorrect === false)
+    .map((q) => q.id)
 }

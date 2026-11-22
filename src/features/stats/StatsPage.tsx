@@ -6,7 +6,7 @@ import { formatDateTime, formatDuration } from '../../lib/format'
 import { useProgress } from '../../store/progress'
 import { useSettings } from '../../store/settings'
 import { LEITNER, mistakeCardId } from '../cards/leitner'
-import { boxDistribution, overallStats, topicStats } from './compute'
+import { boxDistribution, overallStats, readiness, topicStats, weakQuestionIds } from './compute'
 
 const percent = (value: number) => Math.round(value * 100)
 
@@ -24,6 +24,8 @@ export function StatsPage() {
   const cardIds = [...CARDS.map((card) => card.id), ...progress.mistakes.map(mistakeCardId)]
   const boxes = boxDistribution(cardIds, progress, LEITNER.boxCount)
   const maxBox = Math.max(1, ...boxes)
+  const ready = readiness(progress.exams)
+  const weakCount = weakQuestionIds(QUESTIONS, progress).length
 
   return (
     <>
@@ -47,6 +49,28 @@ export function StatsPage() {
           </div>
         </div>
       </div>
+
+      <section className={`card stack ready-${ready.level}`}>
+        <h2>
+          <Tx k="stats.ready.title" />
+        </h2>
+        <p>
+          <Tx
+            k={`stats.ready.${ready.level}`}
+            vars={{ n: ready.considered, passed: ready.passed, avg: ready.averagePercent ?? 0 }}
+          />
+        </p>
+        {ready.level !== 'none' && <ProgressBar value={ready.passed} max={ready.considered} tone={ready.level === 'low' ? 'bad' : 'ok'} />}
+        <p className="muted small">
+          <Tx k="stats.ready.hint" />
+        </p>
+      </section>
+
+      {weakCount > 0 && (
+        <Link to="/practice/weak" className="btn btn-primary">
+          <Tx k="practice.weak.desc" vars={{ n: weakCount }} layout="inline" />
+        </Link>
+      )}
 
       <h2>
         <Tx k="stats.weak" />

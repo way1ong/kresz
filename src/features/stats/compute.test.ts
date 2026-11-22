@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'vitest'
 import type { Question, Topic } from '../../content/types'
 import { applyAnswer, applyCardReview, reviveProgress, type Progress } from '../../store/progress'
-import { boxDistribution, overallStats, topicStats } from './compute'
+import type { ExamRecord } from '../../store/progress'
+import { boxDistribution, overallStats, readiness, topicStats, weakQuestionIds } from './compute'
 
 const text = { question: 'q', answers: ['a', 'b'], explanation: 'e' }
 const q = (id: string, topic: string): Question => ({ id, topic, kreszRef: 'r', hu: text, ua: text, correct: 0 })
@@ -43,5 +44,30 @@ describe('статистика', () => {
     progress = applyCardReview(progress, 'c1', true, 1)
     progress = applyCardReview(progress, 'c2', false, 1)
     expect(boxDistribution(['c1', 'c2', 'c3'], progress, 5)).toEqual([1, 1, 1, 0, 0, 0])
+  })
+})
+
+describe('готовність і слабкі місця', () => {
+  const exam = (score: number): ExamRecord => ({
+    id: `e${score}-${Math.random()}`, startedAt: 0, finishedAt: 1, durationSec: 1, timeLimitSec: 3300,
+    score, maxScore: 75, passScore: 65, passed: score >= 65, timedOut: false, items: [],
+  })
+
+  it('оцінка з’являється після трьох іспитів і враховує п’ять останніх', () => {
+    expect(readiness([exam(70), exam(70)]).level).toBe('none')
+    expect(readiness([exam(70), exam(66), exam(75)])).toMatchObject({ level: 'ready', considered: 3, passed: 3 })
+    expect(readiness([exam(40), exam(70), exam(66), exam(50)])).toMatchObject({ level: 'almost', passed: 2 })
+    expect(readiness([exam(40), exam(50), exam(66)]).level).toBe('low')
+    // давній провал уже поза вікном із п'яти іспитів
+    expect(readiness([exam(10), exam(70), exam(70), exam(70), exam(70), exam(70)])).toMatchObject({ level: 'ready', considered: 5 })
+    expect(readiness([exam(75), exam(75), exam(75)]).averagePercent).toBe(100)
+  })
+
+  it('слабкі місця: хибна остання відповідь або питання з колоди помилок', () => {
+    let progress = applyAnswer(empty(), 'a1', false, 1)
+    progress = applyAnswer(progress, 'a2', true, 1)
+    progress = applyAnswer(progress, 'b1', false, 1)
+    progress = applyAnswer(progress, 'b1', true, 2) // виправився, але ще в колоді помилок
+    expect(weakQuestionIds(questions, progress)).toEqual(['a1', 'b1'])
   })
 })

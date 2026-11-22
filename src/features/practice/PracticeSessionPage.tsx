@@ -7,6 +7,7 @@ import { QUESTION_BY_ID, QUESTIONS, questionsByTopic, TOPIC_BY_ID } from '../../
 import { Bi, Tx } from '../../i18n'
 import { shuffledIndices } from '../../lib/random'
 import { progressStore, recordAnswer } from '../../store/progress'
+import { weakQuestionIds } from '../stats/compute'
 import { buildPracticeQueue } from './session'
 
 interface Round {
@@ -25,18 +26,29 @@ function startRound(ids: string[]): Round {
 
 export function PracticeSessionPage({ topicId }: { topicId: string }) {
   const topic = TOPIC_BY_ID.get(topicId)
-  const pool = topicId === 'all' ? QUESTIONS : questionsByTopic(topicId)
+  const isWeak = topicId === 'weak'
+  // Для «слабких місць» набір питань фіксуємо на початку раунду.
+  const [weakIds] = useState(() => new Set(weakQuestionIds(QUESTIONS, progressStore.get())))
+  const pool = isWeak
+    ? QUESTIONS.filter((q) => weakIds.has(q.id))
+    : topicId === 'all'
+      ? QUESTIONS
+      : questionsByTopic(topicId)
   const newQueue = () => buildPracticeQueue(pool, progressStore.get(), PRACTICE_CONFIG.roundSize)
   const [round, setRound] = useState<Round>(() => startRound(newQueue()))
 
-  const title = topic ? <Bi hu={topic.hu} ua={topic.ua} /> : <Tx k="practice.allTopics" />
+  const title = topic ? (
+    <Bi hu={topic.hu} ua={topic.ua} />
+  ) : (
+    <Tx k={isWeak ? 'practice.weak' : 'practice.allTopics'} />
+  )
 
   if (pool.length === 0) {
     return (
       <>
         <h1>{title}</h1>
         <div className="card stack center">
-          <Tx k="practice.empty" />
+          <Tx k={isWeak ? 'practice.weak.empty' : 'practice.empty'} />
           <Link to="/practice" className="btn">
             <Tx k="practice.toTopics" layout="inline" />
           </Link>

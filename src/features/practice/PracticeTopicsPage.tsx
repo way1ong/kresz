@@ -2,9 +2,11 @@ import { ProgressBar, Tile } from '../../components/ui'
 import { QUESTIONS, questionsByTopic, TOPICS } from '../../content'
 import { Bi, Tx } from '../../i18n'
 import { useProgress } from '../../store/progress'
+import { weakQuestionIds } from '../stats/compute'
 
 export function PracticeTopicsPage() {
   const progress = useProgress()
+  const weakCount = weakQuestionIds(QUESTIONS, progress).length
   const correctCount = (ids: string[]) => ids.filter((id) => progress.questions[id]?.lastCorrect).length
 
   return (
@@ -12,6 +14,14 @@ export function PracticeTopicsPage() {
       <h1>
         <Tx k="practice.title" />
       </h1>
+      {weakCount > 0 && (
+        <Tile
+          to="/practice/weak"
+          icon="🎯"
+          title={<Tx k="practice.weak" />}
+          desc={<Tx k="practice.weak.desc" vars={{ n: weakCount }} />}
+        />
+      )}
       {TOPICS.map((topic) => {
         const ids = questionsByTopic(topic.id).map((q) => q.id)
         const correct = correctCount(ids)
