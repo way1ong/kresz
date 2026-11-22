@@ -44,13 +44,16 @@ interface BiProps {
   layout?: 'block' | 'inline'
   /** Примусовий режим мови (наприклад, іспит лише угорською). */
   mode?: LangMode
+  /** У режимі HU+UA показати лише основну (угорську) мову — для тісних місць. */
+  primaryOnly?: boolean
   className?: string
 }
 
 /** Двомовний текст: угорський основний, український під ним (у режимі HU+UA). */
-export function Bi({ hu: huText, ua: uaText, layout = 'block', mode, className }: BiProps) {
+export function Bi({ hu: huText, ua: uaText, layout = 'block', mode, primaryOnly, className }: BiProps) {
   const settings = useSettings()
-  const lang = mode ?? settings.lang
+  const requested = mode ?? settings.lang
+  const lang = primaryOnly && requested === 'both' ? 'hu' : requested
   const cls = ['bi', `bi-${layout}`, className].filter(Boolean).join(' ')
   if (lang === 'hu') {
     return (

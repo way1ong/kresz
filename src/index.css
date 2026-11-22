@@ -573,11 +573,11 @@ button {
 .q-image {
   display: grid;
   place-items: center;
-  padding: 8px;
+  padding: 4px;
 }
 
 .q-image svg {
-  width: min(46vw, 180px);
+  width: min(36vw, 140px);
   height: auto;
 }
 

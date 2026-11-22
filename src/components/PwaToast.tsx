@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { useRegisterSW } from 'virtual:pwa-register/react'
 import { Tx } from '../i18n'
 
@@ -8,6 +9,13 @@ export function PwaToast() {
     needRefresh: [needRefresh, setNeedRefresh],
     updateServiceWorker,
   } = useRegisterSW()
+
+  // «Готово до офлайну» зникає саме; пропозиція оновлення чекає на рішення.
+  useEffect(() => {
+    if (!offlineReady) return
+    const timer = window.setTimeout(() => setOfflineReady(false), 4000)
+    return () => window.clearTimeout(timer)
+  }, [offlineReady, setOfflineReady])
 
   if (!offlineReady && !needRefresh) return null
 

@@ -1,0 +1,8 @@
+[
+  { "id": "signs", "icon": "🚸", "hu": "Jelzőtáblák", "ua": "Дорожні знаки" },
+  { "id": "priority", "icon": "🔀", "hu": "Elsőbbség és útkereszteződések", "ua": "Пріоритет і перехрестя" },
+  { "id": "speed", "icon": "🚀", "hu": "Sebesség", "ua": "Швидкість" },
+  { "id": "maneuvers", "icon": "↪️", "hu": "Előzés és manőverek", "ua": "Обгін і маневри" },
+  { "id": "parking", "icon": "🅿️", "hu": "Megállás és várakozás", "ua": "Зупинка й стоянка" },
+  { "id": "safety", "icon": "⛑️", "hu": "Biztonság és elsősegély", "ua": "Безпека й перша допомога" }
+]

@@ -1,7 +1,10 @@
 import { useEffect } from 'react'
 import { PwaToast } from '../components/PwaToast'
 import { HomePage } from '../features/home/HomePage'
+import { PracticeSessionPage } from '../features/practice/PracticeSessionPage'
+import { PracticeTopicsPage } from '../features/practice/PracticeTopicsPage'
 import { SettingsPage } from '../features/settings/SettingsPage'
+import { SignGalleryPage } from '../signs/SignGalleryPage'
 import { HTML_LANG, primaryLang, Tx } from '../i18n'
 import { applyTheme, useSettings } from '../store/settings'
 import { Layout } from './Layout'
@@ -37,6 +40,12 @@ function renderPage(section: string, rest: string[]) {
   if (rest.length === 0) {
     if (section === '') return <HomePage />
     if (section === 'settings') return <SettingsPage />
+    if (section === 'signs') return <SignGalleryPage />
+  }
+  if (section === 'practice') {
+    if (rest.length === 0) return <PracticeTopicsPage />
+    // key: нова тема — новий раунд
+    if (rest.length === 1) return <PracticeSessionPage key={rest[0]} topicId={rest[0]} />
   }
   return <NotFound />
 }

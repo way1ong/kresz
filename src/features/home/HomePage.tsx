@@ -9,10 +9,10 @@ export function HomePage() {
           <Tx k="home.subtitle" />
         </h1>
       </div>
-      <Tile to="/practice" icon="📝" title={<Tx k="nav.practice" />} desc={<Tx k="home.practice.desc" />} />
-      <Tile to="/cards" icon="🃏" title={<Tx k="nav.cards" />} desc={<Tx k="home.cards.desc" />} />
-      <Tile to="/exam" icon="⏱️" title={<Tx k="nav.exam" />} desc={<Tx k="home.exam.desc" vars={{ count: 55, minutes: 55 }} />} />
-      <Tile to="/stats" icon="📊" title={<Tx k="nav.stats" />} desc={<Tx k="home.stats.desc" />} />
+      <Tile to="/practice" icon="📝" title={<Tx k="nav.practice" layout="inline" />} desc={<Tx k="home.practice.desc" />} />
+      <Tile to="/cards" icon="🃏" title={<Tx k="nav.cards" layout="inline" />} desc={<Tx k="home.cards.desc" />} />
+      <Tile to="/exam" icon="⏱️" title={<Tx k="nav.exam" layout="inline" />} desc={<Tx k="home.exam.desc" vars={{ count: 55, minutes: 55 }} />} />
+      <Tile to="/stats" icon="📊" title={<Tx k="nav.stats" layout="inline" />} desc={<Tx k="home.stats.desc" />} />
     </>
   )
 }
