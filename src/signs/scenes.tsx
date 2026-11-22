@@ -321,13 +321,18 @@ const GO: Record<SceneGo, Turn> = { s: 'straight', l: 'left', r: 'right' }
 export function dynamicScene(id: string): (() => ReactNode) | undefined {
   const scenario = parseSceneImageId(id)
   if (!scenario) return undefined
-  const minor: Arm[] = scenario.config === 'min' ? ['s', 'n'] : ['w', 'e']
-  const major: Arm[] = scenario.config === 'min' ? ['w', 'e'] : ['s', 'n']
+  const shape = scenario.shape ?? 'x'
+  const arms: Arm[] = shape === 'ts' ? ['w', 'e', 's'] : shape === 'te' ? ['n', 's', 'e'] : ['n', 'e', 's', 'w']
+  // Дороги зі знаком «Дати дорогу»: у Т-подібного перехрестя це завжди «ніжка».
+  const minor: Arm[] =
+    shape === 'ts' ? ['s'] : shape === 'te' ? ['e'] : scenario.config === 'min' ? ['s', 'n'] : ['w', 'e']
+  const major = arms.filter((arm) => !minor.includes(arm))
   const signs =
     scenario.config === 'eq'
       ? []
       : [...minor.map((arm) => ({ arm, sign: 'yield' })), ...major.map((arm) => ({ arm, sign: 'mainRoad' }))]
   return scene({
+    arms,
     signs,
     vehicles: [
       { arm: 's', go: GO[scenario.blueGo], color: 'blue' },

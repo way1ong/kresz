@@ -13,7 +13,12 @@ export type SceneGo = 's' | 'l' | 'r'
 export type SceneArm = 'e' | 'w' | 'n'
 export type SceneConfig = 'eq' | 'min' | 'maj'
 
+/** x — чотиристороннє перехрестя; ts — Т-подібне, синій під'їжджає «ніжкою»; te — Т-подібне, «ніжка» справа. */
+export type SceneShape = 'x' | 'ts' | 'te'
+
 export interface SceneScenario {
+  /** Форма перехрестя (типово 'x'). */
+  shape?: SceneShape
   config: SceneConfig
   /** Маневр синього автомобіля. */
   blueGo: SceneGo
@@ -38,6 +43,25 @@ export const SCENE_SCENARIOS: SceneScenario[] = (['eq', 'min', 'maj'] as const).
   ),
 )
 
+/**
+ * Т-подібні перехрестя. Розв'язувач той самий: «наскрізна» дорога сама по собі переваги не дає.
+ *  ts — синій виїжджає з «ніжки» (ліворуч чи праворуч), червоний їде наскрізною дорогою;
+ *  te — синій їде наскрізною дорогою, червоний виїжджає з «ніжки» справа.
+ */
+const TEE_SCENARIOS: SceneScenario[] = [
+  ...(['eq', 'min'] as const).flatMap((config): SceneScenario[] => [
+    { shape: 'ts', config, blueGo: 'l', redArm: 'e', redGo: 's' },
+    { shape: 'ts', config, blueGo: 'l', redArm: 'e', redGo: 'l' },
+    { shape: 'ts', config, blueGo: 'l', redArm: 'w', redGo: 's' },
+    { shape: 'ts', config, blueGo: 'r', redArm: 'w', redGo: 's' },
+  ]),
+  ...(['eq', 'maj'] as const).flatMap((config): SceneScenario[] => [
+    { shape: 'te', config, blueGo: 's', redArm: 'e', redGo: 'l' },
+    { shape: 'te', config, blueGo: 's', redArm: 'e', redGo: 'r' },
+  ]),
+]
+SCENE_SCENARIOS.push(...TEE_SCENARIOS)
+
 export type SceneRule = 'right-hand' | 'sign' | 'left-turn'
 
 /** Хто проїжджає першим і за яким правилом. */
@@ -49,14 +73,16 @@ export function solveScene({ config, blueGo, redArm }: SceneScenario): { first: 
   return { first: redArm === 'e' ? 'red' : 'blue', rule: 'right-hand' }
 }
 
-export function sceneImageId({ config, blueGo, redArm, redGo }: SceneScenario): string {
-  return `gx:${config}:${blueGo}:${redArm}${redGo}`
+export function sceneImageId({ shape, config, blueGo, redArm, redGo }: SceneScenario): string {
+  const base = `gx:${config}:${blueGo}:${redArm}${redGo}`
+  return shape && shape !== 'x' ? `${base}:${shape}` : base
 }
 
 export function parseSceneImageId(id: string): SceneScenario | null {
-  const match = /^gx:(eq|min|maj):([slr]):([ewn])([slr])$/.exec(id)
+  const match = /^gx:(eq|min|maj):([slr]):([ewn])([slr])(?::(ts|te))?$/.exec(id)
   if (!match) return null
   return {
+    ...(match[5] ? { shape: match[5] as SceneShape } : {}),
     config: match[1] as SceneConfig,
     blueGo: match[2] as SceneGo,
     redArm: match[3] as SceneArm,
@@ -70,7 +96,26 @@ const GO_UA_RED: Record<SceneGo, string> = { s: 'їде прямо', l: 'пов�
 const FROM_HU: Record<SceneArm, string> = { e: 'jobbról', w: 'balról', n: 'szemből' }
 const FROM_UA: Record<SceneArm, string> = { e: 'справа', w: 'зліва', n: 'назустріч' }
 
+function introTee(scenario: SceneScenario): { hu: string; ua: string } {
+  if (scenario.config === 'eq') {
+    return {
+      hu: 'Két szilárd burkolatú út T alakú kereszteződése, jelzőtábla nincs.',
+      ua: 'Т-подібне перехрестя двох доріг із твердим покриттям, знаків немає.',
+    }
+  }
+  return scenario.shape === 'ts'
+    ? {
+        hu: 'T alakú útkereszteződés: Ön a betorkolló útról érkezik, amelyen „Elsőbbségadás kötelező” tábla van.',
+        ua: 'Т-подібне перехрестя: Ви під\'їжджаєте дорогою, що прилягає, і на ній стоїть знак «Elsőbbségadás kötelező» («Дати дорогу»).',
+      }
+    : {
+        hu: 'T alakú útkereszteződés: Ön főútvonalon halad, a jobbról betorkolló úton „Elsőbbségadás kötelező” tábla van.',
+        ua: 'Т-подібне перехрестя: Ви їдете головною дорогою, а на дорозі, що прилягає справа, стоїть знак «Elsőbbségadás kötelező» («Дати дорогу»).',
+      }
+}
+
 function intro(scenario: SceneScenario): { hu: string; ua: string } {
+  if (scenario.shape && scenario.shape !== 'x') return introTee(scenario)
   const oncoming = scenario.redArm === 'n'
   switch (scenario.config) {
     case 'eq':
@@ -157,8 +202,12 @@ export function generateSceneQuestions(): Question[] {
     const { first, rule } = solveScene(scenario)
     const start = intro(scenario)
     const why = explanation(scenario, first, rule)
+    if (scenario.shape && scenario.shape !== 'x' && rule === 'right-hand') {
+      why.hu += ' T alakú kereszteződésben az „átmenő” út önmagában nem ad elsőbbséget.'
+      why.ua += ' На Т-подібному перехресті «наскрізна» дорога сама по собі переваги не дає.'
+    }
     return {
-      id: `gen-scene-${scenario.config}-${scenario.blueGo}-${scenario.redArm}${scenario.redGo}`,
+      id: `gen-scene-${scenario.shape && scenario.shape !== 'x' ? `${scenario.shape}-` : ''}${scenario.config}-${scenario.blueGo}-${scenario.redArm}${scenario.redGo}`,
       topic: 'priority',
       kreszRef: why.ref,
       image: sceneImageId(scenario),

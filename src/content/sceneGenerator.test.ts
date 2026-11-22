@@ -29,18 +29,34 @@ describe('ситуації на перехресті', () => {
   })
 
   it('генеруються лише конфліктні пари: 14 на кожну організацію руху, без повторів', () => {
-    expect(SCENE_SCENARIOS).toHaveLength(42)
+    const cross = SCENE_SCENARIOS.filter((scenario) => !scenario.shape)
+    expect(cross).toHaveLength(42)
     const ids = SCENE_SCENARIOS.map(sceneImageId)
-    expect(new Set(ids).size).toBe(42)
+    expect(new Set(ids).size).toBe(SCENE_SCENARIOS.length)
     // зустрічні, що обидва їдуть прямо, не конфліктують — такого сценарію немає
     expect(ids).not.toContain('gx:eq:s:ns')
     for (const scenario of SCENE_SCENARIOS) expect(parseSceneImageId(sceneImageId(scenario))).toEqual(scenario)
     expect(parseSceneImageId('stop')).toBeNull()
   })
 
+  it('Т-подібні перехрестя: «наскрізна» дорога переваги не дає', () => {
+    const tee = SCENE_SCENARIOS.filter((scenario) => scenario.shape)
+    expect(tee).toHaveLength(12)
+    // рівнозначне: синій із «ніжки» повертає ліворуч, червоний зліва їде наскрізною — перевага в синього
+    expect(first({ shape: 'ts', config: 'eq', blueGo: 'l', redArm: 'w', redGo: 's' })).toBe('blue')
+    // той самий синій дає дорогу червоному, що наближається справа
+    expect(first({ shape: 'ts', config: 'eq', blueGo: 'l', redArm: 'e', redGo: 's' })).toBe('red')
+    // синій їде наскрізною, червоний виїжджає з «ніжки» справа — без знаків перевага в червоного
+    expect(first({ shape: 'te', config: 'eq', blueGo: 's', redArm: 'e', redGo: 'l' })).toBe('red')
+    // зі знаком «Дати дорогу» на «ніжці» — навпаки
+    expect(first({ shape: 'te', config: 'maj', blueGo: 's', redArm: 'e', redGo: 'l' })).toBe('blue')
+    expect(first({ shape: 'ts', config: 'min', blueGo: 'r', redArm: 'w', redGo: 's' })).toBe('red')
+  })
+
   it('питання: 3 бали, правильна відповідь відповідає розв\'язку', () => {
     const questions = generateSceneQuestions()
-    expect(questions).toHaveLength(42)
+    expect(questions).toHaveLength(SCENE_SCENARIOS.length)
+    expect(new Set(questions.map((question) => question.id)).size).toBe(questions.length)
     questions.forEach((question, index) => {
       expect(question.points).toBe(3)
       expect(question.correct).toBe(first(SCENE_SCENARIOS[index]) === 'blue' ? 0 : 1)
