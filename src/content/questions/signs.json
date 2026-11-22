@@ -453,5 +453,155 @@
       "explanation": "Знаки, що забороняють зупинку чи стоянку, і знак місця для стоянки можуть встановлювати і праворуч, і ліворуч від проїзної частини. Їхня дія поширюється на той бік проїзної частини, біля якого їх встановлено."
     },
     "correct": 0
+  },
+  {
+    "id": "signs-019",
+    "topic": "signs",
+    "kreszRef": "KRESZ 14. § (3)",
+    "image": "noEntryBoth",
+    "hu": {
+      "question": "A „Mindkét irányból behajtani tilos” tábla alatt „Kivéve célforgalom” kiegészítő tábla van. Kire nem vonatkozik a tilalom?",
+      "answers": [
+        "Arra a járműre, amelynek úti célja a táblával megjelölt úton vagy övezetben van.",
+        "Minden személygépkocsira.",
+        "Azokra, akik csak áthaladnak az úton, de nem állnak meg."
+      ],
+      "explanation": "Ha a behajtási tilalmat jelző tábla alatt „Kivéve célforgalom” kiegészítő tábla van, a tilalom nem vonatkozik arra a járműre, amelynek úti célja a táblával megjelölt úton vagy övezetben van. Az átmenő forgalomra a tilalom érvényes."
+    },
+    "ua": {
+      "question": "Під знаком «Mindkét irányból behajtani tilos» (рух заборонено) є табличка «Kivéve célforgalom». На кого заборона не поширюється?",
+      "answers": [
+        "На транспортний засіб, місце призначення якого — на позначеній знаком дорозі чи в зоні.",
+        "На всі легкові автомобілі.",
+        "На тих, хто лише проїжджає дорогою, не зупиняючись."
+      ],
+      "explanation": "Якщо під знаком заборони в'їзду є табличка «Kivéve célforgalom» («крім тих, хто їде до місця призначення»), заборона не стосується транспортного засобу, пункт призначення якого розташований на позначеній знаком дорозі чи в зоні. На транзит заборона діє."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-020",
+    "topic": "signs",
+    "kreszRef": "KRESZ 14. § (8)",
+    "image": "builtUpStart",
+    "hu": {
+      "question": "A „Sebességkorlátozás” táblát a „Lakott terület kezdete” táblával együtt helyezték el. Meddig érvényes a korlátozás?",
+      "answers": [
+        "A teljes lakott területre kiterjed.",
+        "Csak a következő útkereszteződésig.",
+        "A táblától számított 500 méterig."
+      ],
+      "explanation": "Ha a „Sebességkorlátozás” jelzőtáblát a „Lakott terület kezdete” jelzőtáblával együtt helyezték el, a sebességkorlátozás hatálya a teljes lakott területre kiterjed."
+    },
+    "ua": {
+      "question": "Знак «Sebességkorlátozás» («Обмеження швидкості») встановлено разом зі знаком початку населеного пункту. Доки діє обмеження?",
+      "answers": [
+        "У всьому населеному пункті.",
+        "Лише до наступного перехрестя.",
+        "На 500 метрів від знака."
+      ],
+      "explanation": "Якщо знак «Sebességkorlátozás» встановлено разом зі знаком «Lakott terület kezdete» (початок населеного пункту), обмеження швидкості діє на всій території населеного пункту."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-021",
+    "topic": "signs",
+    "kreszRef": "KRESZ 14. § (9)",
+    "image": "noOvertaking",
+    "hu": {
+      "question": "Az „Előzni tilos” tábla alatti kiegészítő tábla időszakot jelöl meg (például 6–22 h). Mit jelent ez?",
+      "answers": [
+        "A tilalom csak a megjelölt időszakban áll fenn.",
+        "A tilalom a megjelölt időszakon kívül áll fenn.",
+        "A megjelölt időszakban csak a tehergépkocsikra vonatkozik a tilalom."
+      ],
+      "explanation": "Ha a tilalmi jelzőtábla alatt elhelyezett kiegészítő tábla időszakot jelöl meg, a tilalom csak ebben az időszakban áll fenn."
+    },
+    "ua": {
+      "question": "Під знаком «Előzni tilos» («Обгін заборонено») табличка вказує проміжок часу (наприклад, 6–22 h). Що це означає?",
+      "answers": [
+        "Заборона діє лише в зазначений час.",
+        "Заборона діє поза зазначеним часом.",
+        "У зазначений час заборона стосується лише вантажівок."
+      ],
+      "explanation": "Якщо під заборонним знаком додаткова табличка вказує проміжок часу, заборона діє лише в цей час."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-022",
+    "topic": "signs",
+    "kreszRef": "KRESZ 15. § (3)",
+    "image": "noStopping",
+    "hu": {
+      "question": "A „Megállni tilos” tábla alatti kiegészítő táblán nyíl látható. Mit jelez a nyíl?",
+      "answers": [
+        "Azt, hogy a tilalom a táblától kezdődően vagy a tábláig áll fenn: a nyíl a korlátozás alá eső terület felé mutat.",
+        "Azt, hogy a nyíl irányában kell elhagyni a területet.",
+        "Azt, hogy a tilalom csak a nyíl irányába kanyarodókra vonatkozik."
+      ],
+      "explanation": "A megállási és várakozási tilalmat jelző táblák alatt – a tábla síkjára merőlegesen – elhelyezett kiegészítő táblán nyíl jelezheti, hogy a tilalom a táblától kezdődően vagy a tábláig áll fenn (a nyíl a korlátozás alá eső terület felé mutat), illetőleg a tábla előtt és után egyaránt fennáll."
+    },
+    "ua": {
+      "question": "На табличці під знаком «Megállni tilos» («Зупинку заборонено») зображено стрілку. Що вона означає?",
+      "answers": [
+        "Що заборона діє від знака або до знака: стрілка показує в бік території, на яку поширюється обмеження.",
+        "Що територію треба залишити в напрямку стрілки.",
+        "Що заборона стосується лише тих, хто повертає в напрямку стрілки."
+      ],
+      "explanation": "На табличці під знаками заборони зупинки й стоянки стрілка може показувати, що заборона діє від знака або до знака (стрілка спрямована в бік території з обмеженням) чи діє і перед знаком, і після нього."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-023",
+    "topic": "signs",
+    "kreszRef": "KRESZ 16. § (3)",
+    "image": "slippery",
+    "hu": {
+      "question": "A veszélyt jelző tábla alatti kiegészítő táblán két felfelé mutató nyíl között felirat (például „2 km”) látható. Mit jelez?",
+      "answers": [
+        "Azt, hogy a veszély hosszabb útszakaszon áll fenn.",
+        "Azt, hogy a veszély helye 2 km-re van a táblától.",
+        "Azt, hogy 2 km-en át előzni tilos."
+      ],
+      "explanation": "A veszélyt jelző tábla alatt elhelyezett kiegészítő táblán – két felfelé mutató nyíl között – levő felirat azt jelzi, hogy a veszély hosszabb útszakaszon áll fenn."
+    },
+    "ua": {
+      "question": "На табличці під попереджувальним знаком між двома стрілками, спрямованими вгору, є напис (наприклад, «2 km»). Що це означає?",
+      "answers": [
+        "Що небезпека триває на довшій ділянці дороги.",
+        "Що небезпечне місце — за 2 км від знака.",
+        "Що протягом 2 км обгін заборонено."
+      ],
+      "explanation": "Напис між двома стрілками вгору на табличці під попереджувальним знаком означає, що небезпека триває на довшій ділянці дороги."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signs-024",
+    "topic": "signs",
+    "kreszRef": "KRESZ 16. § (4) b)",
+    "image": "railwayBarrier",
+    "hu": {
+      "question": "A vasúti átjáró előtt háromsávos, majd kétsávos, majd egysávos előjelző táblák következnek. Mit jeleznek?",
+      "answers": [
+        "Azt, hogy a vezető vasúti átjáróhoz közeledik; a táblák a veszélyt jelző tábla és az átjáró közötti szakaszt három egyenlő részre osztják.",
+        "Azt, hogy a sávok száma háromról egyre csökken.",
+        "Azt, hogy az átjáróban három vágány van."
+      ],
+      "explanation": "A három előjelző tábla azt jelzi, hogy a jármű vezetője vasúti átjáróhoz közeledik: a veszélyt jelző tábla alatt elhelyezett háromsávos, majd a kétsávos, végül az egysávos tábla a veszélyt jelző tábla és a vasúti átjáró közötti útszakaszt három egyenlő részre osztja. Nincsenek minden átjáró előtt elhelyezve."
+    },
+    "ua": {
+      "question": "Перед залізничним переїздом один за одним стоять знаки з трьома, двома й однією похилою смугою. Що вони означають?",
+      "answers": [
+        "Що водій наближається до переїзду; знаки ділять ділянку від попереджувального знака до переїзду на три рівні частини.",
+        "Що кількість смуг зменшується з трьох до однієї.",
+        "Що на переїзді три колії."
+      ],
+      "explanation": "Три знаки наближення означають, що водій під'їжджає до залізничного переїзду: знак із трьома смугами (під попереджувальним знаком), потім із двома і з однією ділять ділянку між попереджувальним знаком і переїздом на три рівні частини. Їх встановлюють не перед кожним переїздом."
+    },
+    "correct": 0
   }
 ]

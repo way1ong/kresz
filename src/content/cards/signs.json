@@ -182,12 +182,12 @@
     "kreszRef": "KRESZ 13. § (1) c)",
     "hu": {
       "front": "",
-      "title": "Körforgalom",
+      "title": "Körforgalom (utasítást adó tábla)",
       "back": "„Körforgalom” – Olyan út, amelyen úgy kell haladni, hogy az út által körbezárt terület a vezetőtől balra essék."
     },
     "ua": {
       "front": "",
-      "title": "Круговий рух",
+      "title": "Круговий рух (наказовий знак)",
       "back": "«Круговий рух» (Körforgalom) — Дорога, якою треба рухатися так, щоб оточена нею територія залишалася ліворуч від водія."
     }
   },
@@ -797,6 +797,230 @@
       "front": "",
       "title": "Початок залізничного переїзду",
       "back": "«Початок залізничного переїзду» (Vasúti átjáró kezdete) — Позначає початок залізничного переїзду (Андріївський хрест). Якщо треба зупинитися, зупиняються біля цього знака або перед лінією зупинки."
+    }
+  },
+  {
+    "id": "sign-motorwayEnd",
+    "deck": "signs",
+    "image": "motorwayEnd",
+    "kreszRef": "KRESZ 11. § (1) b)",
+    "hu": {
+      "front": "",
+      "title": "Autópálya vége",
+      "back": "„Autópálya vége” – Az autópálya véget ér; innen az autópályára vonatkozó külön szabályok (például a 130 km/órás sebességhatár) már nem érvényesek."
+    },
+    "ua": {
+      "front": "",
+      "title": "Кінець автомагістралі",
+      "back": "«Кінець автомагістралі» (Autópálya vége) — Автомагістраль закінчується; далі особливі правила для автомагістралі (наприклад, обмеження 130 км/год) уже не діють."
+    }
+  },
+  {
+    "id": "sign-expresswayEnd",
+    "deck": "signs",
+    "image": "expresswayEnd",
+    "kreszRef": "KRESZ 11. § (1) d)",
+    "hu": {
+      "front": "",
+      "title": "Autóút vége",
+      "back": "„Autóút vége” – Az autóút véget ér; innen az autóútra vonatkozó külön szabályok már nem érvényesek."
+    },
+    "ua": {
+      "front": "",
+      "title": "Кінець дороги для автомобілів",
+      "back": "«Кінець дороги для автомобілів» (Autóút vége) — Дорога для автомобілів (autóút) закінчується; далі особливі правила для неї вже не діють."
+    }
+  },
+  {
+    "id": "sign-minSpeedEnd",
+    "deck": "signs",
+    "image": "minSpeedEnd",
+    "kreszRef": "KRESZ 13. § (1) d)",
+    "hu": {
+      "front": "",
+      "title": "Kötelező legkisebb sebesség vége",
+      "back": "„Kötelező legkisebb sebesség vége” – Feloldja a „Kötelező legkisebb sebesség” tábla hatályát."
+    },
+    "ua": {
+      "front": "",
+      "title": "Кінець обов'язкової мінімальної швидкості",
+      "back": "«Кінець обов'язкової мінімальної швидкості» (Kötelező legkisebb sebesség vége) — Скасовує дію знака «Kötelező legkisebb sebesség»."
+    }
+  },
+  {
+    "id": "sign-truckNoOvertaking",
+    "deck": "signs",
+    "image": "truckNoOvertaking",
+    "kreszRef": "KRESZ 14. § (1) g)",
+    "hu": {
+      "front": "",
+      "title": "Tehergépkocsival előzni tilos",
+      "back": "„Tehergépkocsival előzni tilos” – 3500 kg-ot meghaladó megengedett legnagyobb össztömegű tehergépkocsival, vontatóval, mezőgazdasági vontatóval és lassú járművel előzni tilos. Személygépkocsira nem vonatkozik."
+    },
+    "ua": {
+      "front": "",
+      "title": "Обгін вантажним автомобілям заборонено",
+      "back": "«Обгін вантажним автомобілям заборонено» (Tehergépkocsival előzni tilos) — Обгін заборонено вантажівкам із дозволеною максимальною масою понад 3500 кг, тягачам, сільськогосподарським тягачам і тихохідним транспортним засобам. Легкових автомобілів не стосується."
+    }
+  },
+  {
+    "id": "sign-customsStop",
+    "deck": "signs",
+    "image": "customsStop",
+    "kreszRef": "KRESZ 14. § (1) h)",
+    "hu": {
+      "front": "",
+      "title": "Kötelező megállás",
+      "back": "„Kötelező megállás” – A táblával megjelölt helyen megállás nélkül továbbhaladni tilos; a felirat a megállási kötelezettség indokát tünteti fel (például vám)."
+    },
+    "ua": {
+      "front": "",
+      "title": "Обов'язкова зупинка",
+      "back": "«Обов'язкова зупинка» (Kötelező megállás) — Проїжджати позначене знаком місце без зупинки заборонено; напис указує причину (наприклад, митниця)."
+    }
+  },
+  {
+    "id": "sign-widthLimit",
+    "deck": "signs",
+    "image": "widthLimit",
+    "kreszRef": "KRESZ 14. § (1) i)",
+    "hu": {
+      "front": "",
+      "title": "Szélességkorlátozás",
+      "back": "„Szélességkorlátozás” – Az úton a táblán megjelöltnél – a rakományával együtt – szélesebb járművel közlekedni tilos."
+    },
+    "ua": {
+      "front": "",
+      "title": "Обмеження ширини",
+      "back": "«Обмеження ширини» (Szélességkorlátozás) — Рух транспортних засобів, ширших (разом із вантажем) за зазначену на знаку ширину, заборонено."
+    }
+  },
+  {
+    "id": "sign-heightLimit",
+    "deck": "signs",
+    "image": "heightLimit",
+    "kreszRef": "KRESZ 14. § (1) j)",
+    "hu": {
+      "front": "",
+      "title": "Magasságkorlátozás",
+      "back": "„Magasságkorlátozás” – Az úton a táblán megjelöltnél – rakományával együtt – magasabb járművel közlekedni tilos."
+    },
+    "ua": {
+      "front": "",
+      "title": "Обмеження висоти",
+      "back": "«Обмеження висоти» (Magasságkorlátozás) — Рух транспортних засобів, вищих (разом із вантажем) за зазначену на знаку висоту, заборонено."
+    }
+  },
+  {
+    "id": "sign-weightLimit",
+    "deck": "signs",
+    "image": "weightLimit",
+    "kreszRef": "KRESZ 14. § (1) l)",
+    "hu": {
+      "front": "",
+      "title": "Súlykorlátozás",
+      "back": "„Súlykorlátozás” – Az úton a táblán megjelöltnél nagyobb össztömegű járművel (járműszerelvénnyel) közlekedni tilos."
+    },
+    "ua": {
+      "front": "",
+      "title": "Обмеження маси",
+      "back": "«Обмеження маси» (Súlykorlátozás) — Рух транспортних засобів (автопоїздів), повна маса яких більша за зазначену на знаку, заборонено."
+    }
+  },
+  {
+    "id": "sign-speedZone30",
+    "deck": "signs",
+    "image": "speedZone30",
+    "kreszRef": "KRESZ 14. § (1) z/1.",
+    "hu": {
+      "front": "",
+      "title": "Korlátozott sebességű övezet",
+      "back": "„Korlátozott sebességű övezet” – A „Korlátozott sebességű övezet vége” tábláig az úton a táblán megjelöltnél nagyobb sebességgel haladni tilos – az övezeten belül minden útkereszteződés után is."
+    },
+    "ua": {
+      "front": "",
+      "title": "Зона обмеженої швидкості",
+      "back": "«Зона обмеженої швидкості» (Korlátozott sebességű övezet) — До знака «Korlátozott sebességű övezet vége» заборонено їхати швидше, ніж зазначено на знаку, — і після кожного перехрестя в межах зони."
+    }
+  },
+  {
+    "id": "sign-curveRight",
+    "deck": "signs",
+    "image": "curveRight",
+    "kreszRef": "KRESZ 16. § (1) a)",
+    "hu": {
+      "front": "",
+      "title": "Veszélyes útkanyarulat jobbra",
+      "back": "„Veszélyes útkanyarulat jobbra” – Az úton jobbra vezető veszélyes útkanyarulat következik."
+    },
+    "ua": {
+      "front": "",
+      "title": "Небезпечний поворот праворуч",
+      "back": "«Небезпечний поворот праворуч» (Veszélyes útkanyarulat jobbra) — Попереду небезпечний поворот дороги праворуч."
+    }
+  },
+  {
+    "id": "sign-steepDescent",
+    "deck": "signs",
+    "image": "steepDescent",
+    "kreszRef": "KRESZ 16. § (1) c)",
+    "hu": {
+      "front": "",
+      "title": "Veszélyes lejtő",
+      "back": "„Veszélyes lejtő” – Az úton jelentősebb lejtő van; a táblán levő szám a legnagyobb lejtés százalékos mértékét jelzi."
+    },
+    "ua": {
+      "front": "",
+      "title": "Крутий спуск",
+      "back": "«Крутий спуск» (Veszélyes lejtő) — Попереду значний спуск; число на знаку показує найбільший ухил у відсотках."
+    }
+  },
+  {
+    "id": "sign-cyclistsWarning",
+    "deck": "signs",
+    "image": "cyclistsWarning",
+    "kreszRef": "KRESZ 16. § (1) z/2.",
+    "hu": {
+      "front": "",
+      "title": "Kerékpárosok",
+      "back": "„Kerékpárosok” – Fokozottan számolni kell az úttesten kerékpárosok közlekedésével."
+    },
+    "ua": {
+      "front": "",
+      "title": "Велосипедисти",
+      "back": "«Велосипедисти» (Kerékpárosok) — Слід особливо зважати на рух велосипедистів проїзною частиною."
+    }
+  },
+  {
+    "id": "sign-roundaboutWarning",
+    "deck": "signs",
+    "image": "roundaboutWarning",
+    "kreszRef": "KRESZ 16. § (1) z/5.",
+    "hu": {
+      "front": "",
+      "title": "Körforgalom (veszélyt jelző tábla)",
+      "back": "„Körforgalom (veszélyt jelző tábla)” – A következő útkereszteződésben körforgalmú forgalmi rend van."
+    },
+    "ua": {
+      "front": "",
+      "title": "Круговий рух (попереджувальний знак)",
+      "back": "«Круговий рух (попереджувальний знак)» (Körforgalom (veszélyt jelző tábla)) — На наступному перехресті організовано круговий рух."
+    }
+  },
+  {
+    "id": "sign-congestion",
+    "deck": "signs",
+    "image": "congestion",
+    "kreszRef": "KRESZ 16. § (1) z/6.",
+    "hu": {
+      "front": "",
+      "title": "Torlódás",
+      "back": "„Torlódás” – Az úton forgalmi akadályt képezhetnek a feltorlódott járművek."
+    },
+    "ua": {
+      "front": "",
+      "title": "Затор",
+      "back": "«Затор» (Torlódás) — На дорозі перешкодою можуть бути транспортні засоби, що скупчилися в заторі."
     }
   }
 ]

@@ -512,5 +512,174 @@
       "explanation": "Там, де праворуч за напрямком руху розміткою позначено дві чи більше смуг, знак, установлений над смугою, стосується транспортних засобів, що рухаються смугою під ним."
     },
     "correct": 0
+  },
+  {
+    "id": "signals-022",
+    "topic": "signals",
+    "kreszRef": "KRESZ 6. § (1) c)",
+    "hu": {
+      "question": "A rendőr a jobb karjával maga mögé int, bal tenyerét pedig a balról jövő forgalom felé fordítja. Mit tehetnek a rendőrtől jobbról érkező járművek?",
+      "answers": [
+        "A rendőr mögött balra bekanyarodhatnak; egyenesen továbbhaladniuk és jobbra kanyarodniuk sem tilos.",
+        "Meg kell állniuk.",
+        "Csak jobbra kanyarodhatnak."
+      ],
+      "explanation": "Ha a rendőr a jobb karjával maga mögé int, bal tenyerét pedig a balról jövő forgalom felé fordítja, a jobbról érkező járművek – a rendőr mögött – balra bekanyarodhatnak; a jelzés nem tiltja egyenes továbbhaladásukat vagy jobbra bekanyarodásukat sem, a többi irányból érkezők részére azonban a továbbhaladás tilalmát jelenti."
+    },
+    "ua": {
+      "question": "Поліцейський правою рукою махає собі за спину, а ліву долоню повернув до транспорту, що наближається зліва. Що можуть робити ті, хто під'їжджає до нього справа?",
+      "answers": [
+        "Повертати ліворуч за спиною поліцейського; їхати прямо й праворуч їм теж не заборонено.",
+        "Вони мають зупинитися.",
+        "Вони можуть повертати лише праворуч."
+      ],
+      "explanation": "Якщо поліцейський правою рукою махає собі за спину, а ліву долоню повернув до транспорту, що наближається зліва, ті, хто під'їжджає справа, можуть повертати ліворуч — за спиною поліцейського; рух прямо чи праворуч їм теж не заборонено, а для решти напрямків це заборона руху."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signals-023",
+    "topic": "signals",
+    "kreszRef": "KRESZ 6. § (1) f)",
+    "hu": {
+      "question": "A rendőr kinyújtott karját le- és felfelé mozgatja. Milyen utasítást ad?",
+      "answers": [
+        "A sebesség csökkentésére ad utasítást.",
+        "A sebesség növelésére ad utasítást.",
+        "Azonnali megállásra ad utasítást."
+      ],
+      "explanation": "Ha a rendőr kinyújtott karjával maga felé int, a sebesség növelésére, ha pedig kinyújtott karját le- és felfelé mozgatja, a sebesség csökkentésére ad utasítást."
+    },
+    "ua": {
+      "question": "Поліцейський рухає витягнутою рукою вгору-вниз. Яку вказівку він дає?",
+      "answers": [
+        "Зменшити швидкість.",
+        "Збільшити швидкість.",
+        "Негайно зупинитися."
+      ],
+      "explanation": "Якщо поліцейський витягнутою рукою махає до себе, він вимагає збільшити швидкість, а якщо рухає витягнутою рукою вгору-вниз — зменшити швидкість."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signals-024",
+    "topic": "signals",
+    "kreszRef": "KRESZ 8. § (2) b)",
+    "hu": {
+      "question": "A gyalogosok fényjelző készüléke villogó zöldet mutat. Mit jelent ez a gyalogos számára?",
+      "answers": [
+        "Az áthaladásra engedélyezett idő végét: az úttestre már nem léphet, aki pedig az úttesten van, mielőbb fejezze be az áthaladást.",
+        "Azt, hogy még nyugodtan elindulhat.",
+        "Azt, hogy a járműveknek meg kell állniuk."
+      ],
+      "explanation": "A gyalogosok fényjelző készülékén a villogó zöld fény az áthaladásra engedélyezett időtartam végét jelzi: a gyalogos az úttestre nem léphet, az úttesten levő gyalogos pedig köteles az áthaladást mielőbb befejezni."
+    },
+    "ua": {
+      "question": "Пішохідний світлофор показує зелений миготливий сигнал. Що це означає для пішохода?",
+      "answers": [
+        "Кінець часу, відведеного на перехід: виходити на проїзну частину вже не можна, а хто на ній — має якнайшвидше закінчити перехід.",
+        "Що ще можна спокійно починати перехід.",
+        "Що транспортні засоби мають зупинитися."
+      ],
+      "explanation": "Зелений миготливий сигнал пішохідного світлофора означає кінець часу, відведеного на перехід: пішохід не може виходити на проїзну частину, а той, хто вже на ній, зобов'язаний якнайшвидше завершити перехід."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signals-025",
+    "topic": "signals",
+    "kreszRef": "KRESZ 9. § (4) a)",
+    "image": "light-green",
+    "hu": {
+      "question": "A fényjelző készülék kör alakú zöld fényt mutat. Mely irányokban haladhat tovább?",
+      "answers": [
+        "Egyenesen, valamint jobbra vagy balra bekanyarodva is, ha jelzőtábla nem tiltja – az erre vonatkozó szabályok megtartásával.",
+        "Csak egyenesen.",
+        "Egyenesen és jobbra; balra csak zöld nyílnál."
+      ],
+      "explanation": "A kör alakú zöld fény szabad utat jelez: ha jelzőtábla nem tiltja, az erre vonatkozó szabályok megtartásával egyenesen, valamint jobbra vagy balra bekanyarodva tovább szabad haladni. A balra kanyarodó ilyenkor is elsőbbséget ad a szemből érkezőnek."
+    },
+    "ua": {
+      "question": "Світлофор показує круглий зелений сигнал. У яких напрямках можна їхати?",
+      "answers": [
+        "Прямо, а також праворуч чи ліворуч, якщо знак цього не забороняє, — дотримуючись відповідних правил.",
+        "Лише прямо.",
+        "Прямо й праворуч; ліворуч — лише на зелену стрілку."
+      ],
+      "explanation": "Круглий зелений сигнал дозволяє рух: якщо знак не забороняє, можна їхати прямо, а також повертати праворуч чи ліворуч, дотримуючись відповідних правил. Той, хто повертає ліворуч, і тоді дає дорогу зустрічному."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signals-026",
+    "topic": "signals",
+    "kreszRef": "KRESZ 18. § (1) h)–i)",
+    "hu": {
+      "question": "Mit jelez az útkereszteződés előtt keresztirányban felfestett megállás helyét jelző vonal?",
+      "answers": [
+        "Azt a helyet, ahol meg kell állni, ha a megállást az elsőbbségadás vagy a fényjelző készülék jelzése szükségessé teszi.",
+        "Azt a helyet, ahol minden esetben, mindig meg kell állni.",
+        "A gyalogosátkelőhely kezdetét."
+      ],
+      "explanation": "A megállás helyét jelző vonal azt a helyet jelzi, ahol a járművel meg kell állni, ha a megállást az elsőbbség megadása, vasúti jármű áthaladásának biztosítása vagy fényjelző készülék jelzése szükségessé teszi. A „kötelező megállás helyét jelző vonal” más: az a „ÁLLJ! Elsőbbségadás kötelező” tábla miatti megállás helyét jelzi."
+    },
+    "ua": {
+      "question": "Що означає поперечна лінія зупинки, нанесена перед перехрестям (megállás helyét jelző vonal)?",
+      "answers": [
+        "Місце, де треба зупинитися, якщо зупинки вимагає обов'язок дати дорогу або сигнал світлофора.",
+        "Місце, де зупинятися треба завжди.",
+        "Початок пішохідного переходу."
+      ],
+      "explanation": "Лінія зупинки позначає місце, де транспортний засіб має зупинитися, якщо зупинка потрібна, щоб дати дорогу, пропустити поїзд або виконати сигнал світлофора. «Лінія обов'язкової зупинки» (kötelező megállás helyét jelző vonal) — інше: вона позначає місце зупинки біля знака «ÁLLJ! Elsőbbségadás kötelező»."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signals-027",
+    "topic": "signals",
+    "kreszRef": "KRESZ 18. § (2)",
+    "hu": {
+      "question": "Az úttesten a terelővonal és a záróvonal sárga színű. Mire hívhatja fel ez a figyelmet?",
+      "answers": [
+        "Az úttest vagy egy részének lezárása miatt megváltozott (ideiglenes) forgalmi rendre.",
+        "Arra, hogy a sávban csak autóbusz közlekedhet.",
+        "Arra, hogy az úton várakozni tilos."
+      ],
+      "explanation": "Az úttest szélét jelző vonal, a terelővonal, a záróvonal és néhány más útburkolati jel fehér vagy sárga lehet. Ha sárga színű, az úttestnek vagy egy részének lezárása miatt szükséges forgalmirend-változásra hívhatja fel a figyelmet (például útépítésnél)."
+    },
+    "ua": {
+      "question": "Переривчаста й суцільна лінії розмітки на проїзній частині — жовті. До чого це може привертати увагу?",
+      "answers": [
+        "До зміненої (тимчасової) організації руху через закриття проїзної частини чи її частини.",
+        "До того, що смугою може їхати лише автобус.",
+        "До того, що на дорозі заборонено стоянку."
+      ],
+      "explanation": "Лінія краю проїзної частини, переривчаста й суцільна лінії та деякі інші елементи розмітки можуть бути білими або жовтими. Жовтий колір може привертати увагу до зміни організації руху через закриття проїзної частини чи її частини (наприклад, під час ремонту)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "signals-028",
+    "topic": "signals",
+    "kreszRef": "KRESZ 20. § (5)",
+    "hu": {
+      "question": "Négyszögletű fekete alapon fehér szám (például 50) látható a fényjelző készülékek előtt. Mit jelez?",
+      "answers": [
+        "Azt a sebességet, amellyel a fényjelző készülékek előtt az egyenletes haladás érdekében célszerű közlekedni.",
+        "A kötelező legkisebb sebességet.",
+        "A megengedett legnagyobb sebességet."
+      ],
+      "explanation": "A négyszögletű fekete alapon fehér számértéket feltüntető jelzés azt a sebességet (km/órában) jelzi, amellyel forgalomirányító fényjelző készülékek előtt az egyenletes haladás érdekében közlekedni célszerű („zöldhullám”). Ajánlás, nem kötelező sebesség."
+    },
+    "ua": {
+      "question": "Перед світлофорами на чорному прямокутному тлі біле число (наприклад, 50). Що воно означає?",
+      "answers": [
+        "Швидкість, із якою доцільно їхати перед світлофорами, щоб рухатися рівномірно.",
+        "Обов'язкову мінімальну швидкість.",
+        "Максимальну дозволену швидкість."
+      ],
+      "explanation": "Біле число на чорному прямокутному тлі показує швидкість (у км/год), із якою доцільно їхати перед світлофорами заради рівномірного руху («зелена хвиля»). Це рекомендація, а не обов'язкова швидкість."
+    },
+    "correct": 0
   }
 ]

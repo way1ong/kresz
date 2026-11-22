@@ -385,5 +385,126 @@
       "explanation": "Заборонено об'їжджати автобус із табличкою «Gyermekszállítás», а зустрічному транспорту — проїжджати повз нього, якщо він стоїть на проїзній частині, не придатній для руху в кілька рядів, і водій позначає посадку чи висадку дітей одночасною роботою передніх і задніх покажчиків повороту з обох боків."
     },
     "correct": 0
+  },
+  {
+    "id": "people-017",
+    "topic": "people",
+    "kreszRef": "KRESZ 43. § (4)",
+    "image": "children",
+    "hu": {
+      "question": "Kikre kell a vezetőnek fokozottan ügyelnie az úttesten?",
+      "answers": [
+        "A gyermekekre, a megállóhelyről az úttestre lelépő gyalogosokra, valamint azokra, akik koruk vagy fogyatékosságuk miatt felismerhetően nem képesek ügyelni a saját biztonságukra.",
+        "Csak a kijelölt gyalogosátkelőhelyen áthaladókra.",
+        "Csak a fényvisszaverő mellényt viselő gyalogosokra."
+      ],
+      "explanation": "A vezetőnek fokozottan ügyelnie kell többek között a villamosmegállónál a járdasziget és a járda között áthaladó, a megállóhelyről az úttestre lelépő gyalogosok, az autóbuszra fel- és arról leszálló gyermekek, valamint az egyedül vagy csoportosan haladó gyermekek és a saját biztonságukra ügyelni felismerhetően nem képes személyek biztonságára."
+    },
+    "ua": {
+      "question": "На кого на проїзній частині водій має зважати особливо?",
+      "answers": [
+        "На дітей, на пішоходів, що сходять на проїзну частину із зупинки, і на тих, хто через вік чи ваду явно не може подбати про власну безпеку.",
+        "Лише на тих, хто переходить позначеним пішохідним переходом.",
+        "Лише на пішоходів у світловідбивних жилетах."
+      ],
+      "explanation": "Водій має особливо дбати про безпеку, зокрема, пішоходів, які проходять між острівцем трамвайної зупинки й тротуаром або сходять на проїзну частину із зупинки, дітей, що сідають в автобус чи виходять із нього, дітей, які йдуть самі або групою, та осіб, які через вік, ваду чи іншу причину явно не можуть дбати про власну безпеку."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-018",
+    "topic": "people",
+    "kreszRef": "KRESZ 54. § (2)",
+    "hu": {
+      "question": "Lakott területen, ahol az úttest kerékpározásra alkalmatlan, legfeljebb mekkora sebességgel szabad kerékpárral a járdán közlekedni?",
+      "answers": [
+        "Legfeljebb 10 km/óra sebességgel, a gyalogosforgalom zavarása nélkül.",
+        "Legfeljebb 20 km/óra sebességgel.",
+        "A járdán kerékpározni soha nem szabad."
+      ],
+      "explanation": "Lakott területen levő olyan úton, ahol az úttest kerékpár-közlekedésre alkalmatlan, kerékpárral a gyalogosforgalom zavarása nélkül és legfeljebb 10 km/óra sebességgel a járdán is szabad közlekedni."
+    },
+    "ua": {
+      "question": "У населеному пункті, де проїзна частина непридатна для велосипеда, з якою найбільшою швидкістю можна їхати велосипедом по тротуару?",
+      "answers": [
+        "Не швидше 10 км/год і не заважаючи пішоходам.",
+        "Не швидше 20 км/год.",
+        "Їздити велосипедом по тротуару не можна ніколи."
+      ],
+      "explanation": "На дорозі в населеному пункті, де проїзна частина непридатна для руху велосипедів, велосипедом можна їхати й тротуаром — не заважаючи пішоходам і не швидше 10 км/год."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-019",
+    "topic": "people",
+    "kreszRef": "KRESZ 54. § (6)",
+    "hu": {
+      "question": "Mi kell ahhoz, hogy kerékpárral éjszaka, lakott területen kívül szabadon közlekedni?",
+      "answers": [
+        "Előre fehér, hátra piros fényű lámpa és fényvisszaverő, valamint a kerékpároson fényvisszaverő mellény (ruházat).",
+        "Elég egy hátsó piros fényvisszaverő.",
+        "Semmi: a kerékpárra nincs világítási előírás."
+      ],
+      "explanation": "Kerékpárral éjszaka és korlátozott látási viszonyok között akkor szabad közlekedni, ha a kerékpáron vagy a kerékpároson előre fehér, hátrafelé piros színű (folyamatos vagy villogó) fényt adó lámpa és fényvisszaverő van, lakott területen kívül pedig a kerékpáros fényvisszaverő mellényt (ruházatot) visel."
+    },
+    "ua": {
+      "question": "Що потрібно, щоб уночі їхати велосипедом поза населеним пунктом?",
+      "answers": [
+        "Ліхтар із білим світлом спереду й червоним ззаду та світловідбивач, а на велосипедистові — світловідбивний жилет (одяг).",
+        "Досить заднього червоного світловідбивача.",
+        "Нічого: для велосипеда вимог до освітлення немає."
+      ],
+      "explanation": "Уночі та за обмеженої видимості велосипедом можна їхати, якщо на велосипеді чи велосипедистові є ліхтар із білим світлом уперед і червоним назад (постійним або миготливим) та світловідбивач, а поза населеним пунктом велосипедист ще й у світловідбивному жилеті (одязі)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-020",
+    "topic": "people",
+    "kreszRef": "KRESZ 54. § (4)",
+    "hu": {
+      "question": "Lakott területen kívül a főútvonalon haladó kerékpáros balra szeretne kanyarodni. Hogyan teheti meg?",
+      "answers": [
+        "Le kell szállnia, és a kerékpárt tolva, gyalogosként kell áthaladnia az úttesten.",
+        "Irányjelzés után az úttest közepére sorolva kanyarodhat.",
+        "Sehogyan, főútvonalon kerékpározni tilos."
+      ],
+      "explanation": "Kerékpárral lakott területen kívül a főútvonalról balra bekanyarodni vagy megfordulni nem szabad: a kerékpárosnak le kell szállnia, és a kerékpárt tolva – a gyalogosok közlekedésére vonatkozó szabályok szerint – kell az úttesten áthaladnia."
+    },
+    "ua": {
+      "question": "Поза населеним пунктом велосипедист на головній дорозі хоче повернути ліворуч. Як він може це зробити?",
+      "answers": [
+        "Має зійти з велосипеда й перейти проїзну частину, ведучи його, як пішохід.",
+        "Може повернути, зайнявши після сигналу положення посередині проїзної частини.",
+        "Ніяк: головною дорогою велосипедом їздити заборонено."
+      ],
+      "explanation": "Поза населеним пунктом велосипедом не можна повертати ліворуч чи розвертатися з головної дороги: велосипедист має зійти й перейти проїзну частину, ведучи велосипед, за правилами для пішоходів."
+    },
+    "correct": 0
+  },
+  {
+    "id": "people-021",
+    "topic": "people",
+    "kreszRef": "KRESZ 21. § (5)",
+    "hu": {
+      "question": "Lakott területen, főútvonalon nincs a közelben kijelölt gyalogosátkelőhely. Hol mehet át a gyalogos az úttesten?",
+      "answers": [
+        "Az útkereszteződésnél, a járda meghosszabbított vonalában.",
+        "Bárhol, ahol nem jön jármű.",
+        "Sehol, csak kijelölt gyalogosátkelőhelyen."
+      ],
+      "explanation": "A gyalogos az úttesten a kijelölt gyalogosátkelőhelyen mehet át; ha a közelben ilyen nincs, lakott területen levő főútvonalon az útkereszteződésnél (a járda meghosszabbított vonalában), egyéb helyen bárhol – a legrövidebb áthaladást biztosító irányban."
+    },
+    "ua": {
+      "question": "У населеному пункті на головній дорозі поблизу немає позначеного пішохідного переходу. Де пішохід може перейти проїзну частину?",
+      "answers": [
+        "На перехресті, по лінії продовження тротуару.",
+        "Будь-де, де немає транспорту.",
+        "Ніде, лише позначеним переходом."
+      ],
+      "explanation": "Пішохід переходить проїзну частину позначеним пішохідним переходом; якщо поблизу його немає, то на головній дорозі в населеному пункті — на перехресті (по лінії продовження тротуару), а в інших місцях — будь-де, найкоротшим шляхом."
+    },
+    "correct": 0
   }
 ]

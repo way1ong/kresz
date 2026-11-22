@@ -512,5 +512,101 @@
       "explanation": "Біля паркомата в робочі дні з 8 до 18 години, а в суботу з 8 до 14 години — або в час, зазначений на знаку, — стояти можна лише ввімкнувши (оплативши) паркомат і не довше показаного ним часу. Знову запускати паркомат, час якого сплив, не від'їхавши, заборонено."
     },
     "correct": 0
+  },
+  {
+    "id": "parking-022",
+    "topic": "parking",
+    "kreszRef": "KRESZ 40. § (4)",
+    "hu": {
+      "question": "Lakott területen kívül hol kell a járművel megállni?",
+      "answers": [
+        "A lehetőséghez képest az úttesten kívül.",
+        "Mindig az úttest jobb szélén.",
+        "Bárhol, ahol nincs megállási tilalmat jelző tábla."
+      ],
+      "explanation": "Lakott területen kívül járművel – a lehetőséghez képest – az úttesten kívül kell megállni."
+    },
+    "ua": {
+      "question": "Де треба зупинятися поза населеним пунктом?",
+      "answers": [
+        "За можливості — поза проїзною частиною.",
+        "Завжди біля правого краю проїзної частини.",
+        "Будь-де, де немає знака заборони зупинки."
+      ],
+      "explanation": "Поза населеним пунктом зупинятися слід, за можливості, поза проїзною частиною."
+    },
+    "correct": 0
+  },
+  {
+    "id": "parking-023",
+    "topic": "parking",
+    "kreszRef": "KRESZ 40. § (5) a)",
+    "hu": {
+      "question": "Szabad-e megállni ott, ahol a jármű eltakarja a jelzőtáblát vagy a fényjelző készüléket a többi vezető elől?",
+      "answers": [
+        "Nem, ott megállni tilos.",
+        "Igen, ha a megállás 5 percnél rövidebb.",
+        "Igen, ha a jármű személygépkocsi."
+      ],
+      "explanation": "Tilos megállni ott, ahol a jármű fényjelző készülék vagy jelzőtábla jelzésének az észlelését akadályozza."
+    },
+    "ua": {
+      "question": "Чи можна зупинятися там, де транспортний засіб затуляє іншим водіям знак або світлофор?",
+      "answers": [
+        "Ні, зупинятися там заборонено.",
+        "Так, якщо зупинка коротша за 5 хвилин.",
+        "Так, якщо це легковий автомобіль."
+      ],
+      "explanation": "Зупинку заборонено там, де транспортний засіб заважає бачити сигнал світлофора чи дорожній знак."
+    },
+    "correct": 0
+  },
+  {
+    "id": "parking-024",
+    "topic": "parking",
+    "kreszRef": "KRESZ 41. § (2) e)",
+    "hu": {
+      "question": "Olyan helyen, ahol jelzőtábla megengedi a járdán való megállást, szabad-e az úttesten várakozni?",
+      "answers": [
+        "Nem: ahol a járdán a megállás megengedett, ott az úttesten várakozni tilos.",
+        "Igen, a vezető szabadon választhat.",
+        "Igen, ha a járdán már nincs hely."
+      ],
+      "explanation": "Tilos várakozni az úttesten ott, ahol a járdán a megállás megengedett."
+    },
+    "ua": {
+      "question": "Там, де знак дозволяє зупинку на тротуарі, чи можна стояти на проїзній частині?",
+      "answers": [
+        "Ні: де зупинку на тротуарі дозволено, стоянка на проїзній частині заборонена.",
+        "Так, водій обирає сам.",
+        "Так, якщо на тротуарі вже немає місця."
+      ],
+      "explanation": "Стоянку заборонено на проїзній частині там, де дозволено зупинку на тротуарі."
+    },
+    "correct": 0
+  },
+  {
+    "id": "parking-025",
+    "topic": "parking",
+    "kreszRef": "KRESZ 40. § (8) d); 40. § (5) k)",
+    "hu": {
+      "question": "Legfeljebb mekkora tengelyterhelésű járművel szabad a járdán megállni, ha azt jelzőtábla megengedi?",
+      "answers": [
+        "Legfeljebb 1000 kg tengelyterhelésű járművel.",
+        "Legfeljebb 3500 kg össztömegű járművel, a tengelyterhelés nem számít.",
+        "Bármilyen személygépkocsival."
+      ],
+      "explanation": "A járdán csak akkor szabad megállni, ha – egyéb feltételek mellett – a jármű tengelyterhelése az 1000 kg-ot nem haladja meg; 1000 kilogrammnál nagyobb tengelyterhelésű járművel a járdán megállni tilos."
+    },
+    "ua": {
+      "question": "З яким щонайбільшим навантаженням на вісь транспортний засіб може зупинятися на тротуарі, якщо знак це дозволяє?",
+      "answers": [
+        "З навантаженням на вісь не більше 1000 кг.",
+        "З повною масою до 3500 кг, навантаження на вісь не важить.",
+        "Будь-який легковий автомобіль."
+      ],
+      "explanation": "На тротуарі можна зупинятися лише тоді, коли — серед інших умов — навантаження на вісь транспортного засобу не перевищує 1000 кг; транспортному засобу з більшим навантаженням на вісь зупинка на тротуарі заборонена."
+    },
+    "correct": 0
   }
 ]

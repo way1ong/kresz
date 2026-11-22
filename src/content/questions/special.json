@@ -392,5 +392,104 @@
       "explanation": "Виїжджати на трамвайну колію, безперервно їхати нею чи обганяти там — за винятками, зазначеними в правилах, — можна лише тоді, коли умови видимості не заважають водієві з достатньої відстані помітити трамвай, що наближається, і транспортний засіб не перешкоджає трамвайному руху."
     },
     "correct": 0
+  },
+  {
+    "id": "special-017",
+    "topic": "special",
+    "kreszRef": "KRESZ 12. § (4)",
+    "image": "stop",
+    "hu": {
+      "question": "Vasúti átjárónál „ÁLLJ! Elsőbbségadás kötelező” tábla van. Mi a teendő?",
+      "answers": [
+        "Meg kell állni, és csak akkor szabad továbbhaladni, ha a vezető meggyőződött arról, hogy vasúti jármű nem közeledik.",
+        "Csak akkor kell megállni, ha vonat közeledik.",
+        "Lassítva, megállás nélkül át lehet haladni, ha a sorompó nyitva van."
+      ],
+      "explanation": "Ha az „ÁLLJ! Elsőbbségadás kötelező” táblát vasúti átjárónál helyezték el, a megállás helyét jelző útburkolati jel előtt – ennek hiányában a tábla előtt – meg kell állni, és továbbhaladni csak akkor szabad, ha a vezető meggyőződött arról, hogy vasúti jármű nem közeledik."
+    },
+    "ua": {
+      "question": "Біля залізничного переїзду стоїть знак «ÁLLJ! Elsőbbségadás kötelező». Що робити?",
+      "answers": [
+        "Зупинитися й їхати далі лише тоді, коли переконаєтеся, що поїзд не наближається.",
+        "Зупинитися лише тоді, коли наближається поїзд.",
+        "Можна проїхати повільно без зупинки, якщо шлагбаум відкритий."
+      ],
+      "explanation": "Якщо знак «ÁLLJ! Elsőbbségadás kötelező» встановлено біля залізничного переїзду, треба зупинитися перед лінією зупинки, а якщо її немає — перед знаком, і їхати далі можна, лише переконавшись, що поїзд не наближається."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-018",
+    "topic": "special",
+    "kreszRef": "KRESZ 19. § (7)",
+    "image": "railwayNoBarrier",
+    "hu": {
+      "question": "Mi jelzi a fénysorompó üzemzavarát?",
+      "answers": [
+        "Ha sem a piros, sem a fehér fény nem világít.",
+        "Ha a fehér fény villog.",
+        "Ha a két piros fény felváltva villog."
+      ],
+      "explanation": "A vasúti átjárót biztosító berendezés üzemzavarát jelzi többek között, ha a fénysorompón sem a piros, sem a fehér fény nem világít, vagy ha a sorompórudak eltérő állásban vagy félig nyitott helyzetben vannak. Ilyenkor az átjáró előtt meg kell állni."
+    },
+    "ua": {
+      "question": "Що свідчить про несправність світлової сигналізації переїзду (fénysorompó)?",
+      "answers": [
+        "Те, що не світить ні червоний, ні білий сигнал.",
+        "Те, що миготить білий сигнал.",
+        "Те, що два червоні сигнали миготять поперемінно."
+      ],
+      "explanation": "Про несправність обладнання переїзду свідчить, зокрема, те, що на світловій сигналізації не світить ні червоний, ні білий сигнал, або те, що бруси шлагбаума стоять у різних положеннях чи напіввідкриті. Тоді перед переїздом треба зупинитися."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-019",
+    "topic": "special",
+    "kreszRef": "KRESZ 39. § (5) a)",
+    "image": "railwayBarrier",
+    "hu": {
+      "question": "Mikor szabad ráhajtani a teljes sorompóval biztosított vasúti átjáróra?",
+      "answers": [
+        "Ha mindkét sorompórúd nyitott véghelyzetben áll, és a kiegészítő fény- vagy hangjelző berendezés nem ad jelzést.",
+        "Amint a sorompórudak elkezdenek felemelkedni.",
+        "Ha a sorompó zárva van, de vonat nem látszik."
+      ],
+      "explanation": "Teljes sorompóval biztosított átjáróra csak akkor szabad ráhajtani, ha a sorompó mindkét rúdja nyitott véghelyzetben áll, esetleges fény- és/vagy hangjelző berendezése jelzést nem ad, a jelzőőr „Megállj” jelzést nem ad, és a folyamatos áthaladásra lehetőség van."
+    },
+    "ua": {
+      "question": "Коли дозволено в'їжджати на залізничний переїзд із повним шлагбаумом?",
+      "answers": [
+        "Коли обидва бруси стоять у крайньому відкритому положенні, а додаткова світлова чи звукова сигналізація не подає сигналів.",
+        "Щойно бруси почнуть підніматися.",
+        "Коли шлагбаум закритий, але поїзда не видно."
+      ],
+      "explanation": "На переїзд із повним шлагбаумом можна в'їжджати, лише коли обидва його бруси в крайньому відкритому положенні, світлова й звукова сигналізація (якщо є) не подає сигналів, черговий не подає сигналу «Стій» і переїзд можна проїхати безперервно."
+    },
+    "correct": 0
+  },
+  {
+    "id": "special-020",
+    "topic": "special",
+    "kreszRef": "KRESZ 38. § (3); 29. § (1)",
+    "hu": {
+      "question": "Villamospályával ellátott úton egyenesen halad; az Önnel azonos irányban haladó villamos irányt változtat, és keresztezné az Ön útját. Kinek van elsőbbsége?",
+      "answers": [
+        "Önnek: az irányt változtató villamosnak elsőbbséget kell adnia az egyenesen haladó, irányt nem változtató járműnek.",
+        "A villamosnak, mert kötött pályán közlekedik.",
+        "Annak, aki előbb ad irányjelzést."
+      ],
+      "explanation": "Az egyenesen haladó jármű és a menetirányt változtató villamos viszonyában az irányváltoztatás általános szabálya az irányadó: aki irányt változtat, köteles az azonos irányban vagy szemben haladó, irányt nem változtató járműveknek elsőbbséget adni."
+    },
+    "ua": {
+      "question": "Ви їдете прямо дорогою з трамвайною колією; трамвай, що їде у Вашому напрямку, змінює напрямок і перетнув би Ваш шлях. Хто має перевагу?",
+      "answers": [
+        "Ви: трамвай, що змінює напрямок, має дати дорогу транспортному засобу, який їде прямо й напрямку не змінює.",
+        "Трамвай, бо він рухається колією.",
+        "Той, хто першим увімкне покажчик повороту."
+      ],
+      "explanation": "Між транспортним засобом, що їде прямо, і трамваєм, що змінює напрямок, діє загальне правило зміни напрямку: хто змінює напрямок, має дати дорогу тим, хто їде в тому самому чи зустрічному напрямку й напрямку не змінює."
+    },
+    "correct": 0
   }
 ]

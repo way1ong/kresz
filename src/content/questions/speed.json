@@ -361,5 +361,53 @@
       "explanation": "До позначеного пішохідного переходу дозволено наближатися лише особливо обережно і з такою швидкістю, щоб водій за потреби міг зупинити транспортний засіб перед переходом."
     },
     "correct": 0
+  },
+  {
+    "id": "speed-016",
+    "topic": "speed",
+    "kreszRef": "KRESZ 26. § (1) f)",
+    "hu": {
+      "question": "Legfeljebb mekkora sebességgel haladhat az Ön előtt közlekedő lassú jármű?",
+      "answers": [
+        "25 km/óra",
+        "40 km/óra",
+        "15 km/óra"
+      ],
+      "explanation": "Lassú járművel, valamint lassú járműből és pótkocsiból álló járműszerelvénnyel legfeljebb 25 km/óra sebességgel szabad közlekedni; mezőgazdasági vontatóval 40 km/óra a megengedett legnagyobb sebesség."
+    },
+    "ua": {
+      "question": "З якою найбільшою швидкістю може їхати тихохідний транспортний засіб (lassú jármű), що рухається перед Вами?",
+      "answers": [
+        "25 км/год",
+        "40 км/год",
+        "15 км/год"
+      ],
+      "explanation": "Тихохідним транспортним засобом (і автопоїздом із нього та причепа) дозволено їхати не швидше 25 км/год; сільськогосподарським тягачем — не швидше 40 км/год."
+    },
+    "correct": 0
+  },
+  {
+    "id": "speed-017",
+    "topic": "speed",
+    "kreszRef": "KRESZ 26. § (3)",
+    "hu": {
+      "question": "A jármű megengedett legnagyobb sebességét a műszaki vizsgán az általánosnál alacsonyabban állapították meg, és bejegyezték a forgalmi engedélybe. Mennyivel haladhat?",
+      "answers": [
+        "Legfeljebb a megállapított (bejegyzett) sebességgel.",
+        "Az adott útra általánosan megengedett sebességgel.",
+        "A bejegyzett sebességnél legfeljebb 10 km/órával gyorsabban."
+      ],
+      "explanation": "Olyan járművel, amelynek megengedett legnagyobb sebességét a műszaki megvizsgálás során az általánosnál alacsonyabban állapították meg, és ezt a forgalmi engedélybe bejegyezték, legfeljebb a megállapított sebességgel szabad közlekedni."
+    },
+    "ua": {
+      "question": "Під час техогляду для транспортного засобу встановили максимальну швидкість, нижчу за загальну, і записали її в реєстраційний документ. З якою швидкістю можна їхати?",
+      "answers": [
+        "Не швидше встановленої (записаної) швидкості.",
+        "Із загальною дозволеною для цієї дороги швидкістю.",
+        "Не більше ніж на 10 км/год швидше записаної."
+      ],
+      "explanation": "Транспортним засобом, для якого під час технічного огляду встановили максимальну швидкість, нижчу за загальну, і записали її в реєстраційний документ, можна їхати не швидше цієї встановленої швидкості."
+    },
+    "correct": 0
   }
 ]

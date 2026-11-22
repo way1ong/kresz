@@ -129,7 +129,7 @@ function EndCircle({ children }: { children?: ReactNode }) {
   )
 }
 
-function RoundaboutArrows() {
+function RoundaboutArrows({ color = WHITE }: { color?: string }) {
   // Три дугові стрілки проти годинникової стрілки (напрямок руху по колу).
   const r = 23
   const point = (deg: number, radius = r) => {
@@ -140,11 +140,27 @@ function RoundaboutArrows() {
     <>
       {[0, 120, 240].map((start) => (
         <g key={start}>
-          <path d={`M${point(start)}A${r} ${r} 0 0 0 ${point(start + 62)}`} stroke={WHITE} strokeWidth="8" fill="none" />
-          <path d={`M${point(start + 100)}L${point(start + 60, r + 10)}L${point(start + 60, r - 10)}Z`} fill={WHITE} />
+          <path d={`M${point(start)}A${r} ${r} 0 0 0 ${point(start + 62)}`} stroke={color} strokeWidth="8" fill="none" />
+          <path d={`M${point(start + 100)}L${point(start + 60, r + 10)}L${point(start + 60, r - 10)}Z`} fill={color} />
         </g>
       ))}
     </>
+  )
+}
+
+/** Червона діагональ «кінець» (знизу зліва вгору праворуч). */
+function RedStrike() {
+  return <path d="M14 86 86 14" stroke={RED} strokeWidth="8" />
+}
+
+/** Вантажівка, вид ззаду. */
+function TruckBack({ x = 0, y = 0, scale = 1, color = BLACK }: { x?: number; y?: number; scale?: number; color?: string }) {
+  return (
+    <g transform={`translate(${x} ${y}) scale(${scale})`} fill={color}>
+      <rect x="2" y="0" width="26" height="19" rx="2" />
+      <rect x="4" y="18" width="6" height="5" rx="1" />
+      <rect x="20" y="18" width="6" height="5" rx="1" />
+    </g>
   )
 }
 
@@ -165,6 +181,23 @@ export const SIGNS: Record<string, () => ReactNode> = {
     <>
       <rect x="4" y="10" width="92" height="80" rx="8" fill={BLUE} stroke={WHITE} strokeWidth="2" />
       <Car x={17} y={24} scale={2.2} color={WHITE} />
+    </>
+  ),
+  motorwayEnd: () => (
+    <>
+      <rect x="4" y="10" width="92" height="80" rx="8" fill={BLUE} stroke={WHITE} strokeWidth="2" />
+      <path d="M26 84H42L47 16H39ZM74 84H58L53 16H61Z" fill={WHITE} />
+      <rect x="10" y="39" width="80" height="14" fill={BLUE} />
+      <path d="M12 44H88" stroke={WHITE} strokeWidth="4.5" />
+      <path d="M22 46v7M78 46v7" stroke={WHITE} strokeWidth="3" />
+      <RedStrike />
+    </>
+  ),
+  expresswayEnd: () => (
+    <>
+      <rect x="4" y="10" width="92" height="80" rx="8" fill={BLUE} stroke={WHITE} strokeWidth="2" />
+      <Car x={17} y={24} scale={2.2} color={WHITE} />
+      <RedStrike />
     </>
   ),
   mainRoad: () => (
@@ -249,6 +282,13 @@ export const SIGNS: Record<string, () => ReactNode> = {
     </BlueDisc>
   ),
 
+  minSpeedEnd: () => (
+    <BlueDisc>
+      <Label text="30" y={65} size={44} fill={WHITE} />
+      <path d="M20 80 80 20" stroke={RED} strokeWidth="8" />
+    </BlueDisc>
+  ),
+
   // 14. § — заборонні
   noRightTurn: () => (
     <Prohibition>
@@ -307,6 +347,44 @@ export const SIGNS: Record<string, () => ReactNode> = {
       <Bicycle x={27} y={36} scale={1} />
     </Prohibition>
   ),
+  truckNoOvertaking: () => (
+    <Prohibition>
+      <TruckBack x={18} y={37} scale={1.05} color={RED} />
+      <Car x={51} y={38} scale={1.05} color={BLACK} />
+    </Prohibition>
+  ),
+  customsStop: () => (
+    <Prohibition>
+      <Label text="VÁM" y={42} size={17} />
+      <rect x="20" y="46" width="60" height="8" rx="2" fill={BLACK} />
+      <Label text="ZOLL" y={72} size={17} />
+    </Prohibition>
+  ),
+  widthLimit: () => (
+    <Prohibition>
+      <Label text="2,2m" y={59} size={24} />
+      <path d="M13 50 22 43V57ZM87 50 78 43V57Z" fill={BLACK} />
+    </Prohibition>
+  ),
+  heightLimit: () => (
+    <Prohibition>
+      <Label text="3,2m" y={59} size={25} />
+      <path d="M50 13 43 22H57ZM50 87 43 78H57Z" fill={BLACK} />
+    </Prohibition>
+  ),
+  weightLimit: () => (
+    <Prohibition>
+      <Label text="5,5t" y={61} size={30} />
+    </Prohibition>
+  ),
+  speedZone30: () => (
+    <>
+      <rect x="10" y="4" width="80" height="92" rx="5" fill={WHITE} stroke={BLACK} strokeWidth="2.5" />
+      <circle cx="50" cy="40" r="26" fill={WHITE} stroke={RED} strokeWidth="7" />
+      <Label text="30" y={50} size={28} />
+      <Label text="ÖVEZET" y={88} size={14} />
+    </>
+  ),
   noEntryBoth: () => <Prohibition />,
   noEntry: () => (
     <>
@@ -332,6 +410,22 @@ export const SIGNS: Record<string, () => ReactNode> = {
     <Warning>
       <path d="M58 78V62L42 48" stroke={BLACK} strokeWidth="7" fill="none" strokeLinejoin="round" />
       <path d="M33 37 49 41 38 53Z" fill={BLACK} />
+    </Warning>
+  ),
+  curveRight: () => (
+    <g transform="translate(100 0) scale(-1 1)">
+      <Warning>
+        <path d="M58 78V62L42 48" stroke={BLACK} strokeWidth="7" fill="none" strokeLinejoin="round" />
+        <path d="M33 37 49 41 38 53Z" fill={BLACK} />
+      </Warning>
+    </g>
+  ),
+  steepDescent: () => (
+    <Warning>
+      <path d="M27 56 73 79H27Z" fill={BLACK} />
+      <g transform="rotate(27 56 56)">
+        <Label text="12%" y={56} size={15} />
+      </g>
     </Warning>
   ),
   narrowing: () => (
@@ -410,6 +504,25 @@ export const SIGNS: Record<string, () => ReactNode> = {
     <Warning>
       <path d="M28 56H72M28 68H72" stroke={BLACK} strokeWidth="4.5" />
       <path d="M34 48V79M46 48V79M58 48V79M70 48V79" stroke={BLACK} strokeWidth="4" />
+    </Warning>
+  ),
+  cyclistsWarning: () => (
+    <Warning>
+      <Bicycle x={30} y={46} scale={0.86} />
+    </Warning>
+  ),
+  roundaboutWarning: () => (
+    <Warning>
+      <g transform="translate(50 60) scale(0.5) translate(-50 -50)">
+        <RoundaboutArrows color={BLACK} />
+      </g>
+    </Warning>
+  ),
+  congestion: () => (
+    <Warning>
+      <Car x={36} y={36} scale={0.62} />
+      <Car x={41} y={49} scale={0.72} />
+      <Car x={46} y={63} scale={0.82} />
     </Warning>
   ),
   railwayCross: () => (
