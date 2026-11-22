@@ -1,5 +1,7 @@
 import { useEffect } from 'react'
 import { PwaToast } from '../components/PwaToast'
+import { CardDecksPage } from '../features/cards/CardDecksPage'
+import { CardReviewPage } from '../features/cards/CardReviewPage'
 import { HomePage } from '../features/home/HomePage'
 import { PracticeSessionPage } from '../features/practice/PracticeSessionPage'
 import { PracticeTopicsPage } from '../features/practice/PracticeTopicsPage'
@@ -46,6 +48,10 @@ function renderPage(section: string, rest: string[]) {
     if (rest.length === 0) return <PracticeTopicsPage />
     // key: нова тема — новий раунд
     if (rest.length === 1) return <PracticeSessionPage key={rest[0]} topicId={rest[0]} />
+  }
+  if (section === 'cards') {
+    if (rest.length === 0) return <CardDecksPage />
+    if (rest.length === 1) return <CardReviewPage key={rest[0]} deckId={rest[0]} />
   }
   return <NotFound />
 }

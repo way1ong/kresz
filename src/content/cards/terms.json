@@ -1,0 +1,249 @@
+[
+  {
+    "id": "term-uttest",
+    "deck": "terms",
+    "kreszRef": "KRESZ 1. számú függelék I. c)",
+    "hu": {
+      "front": "Úttest",
+      "back": "Az útnak a közúti járművek közlekedésére szolgáló része."
+    },
+    "ua": {
+      "front": "Проїзна частина (úttest)",
+      "back": "Частина дороги, призначена для руху транспортних засобів."
+    }
+  },
+  {
+    "id": "term-forgalmi-sav",
+    "deck": "terms",
+    "kreszRef": "KRESZ 1. számú függelék I. e)",
+    "hu": {
+      "front": "Forgalmi sáv",
+      "back": "Az úttestnek egy gépkocsisor biztonságos közlekedésére elegendő szélességű – akár útburkolati jellel megjelölt, akár meg nem jelölt – része."
+    },
+    "ua": {
+      "front": "Смуга руху (forgalmi sáv)",
+      "back": "Частина проїзної частини, ширини якої достатньо для безпечного руху одного ряду автомобілів, — позначена розміткою чи ні."
+    }
+  },
+  {
+    "id": "term-leallosav",
+    "deck": "terms",
+    "kreszRef": "KRESZ 1. számú függelék I. f)",
+    "hu": {
+      "front": "Leállósáv",
+      "back": "Az útnak az úttesttel azonos szintben levő, attól útburkolati jellel elválasztott és útburkolattal ellátott része."
+    },
+    "ua": {
+      "front": "Смуга для аварійної зупинки (leállósáv)",
+      "back": "Частина дороги на одному рівні з проїзною частиною, відокремлена від неї розміткою і з твердим покриттям."
+    }
+  },
+  {
+    "id": "term-jarda",
+    "deck": "terms",
+    "kreszRef": "KRESZ 1. számú függelék I. b)",
+    "hu": {
+      "front": "Járda",
+      "back": "Az útnak a gyalogosok közlekedésére szolgáló – az úttesttől szintkülönbséggel, kiemelt szegéllyel vagy más látható módon elhatárolt – része; a gyalogút azonban nem járda."
+    },
+    "ua": {
+      "front": "Тротуар (járda)",
+      "back": "Частина дороги для руху пішоходів, відокремлена від проїзної частини різницею рівнів, бордюром чи іншим видимим способом; пішохідна доріжка (gyalogút) тротуаром не є."
+    }
+  },
+  {
+    "id": "term-utkeresztezodes",
+    "deck": "terms",
+    "kreszRef": "KRESZ 1. számú függelék I. k)",
+    "hu": {
+      "front": "Útkereszteződés",
+      "back": "Két vagy több útnak azonos szintben való kereszteződése, egymásba torkollása, illetőleg elágazása."
+    },
+    "ua": {
+      "front": "Перехрестя (útkereszteződés)",
+      "back": "Перетин, прилягання або розгалуження двох чи більше доріг на одному рівні."
+    }
+  },
+  {
+    "id": "term-autopalya",
+    "deck": "terms",
+    "kreszRef": "KRESZ 1. számú függelék I. l)",
+    "hu": {
+      "front": "Autópálya",
+      "back": "Jelzőtáblával autópályaként megjelölt osztottpályás út."
+    },
+    "ua": {
+      "front": "Автомагістраль (autópálya)",
+      "back": "Позначена знаком як автомагістраль дорога з розділеними проїзними частинами."
+    }
+  },
+  {
+    "id": "term-foutvonal",
+    "deck": "terms",
+    "kreszRef": "KRESZ 1. számú függelék I. n)",
+    "hu": {
+      "front": "Főútvonal",
+      "back": "Jelzőtáblával főútvonalként megjelölt út."
+    },
+    "ua": {
+      "front": "Головна дорога (főútvonal)",
+      "back": "Дорога, позначена знаком як головна."
+    }
+  },
+  {
+    "id": "term-foldut",
+    "deck": "terms",
+    "kreszRef": "KRESZ 1. számú függelék I. sz)",
+    "hu": {
+      "front": "Földút",
+      "back": "Jármű közlekedésre szabadon tartott, eredeti termett talajú vagy ahhoz hasonló anyagú (pl. zúzottkő, kavics, murva) út – akkor is, ha a szilárd burkolatú úthoz való csatlakozás előtt legfeljebb 50 méter hosszban szilárd burkolata van."
+    },
+    "ua": {
+      "front": "Ґрунтова дорога (földút)",
+      "back": "Дорога з природного ґрунту чи подібного матеріалу (щебінь, гравій тощо), відкрита для руху транспорту, — навіть якщо перед приляганням до дороги з твердим покриттям вона має тверде покриття завдовжки до 50 метрів."
+    }
+  },
+  {
+    "id": "term-gepjarmu",
+    "deck": "terms",
+    "kreszRef": "KRESZ 1. számú függelék II. b)",
+    "hu": {
+      "front": "Gépjármű",
+      "back": "Olyan jármű, amelyet beépített erőgép hajt. A mezőgazdasági vontató, a lassú jármű, a segédmotoros kerékpár és a villamos azonban nem minősül gépjárműnek."
+    },
+    "ua": {
+      "front": "Механічний транспортний засіб (gépjármű)",
+      "back": "Транспортний засіб, який приводить у рух вбудований двигун. Сільськогосподарський тягач, тихохідний транспортний засіб (lassú jármű), мопед (segédmotoros kerékpár) і трамвай до gépjármű не належать."
+    }
+  },
+  {
+    "id": "term-gepkocsi",
+    "deck": "terms",
+    "kreszRef": "KRESZ 1. számú függelék II. c)",
+    "hu": {
+      "front": "Gépkocsi",
+      "back": "Olyan gépjármű, amelynek négy vagy több kereke van; a négykerekű motorkerékpár azonban nem gépkocsi."
+    },
+    "ua": {
+      "front": "Автомобіль (gépkocsi)",
+      "back": "Механічний транспортний засіб із чотирма чи більше колесами; чотириколісний мотоцикл, однак, автомобілем не є."
+    }
+  },
+  {
+    "id": "term-szemelygepkocsi",
+    "deck": "terms",
+    "kreszRef": "KRESZ 1. számú függelék II. d)",
+    "hu": {
+      "front": "Személygépkocsi",
+      "back": "Személyszállítás céljára készült olyan gépkocsi, amelyben – a vezető ülését is beleértve – legfeljebb 9 állandó ülőhely van."
+    },
+    "ua": {
+      "front": "Легковий автомобіль (személygépkocsi)",
+      "back": "Автомобіль для перевезення людей, у якому — разом із місцем водія — не більше 9 постійних місць для сидіння."
+    }
+  },
+  {
+    "id": "term-jarmuszerelveny",
+    "deck": "terms",
+    "kreszRef": "KRESZ 1. számú függelék II. p)",
+    "hu": {
+      "front": "Járműszerelvény",
+      "back": "Gépjárműből, mezőgazdasági vontatóból vagy lassú járműből és hozzákapcsolt pótkocsiból (egyéb vontatmányból) álló, a forgalomban egy vezetővel, egységként részt vevő járműkombináció."
+    },
+    "ua": {
+      "front": "Автопоїзд, состав транспортних засобів (járműszerelvény)",
+      "back": "Поєднання механічного транспортного засобу, сільськогосподарського тягача чи тихохідного транспортного засобу з причепом (іншим буксированим засобом), яке бере участь у русі як одне ціле з одним водієм."
+    }
+  },
+  {
+    "id": "term-elsobbseg",
+    "deck": "terms",
+    "kreszRef": "KRESZ 1. számú függelék III. b)",
+    "hu": {
+      "front": "Elsőbbség",
+      "back": "Továbbhaladási jog a közlekedés más résztvevőjével szemben. Azt a járművet, amelynek elsőbbsége van, az elsőbbségadásra kötelezett nem kényszerítheti haladási irányának vagy sebességének hirtelen megváltoztatására."
+    },
+    "ua": {
+      "front": "Перевага, пріоритет (elsőbbség)",
+      "back": "Право на першочерговий рух щодо іншого учасника руху. Той, хто зобов'язаний дати дорогу, не може змушувати транспортний засіб із перевагою різко змінювати напрямок чи швидкість руху."
+    }
+  },
+  {
+    "id": "term-elozes",
+    "deck": "terms",
+    "kreszRef": "KRESZ 1. számú függelék III. c)",
+    "hu": {
+      "front": "Előzés",
+      "back": "Járművel az úttesten azonos irányban haladó jármű melletti elhaladás. Párhuzamos közlekedés esetében a különböző forgalmi sávokban folyamatosan haladó járművek egymás melletti elhaladása nem minősül előzésnek."
+    },
+    "ua": {
+      "front": "Обгін (előzés)",
+      "back": "Проїзд повз транспортний засіб, що рухається проїзною частиною в тому самому напрямку. Якщо рух відбувається паралельними смугами (párhuzamos közlekedés), випередження транспортних засобів, які безперервно їдуть у різних смугах, обгоном не вважається."
+    }
+  },
+  {
+    "id": "term-megallas",
+    "deck": "terms",
+    "kreszRef": "KRESZ 1. számú függelék III. d)",
+    "hu": {
+      "front": "Megállás",
+      "back": "Járművel a be- és a kiszálláshoz, vagy a folyamatos fel- és lerakáshoz szükséges ideig, illetőleg – ha a vezető a járműnél marad – egyéb okból legfeljebb 5 percig történő egy helyben tartózkodás."
+    },
+    "ua": {
+      "front": "Зупинка (megállás)",
+      "back": "Перебування транспортного засобу на місці протягом часу, потрібного для посадки й висадки або безперервного завантаження й розвантаження, а якщо водій лишається біля транспортного засобу — з іншої причини не довше 5 хвилин."
+    }
+  },
+  {
+    "id": "term-varakozas",
+    "deck": "terms",
+    "kreszRef": "KRESZ 1. számú függelék III. e)",
+    "hu": {
+      "front": "Várakozás",
+      "back": "Járművel a megállásnál hosszabb ideig történő egy helyben tartózkodás."
+    },
+    "ua": {
+      "front": "Стоянка (várakozás)",
+      "back": "Перебування транспортного засобу на місці довше, ніж триває зупинка (megállás)."
+    }
+  },
+  {
+    "id": "term-lakott-terulet",
+    "deck": "terms",
+    "kreszRef": "KRESZ 1. számú függelék III. f)",
+    "hu": {
+      "front": "Lakott terület",
+      "back": "A lakott terület kezdetét és végét jelző táblák közé eső terület."
+    },
+    "ua": {
+      "front": "Населений пункт (lakott terület)",
+      "back": "Територія між знаками, що позначають початок і кінець населеного пункту."
+    }
+  },
+  {
+    "id": "term-ejszaka",
+    "deck": "terms",
+    "kreszRef": "KRESZ 1. számú függelék III. g)",
+    "hu": {
+      "front": "Éjszaka",
+      "back": "Az esti szürkület kezdetétől a reggeli szürkület megszűnéséig terjedő időszak."
+    },
+    "ua": {
+      "front": "Ніч, темна пора доби (éjszaka)",
+      "back": "Проміжок часу від початку вечірніх сутінків до кінця ранкових сутінків."
+    }
+  },
+  {
+    "id": "term-korlatozott-latas",
+    "deck": "terms",
+    "kreszRef": "KRESZ 1. számú függelék III. h)",
+    "hu": {
+      "front": "Korlátozott látási viszonyok",
+      "back": "Az átlagos látási viszonyoknak felhősödés, köd, eső, hóesés, porfelhő vagy más ok miatt előállt jelentősebb korlátozottsága."
+    },
+    "ua": {
+      "front": "Обмежена видимість (korlátozott látási viszonyok)",
+      "back": "Помітне погіршення звичайної видимості через хмарність, туман, дощ, снігопад, хмару пилу чи іншу причину."
+    }
+  }
+]

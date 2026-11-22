@@ -88,15 +88,24 @@ export function Tx({
   vars,
   layout = 'block',
   mode,
+  primaryOnly,
   className,
 }: {
   k: TKey
   vars?: TVars
   layout?: 'block' | 'inline'
   mode?: LangMode
+  primaryOnly?: boolean
   className?: string
 }) {
   return (
-    <Bi hu={translate('hu', k, vars)} ua={translate('ua', k, vars)} layout={layout} mode={mode} className={className} />
+    <Bi
+      hu={translate('hu', k, vars)}
+      ua={translate('ua', k, vars)}
+      layout={layout}
+      mode={mode}
+      primaryOnly={primaryOnly}
+      className={className}
+    />
   )
 }

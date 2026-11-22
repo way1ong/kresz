@@ -8,6 +8,8 @@ export const LEITNER = {
   intervalsDays: [0, 1, 3, 7, 14],
   /** Питання зникає з колоди «Мої помилки», коли його картка доходить до цієї коробки. */
   mistakeGraduateBox: 4,
+  /** Максимум карток в одному сеансі повторення. */
+  sessionSize: 20,
 } as const
 
 export interface CardState {

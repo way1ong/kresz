@@ -727,7 +727,11 @@ button {
 }
 
 .flashcard-back .bi-main {
-  font-weight: 650;
+  font-weight: 550;
+}
+
+.flashcard-back .note .bi-main {
+  font-weight: 400;
 }
 
 /* ---------- Іспит ---------- */

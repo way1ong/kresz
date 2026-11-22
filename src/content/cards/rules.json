@@ -1,0 +1,236 @@
+[
+  {
+    "id": "rule-speed-town",
+    "deck": "rules",
+    "kreszRef": "KRESZ 26. § (1) a)",
+    "hu": {
+      "front": "Személygépkocsi megengedett legnagyobb sebessége lakott területen?",
+      "back": "50 km/óra"
+    },
+    "ua": {
+      "front": "Максимальна швидкість легкового автомобіля в населеному пункті?",
+      "back": "50 км/год"
+    }
+  },
+  {
+    "id": "rule-speed-rural",
+    "deck": "rules",
+    "kreszRef": "KRESZ 26. § (1) a)",
+    "hu": {
+      "front": "Személygépkocsi megengedett legnagyobb sebessége lakott területen kívül, egyéb úton?",
+      "back": "90 km/óra"
+    },
+    "ua": {
+      "front": "Максимальна швидкість легкового автомобіля поза населеним пунктом на інших дорогах?",
+      "back": "90 км/год"
+    }
+  },
+  {
+    "id": "rule-speed-expressway",
+    "deck": "rules",
+    "kreszRef": "KRESZ 26. § (1) a)",
+    "hu": {
+      "front": "Személygépkocsi megengedett legnagyobb sebessége autóúton?",
+      "back": "110 km/óra"
+    },
+    "ua": {
+      "front": "Максимальна швидкість легкового автомобіля на дорозі для автомобілів (autóút)?",
+      "back": "110 км/год"
+    }
+  },
+  {
+    "id": "rule-speed-motorway",
+    "deck": "rules",
+    "kreszRef": "KRESZ 26. § (1) a)",
+    "hu": {
+      "front": "Személygépkocsi megengedett legnagyobb sebessége autópályán?",
+      "back": "130 km/óra"
+    },
+    "ua": {
+      "front": "Максимальна швидкість легкового автомобіля на автомагістралі (autópálya)?",
+      "back": "130 км/год"
+    }
+  },
+  {
+    "id": "rule-speed-trailer",
+    "deck": "rules",
+    "kreszRef": "KRESZ 26. § (1) b)",
+    "hu": {
+      "front": "Gépjárműből és pótkocsiból álló járműszerelvény megengedett legnagyobb sebessége?",
+      "back": "Autópályán 80, lakott területen kívül egyéb úton 70, lakott területen 50 km/óra."
+    },
+    "ua": {
+      "front": "Максимальна швидкість автопоїзда (механічний транспортний засіб із причепом)?",
+      "back": "На автомагістралі 80, поза населеним пунктом на інших дорогах 70, у населеному пункті 50 км/год."
+    }
+  },
+  {
+    "id": "rule-speed-home-zone",
+    "deck": "rules",
+    "kreszRef": "KRESZ 39/A. § (2)",
+    "hu": {
+      "front": "Megengedett legnagyobb sebesség lakó-pihenő övezetben?",
+      "back": "20 km/óra"
+    },
+    "ua": {
+      "front": "Максимальна швидкість у житловій зоні (lakó-pihenő övezet)?",
+      "back": "20 км/год"
+    }
+  },
+  {
+    "id": "rule-right-hand-rule",
+    "deck": "rules",
+    "kreszRef": "KRESZ 28. § (1)",
+    "hu": {
+      "front": "Kinek kell elsőbbséget adni az útkereszteződésben, ha más szabály nem rendelkezik?",
+      "back": "A jobbról érkező minden járműnek és a balról érkező villamosnak."
+    },
+    "ua": {
+      "front": "Кому треба дати дорогу на перехресті, якщо інше правило не діє?",
+      "back": "Будь-якому транспортному засобу, що наближається справа, і трамваю, що наближається зліва."
+    }
+  },
+  {
+    "id": "rule-dirt-road",
+    "deck": "rules",
+    "kreszRef": "KRESZ 28. § (2) c)",
+    "hu": {
+      "front": "Földútról érkezik szilárd burkolatú úthoz. Kinek van elsőbbsége?",
+      "back": "A szilárd burkolatú útról érkező járműnek – az érkezési iránytól függetlenül."
+    },
+    "ua": {
+      "front": "Ви під'їжджаєте ґрунтовою дорогою до дороги з твердим покриттям. Хто має перевагу?",
+      "back": "Транспортний засіб на дорозі з твердим покриттям — незалежно від того, з якого боку він наближається."
+    }
+  },
+  {
+    "id": "rule-stop-crossing",
+    "deck": "rules",
+    "kreszRef": "KRESZ 40. § (5) d)",
+    "hu": {
+      "front": "Milyen közel szabad megállni az útkereszteződéshez?",
+      "back": "Az úttestek széleinek metszéspontjától számított 5 méteren belül tilos megállni (ha közúti jelzésből más nem következik)."
+    },
+    "ua": {
+      "front": "Як близько до перехрестя можна зупинятися?",
+      "back": "Зупинку заборонено ближче 5 метрів від точки перетину країв проїзних частин (якщо знаки чи розмітка не вказують іншого)."
+    }
+  },
+  {
+    "id": "rule-stop-zebra",
+    "deck": "rules",
+    "kreszRef": "KRESZ 40. § (5) e)",
+    "hu": {
+      "front": "Milyen távolságon belül tilos megállni a kijelölt gyalogosátkelőhely előtt?",
+      "back": "Személygépkocsival 5 méteren, egyéb járművel (pl. tehergépkocsival) 15 méteren belül."
+    },
+    "ua": {
+      "front": "На якій відстані перед пішохідним переходом заборонено зупинку?",
+      "back": "Легковим автомобілем — ближче 5 метрів, іншими транспортними засобами (наприклад, вантажівкою) — ближче 15 метрів."
+    }
+  },
+  {
+    "id": "rule-stop-railway",
+    "deck": "rules",
+    "kreszRef": "KRESZ 40. § (5) g)",
+    "hu": {
+      "front": "Milyen távolságon belül tilos megállni a vasúti átjárótól?",
+      "back": "30 méteren belül (és magában az átjáróban)."
+    },
+    "ua": {
+      "front": "На якій відстані від залізничного переїзду заборонено зупинку?",
+      "back": "Ближче 30 метрів (і на самому переїзді)."
+    }
+  },
+  {
+    "id": "rule-stop-bus",
+    "deck": "rules",
+    "kreszRef": "KRESZ 40. § (5) h)",
+    "hu": {
+      "front": "Milyen távolságon belül tilos megállni az autóbusz-megállóhelyet jelző táblánál?",
+      "back": "A tábla előtt 15 méter, utána 5 méter távolságon belül."
+    },
+    "ua": {
+      "front": "На якій відстані від знака автобусної зупинки заборонено зупинку?",
+      "back": "Ближче 15 метрів до знака і 5 метрів після нього."
+    }
+  },
+  {
+    "id": "rule-warning-distance",
+    "deck": "rules",
+    "kreszRef": "KRESZ 16. § (2)",
+    "hu": {
+      "front": "Milyen távolságra van a veszélyt jelző tábla a veszély helyétől?",
+      "back": "Autópályán 250–500 m, lakott területen kívül egyéb úton 150–250 m, lakott területen 50–100 m."
+    },
+    "ua": {
+      "front": "На якій відстані від небезпечного місця встановлюють попереджувальний знак?",
+      "back": "На автомагістралі 250–500 м, поза населеним пунктом на інших дорогах 150–250 м, у населеному пункті 50–100 м."
+    }
+  },
+  {
+    "id": "rule-railway-speed",
+    "deck": "rules",
+    "kreszRef": "KRESZ 39. § (2)",
+    "hu": {
+      "front": "Hogyan szabad áthaladni a vasúti átjárón?",
+      "back": "Csak folyamatosan – megállás nélkül –, legalább 5 km/óra átlagsebességgel."
+    },
+    "ua": {
+      "front": "Як дозволено проїжджати залізничний переїзд?",
+      "back": "Лише безперервно — без зупинки — із середньою швидкістю щонайменше 5 км/год."
+    }
+  },
+  {
+    "id": "rule-child-seat",
+    "deck": "rules",
+    "kreszRef": "KRESZ 48. § (7)",
+    "hu": {
+      "front": "Milyen magasság alatt kell a gyermeket gyermekbiztonsági rendszerben szállítani a gépkocsiban?",
+      "back": "150 cm alatt (a hátsó ülésen a 3. életévét betöltött, legalább 135 cm magas gyermek biztonsági övvel is rögzíthető)."
+    },
+    "ua": {
+      "front": "Дитину нижчу за який зріст треба перевозити в автомобілі в дитячій утримувальній системі?",
+      "back": "Нижчу за 150 см (на задньому сидінні дитину від 3 років і зростом щонайменше 135 см можна пристебнути й ременем безпеки)."
+    }
+  },
+  {
+    "id": "rule-alcohol",
+    "deck": "rules",
+    "kreszRef": "KRESZ 4. § (1) c)",
+    "hu": {
+      "front": "Mennyi alkohol lehet a gépkocsivezető szervezetében?",
+      "back": "Semennyi: a vezető szervezetében nem lehet szeszes ital fogyasztásából származó alkohol."
+    },
+    "ua": {
+      "front": "Скільки алкоголю може бути в організмі водія автомобіля?",
+      "back": "Ніскільки: в організмі водія не може бути алкоголю від уживання спиртних напоїв."
+    }
+  },
+  {
+    "id": "rule-lights-day",
+    "deck": "rules",
+    "kreszRef": "KRESZ 44. § (8)",
+    "hu": {
+      "front": "Mikor kell a gépkocsit nappal, jó látási viszonyok között is kivilágítani?",
+      "back": "Lakott területen kívüli úton: nappali menetjelző lámpával vagy tompított fényszóróval."
+    },
+    "ua": {
+      "front": "Коли автомобіль треба освітлювати навіть удень за доброї видимості?",
+      "back": "На дорозі поза населеним пунктом: денними ходовими вогнями або ближнім світлом фар."
+    }
+  },
+  {
+    "id": "rule-horn",
+    "deck": "rules",
+    "kreszRef": "KRESZ 30. §",
+    "hu": {
+      "front": "Mikor szabad hangjelzést adni?",
+      "back": "Balesetveszély esetében, a baleset megelőzése érdekében, valamint lakott területen kívül az előzési szándék jelzésére."
+    },
+    "ua": {
+      "front": "Коли дозволено подавати звуковий сигнал?",
+      "back": "У разі небезпеки ДТП — щоб йому запобігти, а також поза населеним пунктом — щоб попередити про намір обгону."
+    }
+  }
+]
