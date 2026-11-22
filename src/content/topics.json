@@ -6,5 +6,7 @@
   {"id": "parking", "icon": "🅿️", "hu": "Megállás és várakozás", "ua": "Зупинка й стоянка"},
   {"id": "safety", "icon": "⛑️", "hu": "Biztonság és elsősegély", "ua": "Безпека й перша допомога"},
   {"id": "signals", "icon": "🚦", "hu": "Fényjelzések, rendőri jelzések, útburkolati jelek", "ua": "Світлофори, регулювальник, розмітка"},
-  {"id": "special", "icon": "🛤️", "hu": "Autópálya, vasúti átjáró, villamos", "ua": "Автомагістраль, переїзд, трамвай"}
+  {"id": "special", "icon": "🛤️", "hu": "Autópálya, vasúti átjáró, villamos", "ua": "Автомагістраль, переїзд, трамвай"},
+  {"id": "theory", "icon": "🧠", "hu": "Járművezetés elmélete", "ua": "Теорія керування"},
+  {"id": "vehicle", "icon": "🔧", "hu": "Szerkezeti és üzemeltetési ismeretek", "ua": "Будова та експлуатація автомобіля"}
 ]

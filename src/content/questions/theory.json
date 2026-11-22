@@ -1,0 +1,434 @@
+[
+  {
+    "id": "theory-001",
+    "topic": "theory",
+    "kreszRef": "KAV tanterv V. B. Járművezetés elmélete – féktávolság",
+    "hu": {
+      "question": "Miből tevődik össze a megállási távolság (féktávolság)?",
+      "answers": [
+        "A reakcióidő alatt megtett útból és a fékútból.",
+        "Csak a fékútból.",
+        "A követési távolságból és a fékútból."
+      ],
+      "explanation": "A veszély észlelésétől a megállásig megtett út két részből áll: a reakcióidő alatt – még fékezés nélkül – megtett útból és a fékezés megkezdésétől a megállásig megtett fékútból."
+    },
+    "ua": {
+      "question": "З чого складається зупинний шлях?",
+      "answers": [
+        "Зі шляху, пройденого за час реакції водія, та гальмівного шляху.",
+        "Лише з гальмівного шляху.",
+        "З дистанції до автомобіля попереду та гальмівного шляху."
+      ],
+      "explanation": "Шлях від моменту, коли водій помітив небезпеку, до зупинки складається з двох частин: шляху, пройденого за час реакції (ще без гальмування), і гальмівного шляху — від початку гальмування до зупинки."
+    },
+    "correct": 0
+  },
+  {
+    "id": "theory-002",
+    "topic": "theory",
+    "kreszRef": "KAV tanterv V. B. Járművezetés elmélete – lassítás, fékezés",
+    "hu": {
+      "question": "Hogyan változik a fékút, ha a sebesség a kétszeresére nő (azonos úton, azonos járművel)?",
+      "answers": [
+        "Körülbelül a négyszeresére nő.",
+        "A kétszeresére nő.",
+        "Nem változik, mert a fékerő ugyanakkora."
+      ],
+      "explanation": "A jármű mozgási energiája a sebesség négyzetével arányos, ezért kétszeres sebességnél a fékút körülbelül négyszeres. A reakcióidő alatt megtett út „csak” a kétszeresére nő."
+    },
+    "ua": {
+      "question": "Як зміниться гальмівний шлях, якщо швидкість зросте вдвічі (та сама дорога, той самий автомобіль)?",
+      "answers": [
+        "Зросте приблизно в чотири рази.",
+        "Зросте вдвічі.",
+        "Не зміниться, бо гальмівна сила та сама."
+      ],
+      "explanation": "Кінетична енергія автомобіля пропорційна квадрату швидкості, тому за подвоєної швидкості гальмівний шлях приблизно вчетверо довший. Шлях за час реакції зростає «лише» вдвічі."
+    },
+    "correct": 0
+  },
+  {
+    "id": "theory-003",
+    "topic": "theory",
+    "kreszRef": "KAV tanterv V. B. Járművezetés elmélete – a járművezetés emberi tényezői",
+    "hu": {
+      "question": "Mi növeli meg a járművezető reakcióidejét?",
+      "answers": [
+        "A fáradtság, az alkohol, egyes gyógyszerek és a figyelem elterelése (például telefonálás).",
+        "A jármű nagyobb sebessége.",
+        "A blokkolásgátló (ABS) működése."
+      ],
+      "explanation": "A reakcióidő a vezető állapotától függ: fáradtság, alkohol, kábítószer, egyes gyógyszerek, betegség és figyelemelterelés egyaránt megnyújtja. A sebesség nem a reakcióidőt, hanem az az alatt megtett utat növeli."
+    },
+    "ua": {
+      "question": "Що збільшує час реакції водія?",
+      "answers": [
+        "Утома, алкоголь, деякі ліки та відволікання уваги (наприклад, розмова телефоном).",
+        "Більша швидкість автомобіля.",
+        "Робота антиблокувальної системи (ABS)."
+      ],
+      "explanation": "Час реакції залежить від стану водія: утома, алкоголь, наркотики, деякі ліки, хвороба й відволікання його подовжують. Швидкість збільшує не час реакції, а шлях, який автомобіль за цей час проїжджає."
+    },
+    "correct": 0
+  },
+  {
+    "id": "theory-004",
+    "topic": "theory",
+    "kreszRef": "KAV tanterv V. B. Járművezetés elmélete – víz az úton – vízenfutás",
+    "hu": {
+      "question": "Mi a helyes teendő, ha a jármű vízenfutás (aquaplaning) miatt elveszíti a tapadását?",
+      "answers": [
+        "Gázelvétel, a kormányt egyenesen tartva, hirtelen fékezés és kormánymozdulat nélkül megvárni, amíg a kerekek újra tapadnak.",
+        "Azonnal teljes erővel fékezni.",
+        "Gyorsítani és erőteljesen ellenkormányozni."
+      ],
+      "explanation": "Vízenfutáskor a gumiabroncs és az út közé vízréteg kerül, a kerekek nem tapadnak, a jármű nem kormányozható és nem fékezhető. Ilyenkor a gázt el kell venni, a kormányt egyenesen kell tartani, és kerülni kell a hirtelen fékezést vagy kormánymozdulatot."
+    },
+    "ua": {
+      "question": "Що правильно робити, якщо автомобіль через аквапланування (vízenfutás) втратив зчеплення з дорогою?",
+      "answers": [
+        "Відпустити газ, тримати кермо прямо й без різкого гальмування та рухів кермом дочекатися, доки колеса знову зачепляться.",
+        "Негайно загальмувати щосили.",
+        "Додати газу й різко крутити кермо."
+      ],
+      "explanation": "Під час аквапланування між шиною й дорогою утворюється шар води: колеса не мають зчеплення, автомобіль не слухається ні керма, ні гальм. Треба відпустити газ, тримати кермо прямо й уникати різкого гальмування чи рухів кермом."
+    },
+    "correct": 0
+  },
+  {
+    "id": "theory-005",
+    "topic": "theory",
+    "kreszRef": "KAV tanterv V. B. Járművezetés elmélete – a kerekek és a talaj kapcsolata",
+    "hu": {
+      "question": "Mi növeli leginkább a vízenfutás veszélyét?",
+      "answers": [
+        "A nagy sebesség, a kopott gumiabroncs és a vastag vízréteg.",
+        "A kis sebesség és az új gumiabroncs.",
+        "A bekapcsolt tompított fényszóró."
+      ],
+      "explanation": "A vízenfutás veszélye a sebességgel, a vízréteg vastagságával és a gumiabroncs kopottságával (kis mintázatmélység), valamint a túl alacsony abroncsnyomással nő. Esőben ezért lassítani kell."
+    },
+    "ua": {
+      "question": "Що найбільше підвищує ризик аквапланування?",
+      "answers": [
+        "Велика швидкість, зношені шини та товстий шар води.",
+        "Мала швидкість і нові шини.",
+        "Увімкнене ближнє світло фар."
+      ],
+      "explanation": "Ризик аквапланування зростає зі швидкістю, товщиною шару води та зношеністю шин (мала глибина протектора), а також за надто низького тиску в шинах. Тому в дощ треба знижувати швидкість."
+    },
+    "correct": 0
+  },
+  {
+    "id": "theory-006",
+    "topic": "theory",
+    "kreszRef": "KAV tanterv V. B. Járművezetés elmélete – blokkolásgátló (ABS)",
+    "hu": {
+      "question": "Mi a blokkolásgátló (ABS) feladata?",
+      "answers": [
+        "Megakadályozza a kerekek blokkolását, így a jármű intenzív fékezés közben is kormányozható marad.",
+        "Minden útviszony között a felére csökkenti a fékutat.",
+        "Megakadályozza a hajtott kerekek kipörgését gyorsításkor."
+      ],
+      "explanation": "Az ABS megakadályozza, hogy a kerekek fékezéskor blokkoljanak, ezért a jármű vészfékezés közben is irányítható marad. A fékutat nem feltétlenül rövidíti. A kerekek kipörgését gyorsításkor a kipörgésgátló (ASR) akadályozza meg."
+    },
+    "ua": {
+      "question": "Яке завдання антиблокувальної системи (ABS)?",
+      "answers": [
+        "Не дає колесам заблокуватися, тож автомобіль лишається керованим і під час інтенсивного гальмування.",
+        "За будь-яких умов удвічі скорочує гальмівний шлях.",
+        "Не дає ведучим колесам буксувати під час розгону."
+      ],
+      "explanation": "ABS не дає колесам заблокуватися під час гальмування, тому автомобіль лишається керованим навіть при екстреному гальмуванні. Гальмівний шлях вона скорочує не завжди. Буксуванню коліс під час розгону запобігає протибуксувальна система (ASR)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "theory-007",
+    "topic": "theory",
+    "kreszRef": "KAV tanterv V. B. Járművezetés elmélete – elektronikus menetstabilizáló (ESP)",
+    "hu": {
+      "question": "Mi az elektronikus menetstabilizáló (ESP) feladata?",
+      "answers": [
+        "A megcsúszni kezdő járművet egyes kerekek célzott fékezésével segít stabilizálni.",
+        "Tartja a beállított sebességet.",
+        "Megakadályozza, hogy a jármű emelkedőn visszaguruljon."
+      ],
+      "explanation": "Az ESP érzékeli, ha a jármű megcsúszik (alul- vagy túlkormányzottá válik), és egyes kerekek célzott fékezésével, szükség esetén a motor nyomatékának csökkentésével segít visszanyerni a stabilitást. A fizika határait nem szünteti meg."
+    },
+    "ua": {
+      "question": "Яке завдання електронної системи стабілізації (ESP)?",
+      "answers": [
+        "Допомагає стабілізувати автомобіль, що починає заносити, пригальмовуючи окремі колеса.",
+        "Підтримує задану швидкість.",
+        "Не дає автомобілю відкочуватися назад на підйомі."
+      ],
+      "explanation": "ESP розпізнає початок занесення (недостатню чи надмірну поворотність) і, пригальмовуючи окремі колеса, а за потреби зменшуючи крутний момент двигуна, допомагає відновити стабільність. Законів фізики вона не скасовує."
+    },
+    "correct": 0
+  },
+  {
+    "id": "theory-008",
+    "topic": "theory",
+    "kreszRef": "KAV tanterv V. B. Járművezetés elmélete – emelkedő, lejtő",
+    "hu": {
+      "question": "Hogyan célszerű hosszú, meredek lejtőn lefelé haladni?",
+      "answers": [
+        "Alacsonyabb sebességfokozatban, motorfékkel, az üzemi féket csak szükség szerint használva.",
+        "Üresben gurulva, folyamatosan fékezve.",
+        "Kinyomott tengelykapcsolóval, a kéziféket behúzva."
+      ],
+      "explanation": "Hosszú lejtőn a folyamatos fékezéstől a fékek túlmelegednek, hatásuk csökken. Ezért alacsonyabb fokozatba kell kapcsolni, és a motor fékező hatását kell kihasználni; az üzemi féket csak szükség szerint kell használni. Üresben gurulni veszélyes."
+    },
+    "ua": {
+      "question": "Як слід їхати довгим крутим спуском?",
+      "answers": [
+        "На нижчій передачі, гальмуючи двигуном, а робочим гальмом користуючись лише за потреби.",
+        "Накатом на нейтральній передачі, постійно гальмуючи.",
+        "З вичавленим зчепленням і затягнутим ручним гальмом."
+      ],
+      "explanation": "На довгому спуску від безперервного гальмування гальма перегріваються і слабшають. Тому треба ввімкнути нижчу передачу й гальмувати двигуном, а робочим гальмом користуватися лише за потреби. Їхати накатом небезпечно."
+    },
+    "correct": 0
+  },
+  {
+    "id": "theory-009",
+    "topic": "theory",
+    "kreszRef": "KAV tanterv V. B. Járművezetés elmélete – kanyarodás",
+    "hu": {
+      "question": "Mikor kell a kanyarhoz megfelelő sebességre lassítani?",
+      "answers": [
+        "A kanyar előtt, még egyenes haladás közben.",
+        "A kanyar közepén, erőteljes fékezéssel.",
+        "A kanyarból kifelé jövet."
+      ],
+      "explanation": "A sebességet a kanyar előtt, egyenesben kell csökkenteni. Kanyarban a kerekek tapadásának nagy részét az oldalerő köti le, ezért az erős fékezés vagy hirtelen gázadás megcsúszáshoz vezethet."
+    },
+    "ua": {
+      "question": "Коли треба знизити швидкість до безпечної для повороту?",
+      "answers": [
+        "Перед поворотом, ще під час руху прямо.",
+        "Посередині повороту, різким гальмуванням.",
+        "На виході з повороту."
+      ],
+      "explanation": "Швидкість знижують перед поворотом, на прямій. У повороті більшу частину зчеплення коліс «забирає» бічна сила, тому різке гальмування чи різке додавання газу може спричинити занесення."
+    },
+    "correct": 0
+  },
+  {
+    "id": "theory-010",
+    "topic": "theory",
+    "kreszRef": "KAV tanterv V. B. Járművezetés elmélete – a csomagok elhelyezése, tetőcsomagtartó",
+    "hu": {
+      "question": "Hogyan hat a jármű viselkedésére a megrakott tetőcsomagtartó?",
+      "answers": [
+        "Magasabbra kerül a súlypont, romlik a kanyarstabilitás, nő az oldalszél-érzékenység, a légellenállás és a fogyasztás.",
+        "Javul a tapadás, ezért rövidebb lesz a fékút.",
+        "Semmilyen hatása nincs, ha a csomag rögzítve van."
+      ],
+      "explanation": "A tetőn szállított teher megemeli a jármű súlypontját: kanyarban jobban dől, oldalszélre érzékenyebb. Emellett nő a légellenállás és a fogyasztás, a nagyobb tömeg miatt pedig hosszabb a fékút."
+    },
+    "ua": {
+      "question": "Як навантажений багажник на даху впливає на поведінку автомобіля?",
+      "answers": [
+        "Центр ваги стає вищим, погіршується стійкість у поворотах, зростають чутливість до бічного вітру, опір повітря та витрата пального.",
+        "Покращується зчеплення, тож гальмівний шлях коротшає.",
+        "Ніяк не впливає, якщо вантаж закріплено."
+      ],
+      "explanation": "Вантаж на даху підіймає центр ваги: автомобіль сильніше кренить у поворотах і чутливіший до бічного вітру. Крім того, зростають опір повітря й витрата пального, а через більшу масу довшає гальмівний шлях."
+    },
+    "correct": 0
+  },
+  {
+    "id": "theory-011",
+    "topic": "theory",
+    "kreszRef": "KAV tanterv V. B. Járművezetés elmélete – az életmód szerepe a közlekedésben (fáradtság)",
+    "hu": {
+      "question": "Hosszú úton elálmosodik vezetés közben. Mi a helyes megoldás?",
+      "answers": [
+        "Megállni és pihenni (aludni); a hangos zene vagy a nyitott ablak nem pótolja a pihenést.",
+        "Lehúzni az ablakot és felhangosítani a zenét, majd továbbhaladni.",
+        "Gyorsabban haladni, hogy hamarabb célba érjen."
+      ],
+      "explanation": "A fáradtság lassítja az észlelést és a reakciót, a vezető akár el is aludhat. Az egyetlen biztonságos megoldás a megállás és a pihenés; a friss levegő, a zene vagy a kávé legfeljebb rövid időre segít."
+    },
+    "ua": {
+      "question": "Під час довгої поїздки Вас хилить на сон. Що правильно зробити?",
+      "answers": [
+        "Зупинитися й відпочити (поспати); гучна музика чи відчинене вікно відпочинку не замінять.",
+        "Відчинити вікно, увімкнути музику гучніше та їхати далі.",
+        "Їхати швидше, щоб швидше дістатися мети."
+      ],
+      "explanation": "Утома сповільнює сприйняття й реакцію, водій може навіть заснути. Єдиний безпечний вихід — зупинитися й відпочити; свіже повітря, музика чи кава допомагають хіба що ненадовго."
+    },
+    "correct": 0
+  },
+  {
+    "id": "theory-012",
+    "topic": "theory",
+    "kreszRef": "KAV tanterv V. B. Járművezetés elmélete – közlekedés éjszaka",
+    "hu": {
+      "question": "Éjszaka a szembejövő jármű fényszórója elvakítja. Mit tegyen?",
+      "answers": [
+        "Csökkentse a sebességet, és tekintetét az úttest jobb széle felé irányítsa.",
+        "Kapcsolja fel a távolsági fényszórót, hogy a másik vezető észrevegye a hibáját.",
+        "Nézzen egyenesen a szembejövő fényszórójába, hogy a szeme megszokja."
+      ],
+      "explanation": "Elvakítás esetén a látás másodpercekre erősen romlik. Lassítani kell, szükség esetén meg is kell állni, a tekintetet pedig az úttest jobb széle felé kell fordítani, hogy az irány tartható legyen. A „visszavakítás” szabálytalan és veszélyes."
+    },
+    "ua": {
+      "question": "Уночі Вас засліплюють фари зустрічного автомобіля. Що робити?",
+      "answers": [
+        "Зменшити швидкість і дивитися в бік правого краю проїзної частини.",
+        "Увімкнути дальнє світло, щоб інший водій помітив свою помилку.",
+        "Дивитися просто на фари зустрічного, щоб очі звикли."
+      ],
+      "explanation": "Після засліплення зір на кілька секунд різко погіршується. Треба сповільнитися, за потреби навіть зупинитися, а погляд спрямувати до правого краю проїзної частини, щоб тримати напрямок. «Засліплювати у відповідь» заборонено й небезпечно."
+    },
+    "correct": 0
+  },
+  {
+    "id": "theory-013",
+    "topic": "theory",
+    "kreszRef": "KAV tanterv V. B. Járművezetés elmélete – közlekedés rossz látási viszonyok között",
+    "hu": {
+      "question": "Hogyan közlekedjen sűrű ködben?",
+      "answers": [
+        "Tompított fényszóróval (szükség esetén ködfényszóróval), a látótávolságnak megfelelően csökkentett sebességgel.",
+        "Távolsági fényszóróval, mert az messzebbre világít.",
+        "Az előtte haladó járműhöz szorosan felzárkózva, annak lámpáit követve."
+      ],
+      "explanation": "Ködben a távolsági fényszóró fénye a ködcseppekről visszaverődik és rontja a látást, ezért tompított fényszórót (és ha a látási viszonyok indokolják, ködfényszórót, hátsó ködlámpát) kell használni. A sebességet a belátható távolsághoz kell igazítani, a követési távolságot növelni kell."
+    },
+    "ua": {
+      "question": "Як їхати в густому тумані?",
+      "answers": [
+        "З ближнім світлом (за потреби з протитуманними фарами) і зі швидкістю, зниженою відповідно до видимості.",
+        "З дальнім світлом, бо воно світить далі.",
+        "Упритул за автомобілем попереду, орієнтуючись на його ліхтарі."
+      ],
+      "explanation": "У тумані дальнє світло відбивається від крапель і погіршує видимість, тому вмикають ближнє (а якщо цього вимагає видимість — протитуманні фари й задній протитуманний ліхтар). Швидкість обирають за відстанню видимості, дистанцію збільшують."
+    },
+    "correct": 0
+  },
+  {
+    "id": "theory-014",
+    "topic": "theory",
+    "kreszRef": "KAV tanterv V. B. Járművezetés elmélete – váratlan események – gumidefekt",
+    "hu": {
+      "question": "Menet közben hirtelen defektet kap az egyik első kerék. Mi a helyes teendő?",
+      "answers": [
+        "Erősen megfogni a kormányt, elvenni a gázt, és óvatosan lassítva, hirtelen fékezés nélkül félreállni.",
+        "Azonnal teljes erővel fékezni.",
+        "Gyorsítani, hogy a jármű stabil maradjon."
+      ],
+      "explanation": "Defektnél a jármű a sérült kerék felé húz. A kormányt két kézzel, erősen kell tartani, a gázt el kell venni, és finoman lassítva biztonságos helyre kell húzódni. A hirtelen, erős fékezés megpördítheti a járművet."
+    },
+    "ua": {
+      "question": "Під час руху раптово пробило одне з передніх коліс. Що правильно зробити?",
+      "answers": [
+        "Міцно тримати кермо, відпустити газ і, обережно сповільнюючись без різкого гальмування, з'їхати на узбіччя.",
+        "Негайно загальмувати щосили.",
+        "Додати газу, щоб автомобіль лишався стійким."
+      ],
+      "explanation": "Коли колесо пробито, автомобіль тягне в бік пошкодженого колеса. Кермо треба міцно тримати обома руками, відпустити газ і, плавно сповільнюючись, з'їхати в безпечне місце. Різке сильне гальмування може розвернути автомобіль."
+    },
+    "correct": 0
+  },
+  {
+    "id": "theory-015",
+    "topic": "theory",
+    "kreszRef": "KAV tanterv V. B. Járművezetés elmélete – ütközés – biztonsági öv, légzsák, fejtámasz",
+    "hu": {
+      "question": "Helyettesíti-e a légzsák a biztonsági övet?",
+      "answers": [
+        "Nem: a légzsák a becsatolt biztonsági övvel együtt nyújt védelmet.",
+        "Igen, légzsákos autóban az öv használata felesleges.",
+        "Igen, de csak lakott területen."
+      ],
+      "explanation": "A légzsák kiegészítő védelem: a biztonsági öv tartja a testet a megfelelő helyzetben, a légzsák pedig a fej és a mellkas ütközését csillapítja. Öv nélkül a felfúvódó légzsák maga is súlyos sérülést okozhat."
+    },
+    "ua": {
+      "question": "Чи замінює подушка безпеки ремінь безпеки?",
+      "answers": [
+        "Ні: подушка безпеки захищає лише разом із пристебнутим ременем.",
+        "Так, в автомобілі з подушками ремінь зайвий.",
+        "Так, але лише в населеному пункті."
+      ],
+      "explanation": "Подушка безпеки — додатковий захист: ремінь утримує тіло в правильному положенні, а подушка пом'якшує удар голови й грудей. Без ременя подушка, що розкривається, сама може спричинити тяжку травму."
+    },
+    "correct": 0
+  },
+  {
+    "id": "theory-016",
+    "topic": "theory",
+    "kreszRef": "KAV tanterv V. B. Járművezetés elmélete – tüzelőanyag-takarékosság",
+    "hu": {
+      "question": "Melyik vezetési mód csökkenti a tüzelőanyag-fogyasztást?",
+      "answers": [
+        "Az egyenletes, előrelátó haladás, az időben történő felkapcsolás, a felesleges gyorsítások és fékezések kerülése.",
+        "A magas fordulatszámon tartott motor és a késői felkapcsolás.",
+        "A motor hosszas melegítése álló helyzetben, indulás előtt."
+      ],
+      "explanation": "A fogyasztást az egyenletes, előrelátó vezetés csökkenti: időben fel kell kapcsolni, kerülni kell a felesleges gyorsítást és fékezést. Sokat számít a helyes abroncsnyomás és a felesleges teher (például üres tetőcsomagtartó) eltávolítása is."
+    },
+    "ua": {
+      "question": "Який стиль керування зменшує витрату пального?",
+      "answers": [
+        "Рівномірний рух із передбаченням ситуації, вчасне перемикання на вищу передачу, відмова від зайвих розгонів і гальмувань.",
+        "Високі оберти двигуна й пізнє перемикання на вищу передачу.",
+        "Тривале прогрівання двигуна на місці перед поїздкою."
+      ],
+      "explanation": "Витрату пального зменшує рівномірна їзда з передбаченням: треба вчасно перемикатися на вищу передачу й уникати зайвих розгонів і гальмувань. Важать також правильний тиск у шинах і відсутність зайвого вантажу (наприклад, порожнього багажника на даху)."
+    },
+    "correct": 0
+  },
+  {
+    "id": "theory-017",
+    "topic": "theory",
+    "kreszRef": "KAV tanterv V. B. Járművezetés elmélete – lemondás az elsőbbségről",
+    "hu": {
+      "question": "Önnek elsőbbsége van, de látja, hogy a másik jármű vezetője nem fogja megadni. Mi a helyes magatartás?",
+      "answers": [
+        "Le kell mondani az elsőbbségről, ha ezzel a baleset megelőzhető.",
+        "Ragaszkodni kell az elsőbbséghez, mert a szabály Önt védi.",
+        "Hangjelzéssel és gyorsítással kell kikényszeríteni az elsőbbséget."
+      ],
+      "explanation": "Az elsőbbség nem kikényszeríthető jog. A defenzív (megelőző) vezetés lényege, hogy a vezető számít mások hibájára, és ha kell, lemond az elsőbbségéről, mert a baleset elkerülése fontosabb, mint az, hogy kinek volt igaza."
+    },
+    "ua": {
+      "question": "Ви маєте перевагу, але бачите, що водій іншого автомобіля дороги не дасть. Як правильно вчинити?",
+      "answers": [
+        "Поступитися, якщо це допоможе уникнути ДТП.",
+        "Наполягати на перевазі, бо правило на Вашому боці.",
+        "Домагатися переваги звуковим сигналом і прискоренням."
+      ],
+      "explanation": "Перевагу не можна «вибивати силою». Суть захисного (превентивного) стилю керування в тому, що водій зважає на чужі помилки й за потреби поступається, бо уникнути ДТП важливіше, ніж довести свою правоту."
+    },
+    "correct": 0
+  },
+  {
+    "id": "theory-018",
+    "topic": "theory",
+    "kreszRef": "KAV tanterv V. B. Járművezetés elmélete – sávváltoztatás",
+    "hu": {
+      "question": "Miért kell sávváltás előtt a tükrökön kívül oldalra, a válla fölött is hátrapillantani?",
+      "answers": [
+        "Mert a tükrök nem mutatják a jármű melletti holtteret, ahol másik jármű haladhat.",
+        "Mert a tükrök csak éjszaka adnak megbízható képet.",
+        "Nem kell: a tükrök mindent megmutatnak."
+      ],
+      "explanation": "A visszapillantó tükrök nem fedik le a jármű melletti teljes területet: a holttérben haladó járművet (különösen motorost, kerékpárost) a vezető a tükörben nem látja. Sávváltás, kanyarodás és elindulás előtt ezért oldalra is ki kell pillantani."
+    },
+    "ua": {
+      "question": "Навіщо перед перестроюванням, крім дзеркал, глянути ще й убік через плече?",
+      "answers": [
+        "Бо дзеркала не показують «сліпу зону» поруч з автомобілем, де може їхати інший транспортний засіб.",
+        "Бо дзеркала дають надійну картину лише вночі.",
+        "Не треба: дзеркала показують усе."
+      ],
+      "explanation": "Дзеркала заднього виду не охоплюють усієї зони поруч з автомобілем: транспортний засіб у «сліпій зоні» (особливо мотоцикліста чи велосипедиста) у дзеркалі не видно. Тому перед перестроюванням, поворотом і початком руху треба глянути ще й убік."
+    },
+    "correct": 0
+  }
+]
