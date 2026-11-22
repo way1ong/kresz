@@ -6,7 +6,6 @@
   "nav.exam": "Іспит",
   "nav.stats": "Статистика",
   "nav.settings": "Налаштування",
-
   "common.back": "Назад",
   "common.next": "Далі",
   "common.finish": "Завершити",
@@ -19,7 +18,6 @@
   "common.kreszRef": "Пункт правил",
   "common.notFound": "Сторінку не знайдено.",
   "common.toHome": "На головну",
-
   "home.subtitle": "Підготовка до теоретичного іспиту KRESZ, категорія B",
   "home.practice.desc": "Питання за темами з поясненням одразу",
   "home.cards.desc": "Знаки, терміни, правила — інтервальне повторення",
@@ -28,7 +26,6 @@
   "home.dueCards": "Карток на повторення: {n}",
   "home.progress": "Пройдено питань: {done}/{total}",
   "home.resumeExam": "Незавершений іспит — продовжити",
-
   "practice.title": "Практика за темами",
   "practice.allTopics": "Усі теми впереміш",
   "practice.topicProgress": "{correct}/{total} правильно",
@@ -39,7 +36,6 @@
   "practice.toTopics": "До списку тем",
   "practice.empty": "У цій темі ще немає питань.",
   "practice.addedToMistakes": "Додано до колоди «Мої помилки»",
-
   "cards.title": "Картки",
   "cards.due": "На повторення: {n}",
   "cards.total": "Карток: {n}",
@@ -59,7 +55,6 @@
   "cards.toDecks": "До списку колод",
   "cards.leitnerInfo": "Система Лейтнера: картка, яку знаєш, переходить у наступну коробку й з'являється рідше; яку не знаєш — повертається в коробку 1.",
   "cards.correctAnswer": "Правильна відповідь",
-
   "exam.title": "Іспит на час",
   "exam.intro": "Випадкові питання з усіх тем. Пояснення — лише в кінці.",
   "exam.param.questions": "Кількість питань",
@@ -70,6 +65,11 @@
   "exam.source": "Джерело",
   "exam.reducedNotice": "База питань поки менша за справжній іспит: зараз буде {available} питань, час і поріг зменшено пропорційно.",
   "exam.unverifiedNotice": "Не підтверджено офіційним джерелом: {items}.",
+  "exam.unverified.points": "розподіл питань на 3 бали й 1 бал",
+  "exam.unverified.flow": "чи є ліміт часу на окреме питання і чи можна повертатися до попередніх питань",
+  "exam.overviewHint": "Торкнися номера, щоб перейти до питання.",
+  "exam.answered": "Дано відповідей: {n}/{total}",
+  "exam.poolNote": "У базі зараз {n} питань.",
   "exam.huOnly": "Лише угорською (як на справжньому іспиті)",
   "exam.start": "Почати іспит",
   "exam.resume": "Продовжити іспит",
@@ -94,7 +94,6 @@
   "exam.result.onlyWrong": "Лише помилки",
   "exam.result.notFound": "Цей іспит уже не збережено.",
   "exam.newExam": "Новий іспит",
-
   "stats.title": "Статистика",
   "stats.answered": "Пройдено питань",
   "stats.accuracy": "Точність",
@@ -110,7 +109,6 @@
   "stats.cards": "Картки за коробками",
   "stats.cards.new": "Нові",
   "stats.mistakes": "Колода «Мої помилки»",
-
   "settings.title": "Налаштування",
   "settings.language": "Мова",
   "settings.lang.hint": "HU+UA: угорський текст основний, під ним український переклад.",
@@ -129,7 +127,6 @@
   "settings.about": "Про застосунок",
   "settings.about.text": "Особистий некомерційний навчальний застосунок. Питання сформульовано самостійно на основі тексту KRESZ (1/1975. (II. 5.) KPM–BM együttes rendelet); це не офіційні екзаменаційні питання.",
   "settings.version": "Версія: {v}",
-
   "pwa.offlineReady": "Застосунок готовий до роботи офлайн.",
   "pwa.updateAvailable": "Доступна нова версія.",
   "pwa.reload": "Оновити"

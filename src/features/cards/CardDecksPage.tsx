@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { Tile } from '../../components/ui'
 import { DECKS } from '../../content'
 import { Bi, Tx } from '../../i18n'
@@ -19,7 +20,7 @@ function Counts({ total, due }: { total: number; due: number }) {
 
 export function CardDecksPage() {
   const progress = useProgress()
-  const now = Date.now()
+  const [now] = useState(() => Date.now())
   const mistakes = deckItems(MISTAKES_DECK, progress)
 
   return (

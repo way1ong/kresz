@@ -6,7 +6,6 @@
   "nav.exam": "Vizsga",
   "nav.stats": "Statisztika",
   "nav.settings": "Beállítások",
-
   "common.back": "Vissza",
   "common.next": "Következő",
   "common.finish": "Befejezés",
@@ -19,7 +18,6 @@
   "common.kreszRef": "Jogszabályhely",
   "common.notFound": "Az oldal nem található.",
   "common.toHome": "Vissza a kezdőlapra",
-
   "home.subtitle": "Felkészülés a B kategóriás KRESZ-vizsgára",
   "home.practice.desc": "Kérdések témánként, azonnali magyarázattal",
   "home.cards.desc": "Táblák, fogalmak, szabályok – időközönkénti ismétlés",
@@ -28,7 +26,6 @@
   "home.dueCards": "Ismétlésre váró kártyák: {n}",
   "home.progress": "Megválaszolt kérdések: {done}/{total}",
   "home.resumeExam": "Folyamatban lévő vizsga – folytatás",
-
   "practice.title": "Gyakorlás témánként",
   "practice.allTopics": "Minden téma vegyesen",
   "practice.topicProgress": "{correct}/{total} helyes",
@@ -39,7 +36,6 @@
   "practice.toTopics": "Vissza a témákhoz",
   "practice.empty": "Ebben a témában még nincs kérdés.",
   "practice.addedToMistakes": "Bekerült a „Hibáim” pakliba",
-
   "cards.title": "Kártyák",
   "cards.due": "Esedékes: {n}",
   "cards.total": "Kártyák: {n}",
@@ -59,7 +55,6 @@
   "cards.toDecks": "Vissza a paklikhoz",
   "cards.leitnerInfo": "Leitner-rendszer: a tudott kártya egy dobozzal feljebb lép és ritkábban kerül elő; a nem tudott visszakerül az 1. dobozba.",
   "cards.correctAnswer": "Helyes válasz",
-
   "exam.title": "Vizsga időre",
   "exam.intro": "Véletlenszerű kérdések minden témából. Magyarázatot csak a végén kapsz.",
   "exam.param.questions": "Kérdések száma",
@@ -70,6 +65,11 @@
   "exam.source": "Forrás",
   "exam.reducedNotice": "A kérdésbank még kisebb, mint a valódi vizsga: most {available} kérdést kapsz, az időkeret és a ponthatár arányosan csökken.",
   "exam.unverifiedNotice": "Nem ellenőrzött hivatalos forrásból: {items}.",
+  "exam.unverified.points": "a 3 pontos és 1 pontos kérdések megoszlása",
+  "exam.unverified.flow": "van-e kérdésenkénti időkorlát, és vissza lehet-e lépni korábbi kérdésre",
+  "exam.overviewHint": "Koppints egy számra az adott kérdéshez.",
+  "exam.answered": "Megválaszolva: {n}/{total}",
+  "exam.poolNote": "A kérdésbankban jelenleg {n} kérdés van.",
   "exam.huOnly": "Csak magyarul (mint az igazi vizsgán)",
   "exam.start": "Vizsga indítása",
   "exam.resume": "Vizsga folytatása",
@@ -94,7 +94,6 @@
   "exam.result.onlyWrong": "Csak a hibák",
   "exam.result.notFound": "Ez a vizsga már nincs elmentve.",
   "exam.newExam": "Új vizsga",
-
   "stats.title": "Statisztika",
   "stats.answered": "Megválaszolt kérdések",
   "stats.accuracy": "Pontosság",
@@ -110,7 +109,6 @@
   "stats.cards": "Kártyák dobozonként",
   "stats.cards.new": "Új",
   "stats.mistakes": "„Hibáim” pakli",
-
   "settings.title": "Beállítások",
   "settings.language": "Nyelv",
   "settings.lang.hint": "HU+UA: a magyar szöveg a fő, alatta az ukrán fordítás.",
@@ -129,7 +127,6 @@
   "settings.about": "Névjegy",
   "settings.about.text": "Személyes, nem kereskedelmi tanulóalkalmazás. A kérdések saját megfogalmazásúak a KRESZ (1/1975. (II. 5.) KPM–BM együttes rendelet) szövege alapján; nem hivatalos vizsgakérdések.",
   "settings.version": "Verzió: {v}",
-
   "pwa.offlineReady": "Az alkalmazás offline is használható.",
   "pwa.updateAvailable": "Új verzió érhető el.",
   "pwa.reload": "Frissítés"
