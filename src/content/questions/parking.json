@@ -388,5 +388,129 @@
       "explanation": "Там, де знак дозволяє стоянку лише певний час, час її початку треба позначити на диску (tárcsa), розміщеному на транспортному засобі — в автомобілі за лобовим склом. Змінювати показ диска, не від'їхавши, заборонено."
     },
     "correct": 0
+  },
+  {
+    "id": "parking-017",
+    "topic": "parking",
+    "kreszRef": "KRESZ 40. § (5) i), n)",
+    "hu": {
+      "question": "Megállhat-e személygépkocsival autóbuszöbölben vagy autóbusz forgalmi sávban?",
+      "answers": [
+        "Nem, ott megállni tilos.",
+        "Igen, az utas ki- és beszállásának idejére.",
+        "Igen, ha éppen nem jön autóbusz."
+      ],
+      "explanation": "Tilos megállni autóbuszöbölben és autóbusz forgalmi sávban. A kivételek (például a megállóhelyen megálló autóbusz, az utas ki- és beszállásának idejére a személytaxi és a betegszállító) a személygépkocsira nem vonatkoznak."
+    },
+    "ua": {
+      "question": "Чи можна зупинитися легковим автомобілем у «кишені» автобусної зупинки (autóbuszöböl) або на смузі для автобусів?",
+      "answers": [
+        "Ні, зупинятися там заборонено.",
+        "Так, на час посадки чи висадки пасажира.",
+        "Так, якщо автобуса саме немає."
+      ],
+      "explanation": "Зупинку заборонено в «кишені» автобусної зупинки та на смузі для автобусів. Винятки (автобус на зупинці, таксі та санітарний транспорт на час посадки й висадки пасажирів) легкового автомобіля не стосуються."
+    },
+    "correct": 0
+  },
+  {
+    "id": "parking-018",
+    "topic": "parking",
+    "kreszRef": "KRESZ 40. § (5) l)",
+    "image": "bikePath",
+    "hu": {
+      "question": "Szabad-e megállni kerékpársávon vagy kerékpárúton?",
+      "answers": [
+        "Nem, ott megállni tilos.",
+        "Igen, legfeljebb 5 percre.",
+        "Igen, ha a vezető a járműben marad."
+      ],
+      "explanation": "Tilos megállni kapaszkodósávon, gyorsító- és lassítósávon, kerékpársávon, nyitott kerékpársávon, kerékpárúton, gyalog- és kerékpárúton."
+    },
+    "ua": {
+      "question": "Чи можна зупинятися на велосипедній смузі або велосипедній доріжці?",
+      "answers": [
+        "Ні, зупинятися там заборонено.",
+        "Так, не довше 5 хвилин.",
+        "Так, якщо водій лишається в автомобілі."
+      ],
+      "explanation": "Зупинку заборонено на смузі для повільного руху на підйомі (kapaszkodósáv), на смугах розгону й гальмування, на велосипедній смузі, на велосипедній і велопішохідній доріжці."
+    },
+    "correct": 0
+  },
+  {
+    "id": "parking-019",
+    "topic": "parking",
+    "kreszRef": "KRESZ 40. § (5) c)",
+    "image": "bump",
+    "hu": {
+      "question": "Szabad-e megállni be nem látható útkanyarulatban vagy bukkanóban?",
+      "answers": [
+        "Nem, mert ott a járművet a többi vezető nem észlelheti kellő távolságból.",
+        "Igen, ha a vezető bekapcsolja az elakadásjelzőt.",
+        "Igen, lakott területen."
+      ],
+      "explanation": "Tilos megállni be nem látható útkanyarulatban, bukkanóban vagy más olyan helyen, ahol a járművet a többi jármű vezetője kellő távolságból nem észlelheti."
+    },
+    "ua": {
+      "question": "Чи можна зупинятися на повороті з обмеженою оглядовістю або на переломі профілю дороги?",
+      "answers": [
+        "Ні, бо там інші водії не помітять транспортний засіб із достатньої відстані.",
+        "Так, якщо ввімкнути аварійну сигналізацію.",
+        "Так, у населеному пункті."
+      ],
+      "explanation": "Зупинку заборонено на повороті з обмеженою оглядовістю, на переломі профілю дороги (bukkanó) та в іншому місці, де водії інших транспортних засобів не можуть помітити транспортний засіб із достатньої відстані."
+    },
+    "correct": 0
+  },
+  {
+    "id": "parking-020",
+    "topic": "parking",
+    "kreszRef": "KRESZ 40. § (6)",
+    "image": "noStopping",
+    "hu": {
+      "question": "Műszaki hiba miatt a „Megállni tilos” tábla hatálya alatt áll meg. Megszegte-e a megállási tilalmat?",
+      "answers": [
+        "Nem: a megállási tilalmak nem vonatkoznak arra az esetre, ha a jármű műszaki hibája miatt nem tarthatók meg, és a forgalmi okból szükséges megállásra sem.",
+        "Igen, a tilalom minden megállásra vonatkozik.",
+        "Csak akkor nem, ha 5 percen belül továbbindul."
+      ],
+      "explanation": "A megállás helyére vonatkozó szabályok és tilalmak nem vonatkoznak a forgalmi okból szükséges megállásra, valamint arra az esetre, ha e rendelkezések a jármű műszaki hibája miatt nem tarthatók meg. Az elromlott járművet azonban lehetőség szerint az úttesten kívül kell elhelyezni."
+    },
+    "ua": {
+      "question": "Через технічну несправність Ви зупинилися в зоні дії знака «Megállni tilos» («Зупинку заборонено»). Чи порушили Ви заборону?",
+      "answers": [
+        "Ні: заборони зупинки не діють, коли їх не можна дотриматися через технічну несправність, а також у разі зупинки через дорожню обстановку.",
+        "Так, заборона стосується будь-якої зупинки.",
+        "Ні лише тоді, коли поїдете далі протягом 5 хвилин."
+      ],
+      "explanation": "Правила й заборони щодо місця зупинки не стосуються зупинки, вимушеної дорожньою обстановкою, і випадку, коли їх не можна дотриматися через технічну несправність транспортного засобу. Проте несправний транспортний засіб слід, за можливості, прибрати з проїзної частини."
+    },
+    "correct": 0
+  },
+  {
+    "id": "parking-021",
+    "topic": "parking",
+    "kreszRef": "KRESZ 41. § (4)",
+    "image": "parking",
+    "hu": {
+      "question": "Várakozást ellenőrző óránál (parkolóóránál), ha jelzőtábla más időszakot nem jelöl meg, mikor kell az órát működtetni?",
+      "answers": [
+        "Munkanapon 8 és 18 óra, szombaton 8 és 14 óra között.",
+        "A hét minden napján 0–24 óráig.",
+        "Csak munkanapon 6 és 22 óra között."
+      ],
+      "explanation": "Várakozást ellenőrző óránál munkanapon 8 és 18 óra, szombaton 8 és 14 óra között – ha pedig jelzőtábla ettől eltérő időszakot jelöl meg, abban az időszakban – csak az óra működtetésével és legfeljebb az órával jelzett időtartamig szabad várakozni. Lejárt órát a jármű eltávozása nélkül újra működésbe hozni tilos."
+    },
+    "ua": {
+      "question": "Біля паркомата (várakozást ellenőrző óra), якщо знак не вказує іншого часу: коли стоянка дозволена лише з оплатою паркомата?",
+      "answers": [
+        "У робочі дні з 8 до 18 години, у суботу з 8 до 14 години.",
+        "Щодня цілодобово.",
+        "Лише в робочі дні з 6 до 22 години."
+      ],
+      "explanation": "Біля паркомата в робочі дні з 8 до 18 години, а в суботу з 8 до 14 години — або в час, зазначений на знаку, — стояти можна лише ввімкнувши (оплативши) паркомат і не довше показаного ним часу. Знову запускати паркомат, час якого сплив, не від'їхавши, заборонено."
+    },
+    "correct": 0
   }
 ]

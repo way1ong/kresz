@@ -550,5 +550,125 @@
       "explanation": "До транспортного засобу з попереджувальним сигналом (жовтим проблисковим маячком) можна наближатися, проїжджати повз нього й обганяти його з особливою обережністю. (Обганяти заборонено транспорт зі спеціальними сигналами — синім маячком і сиреною.)"
     },
     "correct": 0
+  },
+  {
+    "id": "safety-024",
+    "topic": "safety",
+    "kreszRef": "KRESZ 57. § (3)–(5)",
+    "hu": {
+      "question": "Elromlott jármű vontatásakor ki utazhat a vontatott járműben?",
+      "answers": [
+        "Csak a vezetője; a vontatott járművön a vezetőn kívül személyt szállítani tilos.",
+        "A vezető és az első ülésen egy utas.",
+        "Bárki, ha becsatolja a biztonsági övet."
+      ],
+      "explanation": "A vontatott járművet olyan személynek kell vezetnie, aki megfelel a járművezetés személyi feltételeinek. Vontatott járművön – a vezetőn kívül – személyt szállítani tilos; az emelve vontatott járművön még vezető sem utazhat. Kétkerekű motorkerékpárt, segédmotoros kerékpárt és kerékpárt vontatni tilos."
+    },
+    "ua": {
+      "question": "Хто може їхати в несправному транспортному засобі, який буксирують?",
+      "answers": [
+        "Лише його водій; перевозити в буксированому транспортному засобі інших людей заборонено.",
+        "Водій і один пасажир на передньому сидінні.",
+        "Будь-хто, якщо пристебнеться ременем безпеки."
+      ],
+      "explanation": "Буксированим транспортним засобом має керувати особа, яка відповідає вимогам до водія. Перевозити в ньому людей, крім водія, заборонено; у транспортному засобі, який буксирують із частковим підняттям, не може їхати навіть водій. Двоколісний мотоцикл, мопед і велосипед буксирувати заборонено."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-025",
+    "topic": "safety",
+    "kreszRef": "KRESZ 57. § (7)",
+    "hu": {
+      "question": "Mivel szabad vontatni azt a járművet, amelynek az üzemi fékberendezése romlott el?",
+      "answers": [
+        "Csak merev vontatórúddal.",
+        "Vontatókötéllel, ha az legalább 5 méter hosszú.",
+        "Bármivel, ha a vontató jármű lassan halad."
+      ],
+      "explanation": "Olyan járművet, amelynek üzemi fékberendezése romlott el, vagy amelynek megengedett legnagyobb össztömege a 3500 kilogrammot meghaladja, csak – a húzó- és nyomóerők felvételére egyaránt alkalmas – merev vontatórúddal szabad vontatni."
+    },
+    "ua": {
+      "question": "Чим дозволено буксирувати транспортний засіб із несправною робочою гальмівною системою?",
+      "answers": [
+        "Лише на жорсткому зчепленні.",
+        "На тросі, якщо він щонайменше 5 метрів завдовжки.",
+        "Будь-чим, якщо буксирувальник їде повільно."
+      ],
+      "explanation": "Транспортний засіб із несправною робочою гальмівною системою або з дозволеною максимальною масою понад 3500 кг дозволено буксирувати лише на жорсткому зчепленні (merev vontatórúd), яке сприймає і тягове, і штовхальне зусилля."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-026",
+    "topic": "safety",
+    "kreszRef": "KRESZ 56. § (1) c)–e)",
+    "hu": {
+      "question": "Az alábbi hibák közül melyik észlelésekor kell a járművet haladéktalanul megállítani?",
+      "answers": [
+        "Ha az összes féklámpa elromlott.",
+        "Ha az egyik ködfényszóró nem világít.",
+        "Ha a belső világítás nem működik."
+      ],
+      "explanation": "A járművet haladéktalanul meg kell állítani, ha olyan hibája van, amely balesethez vezethet – különösen, ha elromlott a kormányszerkezete, az üzemi fékberendezése, az összes féklámpája, az irányjelző berendezése (kivéve, ha kézzel megfelelő irányjelzés adható), illetve a bal oldali első vagy hátsó helyzetjelző lámpája, amikor a kivilágítás szükséges."
+    },
+    "ua": {
+      "question": "У разі якої з цих несправностей транспортний засіб треба негайно зупинити?",
+      "answers": [
+        "Якщо не працюють усі стоп-сигнали.",
+        "Якщо не світить одна протитуманна фара.",
+        "Якщо не працює освітлення салону."
+      ],
+      "explanation": "Транспортний засіб треба негайно зупинити, якщо він має несправність, що може призвести до ДТП, — зокрема відмову рульового керування, робочого гальма, усіх стоп-сигналів, покажчиків повороту (крім випадку, коли сигнал можна подати рукою) або лівого переднього чи заднього габаритного вогню, коли потрібне освітлення."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-027",
+    "topic": "safety",
+    "kreszRef": "KRESZ 44. § (7)",
+    "hu": {
+      "question": "Mely járművet kell nappal, jó látási viszonyok között, lakott területen is kivilágítani?",
+      "answers": [
+        "A motorkerékpárt (tompított fényszóróval).",
+        "A személygépkocsit.",
+        "Egyiket sem: nappal lakott területen semmit nem kell kivilágítani."
+      ],
+      "explanation": "A forgalomban részt vevő motorkerékpárt és a tompított fényszóróval felszerelt segédmotoros kerékpárt tompított fényszóróval nappal és jó látási viszonyok között is ki kell világítani. A gépkocsit nappal csak lakott területen kívül kötelező kivilágítani."
+    },
+    "ua": {
+      "question": "Який транспортний засіб треба освітлювати вдень за доброї видимості навіть у населеному пункті?",
+      "answers": [
+        "Мотоцикл (ближнім світлом фар).",
+        "Легковий автомобіль.",
+        "Жоден: удень у населеному пункті нічого освітлювати не треба."
+      ],
+      "explanation": "Мотоцикл і мопед, обладнаний фарою ближнього світла, під час руху треба освітлювати ближнім світлом і вдень за доброї видимості. Автомобіль удень обов'язково освітлювати лише поза населеним пунктом."
+    },
+    "correct": 0
+  },
+  {
+    "id": "safety-028",
+    "topic": "safety",
+    "kreszRef": "KRESZ 58. § (3)",
+    "hu": {
+      "question": "Parkolás közben megrongált egy álló járművet, amelynek a vezetője nincs jelen. Mit kell tennie?",
+      "answers": [
+        "Személyi adatait és biztosítója nevét erre alkalmas módon a helyszínen kell hagynia.",
+        "Semmit, ha a kár csekély.",
+        "Elég, ha a saját biztosítójának bejelenti az esetet."
+      ],
+      "explanation": "Ha a baleset folytán megrongálódott jármű vezetője nincs jelen, a károkozó köteles személyi adatait és biztosítója nevét erre alkalmas módon a helyszínen hátrahagyni."
+    },
+    "ua": {
+      "question": "Паркуючись, Ви пошкодили автомобіль, що стоїть, а його водія поруч немає. Що треба зробити?",
+      "answers": [
+        "Залишити на місці у придатний спосіб свої особисті дані й назву свого страховика.",
+        "Нічого, якщо шкода незначна.",
+        "Досить повідомити про випадок свого страховика."
+      ],
+      "explanation": "Якщо водія транспортного засобу, пошкодженого внаслідок ДТП, немає на місці, той, хто завдав шкоди, зобов'язаний залишити на місці події у придатний спосіб свої особисті дані й назву свого страховика."
+    },
+    "correct": 0
   }
 ]

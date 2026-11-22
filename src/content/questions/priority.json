@@ -562,5 +562,82 @@
       "explanation": "Через знак Ви даєте дорогу обом автомобілям на дорозі, що перетинається. На головній дорозі червоний, що повертає ліворуч, має дати дорогу зустрічному зеленому, який їде прямо. Тому черговість: зелений, червоний, синій."
     },
     "correct": 0
+  },
+  {
+    "id": "priority-023",
+    "topic": "priority",
+    "kreszRef": "KRESZ 31. § (5) b)",
+    "points": 3,
+    "hu": {
+      "question": "Jobbra kanyarodik. Az úttest jobb szélén kerékpársáv van, amelyen Önnel azonos irányban kerékpáros halad egyenesen. Kinek van elsőbbsége?",
+      "answers": [
+        "A kerékpárosnak: jobbra bekanyarodó járművel elsőbbséget kell adni a kerékpársávon érkező járműnek.",
+        "Önnek, mert a gépjárműnek elsőbbsége van a kerékpárral szemben.",
+        "Annak, aki előbb ér az útkereszteződéshez."
+      ],
+      "explanation": "Jobbra bekanyarodó járművel elsőbbséget kell adni a kerékpársávon vagy az úttest mellett levő, attól jobbra eső kerékpárúton, gyalog- és kerékpárúton érkező jármű és gyalogos részére. Kanyarodás előtt ezért jobbra hátra is ki kell tekinteni."
+    },
+    "ua": {
+      "question": "Ви повертаєте праворуч. Біля правого краю проїзної частини є велосипедна смуга, якою у Вашому напрямку прямо їде велосипедист. Хто має перевагу?",
+      "answers": [
+        "Велосипедист: хто повертає праворуч, має дати дорогу транспортному засобу на велосипедній смузі.",
+        "Ви, бо механічний транспортний засіб має перевагу перед велосипедом.",
+        "Той, хто першим під'їде до перехрестя."
+      ],
+      "explanation": "Транспортний засіб, що повертає праворуч, має дати дорогу транспортним засобам і пішоходам, які рухаються велосипедною смугою або велосипедною чи велопішохідною доріжкою праворуч від проїзної частини. Тому перед поворотом треба глянути й праворуч назад."
+    },
+    "correct": 0
+  },
+  {
+    "id": "priority-024",
+    "topic": "priority",
+    "kreszRef": "KRESZ 28. § (2) d)",
+    "image": "roundabout",
+    "points": 3,
+    "hu": {
+      "question": "Körforgalomban halad, és a körforgalmat villamospálya keresztezi, amelyen villamos közeledik. Kinek van elsőbbsége?",
+      "answers": [
+        "A villamosnak: a körforgalomban haladó járművel elsőbbséget kell adni a körforgalmat keresztező villamosnak.",
+        "Önnek, mert a körforgalomban haladónak mindig elsőbbsége van.",
+        "Annak, aki jobbról érkezik."
+      ],
+      "explanation": "A másik jármű érkezési irányától függetlenül elsőbbséget kell adni körforgalomban haladó járművel a körforgalmat keresztező villamos részére."
+    },
+    "ua": {
+      "question": "Ви їдете по колу, яке перетинає трамвайна колія; наближається трамвай. Хто має перевагу?",
+      "answers": [
+        "Трамвай: той, хто їде по колу, має дати дорогу трамваю, що перетинає кругове перехрестя.",
+        "Ви, бо той, хто їде по колу, завжди має перевагу.",
+        "Той, хто наближається справа."
+      ],
+      "explanation": "Незалежно від того, з якого боку наближається інший транспортний засіб, той, хто їде по колу, має дати дорогу трамваю, який перетинає дорогу з круговим рухом."
+    },
+    "correct": 0
+  },
+  {
+    "id": "priority-025",
+    "topic": "priority",
+    "kreszRef": "KRESZ 31. § (8)",
+    "image": "mainRoad",
+    "points": 3,
+    "hu": {
+      "question": "Az útkereszteződésben a főútvonal jobbra kanyarodik. Ön a főútvonalról egyenesen letér; jobbról egy jármű érkezik, amely a főútvonalon halad tovább (számára ez balra kanyarodás). Kinek van elsőbbsége?",
+      "answers": [
+        "A főútvonalon továbbhaladó járműnek: a főútvonalról letérő járművel elsőbbséget kell adni neki.",
+        "Önnek, mert egyenesen halad.",
+        "Önnek, mert a másik jármű balra kanyarodik."
+      ],
+      "explanation": "Kanyarodó főútvonal esetén a főútvonalról letérő járművel elsőbbséget kell adni a főútvonalon továbbhaladó jármű részére – akkor is, ha a letérő jármű „egyenesen” megy, a másik pedig a főútvonal vonalát követve kanyarodik. A főútvonal vonalvezetését a tábla alatti kiegészítő tábla vastag vonala mutatja."
+    },
+    "ua": {
+      "question": "На перехресті головна дорога повертає праворуч. Ви з'їжджаєте з головної дороги прямо; справа під'їжджає автомобіль, який їде далі головною дорогою (для нього це поворот ліворуч). Хто має перевагу?",
+      "answers": [
+        "Той, хто їде далі головною дорогою: хто з'їжджає з головної дороги, має дати йому дорогу.",
+        "Ви, бо їдете прямо.",
+        "Ви, бо інший автомобіль повертає ліворуч."
+      ],
+      "explanation": "Якщо головна дорога на перехресті змінює напрямок, той, хто з неї з'їжджає, має дати дорогу тому, хто їде нею далі, — навіть якщо перший їде «прямо», а другий повертає, слідуючи напрямку головної дороги. Напрямок головної дороги показує товста лінія на табличці під знаком."
+    },
+    "correct": 0
   }
 ]
