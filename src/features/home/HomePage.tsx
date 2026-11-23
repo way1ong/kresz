@@ -94,6 +94,11 @@ export function HomePage() {
         }
       />
       <Tile to="/stats" icon="📊" title={<Tx k="nav.stats" layout="inline" />} desc={<Tx k="home.stats.desc" />} />
+
+      {/* Застереження: це не офіційний тест — там, де починається кожне заняття; повний текст — у «Налаштуваннях», «Про застосунок». */}
+      <p className="muted small">
+        <Tx k="home.disclaimer" />
+      </p>
     </>
   )
 }
