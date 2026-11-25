@@ -128,7 +128,7 @@ export function PracticeSessionPage({ topicId }: { topicId: string }) {
         <Link to="/practice" className="icon-btn" aria-label="‹">
           ‹
         </Link>
-        <span className="grow">
+        <span className="grow q-count">
           <Tx k="common.questionOf" vars={{ n: round.index + 1, total }} primaryOnly />
         </span>
         {questionTopic && (
