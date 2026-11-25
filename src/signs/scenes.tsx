@@ -15,7 +15,7 @@ interface Vehicle {
   arm: Arm
   go: Turn
   color?: VehicleColor
-  kind?: 'car' | 'tram'
+  kind?: 'car' | 'tram' | 'emergency'
 }
 
 interface SceneSpec {
@@ -33,6 +33,8 @@ interface SceneSpec {
    * 'ns' — руки вздовж осі північ–південь, 'ew' — вздовж осі захід–схід.
    */
   police?: 'ns' | 'ew'
+  /** Велосипедна смуга праворуч на в'їзді знизу й велосипедист, що їде нею прямо. */
+  cyclist?: boolean
 }
 
 const COLORS: Record<VehicleColor | 'tram', string> = {
@@ -58,7 +60,7 @@ function Rotated({ arm, children }: { arm: Arm; children: ReactNode }) {
   return <g transform={`rotate(${ROTATION[arm]} 50 50)`}>{children}</g>
 }
 
-function Intersection({ arms = ALL_ARMS, dirt = [], vehicles, signs = [], pedestrians = [], police }: SceneSpec) {
+function Intersection({ arms = ALL_ARMS, dirt = [], vehicles, signs = [], pedestrians = [], police, cyclist }: SceneSpec) {
   return (
     <>
       <rect width="100" height="100" rx="6" fill={GRASS} />
@@ -73,6 +75,16 @@ function Intersection({ arms = ALL_ARMS, dirt = [], vehicles, signs = [], pedest
         // Знак стоїть праворуч від дороги, обличчям до тих, хто під'їжджає; сам малюнок не повертаємо.
         <SignAt key={arm + sign} arm={arm} sign={sign} />
       ))}
+      {cyclist && (
+        <>
+          {/* велосмуга біля правого краю та велосипедист, що їде прямо */}
+          <path d="M61.3 65V100" stroke="#f6c700" strokeWidth="1.1" />
+          <path d="M63.4 84V42" stroke="#f08a24" strokeWidth="1.8" strokeDasharray="3 2" />
+          <path d="M63.4 36 60.6 42h5.6Z" fill="#f08a24" />
+          <ellipse cx="63.4" cy="92" rx="1.7" ry="5.5" fill="#15171a" />
+          <circle cx="63.4" cy="92" r="2.6" fill="#f08a24" stroke="#15171a" strokeWidth="0.8" />
+        </>
+      )}
       {pedestrians.map((arm) => (
         <Rotated key={arm} arm={arm}>
           {/* пішохід переходить дорогу (позначеного переходу немає) */}
@@ -83,12 +95,14 @@ function Intersection({ arms = ALL_ARMS, dirt = [], vehicles, signs = [], pedest
         </Rotated>
       ))}
       {vehicles.map((vehicle, index) => {
-        const color = vehicle.kind === 'tram' ? COLORS.tram : COLORS[vehicle.color ?? 'red']
+        const color =
+          vehicle.kind === 'tram' ? COLORS.tram : vehicle.kind === 'emergency' ? '#ffffff' : COLORS[vehicle.color ?? 'red']
+        const arrowColor = vehicle.kind === 'emergency' ? COLORS.red : color
         const arrow = ARROWS[vehicle.go]
         return (
           <Rotated key={index} arm={vehicle.arm}>
-            <path d={arrow.line} stroke={color} strokeWidth="2.6" fill="none" strokeLinecap="round" />
-            <path d={arrow.head} fill={color} />
+            <path d={arrow.line} stroke={arrowColor} strokeWidth="2.6" fill="none" strokeLinecap="round" />
+            <path d={arrow.head} fill={arrowColor} />
             {vehicle.kind === 'tram' ? (
               <>
                 <rect x="53" y="71" width="9" height="27" rx="2.5" fill={color} stroke="#15171a" strokeWidth="1" />
@@ -99,6 +113,13 @@ function Intersection({ arms = ALL_ARMS, dirt = [], vehicles, signs = [], pedest
               <>
                 <rect x="53" y="72" width="9" height="16" rx="3" fill={color} stroke="#15171a" strokeWidth="1" />
                 <rect x="54.5" y="75" width="6" height="3.4" rx="1" fill="#e8f4ff" />
+                {vehicle.kind === 'emergency' && (
+                  <>
+                    {/* спецтранспорт: синій маячок і червоний хрест */}
+                    <rect x="54.2" y="79.4" width="6.6" height="2.2" rx="1" fill="#1a5fb4" />
+                    <path d="M57.5 82.6v4.4M55.3 84.8h4.4" stroke="#d4202a" strokeWidth="1.5" />
+                  </>
+                )}
               </>
             )}
           </Rotated>
@@ -123,6 +144,36 @@ const SIGN_POSITION: Record<Arm, [number, number]> = { s: [67, 67], w: [19, 67],
 function SignAt({ arm, sign }: { arm: Arm; sign: string }) {
   const [x, y] = SIGN_POSITION[arm]
   return <g transform={`translate(${x} ${y}) scale(0.14)`}>{SIGNS[sign]?.()}</g>
+}
+
+function CarAt({ x, y, color, rotate = 0 }: { x: number; y: number; color: string; rotate?: number }) {
+  return (
+    <g transform={`translate(${x} ${y}) rotate(${rotate})`}>
+      <rect x="-4.5" y="-8" width="9" height="16" rx="3" fill={color} stroke="#15171a" strokeWidth="1" />
+      <rect x="-3" y="-5" width="6" height="3.4" rx="1" fill="#e8f4ff" />
+    </g>
+  )
+}
+
+/** Пряма ділянка дороги (рух знизу вгору). twoWay — зустрічний рух у лівій смузі. */
+function Straight({ twoWay, children }: { twoWay?: boolean; children: ReactNode }) {
+  return (
+    <>
+      <rect width="100" height="100" rx="6" fill={GRASS} />
+      <rect x="30" y="0" width="40" height="100" fill={ROAD} />
+      <path d="M50 0V100" stroke="#fff" strokeWidth={twoWay ? 1.4 : 1.2} strokeDasharray={twoWay ? '9 5' : '5 4'} />
+      {children}
+    </>
+  )
+}
+
+function Arrow({ d, head, color }: { d: string; head: string; color: string }) {
+  return (
+    <>
+      <path d={d} stroke={color} strokeWidth="2.6" fill="none" strokeLinecap="round" />
+      <path d={head} fill={color} />
+    </>
+  )
 }
 
 /** Кругове перехрестя: синій автомобіль в'їжджає з півдня, червоний уже їде по колу. */
@@ -302,6 +353,62 @@ export const SCENES: Record<string, () => ReactNode> = {
     ],
   }),
   'r-enter': () => <Roundabout />,
+  'x-emergency-right': scene({
+    vehicles: [
+      { arm: 's', go: 'straight', color: 'blue' },
+      { arm: 'e', go: 'straight', kind: 'emergency' },
+    ],
+  }),
+  'x-right-turn-bike': scene({
+    cyclist: true,
+    vehicles: [{ arm: 's', go: 'right', color: 'blue' }],
+  }),
+
+  // ---- Прямі ділянки ----
+  // Перестроювання: синій змінює смугу, червоний їде лівою смугою прямо.
+  'l-lane-change': () => (
+    <Straight>
+      <Arrow d="M40 78V58" head="M40 52 36.3 59h7.4Z" color={COLORS.red} />
+      <CarAt x={40} y={88} color={COLORS.red} />
+      <Arrow d="M60 62V56Q60 46 50 42Q41 38 40.5 30" head="M40 22 36.5 30h7.4Z" color={COLORS.blue} />
+      <CarAt x={60} y={72} color={COLORS.blue} />
+    </Straight>
+  ),
+  // Початок руху від краю проїзної частини: червоний їде смугою позаду.
+  'l-pull-out': () => (
+    <Straight twoWay>
+      <Arrow d="M57 82V66" head="M57 60 53.3 67h7.4Z" color={COLORS.red} />
+      <CarAt x={57} y={91} color={COLORS.red} />
+      <Arrow d="M65.5 46V40Q65.5 32 58.5 28V22" head="M58.5 15 54.8 22h7.4Z" color={COLORS.blue} />
+      <CarAt x={65.5} y={56} color={COLORS.blue} />
+    </Straight>
+  ),
+  // Перешкода на смузі синього: об'їжджати доводиться зустрічною смугою.
+  'n-obstacle': () => (
+    <Straight twoWay>
+      <rect x="52" y="42" width="16" height="7" rx="1.5" fill="#f08a24" stroke="#15171a" strokeWidth="0.9" />
+      <path d="M56 42v7M60 42v7M64 42v7" stroke="#fff" strokeWidth="1.6" />
+      <Arrow d="M40 24V38" head="M40 44 36.3 37h7.4Z" color={COLORS.red} />
+      <CarAt x={40} y={14} color={COLORS.red} rotate={180} />
+      <Arrow d="M60 72V66Q60 58 50 55Q43 53 42.5 49" head="M42 43 38.6 50h7.4Z" color={COLORS.blue} />
+      <CarAt x={60} y={82} color={COLORS.blue} />
+    </Straight>
+  ),
+  // Пішохідний перехід: у сусідній смузі автомобіль зупинився й закриває пішохода.
+  'z-stopped-car': () => (
+    <Straight>
+      {[32, 38, 44, 52, 58, 64].map((x) => (
+        <rect key={x} x={x} y="26" width="4" height="12" fill="#fff" />
+      ))}
+      <path d="M26 32H31" stroke="#f08a24" strokeWidth="1.6" strokeDasharray="2.5 2" />
+      <path d="M36 32 31.5 29.4v5.2Z" fill="#f08a24" />
+      <ellipse cx="33" cy="32" rx="5" ry="3.4" fill="#f08a24" stroke="#15171a" strokeWidth="1" />
+      <circle cx="33" cy="32" r="2.3" fill="#f6d2b0" stroke="#15171a" strokeWidth="0.8" />
+      <CarAt x={40} y={50} color={COLORS.green} />
+      <Arrow d="M60 72V50" head="M60 44 56.3 51h7.4Z" color={COLORS.blue} />
+      <CarAt x={60} y={82} color={COLORS.blue} />
+    </Straight>
+  ),
 
   // ---- Сигнали світлофора ----
   'light-red': () => <TrafficLight red />,
@@ -343,5 +450,5 @@ export function dynamicScene(id: string): (() => ReactNode) | undefined {
 
 /** Схеми перехресть (на відміну від знаків і світлофорів) показуємо більшими. */
 export function isScene(id: string): boolean {
-  return /^[xpr]-/.test(id) || id.startsWith('gx:')
+  return /^[xprlnz]-/.test(id) || id.startsWith('gx:')
 }

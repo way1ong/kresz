@@ -153,6 +153,10 @@ button {
   gap: 8px;
 }
 
+.topbar-title span {
+  white-space: nowrap;
+}
+
 .topbar-title img {
   width: 28px;
   height: 28px;
@@ -499,11 +503,24 @@ button {
   box-shadow: var(--shadow);
 }
 
+/* Компактний перемикач у шапці: кнопки за шириною тексту, щоб уміщатися на вузьких екранах. */
+.segmented.compact {
+  grid-auto-columns: auto;
+  flex: none;
+}
+
 .segmented.compact button {
   min-height: 38px;
-  min-width: 44px;
-  font-size: 0.78rem;
-  padding: 2px 8px;
+  min-width: 38px;
+  font-size: 0.76rem;
+  padding: 2px 7px;
+  white-space: nowrap;
+}
+
+@media (max-width: 345px) {
+  .topbar-title span {
+    display: none;
+  }
 }
 
 .section-title {
@@ -610,9 +627,16 @@ button {
   text-overflow: ellipsis;
 }
 
+/* Лічильник питань не стискається; довга назва теми обрізається трьома крапками. */
+.q-head .q-count {
+  flex: 1 0 auto;
+  overflow: visible;
+}
+
 .q-head .badge {
   display: inline-block;
-  max-width: 58%;
+  flex: 0 1 auto;
+  min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
 }

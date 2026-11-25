@@ -80,6 +80,7 @@
     "id": "priority-004",
     "topic": "priority",
     "kreszRef": "KRESZ 28. § (2) a); 42. § (1)",
+    "image": "x-emergency-right",
     "points": 3,
     "hu": {
       "question": "A fényjelző készülék Önnek szabad utat (zöld) jelez, de a keresztező úton megkülönböztető fény- és hangjelzést együttesen használó mentőautó közeledik. Mit kell tennie?",
@@ -105,20 +106,21 @@
     "id": "priority-005",
     "topic": "priority",
     "kreszRef": "KRESZ 31. § (5) c)",
+    "image": "gx:eq:l:nr",
     "points": 3,
     "hu": {
-      "question": "Útkereszteződésben balra kanyarodik. Szemből egy jármű érkezik, amely jobbra kanyarodik – ugyanarra az útra, amelyre Ön. Kinek van elsőbbsége?",
+      "question": "Ön a kék járművel balra kanyarodik. Szemből a piros jármű érkezik, amely jobbra kanyarodik – ugyanarra az útra, amelyre Ön. Kinek van elsőbbsége?",
       "answers": [
-        "A szemből érkező, jobbra bekanyarodó járműnek.",
+        "A szemből érkező, jobbra bekanyarodó piros járműnek.",
         "Önnek, mert Ön kezdte meg előbb a bekanyarodást.",
         "Annak, amelyik nagyobb sebességgel közeledik."
       ],
       "explanation": "Balra bekanyarodó járművel elsőbbséget kell adni az úttesten szemből érkező és egyenesen továbbhaladó vagy jobbra bekanyarodó jármű részére."
     },
     "ua": {
-      "question": "Ви повертаєте ліворуч на перехресті. Назустріч їде транспортний засіб, який повертає праворуч — на ту саму дорогу, що й Ви. Хто має перевагу?",
+      "question": "Ви синім автомобілем повертаєте ліворуч. Назустріч їде червоний автомобіль, який повертає праворуч — на ту саму дорогу, що й Ви. Хто має перевагу?",
       "answers": [
-        "Зустрічний транспортний засіб, який повертає праворуч.",
+        "Зустрічний червоний автомобіль, який повертає праворуч.",
         "Ви, бо почали поворот раніше.",
         "Той, хто наближається з більшою швидкістю."
       ],
@@ -130,6 +132,7 @@
     "id": "priority-006",
     "topic": "priority",
     "kreszRef": "KRESZ 31. § (5) a); 43. § (1)",
+    "image": "x-right-turn-ped",
     "points": 3,
     "hu": {
       "question": "Útkereszteződésben jobbra kanyarodik. Azon az úttesten, amelyre bekanyarodik, gyalogos halad át; kijelölt gyalogosátkelőhely nincs. Mi a teendő?",
@@ -155,9 +158,10 @@
     "id": "priority-007",
     "topic": "priority",
     "kreszRef": "KRESZ 24. § (1)–(2)",
+    "image": "l-pull-out",
     "points": 3,
     "hu": {
-      "question": "Az úttest szélén álló járművével el akar indulni. Mi a kötelessége?",
+      "question": "Az úttest szélén álló kék járművével el akar indulni; a sávban a piros jármű közeledik. Mi a kötelessége?",
       "answers": [
         "Elsőbbséget kell adnia az úttesten haladó járműveknek és gyalogosoknak, és az elindulást irányjelzéssel jeleznie kell.",
         "Irányjelzés után az úttesten haladóknak kell lassítaniuk, hogy Ön besorolhasson.",
@@ -166,7 +170,7 @@
       "explanation": "Az úttest széléről elinduló (várakozóhelyről, az út más részéről vagy útnak nem minősülő területről az úttestre ráhajtó) jármű vezetőjének elsőbbséget kell adnia az úttesten haladó járművek és gyalogosok részére. Az elindulást irányjelzéssel jelezni kell."
     },
     "ua": {
-      "question": "Ви хочете почати рух від краю проїзної частини. Який Ваш обов'язок?",
+      "question": "Ви хочете почати рух синім автомобілем від краю проїзної частини; смугою наближається червоний автомобіль. Який Ваш обов'язок?",
       "answers": [
         "Дати дорогу транспортним засобам і пішоходам, що рухаються проїзною частиною, і позначити початок руху покажчиком повороту.",
         "Після ввімкнення покажчика повороту ті, хто їде проїзною частиною, мають пригальмувати, щоб Ви могли вбудуватися.",
@@ -180,24 +184,25 @@
     "id": "priority-008",
     "topic": "priority",
     "kreszRef": "KRESZ 32. § (3)",
+    "image": "n-obstacle",
     "points": 3,
     "hu": {
-      "question": "Az úttest mindkét irányból belátható szakaszon egy forgalmi sávra szűkül, közúti jelzés nincs. A szembejövő járművek közül melyiknek van elsőbbsége?",
+      "question": "Az Ön forgalmi sávját akadály zárja el, ezért az úttest egy sávra szűkül; a szakasz mindkét irányból belátható, közúti jelzés nincs. Szemből a piros jármű közeledik. Kinek van elsőbbsége?",
       "answers": [
-        "Annak, amelyik útját irányváltoztatás nélkül tudja folytatni.",
-        "Annak, amelyik előbb ad fényjelzést.",
+        "A piros járműnek, mert ő irányváltoztatás nélkül tudja folytatni az útját.",
+        "Önnek, ha előbb ér az akadályhoz.",
         "Mindig a nagyobb járműnek."
       ],
-      "explanation": "Ha az úttest mindkét irányból belátható szakaszon egy forgalmi sávra szűkül, és a közúti jelzésekből más nem következik, annak a járműnek van elsőbbsége, amelyik útját irányváltoztatás nélkül tudja folytatni; a másik vezetőnek lassítással, szükség esetén megállással kell biztosítania az áthaladást."
+      "explanation": "Ha az úttest mindkét irányból belátható szakaszon egy forgalmi sávra szűkül, és a közúti jelzésekből más nem következik, annak a járműnek van elsőbbsége, amelyik útját irányváltoztatás nélkül tudja folytatni. Itt az akadály az Ön sávjában van: Önnek kellene irányt változtatnia, ezért lassítással, szükség esetén megállással kell az áthaladást biztosítania."
     },
     "ua": {
-      "question": "На ділянці, яку видно з обох боків, проїзна частина звужується до однієї смуги; знаків і розмітки щодо цього немає. Хто із зустрічних транспортних засобів має перевагу?",
+      "question": "Вашу смугу перекриває перешкода, тож проїзна частина звужується до однієї смуги; ділянку видно з обох боків, знаків і розмітки щодо цього немає. Назустріч наближається червоний автомобіль. Хто має перевагу?",
       "answers": [
-        "Той, хто може продовжити рух без зміни напрямку.",
-        "Той, хто першим подасть світловий сигнал.",
+        "Червоний автомобіль, бо він може продовжити рух без зміни напрямку.",
+        "Ви, якщо першими під'їдете до перешкоди.",
         "Завжди більший транспортний засіб."
       ],
-      "explanation": "Якщо на ділянці, яку видно з обох боків, проїзна частина звужується до однієї смуги й дорожні знаки чи розмітка не вказують іншого, перевагу має той транспортний засіб, який може продовжити рух без зміни напрямку; інший водій повинен забезпечити проїзд, зменшивши швидкість, а за потреби зупинившись."
+      "explanation": "Якщо на ділянці, яку видно з обох боків, проїзна частина звужується до однієї смуги й знаки чи розмітка не вказують іншого, перевагу має той, хто може продовжити рух без зміни напрямку. Тут перешкода на Вашій смузі: змінювати напрямок довелося б Вам, тому Ви маєте забезпечити проїзд, зменшивши швидкість, а за потреби зупинившись."
     },
     "correct": 0
   },
@@ -205,9 +210,10 @@
     "id": "priority-009",
     "topic": "priority",
     "kreszRef": "KRESZ 29. § (1)",
+    "image": "l-lane-change",
     "points": 3,
     "hu": {
-      "question": "Forgalmi sávot változtat. Kinek kell elsőbbséget adnia?",
+      "question": "Ön a kék járművel forgalmi sávot változtat; a másik sávban a piros jármű halad egyenesen. Kinek kell elsőbbséget adnia?",
       "answers": [
         "Az azonos irányban vagy szemben haladó, irányt nem változtató járműveknek.",
         "Senkinek, ha az irányjelzést időben megkezdte.",
@@ -216,7 +222,7 @@
       "explanation": "Aki járművel irányt változtat (terelővonalat lép át, forgalmi sávot változtat, másik útra bekanyarodik stb.), köteles az azonos irányban vagy szemben haladó, irányt nem változtató járműveknek elsőbbséget adni. Az irányjelzés önmagában nem ad elsőbbséget."
     },
     "ua": {
-      "question": "Ви перестроюєтеся в іншу смугу руху. Кому треба дати дорогу?",
+      "question": "Ви синім автомобілем перестроюєтеся в іншу смугу; у ній прямо їде червоний автомобіль. Кому треба дати дорогу?",
       "answers": [
         "Транспортним засобам, які їдуть у тому самому або зустрічному напрямку й не змінюють напрямку руху.",
         "Нікому, якщо Ви вчасно ввімкнули покажчик повороту.",
@@ -230,9 +236,10 @@
     "id": "priority-010",
     "topic": "priority",
     "kreszRef": "KRESZ 43. § (1), (3)",
+    "image": "z-stopped-car",
     "points": 3,
     "hu": {
-      "question": "Kijelölt gyalogosátkelőhelyhez közeledik. A szomszédos forgalmi sávban egy jármű megállt az átkelőhely előtt. Mit kell tennie?",
+      "question": "Kijelölt gyalogosátkelőhelyhez közeledik (kék jármű). A szomszédos forgalmi sávban a zöld jármű megállt az átkelőhely előtt. Mit kell tennie?",
       "answers": [
         "Meg kell állnia a jármű mellett, és csak akkor haladhat tovább, ha meggyőződött arról, hogy ezzel a gyalogosok elsőbbségét nem sérti.",
         "Lassítás nélkül elhaladhat mellette, ha a saját sávjában nem lát gyalogost.",
@@ -241,7 +248,7 @@
       "explanation": "Kijelölt gyalogosátkelőhelyen a gyalogosnak elsőbbsége van. Az átkelőhely előtt megálló vagy forgalmi okból álló jármű mellett meg kell állni, és továbbhaladni akkor szabad, ha a vezető meggyőződött arról, hogy azt a gyalogosok elsőbbségének megsértése nélkül megteheti."
     },
     "ua": {
-      "question": "Ви наближаєтеся до позначеного пішохідного переходу. У сусідній смузі транспортний засіб зупинився перед переходом. Що треба зробити?",
+      "question": "Ви (синій автомобіль) наближаєтеся до позначеного пішохідного переходу. У сусідній смузі зелений автомобіль зупинився перед переходом. Що треба зробити?",
       "answers": [
         "Зупинитися поруч із ним і їхати далі лише тоді, коли переконаєтеся, що не порушите переваги пішоходів.",
         "Проїхати повз нього, не зменшуючи швидкості, якщо у своїй смузі пішоходів не видно.",
@@ -567,6 +574,7 @@
     "id": "priority-023",
     "topic": "priority",
     "kreszRef": "KRESZ 31. § (5) b)",
+    "image": "x-right-turn-bike",
     "points": 3,
     "hu": {
       "question": "Jobbra kanyarodik. Az úttest jobb szélén kerékpársáv van, amelyen Önnel azonos irányban kerékpáros halad egyenesen. Kinek van elsőbbsége?",
